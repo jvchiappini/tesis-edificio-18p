@@ -205,9 +205,15 @@ Para garantizar que las precipitaciones no sean omitidas en las etapas de cálcu
 
 - **Precipitación media acumulada anual:** $1.932\text{ mm/año}$ (clima subtropical húmedo *Cfa*).
 - **Meses de máxima pluviosidad:** Octubre a Enero ($185$–$198\text{ mm/mes}$, picos de tormentas convectivas de mesoescala).
-- **Fórmula de la Curva IDF oficial para CDE:**
-
 $$i(t_c, T) = \frac{950{,}0 \cdot T^{0{,}180}}{(t_c + 14{,}0)^{0{,}760}} \quad [\text{mm/h}]$$
+
+> 💡 **¿Qué significa esto en la práctica (en palabras sencillas)?**
+> - **Precipitación media de 1.932 mm/año:** Significa que en Ciudad del Este cae casi 2 metros de agua de lluvia acumulada cada año (aproximadamente el doble que en muchas ciudades europeas).
+> - **Intensidad de $128{,}5\text{ mm/h}$:** Equivale a descargar **128,5 litros de agua por cada metro cuadrado de terraza en solo una hora** durante un temporal severo.
+> - **¿Por qué nos importa en el edificio?** 
+>   1. **Para que la azotea no se inunde ni colapse:** Se diseña la estructura para soportar el peso del agua si las rejillas se tapan temporalmente ($25\text{ kg}$ de peso extra por cada $\text{m}^2$).
+>   2. **Para calcular los tubos y cañerías:** Determina exactamente cuántas bajadas pluviales y de qué grosor se necesitan para evacuar todo ese caudal sin que el agua ingrese a los departamentos.
+>   3. **Para los subsuelos de cocheras:** Determina la potencia de las bombas de agua que deben sacar el agua de lluvia que entra por las rampas de autos.
 
 ![Figura 1.7: Curvas IDF e Hidrograma Pluviométrico Mensual — Ciudad del Este (DMH/DINAC Estación Aeropuerto Guaraní)](img/figura_1_7_lluvia_idf_cde.png)
 
