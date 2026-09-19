@@ -305,7 +305,7 @@ def generar_figura_1_2():
     ax.set_aspect('equal')
 
     for d in OUTPUT_DIRS:
-        plt.savefig(os.path.join(d, "figura_1_2_rectangulo_edificable_cuña.png"), dpi=300, bbox_inches='tight')
+        plt.savefig(os.path.join(d, "figura_1_2_rectangulo_edificable_cuna.png"), dpi=300, bbox_inches='tight')
     plt.close()
     print("[OK] Figura 1.2 generada con éxito.")
 

@@ -441,6 +441,14 @@ function renderMd(text){
   out.style.display = '';
   document.getElementById('loading-state').style.display = 'none';
 
+  // Fix relative image paths for etapas/ folder
+  out.querySelectorAll('img').forEach(img => {
+    const src = img.getAttribute('src');
+    if (src && !src.startsWith('http') && !src.startsWith('/') && !src.startsWith('etapas/')) {
+      img.setAttribute('src', 'etapas/' + src.replace(/^\.\//, ''));
+    }
+  });
+
   if(typeof renderMathInElement === 'function'){
     renderMathInElement(out, {
       delimiters: [

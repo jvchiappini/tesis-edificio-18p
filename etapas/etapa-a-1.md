@@ -101,7 +101,7 @@ El vértice P1 presenta un **ángulo interior agudo de 61,44°**. Esta condició
 
 > 🔒 **Aviso de alcance arquitectónico:** La implantación de la edificación, el diseño formal del edificio, las plantas tipológicas y la grilla de pilares se encuentran en proceso de **re-definición completa desde cero en la Etapa B (Arquitectura Completa)**. En esta Sub-etapa A.1 se formaliza exclusivamente el polígono del terreno irregular y la envolvente urbanística máxima permitida.
 
-![Figura 1.2: Plano técnico CAD de planimetría del terreno irregular y envolvente máxima urbanística](img/figura_1_2_rectangulo_edificable_cuña.png)
+![Figura 1.2: Plano técnico CAD de planimetría del terreno irregular y envolvente máxima urbanística](img/figura_1_2_rectangulo_edificable_cuna.png)
 
 ![Figura 1.3: Mapa de contexto urbano en Ciudad del Este (OpenStreetMap Real)](img/figura_1_3_mapa_contexto_osm.png)
 
