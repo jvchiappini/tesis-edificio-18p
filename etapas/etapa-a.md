@@ -1,6 +1,6 @@
 # Etapa A — Marco Regulatorio, Terreno y Análisis de Sitio
 
-> **Prioridad:** Bloqueante · **Duración:** 2–3 semanas · **Estado:** 🟡 En progreso (Sub-etapa A.1 Completada)
+> **Prioridad:** Bloqueante · **Duración:** 2–3 semanas · **Estado:** 🟢 Completado (2026-09-19)
 
 Esta etapa es el **punto de partida absoluto** de todo el proyecto. Antes de diseñar un solo centímetro, debés saber exactamente qué terreno tenés, qué te permite construir la ordenanza y cuánto podés ocupar.
 
@@ -8,8 +8,8 @@ Esta etapa es el **punto de partida absoluto** de todo el proyecto. Antes de dis
 
 | Sub-etapa | Contenido | Tareas | Estado |
 |---|---|---|---|
-| [A.1 — Formalización del terreno](visor.html?doc=a-1) | Planimetría, teledetección (Google Earth Pro), calles, vértice agudo, uso de suelo | 4 | ✅ Completado |
-| [A.2 — Análisis de sitio](visor.html?doc=a-2) | Viento, sismicidad, infraestructura, ficha técnica | 4 | 🟡 En progreso (eA-5 ✅) |
+| [A.1 — Formalización del terreno](visor.html?doc=a-1) | Planimetría, teledetección (Google Earth Pro), calles, vértice agudo, uso de suelo | 4 | ✅ Completado (2026-09-19) |
+| [A.2 — Análisis de sitio](visor.html?doc=a-2) | Viento, sismicidad, infraestructura, lluvia/IDF, ficha técnica | 4 | ✅ Completado (2026-09-19) |
 
 ## Hito de cierre
 
