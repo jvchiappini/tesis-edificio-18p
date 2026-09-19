@@ -318,26 +318,26 @@
         <span class="ph-name">Marco regulatorio, terreno y análisis de sitio</span>
         <span class="ph-tag tag-bloq">Bloqueante</span>
         <span class="ph-dur">2–3 semanas</span>
-        <span class="ph-prog"><span class="ph-pt"><span class="ph-pf"></span></span><span class="ph-ptxt">0/8</span></span>
+        <span class="ph-prog"><span class="ph-pt"><span class="ph-pf"></span></span><span class="ph-ptxt">4/8</span></span>
       </summary>
       <div class="ph-note"><b>Por qué primero:</b> Antes de diseñar un solo centímetro, debés saber exactamente qué terreno tenés, qué te permite construir la ordenanza y cuánto podés ocupar. Un error regulatorio a esta altura invalida todo lo que viene después. El polígono real ya fue relevado con GPS (UTM Zona 21J); ahora hay que formalizarlo.<br><a href="visor.html?doc=a" class="btn-borrador">📝 Abrir borrador académico (Etapa A) →</a></div>
       <div class="tg-hdr">A.1 — Formalización del terreno</div>
       <div class="tasks">
-        <label class="task"><input type="checkbox" data-id="eA-1"><span class="task-body">
+        <label class="task"><input type="checkbox" data-id="eA-1" checked><span class="task-body">
           <span class="task-title">Planimetría del polígono real con coordenadas UTM</span>
-          <span class="task-desc">Trazar el polígono P1(737721.76, 7176185.26) → P2(737837.53, 7176203.96) → P3(737853.36, 7176246.13) → P4(737755.78, 7176281.93) en sistema local. Calcular área exacta (7.618,49 m²), verificar cierre de poligonal, obtener plano catastral municipal.</span>
-          <span class="task-file">modelo_estructural.py · NOMENCLATURA.md</span>
+          <span class="task-desc">Trazar el polígono P1(737721.76, 7176185.26) → P2(737837.53, 7176203.96) → P3(737853.36, 7176246.13) → P4(737755.78, 7176281.93) en UTM Zona 21J WGS84 extraídas mediante Google Earth Pro v7.3. Calcular área exacta (7.618,49 m²), verificar cierre de poligonal.</span>
+          <span class="task-file">geometria_terreno.py · NOMENCLATURA.md</span>
         </span></label>
-        <label class="task"><input type="checkbox" data-id="eA-2"><span class="task-body">
+        <label class="task"><input type="checkbox" data-id="eA-2" checked><span class="task-body">
           <span class="task-title">Identificación de calles y orientación geográfica</span>
-          <span class="task-desc">Confirmar nombre de la calle correspondiente al frente P1→P2 (117,27 m). Determinar orientación solar (Norte verdadero vs. Norte magnético). Fotografía aérea / Google Maps con escala. Relevamiento de construcciones linderas y servidumbres.</span>
+          <span class="task-desc">Frente P1→P2 (Calle Los Lapachos, 117,27 m), P2→P3 (Calle Los Sauces, 45,04 m), P3→P4 (Inmueble Residencial Privado / Predio Vecino, 103,94 m) y P4→P1 (Av. Itaipú Oeste, 102,48 m). Orientación solar (Norte verdadero vs. magnético -13,8° W).</span>
         </span></label>
-        <label class="task"><input type="checkbox" data-id="eA-3"><span class="task-body">
+        <label class="task"><input type="checkbox" data-id="eA-3" checked><span class="task-body">
           <span class="task-title">Análisis del vértice agudo P1 (61,44°) y definición de la cuña</span>
           <span class="task-desc">Demarcar la zona no edificable en el vértice agudo. Proponer el límite del chaflán o jardín frontal. Documentar el polígono edificable reducido como hipótesis formal de tesis, indicando retiros adoptados: 3 m frente, 3 m fondo, 2 m laterales.</span>
           <span class="task-warn">⚠️ El vértice P1 de 61,44° impide estructura regular hasta esa esquina — hay que dejarlo explícito en la tesis.</span>
         </span></label>
-        <label class="task"><input type="checkbox" data-id="eA-4"><span class="task-body">
+        <label class="task"><input type="checkbox" data-id="eA-4" checked><span class="task-body">
           <span class="task-title">Certificado de uso de suelo y normativa municipal</span>
           <span class="task-desc">Gestionar ante la Municipalidad de Ciudad del Este o documentar explícitamente como hipótesis: FOS = 0,70 (área máx. huella = 5.332 m²), FOT = 4,0 (área total construible = 30.474 m²). Anotar que los subsuelos pueden quedar exentos del cómputo FOT según ordenanza.</span>
           <span class="task-norm">Municipalidad CDE · Código Urbanístico / Resolución aplicable</span>
