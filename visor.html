@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visor de Etapas — Tesis Edificio 18P · Ciudad del Este</title>
+<meta name="description" content="Visor de borradores académicos y gestión de etapas para la tesis de ingeniería civil: edificio mixto 18 pisos + 3 subsuelos, Ciudad del Este, Paraguay.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+  :root {
+    --bg:#F4F2EC; --bg-p:#EDEAE0; --bg-p2:#E2DED0; --bg-p3:#D8D3C4;
+    --ink:#1A1E1C; --ink-s:#585C57; --ink-xs:#8A8E87;
+    --line:#C4BFB0; --line-s:#D8D3C4;
+    --blue:#2A4B6E; --blue-d:#142F4D; --blue-l:#4A7DAD;
+    --red:#9A3722; --amber:#8E5E08; --amber-l:#C48810;
+    --green:#3A6448; --green-l:#5A8C68;
+    --purple:#5C3A7A; --teal:#1E6060;
+    --accent:#C0460A; --gold:#A07820;
+    --shadow:0 1px 3px rgba(0,0,0,0.08);
+    --sidebar-w:280px;
+  }
+  @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --bg:#111518;--bg-p:#181D20;--bg-p2:#1F2529;--bg-p3:#262D32;
+    --ink:#E8E6DE;--ink-s:#A8A6A0;--ink-xs:#6A6A65;
+    --line:#303840;--line-s:#252D33;
+    --blue:#6EA0CC;--blue-d:#90BFE0;--blue-l:#4E80AC;
+    --red:#E08070;--amber:#D4A840;--amber-l:#E0BC60;
+    --green:#7ABE90;--teal:#4AB0B0;--purple:#A880C8;
+    --accent:#E0702A;--gold:#C8A040;
+    --shadow:0 1px 3px rgba(0,0,0,0.3);
+  }}
+  :root[data-theme="dark"]{
+    --bg:#111518;--bg-p:#181D20;--bg-p2:#1F2529;--bg-p3:#262D32;
+    --ink:#E8E6DE;--ink-s:#A8A6A0;--ink-xs:#6A6A65;
+    --line:#303840;--line-s:#252D33;
+    --blue:#6EA0CC;--blue-d:#90BFE0;--blue-l:#4E80AC;
+    --red:#E08070;--amber:#D4A840;--amber-l:#E0BC60;
+    --green:#7ABE90;--teal:#4AB0B0;--purple:#A880C8;
+    --accent:#E0702A;--gold:#C8A040;
+    --shadow:0 1px 3px rgba(0,0,0,0.3);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",system-ui,sans-serif;line-height:1.58;-webkit-font-smoothing:antialiased;font-size:15px;display:flex;flex-direction:column;min-height:100vh;}
+
+  /* ── TOP BAR ── */
+  .topbar{background:var(--bg-p);border-bottom:1px solid var(--line);padding:9px 18px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:100;box-shadow:var(--shadow);}
+  .topbar-brand{font-family:"IBM Plex Serif",serif;font-weight:600;font-size:13px;color:var(--blue-d);text-decoration:none;white-space:nowrap;}
+  .topbar-sep{color:var(--ink-xs);font-size:11px;}
+  .topbar-crumb{font-size:12.5px;color:var(--ink-s);}
+  .topbar-crumb b{color:var(--blue-l);}
+  .topbar-actions{margin-left:auto;display:flex;gap:7px;}
+  .btn{font-family:"IBM Plex Sans",sans-serif;font-size:12px;padding:5px 11px;border:1px solid var(--line);background:var(--bg-p2);color:var(--ink-s);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:5px;transition:all .14s;white-space:nowrap;}
+  .btn:hover{background:var(--bg-p3);color:var(--ink);border-color:var(--ink-xs);}
+  #menu-toggle{display:none;}
+
+  /* ── LAYOUT ── */
+  .layout{display:flex;flex:1;min-height:0;}
+
+  /* ── SIDEBAR ── */
+  .sidebar{width:var(--sidebar-w);flex-shrink:0;background:var(--bg-p);border-right:1px solid var(--line);overflow-y:auto;display:flex;flex-direction:column;}
+  .sidebar-hdr{padding:12px 14px 8px;border-bottom:1px solid var(--line);font-size:10.5px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-xs);}
+
+  /* Tree navigation */
+  .tree-etapa{border-bottom:1px solid var(--line-s);}
+  .tree-toggle{display:flex;align-items:center;gap:0;cursor:pointer;width:100%;text-decoration:none;transition:background .12s;padding:0;}
+  .tree-toggle:hover{background:var(--bg-p2);}
+  .tree-toggle.open .tree-arrow{transform:rotate(90deg);}
+  .tree-arrow{font-size:10px;color:var(--ink-xs);padding:10px 5px 10px 10px;flex-shrink:0;transition:transform .18s;}
+  .tree-idx{font-family:"IBM Plex Serif",serif;font-weight:700;font-size:12px;color:var(--blue-d);padding:10px 6px 10px 0;min-width:26px;}
+  .tree-name{flex:1;font-size:12.5px;color:var(--ink);font-weight:500;padding:10px 10px 10px 0;line-height:1.3;}
+  .tree-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;margin-right:10px;}
+
+  /* Sub-items */
+  .tree-subs{display:none;background:var(--bg-p2);border-top:1px solid var(--line-s);}
+  .tree-subs.open{display:block;}
+  .sub-link{display:flex;align-items:center;gap:8px;padding:7px 12px 7px 36px;text-decoration:none;font-size:12px;color:var(--ink-s);border-bottom:1px solid var(--line-s);transition:background .12s;}
+  .sub-link:last-child{border-bottom:none;}
+  .sub-link:hover{background:var(--bg-p3);color:var(--ink);}
+  .sub-link.active{background:var(--bg-p3);color:var(--blue-d);font-weight:600;border-left:2px solid var(--blue-l);}
+  .sub-num{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--ink-xs);min-width:22px;}
+
+  /* Overview link */
+  .tree-overview{display:flex;align-items:center;gap:8px;padding:7px 12px 7px 30px;text-decoration:none;font-size:11.5px;color:var(--ink-xs);background:var(--bg-p);border-bottom:1px solid var(--line-s);transition:background .12s;}
+  .tree-overview:hover{background:var(--bg-p2);color:var(--ink-s);}
+  .tree-overview.active{background:var(--bg-p2);color:var(--blue-d);font-weight:500;}
+
+  /* dot colors */
+  .dot-bloq{background:var(--ink-s);}
+  .dot-crit{background:var(--red);}
+  .dot-imp{background:var(--amber);}
+  .dot-av{background:var(--blue);}
+  .dot-bim{background:var(--purple);}
+  .dot-tec{background:var(--teal);}
+  .dot-cierre{background:var(--green);}
+  .dot-gold{background:var(--gold);}
+
+  /* ── MAIN ── */
+  .main{flex:1;overflow-y:auto;display:flex;flex-direction:column;min-width:0;}
+  .content-wrap{max-width:840px;margin:0 auto;padding:30px 26px 80px;width:100%;}
+
+  /* ── LOADING / ERROR ── */
+  .state-box{text-align:center;padding:60px 20px;color:var(--ink-s);}
+  .state-box h2{font-family:"IBM Plex Serif",serif;color:var(--ink-xs);margin-bottom:8px;}
+  .spinner{width:26px;height:26px;border:2px solid var(--line);border-top-color:var(--blue-l);border-radius:50%;animation:spin .7s linear infinite;margin:0 auto 14px;}
+  @keyframes spin{to{transform:rotate(360deg)}}
+
+  /* ── MARKDOWN STYLES ── */
+  #md-output{font-size:15px;line-height:1.72;}
+  #md-output h1{font-family:"IBM Plex Serif",serif;font-size:clamp(20px,3vw,26px);font-weight:700;color:var(--blue-d);margin:0 0 5px;line-height:1.2;}
+  #md-output h2{font-family:"IBM Plex Serif",serif;font-size:17px;font-weight:600;color:var(--ink);margin:34px 0 11px;padding-bottom:7px;border-bottom:1px solid var(--line);}
+  #md-output h3{font-family:"IBM Plex Sans",sans-serif;font-size:13.5px;font-weight:600;color:var(--blue-d);margin:22px 0 8px;letter-spacing:.03em;text-transform:uppercase;}
+  #md-output h4{font-family:"IBM Plex Sans",sans-serif;font-size:14px;font-weight:600;color:var(--ink);margin:16px 0 6px;}
+  #md-output p{margin-bottom:13px;}
+  #md-output a{color:var(--blue-l);text-decoration:none;border-bottom:1px solid var(--blue-l);padding-bottom:1px;}
+  #md-output a:hover{color:var(--blue-d);}
+  #md-output strong{font-weight:600;}
+  #md-output em{color:var(--ink-s);}
+  #md-output code{font-family:"IBM Plex Mono",monospace;font-size:.84em;background:var(--bg-p2);padding:1px 5px;border:1px solid var(--line-s);}
+  #md-output pre{background:var(--bg-p2);border:1px solid var(--line);padding:14px;overflow-x:auto;margin-bottom:14px;}
+  #md-output pre code{background:none;border:none;padding:0;font-size:.83em;}
+  #md-output blockquote{border-left:3px solid var(--amber-l);background:var(--bg-p);padding:9px 15px;color:var(--ink-s);margin-bottom:13px;font-size:13.5px;}
+  #md-output ul,#md-output ol{padding-left:22px;margin-bottom:13px;}
+  #md-output li{margin-bottom:5px;line-height:1.6;}
+  /* Task list checkboxes */
+  #md-output ul.contains-task-list{padding-left:6px;}
+  #md-output .task-list-item{list-style:none;padding-left:4px;}
+  #md-output .task-list-item input{margin-right:7px;accent-color:var(--blue);}
+  #md-output hr{border:none;border-top:1px solid var(--line);margin:28px 0;}
+  #md-output table{border-collapse:collapse;width:100%;margin-bottom:16px;font-size:13px;}
+  #md-output th{background:var(--bg-p2);border:1px solid var(--line);padding:7px 11px;text-align:left;font-weight:600;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-xs);}
+  #md-output td{border:1px solid var(--line);padding:7px 11px;vertical-align:top;}
+  #md-output tr:nth-child(even) td{background:var(--bg-p);}
+  #md-output img{max-width:100%;border:1px solid var(--line);}
+
+  /* ── BOTTOM NAV ── */
+  .bottom-nav{padding:16px 22px;border-top:1px solid var(--line);background:var(--bg-p);display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;}
+  .bottom-nav-info{font-size:11.5px;color:var(--ink-xs);text-align:center;flex:1;}
+
+  /* ── PROGRESS BAR ── */
+  .read-progress{position:fixed;top:0;left:0;height:2px;background:var(--blue-l);width:0%;transition:width .1s;z-index:200;}
+
+  /* ── RESPONSIVE ── */
+  @media(max-width:680px){
+    .sidebar{position:fixed;left:-100%;top:0;height:100vh;z-index:150;transition:left .24s;width:290px;}
+    .sidebar.open{left:0;}
+    #menu-toggle{display:inline-flex;}
+    .content-wrap{padding:18px 14px 80px;}
+    .overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.38);z-index:140;}
+    .overlay.active{display:block;}
+  }
+</style>
+</head>
+<body>
+<div class="read-progress" id="read-progress"></div>
+<div class="overlay" id="overlay"></div>
+
+<!-- ── TOP BAR ── -->
+<nav class="topbar">
+  <button class="btn" id="menu-toggle">☰</button>
+  <a href="index.html" class="topbar-brand">Tesis · Edificio 18P · CDE</a>
+  <span class="topbar-sep">›</span>
+  <span class="topbar-crumb" id="breadcrumb">Cargando…</span>
+  <div class="topbar-actions">
+    <a href="index.html" class="btn">← Roadmap</a>
+    <button class="btn" id="theme-btn">☾</button>
+  </div>
+</nav>
+
+<div class="layout">
+  <!-- ── SIDEBAR ── -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-hdr">Navegación de etapas</div>
+    <div id="sidebar-tree"></div>
+  </aside>
+
+  <!-- ── MAIN ── -->
+  <main class="main" id="main-scroll">
+    <div class="content-wrap">
+      <div id="loading-state" class="state-box">
+        <div class="spinner"></div>
+        <h2>Cargando borrador…</h2>
+        <p>Leyendo el archivo Markdown de la etapa.</p>
+      </div>
+      <div id="md-output" style="display:none;"></div>
+    </div>
+    <div class="bottom-nav" id="bottom-nav" style="display:none;">
+      <button class="btn" id="btn-prev">← Anterior</button>
+      <span class="bottom-nav-info" id="bottom-info"></span>
+      <button class="btn" id="btn-next">Siguiente →</button>
+    </div>
+  </main>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════════
+// REGISTRY — todas las etapas y sus sub-etapas
+// ═══════════════════════════════════════════════════════════
+const REGISTRY = [
+  { id:'a', name:'Marco Regulatorio & Terreno',   dur:'2–3 sem', dot:'bloq', tag:'Bloqueante',
+    subs:[
+      { id:'a-1', name:'Formalización del terreno' },
+      { id:'a-2', name:'Análisis de sitio' },
+    ]
+  },
+  { id:'b', name:'Arquitectura Completa',          dur:'4–6 sem', dot:'crit', tag:'Crítico',
+    subs:[
+      { id:'b-1', name:'Programa y organización funcional' },
+      { id:'b-2', name:'Plantas arquitectónicas por nivel' },
+      { id:'b-3', name:'Cortes, fachadas y detalles' },
+    ]
+  },
+  { id:'c', name:'Geotecnia & Fundaciones',        dur:'3–4 sem', dot:'crit', tag:'Crítico',
+    subs:[
+      { id:'c-1', name:'Parámetros geotécnicos' },
+      { id:'c-2', name:'Contención y excavación' },
+      { id:'c-3', name:'Fundaciones' },
+    ]
+  },
+  { id:'d', name:'Estructura — Cargas & Pilares',  dur:'6–8 sem', dot:'crit', tag:'Crítico',
+    subs:[
+      { id:'d-1', name:'Caracterización de cargas por nivel' },
+      { id:'d-2', name:'Grilla definitiva de pilares' },
+      { id:'d-3', name:'Losas nervadas — verificación completa' },
+    ]
+  },
+  { id:'e', name:'Viento & Dinámica Estructural',  dur:'6–8 sem', dot:'crit', tag:'Crítico · Núcleo',
+    subs:[
+      { id:'e-1', name:'Parámetros de viento' },
+      { id:'e-2', name:'Análisis dinámico y respuesta estructural' },
+    ]
+  },
+  { id:'f', name:'Diseño Estructural H°A°',         dur:'5–7 sem', dot:'crit', tag:'Crítico',
+    subs:[
+      { id:'f-1', name:'Diseño de pilares' },
+      { id:'f-2', name:'Diseño de núcleos H°A°' },
+      { id:'f-3', name:'Verificaciones finales' },
+    ]
+  },
+  { id:'g', name:'Instalaciones MEP',              dur:'4–5 sem', dot:'imp',  tag:'Importante',
+    subs:[
+      { id:'g-1', name:'Instalación sanitaria' },
+      { id:'g-2', name:'Instalación eléctrica y telecomunicaciones' },
+      { id:'g-3', name:'Protección contra incendios y HVAC' },
+      { id:'g-4', name:'Transporte vertical' },
+    ]
+  },
+  { id:'h', name:'Modelado BIM Coordinado',        dur:'5–7 sem', dot:'bim',  tag:'BIM · ISO 19650',
+    subs:[
+      { id:'h-1', name:'Preparación BIM' },
+      { id:'h-2', name:'Modelado por disciplinas' },
+      { id:'h-3', name:'Federación y clash detection' },
+    ]
+  },
+  { id:'i', name:'Planos & Doc. Ejecutiva',         dur:'3–4 sem', dot:'av',   tag:'Avanzado',
+    subs:[
+      { id:'i-1', name:'Planos estructurales' },
+      { id:'i-2', name:'Planos de instalaciones' },
+      { id:'i-3', name:'Detalles constructivos y especificaciones' },
+    ]
+  },
+  { id:'j', name:'Cómputos & Presupuesto',         dur:'3–4 sem', dot:'av',   tag:'Avanzado',
+    subs:[
+      { id:'j-1', name:'Cómputo métrico por rubro' },
+      { id:'j-2', name:'Análisis de precios unitarios (APU)' },
+      { id:'j-3', name:'Presupuesto desagregado y análisis económico' },
+    ]
+  },
+  { id:'k', name:'Cronograma & Logística',         dur:'2–3 sem', dot:'av',   tag:'Avanzado',
+    subs:[
+      { id:'k-1', name:'Cronograma de obra (Gantt)' },
+      { id:'k-2', name:'Logística de obra y plan de acopio' },
+    ]
+  },
+  { id:'l', name:'Sustentabilidad & Seguridad',    dur:'2–3 sem', dot:'tec',  tag:'Técnico',
+    subs:[
+      { id:'l-1', name:'Sustentabilidad y eficiencia energética' },
+      { id:'l-2', name:'Seguridad e higiene en obra' },
+    ]
+  },
+  { id:'m', name:'Control de Calidad & Ensayos',   dur:'2–3 sem', dot:'tec',  tag:'Técnico',
+    subs:[
+      { id:'m-1', name:'Plan de control de calidad del hormigón' },
+      { id:'m-2', name:'Ensayos de materiales y protocolos' },
+    ]
+  },
+  { id:'n', name:'Habilitación & Entrega',         dur:'2–4 sem', dot:'cierre',tag:'Cierre',
+    subs:[
+      { id:'n-1', name:'Trámites de habilitación (CIP, Bomberos, ANDE, ESSAP)' },
+      { id:'n-2', name:'Recepción de obra y documentación as-built' },
+    ]
+  },
+  { id:'o', name:'Redacción Académica',            dur:'6–8 sem', dot:'cierre',tag:'Cierre',
+    subs:[
+      { id:'o-1', name:'Estructura y redacción del documento de tesis' },
+      { id:'o-2', name:'Figuras, tablas y anexos' },
+    ]
+  },
+  { id:'p', name:'Defensa Final',                  dur:'2–3 sem', dot:'gold',  tag:'Cierre',
+    subs:[
+      { id:'p-1', name:'Presentación y defensa oral' },
+      { id:'p-2', name:'Correcciones y versión final' },
+    ]
+  },
+];
+
+// ── Flat list of all doc IDs in order (for prev/next) ──
+const FLAT = [];
+REGISTRY.forEach(e => {
+  FLAT.push({ id: e.id, label: `Etapa ${e.id.toUpperCase()} — ${e.name}`, isOverview: true, parent: e });
+  e.subs.forEach(s => {
+    FLAT.push({ id: s.id, label: `${s.id.toUpperCase()} · ${s.name}`, isOverview: false, parent: e });
+  });
+});
+
+// ── STATE ──
+let currentDoc = null;
+
+// ── URL PARAM ──
+function getParam(){ return new URLSearchParams(window.location.search).get('doc') || 'a'; }
+
+// ── BUILD TREE SIDEBAR ──
+function buildSidebar(){
+  const tree = document.getElementById('sidebar-tree');
+  tree.innerHTML = REGISTRY.map(e => `
+    <div class="tree-etapa" id="tree-${e.id}">
+      <div class="tree-toggle" data-id="${e.id}" data-type="toggle">
+        <span class="tree-arrow">▸</span>
+        <span class="tree-idx">${e.id.toUpperCase()}</span>
+        <span class="tree-name">${e.name}</span>
+        <span class="tree-dot dot-${e.dot}"></span>
+      </div>
+      <div class="tree-subs" id="subs-${e.id}">
+        <a class="tree-overview" href="?doc=${e.id}" data-doc="${e.id}">
+          📋 Índice / Resumen general
+        </a>
+        ${e.subs.map(s => `
+          <a class="sub-link" href="?doc=${s.id}" data-doc="${s.id}">
+            <span class="sub-num">${s.id.split('-')[1]}.</span>
+            <span>${s.name}</span>
+          </a>
+        `).join('')}
+      </div>
+    </div>
+  `).join('');
+
+  // Toggle clicks
+  tree.querySelectorAll('.tree-toggle').forEach(tog => {
+    tog.addEventListener('click', () => {
+      const id = tog.dataset.id;
+      const subs = document.getElementById('subs-' + id);
+      const isOpen = subs.classList.contains('open');
+      subs.classList.toggle('open', !isOpen);
+      tog.classList.toggle('open', !isOpen);
+    });
+  });
+
+  // Link clicks (prevent full reload)
+  tree.querySelectorAll('[data-doc]').forEach(a => {
+    a.addEventListener('click', ev => {
+      ev.preventDefault();
+      const doc = a.dataset.doc;
+      history.pushState({ doc }, '', `?doc=${doc}`);
+      loadDoc(doc);
+      closeMobileSidebar();
+    });
+  });
+}
+
+function setSidebarActive(doc){
+  // Remove old active states
+  document.querySelectorAll('.sub-link.active, .tree-overview.active').forEach(el => el.classList.remove('active'));
+
+  // Determine parent etapa id
+  const isOverview = !doc.includes('-');
+  const parentId = isOverview ? doc : doc.split('-')[0];
+
+  // Open the correct sub-panel
+  document.querySelectorAll('.tree-subs').forEach(s => s.classList.remove('open'));
+  document.querySelectorAll('.tree-toggle').forEach(t => t.classList.remove('open'));
+  const subsEl = document.getElementById('subs-' + parentId);
+  const togEl = document.querySelector(`.tree-toggle[data-id="${parentId}"]`);
+  if(subsEl){ subsEl.classList.add('open'); }
+  if(togEl){ togEl.classList.add('open'); }
+
+  // Mark active link
+  const activeLink = document.querySelector(`[data-doc="${doc}"]`);
+  if(activeLink){
+    activeLink.classList.add('active');
+    activeLink.scrollIntoView({ block: 'nearest' });
+  }
+}
+
+// ── LOAD DOCUMENT ──
+async function loadDoc(doc){
+  currentDoc = doc;
+  const flatItem = FLAT.find(f => f.id === doc);
+  const parent = flatItem ? flatItem.parent : null;
+
+  // Breadcrumb
+  const crumb = document.getElementById('breadcrumb');
+  if(flatItem){
+    if(flatItem.isOverview){
+      crumb.innerHTML = `<b>Etapa ${doc.toUpperCase()}</b> — ${parent.name}`;
+    } else {
+      const subNum = doc.split('-')[1];
+      crumb.innerHTML = `Etapa <b>${parent.id.toUpperCase()}</b> › ${subNum}. ${flatItem.parent.subs.find(s=>s.id===doc)?.name || doc}`;
+    }
+  }
+  document.title = `${doc.toUpperCase()} — Tesis Edificio 18P`;
+
+  setSidebarActive(doc);
+
+  // Show loading
+  document.getElementById('loading-state').style.display = '';
+  document.getElementById('md-output').style.display = 'none';
+  document.getElementById('bottom-nav').style.display = 'none';
+
+  try {
+    const res = await fetch(`etapas/etapa-${doc}.md`);
+    if(!res.ok) throw new Error(`HTTP ${res.status} — archivo no encontrado`);
+    const text = await res.text();
+    renderMd(text);
+  } catch(err){
+    showError(doc, err);
+  }
+}
+
+// ── RENDER MARKDOWN ──
+function renderMd(text){
+  marked.setOptions({ gfm: true, breaks: true });
+  const html = marked.parse(text);
+  const out = document.getElementById('md-output');
+  out.innerHTML = html;
+  out.style.display = '';
+  document.getElementById('loading-state').style.display = 'none';
+
+  // Bottom nav
+  updateBottomNav();
+  document.getElementById('main-scroll').scrollTo({ top: 0 });
+}
+
+function showError(doc, err){
+  const out = document.getElementById('md-output');
+  out.innerHTML = `
+    <div style="border-left:3px solid var(--red);background:var(--bg-p);padding:14px 18px;margin-bottom:18px;">
+      <strong style="color:var(--red);">⚠ Archivo no encontrado</strong><br>
+      <code>etapas/etapa-${doc}.md</code><br>
+      <span style="font-size:13px;color:var(--ink-s);margin-top:5px;display:block;">${err.message}</span>
+    </div>
+    <p style="color:var(--ink-s);font-size:13.5px;">
+      Verificá que el archivo exista en la carpeta <code>etapas/</code>.<br>
+      Si estás viendo esto localmente, abrí el proyecto con un servidor local 
+      (<strong>Live Server</strong> en VS Code, o ejecutá <code>python -m http.server</code> en la terminal).
+    </p>`;
+  out.style.display = '';
+  document.getElementById('loading-state').style.display = 'none';
+  updateBottomNav();
+}
+
+// ── BOTTOM NAV ──
+function updateBottomNav(){
+  const idx = FLAT.findIndex(f => f.id === currentDoc);
+  const prev = idx > 0 ? FLAT[idx-1] : null;
+  const next = idx < FLAT.length-1 ? FLAT[idx+1] : null;
+
+  const btnPrev = document.getElementById('btn-prev');
+  const btnNext = document.getElementById('btn-next');
+  btnPrev.textContent = prev ? `← ${prev.label}` : '← Inicio';
+  btnNext.textContent = next ? `${next.label} →` : 'Fin del recorrido';
+  btnPrev.disabled = !prev; btnPrev.style.opacity = prev ? '' : '0.3';
+  btnNext.disabled = !next; btnNext.style.opacity = next ? '' : '0.3';
+
+  const cur = FLAT[idx];
+  document.getElementById('bottom-info').textContent =
+    `${idx+1} / ${FLAT.length}` + (cur?.parent ? ` · Etapa ${cur.parent.id.toUpperCase()} · ${cur.parent.dur}` : '');
+
+  document.getElementById('bottom-nav').style.display = '';
+}
+
+document.getElementById('btn-prev').addEventListener('click',()=>{
+  const idx = FLAT.findIndex(f=>f.id===currentDoc);
+  if(idx>0){ const d=FLAT[idx-1].id; history.pushState({doc:d},'',`?doc=${d}`); loadDoc(d); }
+});
+document.getElementById('btn-next').addEventListener('click',()=>{
+  const idx = FLAT.findIndex(f=>f.id===currentDoc);
+  if(idx<FLAT.length-1){ const d=FLAT[idx+1].id; history.pushState({doc:d},'',`?doc=${d}`); loadDoc(d); }
+});
+
+// ── BROWSER HISTORY ──
+window.addEventListener('popstate', e => {
+  loadDoc((e.state && e.state.doc) || getParam());
+});
+
+// ── THEME ──
+const themeBtn = document.getElementById('theme-btn');
+function applyTheme(t){ document.documentElement.dataset.theme=t; localStorage.setItem('theme',t); themeBtn.textContent=t==='dark'?'☀':'☾'; }
+applyTheme(localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'));
+themeBtn.addEventListener('click',()=>applyTheme(document.documentElement.dataset.theme==='dark'?'light':'dark'));
+
+// ── MOBILE ──
+function closeMobileSidebar(){
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('overlay').classList.remove('active');
+}
+document.getElementById('menu-toggle').addEventListener('click',()=>{
+  document.getElementById('sidebar').classList.toggle('open');
+  document.getElementById('overlay').classList.toggle('active');
+});
+document.getElementById('overlay').addEventListener('click', closeMobileSidebar);
+
+// ── SCROLL PROGRESS ──
+document.getElementById('main-scroll').addEventListener('scroll',function(){
+  const p = this.scrollTop/(this.scrollHeight-this.clientHeight)*100;
+  document.getElementById('read-progress').style.width = Math.min(p,100)+'%';
+});
+
+// ── INIT ──
+buildSidebar();
+loadDoc(getParam());
+</script>
+</body>
+</html>

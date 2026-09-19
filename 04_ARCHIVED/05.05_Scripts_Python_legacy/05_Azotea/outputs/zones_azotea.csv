@@ -1,0 +1,17 @@
+id,zona,x0,y0,x1,y1,area_m2,categoria
+MIR,TERRAZA MIRADOR + jardineras,2.5,3.0,87.5,17.0,1190.0,Deck mirador
+SMAQ1,SALA MÁQ. ASC. N1 (2 asc),34.0,17.0,41.0,26.0,63.0,Técnica
+SMAQ2,SALA MÁQ. ASC. N2 (2 asc),49.0,17.0,56.0,26.0,63.0,Técnica
+SHFT,SHAFTS + VENTILACIÓN (ducto RSU Ø500),41.0,17.0,49.0,26.0,72.0,Técnica
+PISC,PISCINA RECREATIVA 8×16 m · 128 m²,10.25,29.0,26.25,37.0,128.0,Piscina
+VEST,VESTUARIOS + duchas + baños,2.5,26.0,8.5,32.0,36.0,Amenities
+FILT,CUARTO FILTROS piscina,2.5,32.0,8.5,38.0,36.0,Técnica
+SOLA,SOLÁRIUM / DECK (resto del ala),2.5,26.0,34.0,40.0,441.0,Amenities
+TANQ1,TANQUE ELEVADO POTABLE ~45 m³,34.0,26.0,41.0,33.0,49.0,Técnica
+TANQ2,TANQUE ELEVADO PCI ~45 m³,49.0,26.0,56.0,33.0,49.0,Técnica
+HVAC,SALA HVAC + PTE pluvial,41.0,26.0,49.0,33.0,56.0,Técnica
+TABL,CUARTO DE TABLEROS AZOTEA,41.0,33.0,49.0,40.0,56.0,Técnica
+LIBT,ACCESO TANQUES (espacio técnico),34.0,33.0,41.0,40.0,49.0,Técnica
+LIBT2,ACCESO TANQUES (espacio técnico),49.0,33.0,56.0,40.0,49.0,Técnica
+QUIN,QUINCHO CUBIERTO + parrilla (pérgola),56.0,26.0,71.0,33.0,105.0,Amenities
+EVEN,TERRAZA DE EVENTOS (deck abierto),56.0,26.0,87.5,40.0,441.0,Amenities

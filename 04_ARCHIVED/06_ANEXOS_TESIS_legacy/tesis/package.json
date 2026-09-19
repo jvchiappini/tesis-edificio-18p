@@ -1,0 +1,12 @@
+{
+  "name": "tesis_chi",
+  "version": "1.0.0",
+  "description": "Documento de Tesis de Grado (Word) - Edificio mixto 18P, Ciudad del Este",
+  "private": true,
+  "scripts": {
+    "build": "node build_tesis.js"
+  },
+  "dependencies": {
+    "docx": "^9.7.1"
+  }
+}

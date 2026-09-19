@@ -1,0 +1,8 @@
+# Configuración de GitHub Pages / Jekyll
+title: Tesis Edificio 18P — Ciudad del Este
+description: Roadmap ejecutivo y borradores académicos para tesis de ingeniería civil BIM
+theme: jekyll-theme-primer
+# Omitir procesamiento de archivos binarios pesados si fuera necesario
+exclude:
+  - ".agents"
+  - ".gemini"

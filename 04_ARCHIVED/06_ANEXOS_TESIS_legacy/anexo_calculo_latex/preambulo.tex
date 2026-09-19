@@ -1,0 +1,87 @@
+% ===================================================================
+% PREÁMBULO — ANEXO DE CÁLCULO ESTRUCTURAL (LaTeX)
+% Tesis de Grado | Edificio Mixto 18P + 3 Subsuelos | CDE, Paraguay
+% Motor: pdflatex (MiKTeX) · idioma español · coma decimal
+% ===================================================================
+\documentclass[11pt,a4paper,oneside]{report}
+
+% ---------- Idiomas y codificación ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-tabla]{babel}
+
+% ---------- Tipografía ----------
+\usepackage{lmodern}
+\usepackage{microtype}
+
+% ---------- Matemática ----------
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+
+% ---------- Unidades (SI) ----------
+\usepackage{siunitx}
+\sisetup{
+    output-decimal-marker={,},
+    exponent-product=\cdot,
+    inter-unit-product=\cdot,
+    detect-all,
+}
+
+% ---------- Tablas ----------
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{tabularx}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+% ---------- Figuras ----------
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{patterns,calc,positioning,babel,arrows}
+\usepackage{float}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+
+% ---------- Geometría de página ----------
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=3.0cm,right=2.5cm]{geometry}
+
+% ---------- Encabezados y pie ----------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\nouppercase{\leftmark}}
+\fancyhead[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% ---------- Hipervínculos ----------
+\usepackage[colorlinks=true,linkcolor=blue!60!black,
+            citecolor=green!50!black,urlcolor=blue]{hyperref}
+
+% ---------- Entornos personalizados ----------
+% Recuadro "clave de diseño" (robusto con lrbox)
+\newsavebox{\cajaclave}
+\newenvironment{clave}[1]{%
+    \par\vspace{6pt}\noindent
+    \begin{lrbox}{\cajaclave}%
+        \begin{minipage}{0.92\textwidth}%
+            \textbf{\textcolor{blue!60!black}{#1}}\\[3pt]\small
+}{%
+        \end{minipage}%
+    \end{lrbox}%
+    \fcolorbox{blue!40}{blue!5}{\usebox{\cajaclave}}\par\vspace{6pt}%
+}
+
+% Números de ecuación con la sección
+\numberwithin{equation}{section}
+
+% Comando para nota de resultado final
+\newcommand{\resultado}[1]{%
+    \begin{center}
+    \fbox{\parbox{0.6\textwidth}{\centering\large\textbf{#1}}}
+    \end{center}}
+
+% Comando para unidad repetida
+\newcommand{\kNpm}[0]{\si{\kilo\newton\per\meter}}
+
+\graphicspath{{figuras/}}

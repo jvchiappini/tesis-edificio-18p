@@ -1,0 +1,348 @@
+{
+  "proyecto": "Edificio de Uso Mixto 18P + 3 Subsuelos - CDE, Paraguay",
+  "norma": "NBR 6123 / NBR 6118 / ASCE 7-22 / Eurocodigo 1",
+  "terreno": {
+    "frente": 90.0,
+    "profundidad": 40.0
+  },
+  "huella": {
+    "x0": 2.5,
+    "x1": 87.5,
+    "y0": 3.0,
+    "y1": 40.0,
+    "ancho": 85.0,
+    "profundidad": 37.0,
+    "area": 3145.0
+  },
+  "grilla": {
+    "XS": [
+      2.5,
+      10.38,
+      18.25,
+      26.13,
+      34.0,
+      41.0,
+      49.0,
+      56.0,
+      63.88,
+      71.75,
+      79.63,
+      87.5
+    ],
+    "YS": [
+      3.0,
+      10.0,
+      17.0,
+      26.0,
+      33.0,
+      40.0
+    ],
+    "vanos_X": [
+      7.88,
+      7.87,
+      7.88,
+      7.87,
+      7.0,
+      8.0,
+      7.0,
+      7.88,
+      7.87,
+      7.88,
+      7.87
+    ],
+    "vanos_Y": [
+      7.0,
+      7.0,
+      9.0,
+      7.0,
+      7.0
+    ]
+  },
+  "nucleos": [
+    {
+      "id": "N1",
+      "x0": 34.0,
+      "x1": 41.0,
+      "y0": 17.0,
+      "y1": 26.0,
+      "ancho": 7.0,
+      "alto": 9.0,
+      "area": 63.0
+    },
+    {
+      "id": "N2",
+      "x0": 49.0,
+      "x1": 56.0,
+      "y0": 17.0,
+      "y1": 26.0,
+      "ancho": 7.0,
+      "alto": 9.0,
+      "area": 63.0
+    }
+  ],
+  "pasillo_tecnico": {
+    "x0": 41.0,
+    "x1": 49.0,
+    "y0": 17.0,
+    "y1": 26.0,
+    "ancho": 8.0,
+    "alto": 9.0,
+    "area": 72.0
+  },
+  "pozos_luz": [
+    {
+      "id": "A",
+      "x0": 5.0,
+      "x1": 19.0,
+      "y0": 18.0,
+      "y1": 25.0,
+      "area": 98.0
+    },
+    {
+      "id": "B",
+      "x0": 71.0,
+      "x1": 85.0,
+      "y0": 18.0,
+      "y1": 25.0,
+      "area": 98.0
+    }
+  ],
+  "niveles": [
+    {
+      "id": "S3",
+      "cota": -10.5,
+      "altura": 3.5,
+      "funcion": "cocheras",
+      "plazas": 98
+    },
+    {
+      "id": "S2",
+      "cota": -7.0,
+      "altura": 3.5,
+      "funcion": "cocheras",
+      "plazas": 98
+    },
+    {
+      "id": "S1",
+      "cota": -3.5,
+      "altura": 3.5,
+      "funcion": "cocheras+tecnicas",
+      "plazas": 82
+    },
+    {
+      "id": "PB",
+      "cota": 0.0,
+      "altura": 4.0,
+      "funcion": "comercial+servicios",
+      "plazas": null
+    },
+    {
+      "id": "P01",
+      "cota": 4.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "P02",
+      "cota": 7.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "P03",
+      "cota": 10.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "P04",
+      "cota": 13.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "P05",
+      "cota": 16.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "P06",
+      "cota": 19.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "P07",
+      "cota": 22.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "P08",
+      "cota": 25.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "P09",
+      "cota": 28.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "P10",
+      "cota": 31.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "P11",
+      "cota": 34.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "P12",
+      "cota": 37.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "P13",
+      "cota": 40.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "P14",
+      "cota": 43.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "P15",
+      "cota": 46.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "P16",
+      "cota": 49.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "P17",
+      "cota": 52.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "P18",
+      "cota": 55.0,
+      "altura": 3.0,
+      "funcion": "residencial",
+      "plazas": null
+    },
+    {
+      "id": "AZ",
+      "cota": 58.0,
+      "altura": 2.2,
+      "funcion": "azotea-tecnica",
+      "plazas": null
+    }
+  ],
+  "losas": [
+    {
+      "ids": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sistema": "postensada_unbonded",
+      "espesor": 0.24,
+      "espesor_capitel": 0.4,
+      "nota": "22-25 cm + capitel (cargas altas)"
+    },
+    {
+      "ids": [
+        "PB"
+      ],
+      "sistema": "postensada_unbonded",
+      "espesor": 0.23,
+      "espesor_capitel": 0.4,
+      "nota": "20-25 cm + drop panel (gran luz)"
+    },
+    {
+      "ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P18"
+      ],
+      "sistema": "postensada_unbonded",
+      "espesor": 0.19,
+      "espesor_capitel": 0.3,
+      "nota": "18-20 cm residencial"
+    }
+  ],
+  "materiales": {
+    "hormigon": {
+      "nombre": "H-30",
+      "fc": 30.0,
+      "fcd": 21.4,
+      "gamma": 25.0
+    },
+    "acero": {
+      "nombre": "CA-50",
+      "fy": 500.0,
+      "fyd": 434.8
+    },
+    "recubrimiento_pilares": 0.04
+  },
+  "cargas": {
+    "residencial": 2.0,
+    "comercial": 3.0,
+    "cocheras": 3.0,
+    "tabiqueria": 1.5,
+    "acabados": 1.0,
+    "peso_propio_ajuste": 0.0
+  },
+  "recintos": {
+    "PB": [],
+    "PT": [],
+    "S": []
+  }
+}

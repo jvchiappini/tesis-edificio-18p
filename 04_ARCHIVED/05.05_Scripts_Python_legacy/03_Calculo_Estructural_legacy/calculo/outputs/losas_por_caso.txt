@@ -1,0 +1,161 @@
+
+======================================================================
+CASO S1 — LOSA COCHERAS  (h=0.24 m)
+======================================================================
+  Notas: capitel 0.40 en cada pilar
+  Panel: l1=7.875 m × l2=7.0 m · ln=6.975 m
+  Espesor: h=0.24 m ≥ L/45=0.175 m  →  OK
+  Cargas: g=6.5 + q=3.0 = 9.5 kN/m² (servicio)
+          U_NBR=13.3 kN/m² · U_ASCE=12.6 kN/m²
+  Momentos (dirección X, EFM/DDM):
+    Mo servicio = 404.4 kN·m | Mo mayorado (NBR) = 566.2 kN·m
+    M neg int = 424.6 kN·m (col 91.0 / mid 30.3 kN·m·m⁻¹)
+    M positivo = 356.7 kN·m (col 61.1 / mid 40.8 kN·m·m⁻¹)
+  Postensado (PTI, balancear 3.25 kN/m² = 50% g):
+    F requerido = 953.3 kN → 6.4 tendones 0.6" a 1.1 m (sag 0.185 m)
+    Precompresión σ = 0.57 MPa ≤ 0.45f'c ✓
+  Punzonamiento (ACI §22.6.5.2):
+    d=0.6 m · bo=6.0 m · vc=1.81 MPa
+    Vu=722.4 kN vs φVc=4880.0 kN → OK (ratio 0.148)
+  Flechas ELS: h=0.24 m ≥ L/480=0.0164 m → OK
+
+======================================================================
+CASO S2 — LOSA COCHERAS  (h=0.24 m)
+======================================================================
+  Notas: idéntica a S1 (se documenta)
+  Panel: l1=7.875 m × l2=7.0 m · ln=6.975 m
+  Espesor: h=0.24 m ≥ L/45=0.175 m  →  OK
+  Cargas: g=6.5 + q=3.0 = 9.5 kN/m² (servicio)
+          U_NBR=13.3 kN/m² · U_ASCE=12.6 kN/m²
+  Momentos (dirección X, EFM/DDM):
+    Mo servicio = 404.4 kN·m | Mo mayorado (NBR) = 566.2 kN·m
+    M neg int = 424.6 kN·m (col 91.0 / mid 30.3 kN·m·m⁻¹)
+    M positivo = 356.7 kN·m (col 61.1 / mid 40.8 kN·m·m⁻¹)
+  Postensado (PTI, balancear 3.25 kN/m² = 50% g):
+    F requerido = 953.3 kN → 6.4 tendones 0.6" a 1.1 m (sag 0.185 m)
+    Precompresión σ = 0.57 MPa ≤ 0.45f'c ✓
+  Punzonamiento (ACI §22.6.5.2):
+    d=0.6 m · bo=6.0 m · vc=1.81 MPa
+    Vu=722.4 kN vs φVc=4880.0 kN → OK (ratio 0.148)
+  Flechas ELS: h=0.24 m ≥ L/480=0.0164 m → OK
+
+======================================================================
+CASO S3 — LOSA COCHERAS  (h=0.24 m)
+======================================================================
+  Notas: idéntica a S1 (se documenta)
+  Panel: l1=7.875 m × l2=7.0 m · ln=6.975 m
+  Espesor: h=0.24 m ≥ L/45=0.175 m  →  OK
+  Cargas: g=6.5 + q=3.0 = 9.5 kN/m² (servicio)
+          U_NBR=13.3 kN/m² · U_ASCE=12.6 kN/m²
+  Momentos (dirección X, EFM/DDM):
+    Mo servicio = 404.4 kN·m | Mo mayorado (NBR) = 566.2 kN·m
+    M neg int = 424.6 kN·m (col 91.0 / mid 30.3 kN·m·m⁻¹)
+    M positivo = 356.7 kN·m (col 61.1 / mid 40.8 kN·m·m⁻¹)
+  Postensado (PTI, balancear 3.25 kN/m² = 50% g):
+    F requerido = 953.3 kN → 6.4 tendones 0.6" a 1.1 m (sag 0.185 m)
+    Precompresión σ = 0.57 MPa ≤ 0.45f'c ✓
+  Punzonamiento (ACI §22.6.5.2):
+    d=0.6 m · bo=6.0 m · vc=1.81 MPa
+    Vu=722.4 kN vs φVc=4880.0 kN → OK (ratio 0.148)
+  Flechas ELS: h=0.24 m ≥ L/480=0.0164 m → OK
+
+======================================================================
+CASO PB — LOSA COMERCIAL  (h=0.23 m)
+======================================================================
+  Notas: drop panel 0.40 (gran luz)
+  Panel: l1=7.875 m × l2=7.0 m · ln=6.975 m
+  Espesor: h=0.23 m ≥ L/45=0.175 m  →  OK
+  Cargas: g=7.25 + q=3.0 = 10.25 kN/m² (servicio)
+          U_NBR=14.35 kN/m² · U_ASCE=13.5 kN/m²
+  Momentos (dirección X, EFM/DDM):
+    Mo servicio = 436.3 kN·m | Mo mayorado (NBR) = 610.9 kN·m
+    M neg int = 458.2 kN·m (col 98.2 / mid 32.7 kN·m·m⁻¹)
+    M positivo = 384.8 kN·m (col 66.0 / mid 44.0 kN·m·m⁻¹)
+  Postensado (PTI, balancear 3.62 kN/m² = 50% g):
+    F requerido = 1124.0 kN → 7.5 tendones 0.6" a 0.93 m (sag 0.175 m)
+    Precompresión σ = 0.7 MPa ≤ 0.45f'c ✓
+  Punzonamiento (ACI §22.6.5.2):
+    d=0.59 m · bo=5.96 m · vc=1.81 MPa
+    Vu=779.4 kN vs φVc=4767.0 kN → OK (ratio 0.164)
+  Flechas ELS: h=0.23 m ≥ L/480=0.0164 m → OK
+
+======================================================================
+CASO PT-A — LOSA RESIDENCIAL  (h=0.19 m)
+======================================================================
+  Notas: pozos de luz A/B en bordes
+  Panel: l1=7.875 m × l2=7.0 m · ln=6.975 m
+  Espesor: h=0.19 m ≥ L/45=0.175 m  →  OK
+  Cargas: g=7.25 + q=1.5 = 8.75 kN/m² (servicio)
+          U_NBR=12.25 kN/m² · U_ASCE=11.1 kN/m²
+  Momentos (dirección X, EFM/DDM):
+    Mo servicio = 372.5 kN·m | Mo mayorado (NBR) = 521.5 kN·m
+    M neg int = 391.1 kN·m (col 83.8 / mid 27.9 kN·m·m⁻¹)
+    M positivo = 328.5 kN·m (col 56.3 / mid 37.5 kN·m·m⁻¹)
+  Postensado (PTI, balancear 3.62 kN/m² = 50% g):
+    F requerido = 1457.1 kN → 9.7 tendones 0.6" a 0.72 m (sag 0.135 m)
+    Precompresión σ = 1.1 MPa ≤ 0.45f'c ✓
+  Punzonamiento (ACI §22.6.5.2):
+    d=0.15 m · bo=4.2 m · vc=1.58 MPa
+    Vu=665.4 kN vs φVc=747.0 kN → OK (ratio 0.891)
+  Flechas ELS: h=0.19 m ≥ L/480=0.0164 m → OK
+
+======================================================================
+CASO PT-B — LOSA RESIDENCIAL  (h=0.19 m)
+======================================================================
+  Notas: misma losa estructural que PT-A
+  Panel: l1=7.875 m × l2=7.0 m · ln=6.975 m
+  Espesor: h=0.19 m ≥ L/45=0.175 m  →  OK
+  Cargas: g=7.25 + q=1.5 = 8.75 kN/m² (servicio)
+          U_NBR=12.25 kN/m² · U_ASCE=11.1 kN/m²
+  Momentos (dirección X, EFM/DDM):
+    Mo servicio = 372.5 kN·m | Mo mayorado (NBR) = 521.5 kN·m
+    M neg int = 391.1 kN·m (col 83.8 / mid 27.9 kN·m·m⁻¹)
+    M positivo = 328.5 kN·m (col 56.3 / mid 37.5 kN·m·m⁻¹)
+  Postensado (PTI, balancear 3.62 kN/m² = 50% g):
+    F requerido = 1457.1 kN → 9.7 tendones 0.6" a 0.72 m (sag 0.135 m)
+    Precompresión σ = 1.1 MPa ≤ 0.45f'c ✓
+  Punzonamiento (ACI §22.6.5.2):
+    d=0.15 m · bo=4.2 m · vc=1.58 MPa
+    Vu=665.4 kN vs φVc=747.0 kN → OK (ratio 0.891)
+  Flechas ELS: h=0.19 m ≥ L/480=0.0164 m → OK
+
+======================================================================
+CASO PT-C — LOSA RESIDENCIAL  (h=0.19 m)
+======================================================================
+  Notas: misma losa estructural que PT-A
+  Panel: l1=7.875 m × l2=7.0 m · ln=6.975 m
+  Espesor: h=0.19 m ≥ L/45=0.175 m  →  OK
+  Cargas: g=7.25 + q=1.5 = 8.75 kN/m² (servicio)
+          U_NBR=12.25 kN/m² · U_ASCE=11.1 kN/m²
+  Momentos (dirección X, EFM/DDM):
+    Mo servicio = 372.5 kN·m | Mo mayorado (NBR) = 521.5 kN·m
+    M neg int = 391.1 kN·m (col 83.8 / mid 27.9 kN·m·m⁻¹)
+    M positivo = 328.5 kN·m (col 56.3 / mid 37.5 kN·m·m⁻¹)
+  Postensado (PTI, balancear 3.62 kN/m² = 50% g):
+    F requerido = 1457.1 kN → 9.7 tendones 0.6" a 0.72 m (sag 0.135 m)
+    Precompresión σ = 1.1 MPa ≤ 0.45f'c ✓
+  Punzonamiento (ACI §22.6.5.2):
+    d=0.15 m · bo=4.2 m · vc=1.58 MPa
+    Vu=665.4 kN vs φVc=747.0 kN → OK (ratio 0.891)
+  Flechas ELS: h=0.19 m ≥ L/480=0.0164 m → OK
+
+======================================================================
+CASO AZ — LOSA AZOTEA  (h=0.3 m)
+======================================================================
+  Notas: piscina 15 + tanques 10 kN/m² (zonas locales)
+  Panel: l1=7.875 m × l2=7.0 m · ln=6.975 m
+  Espesor: h=0.3 m ≥ L/45=0.175 m  →  OK
+  Cargas: g=9.5 + q=1.0 = 10.5 kN/m² (servicio)
+          U_NBR=14.7 kN/m² · U_ASCE=13.0 kN/m²
+  Momentos (dirección X, EFM/DDM):
+    Mo servicio = 447.0 kN·m | Mo mayorado (NBR) = 625.8 kN·m
+    M neg int = 469.3 kN·m (col 100.6 / mid 33.5 kN·m·m⁻¹)
+    M positivo = 394.2 kN·m (col 67.6 / mid 45.1 kN·m·m⁻¹)
+  Postensado (PTI, balancear 4.75 kN/m² = 50% g):
+    F requerido = 1052.1 kN → 7.0 tendones 0.6" a 1.0 m (sag 0.245 m)
+    Precompresión σ = 0.5 MPa ≤ 0.45f'c ✓
+  Punzonamiento (ACI §22.6.5.2):
+    d=0.26 m · bo=4.64 m · vc=1.81 MPa
+    Vu=798.4 kN vs φVc=1635.0 kN → OK (ratio 0.488)
+  Flechas ELS: h=0.3 m ≥ L/480=0.0164 m → OK
+  Zona local AZ: piscina q=25.5 kN/m² · tanque q=20.5 kN/m² (chequeo local)

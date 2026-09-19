@@ -1,0 +1,63 @@
+% ===================================================================
+% DOCUMENTO MAESTRO — ANEXO DE CÁLCULO ESTRUCTURAL
+% Compilar: pdflatex main.tex  (2 pasadas para el índice)
+% ===================================================================
+\input{preambulo.tex}
+
+\begin{document}
+
+\include{portada}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\chapter{Introducción al Anexo}
+\label{cap:intro}
+Este anexo reúne los \emph{cálculos manuales} de los elementos
+estructurales del edificio, desarrollados paso a paso bajo norma y
+documentados de forma \emph{pedagógica}: cada elemento se explica desde
+cero (qué es, para qué sirve y cómo trabaja), se dimensiona con las
+expresiones de los códigos y se verifica comparando los resultados con
+\emph{programas de cálculo} (PyNite, CYPE).
+
+El capítulo~\ref{cap:losa} desarrolla el elemento más repetido del
+edificio: la \textbf{losa nervada/reticular alivianada}, adoptada para
+todos los entrepisos por ser el sistema más económico de la comparativa
+de costos del Capítulo~6 de la tesis.
+
+\input{capitulos/01_losa_nervada}
+
+% --- próximos módulos: viento, pilares, núcleo, etc. ---
+
+\appendix
+\chapter{Resultados numéricos del módulo}
+\label{cap:resultados}
+Los valores reportados en este anexo se obtienen del módulo Python
+\path{losas_nervadas.py} (fuente única de cálculo), que exporta
+\path{losas_nervadas_resultados.json} y \path{losas_nervadas_compare.csv}.
+
+\begin{table}[H]
+\centering
+\caption{Comparación de resultados: cálculo manual vs.\ programa PyNite.}
+\label{tab:comparacion}
+\begin{tabular}{p{4.4cm}C{4.8cm}C{4.8cm}}
+\toprule
+\textbf{Magnitud} & \textbf{Manual (ACI/NBR)} & \textbf{PyNite (FEM)} \\
+\midrule
+Momento apoyo interior \(M^{-}\) & \SI{60,23}{\kilo\newton\meter} & \SI{-60,23}{\kilo\newton\meter} \\
+Momento de tramo \(M^{+}\) & \SI{33,88}{\kilo\newton\meter} & \SI{33,88}{\kilo\newton\meter} \\
+Cortante máximo \(V_{\max}\) & \SI{38,24}{\kilo\newton} & \SI{38,24}{\kilo\newton} \\
+Flecha ELS instantánea & \SI{6,21}{\milli\meter} & \SI{6,23}{\milli\meter} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La coincidencia es prácticamente total: los coeficientes clásicos de la
+viga continua de dos vanos (método de Cross simplificado) son la
+solución exacta del FEM para carga uniforme, y la flecha difiere menos
+del \SI{0,5}{\percent} (pequeña diferencia por el coeficiente de
+integración y el modelo de inercia). Esto valida el procedimiento
+manual que se documenta en el Capítulo~\ref{cap:losa}.
+
+\end{document}

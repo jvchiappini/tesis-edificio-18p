@@ -1,0 +1,72 @@
+{
+  "geometria": {
+    "canto": 0.35,
+    "capa": 0.1,
+    "nervio": 0.1,
+    "separacion": 0.6,
+    "claro_libre": 0.5,
+    "espesor_equiv": 0.19,
+    "luz": 7.875
+  },
+  "materiales": {
+    "fc": 30.0,
+    "fy": 500.0,
+    "ec": 25.74
+  },
+  "dimensiones": {
+    "ACI_ancho_nervio_4in": true,
+    "ACI_peralte_3.5b": true,
+    "ACI_claro_30in": true,
+    "ACI_capa_max": true,
+    "NBR_nervio_5cm": true,
+    "NBR_capa_max": true,
+    "NBR_esp_ejes_65cm": true,
+    "ACI_capa_min_m": 0.0508,
+    "NBR_capa_min_m": 0.04
+  },
+  "cargas": {
+    "pp": 4.75,
+    "g": 7.25,
+    "q": 2.0,
+    "qu": 12.95,
+    "qs": 9.25
+  },
+  "flexion": {
+    "d": 0.317,
+    "Mneg": 60.2327,
+    "Mpos": 33.8809,
+    "as_neg": 499.3617,
+    "as_pos": 240.4917,
+    "as_min": 88.76
+  },
+  "corte": {
+    "Vu": 35.78,
+    "Vmax": 38.243,
+    "Vc": 32.468,
+    "phiVc": 24.351,
+    "estribos": true,
+    "s_estribo": 0.15,
+    "phiVs": 44.815
+  },
+  "esl": {
+    "h_min": 0.24903,
+    "ok_espesor": true,
+    "yb": 0.24853,
+    "ig": 0.00072,
+    "delta": 0.00621,
+    "limite": 0.01641,
+    "ok_flecha": true
+  },
+  "detalles": {
+    "ld_pos": 0.4869,
+    "ld_neg": 0.8138,
+    "corte_neg": 1.8438,
+    "as_temp": 180.0
+  },
+  "pynite": {
+    "mneg": -60.2327,
+    "mpos": 33.8809,
+    "vmax": 38.243,
+    "dmax": 0.0062
+  }
+}

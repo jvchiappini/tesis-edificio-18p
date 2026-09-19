@@ -1,0 +1,9 @@
+id,uso,h,gq_s,U_nbr,Mo_mayorado_NBR,m_col_neg,m_col_pos,n_tendones,sigma_pc,Vu,phiVc,ratio_punz,punzonamiento_ok,flecha_ok
+S1,cocheras,0.24,9.5,13.3,566.2,91.0,61.1,6.4,0.57,722.4,4880.0,0.148,True,True
+S2,cocheras,0.24,9.5,13.3,566.2,91.0,61.1,6.4,0.57,722.4,4880.0,0.148,True,True
+S3,cocheras,0.24,9.5,13.3,566.2,91.0,61.1,6.4,0.57,722.4,4880.0,0.148,True,True
+PB,comercial,0.23,10.25,14.35,610.9,98.2,66.0,7.5,0.7,779.4,4767.0,0.164,True,True
+PT-A,residencial,0.19,8.75,12.25,521.5,83.8,56.3,9.7,1.1,665.4,747.0,0.891,True,True
+PT-B,residencial,0.19,8.75,12.25,521.5,83.8,56.3,9.7,1.1,665.4,747.0,0.891,True,True
+PT-C,residencial,0.19,8.75,12.25,521.5,83.8,56.3,9.7,1.1,665.4,747.0,0.891,True,True
+AZ,azotea,0.3,10.5,14.7,625.8,100.6,67.6,7.0,0.5,798.4,1635.0,0.488,True,True
