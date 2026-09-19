@@ -9,7 +9,7 @@ Esta etapa es el **punto de partida absoluto** de todo el proyecto. Antes de dis
 | Sub-etapa | Contenido | Tareas | Estado |
 |---|---|---|---|
 | [A.1 — Formalización del terreno](visor.html?doc=a-1) | Planimetría, teledetección (Google Earth Pro), calles, vértice agudo, uso de suelo | 4 | ✅ Completado |
-| [A.2 — Análisis de sitio](visor.html?doc=a-2) | Viento, sismicidad, infraestructura, ficha técnica | 4 | 🔲 Sin iniciar |
+| [A.2 — Análisis de sitio](visor.html?doc=a-2) | Viento, sismicidad, infraestructura, ficha técnica | 4 | 🟡 En progreso (eA-5 ✅) |
 
 ## Hito de cierre
 
