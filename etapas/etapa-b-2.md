@@ -1,6 +1,7 @@
 # B.2 — Plantas Arquitectónicas por Nivel
 
-> **Etapa B › Sub-etapa 2** · **Tareas:** 4 · **Estado:** 🟢 Completado (2026-09-19)  
+> **Etapa B › Sub-etapa 2** · **Tareas:** 4 · **Estado:** 🔴 PENDIENTE — Falta absolutamente todo (diseño anterior ANULADO)  
+> ⚠️ **NOTA (2026-09-19):** Todo el contenido de esta sub-etapa (layouts de subsuelos, PB y plantas tipo) fue generado con el **diseño antiguo de una única torre de 48×30m** y **subsuelos individualizados por torre**. La nueva configuración establece **3 torres independientes** cuyos subsuelos se integran directamente bajo la huella completa de $3.145\text{ m}^2$. **Falta rediseñar absolutamente todo desde cero.**  
 > Archivos fuente: `01_WIP/01.01_ARQ/` · Autodesk Revit 2024 · MCDE ([Ord. M. 003/2026](visor_ordenanzas.html?id=3693), [Ord. 011/1994](visor_ordenanzas.html?id=3146), [Ord. 030/2020 PTAR](visor_ordenanzas.html?id=2462)) · Ley N° 3966/2010 · ABNT NBR 9050 · ABNT NBR 15575
 
 ---
@@ -9,22 +10,22 @@
 
 ### Checklist de Tareas
 
-- [x] **Task B2.1:** Generar el layout funcional de los 3 Subsuelos (S1, S2, S3) en Revit (270 cocheras totales, rampas $i = 15\%$, Bloque Técnico, Cisterna 60m³ y PTAR estanca 120m² en S3).
-- [x] **Task B2.2:** Resolver la Planta Baja (PB, cota $+0.00\text{ m}$) con vigas de transferencia de apeo ($80 \times 120\text{ cm}$), hall de acceso residencial, 3 Locales Comerciales ($1.850\text{ m}^2$ total), RSU y accesos universales NBR 9050.
-- [x] **Task B2.3:** Desarrollar las Plantas Tipo Residenciales P01-P18 (108 unidades funcionales distribuidas en 3 tipologías A de 3 dorm, B de 2 dorm y C de 1 dorm con aislamiento acústico medianero NBR 15575).
-- [x] **Task B2.4:** Resolver la Planta de Azotea Técnica y Amenities (Piscina de $8 \times 16\text{ m}$, SUM de $150\text{ m}^2$, solárium, gimnasio, sala de máquinas y tanque elevado).
+- [ ] **Task B2.1:** ⚠️ *PENDIENTE — REDISEÑO TOTAL REQUERIDO.* Rediseñar el layout funcional de los 3 Subsuelos (S1, S2, S3) integrando las **3 torres** directamente sobre la huella completa de $3.145\text{ m}^2$. Definir cocheras, rampas ($i \le 15\%$), Bloque Técnico, Cisterna y PTAR con la nueva morfología.
+- [ ] **Task B2.2:** ⚠️ *PENDIENTE — REDISEÑO TOTAL REQUERIDO.* Rediseñar la Planta Baja (PB, cota $+0.00\text{ m}$) para la nueva configuración de 3 torres. Definir vigas de transferencia, halls de acceso, locales comerciales, RSU y accesos universales NBR 9050.
+- [ ] **Task B2.3:** ⚠️ *PENDIENTE — REDISEÑO TOTAL REQUERIDO.* Desarrollar las Plantas Tipo Residenciales para las **3 torres** (P01-P18 en cada torre). Definir tipologías de departamentos, distribución, aislamiento acústico NBR 15575 y núcleos de cada torre.
+- [ ] **Task B2.4:** ⚠️ *PENDIENTE — REDISEÑO TOTAL REQUERIDO.* Rediseñar la Planta de Azotea Técnica y Amenities para la nueva configuración de 3 torres. Piscina, SUM, gimnasio, sala de máquinas y tanque elevado deben coordinarse con la nueva estructura.
 
 ---
 
 ### Decisiones Tomadas — Consolidación Arquitectónica
 
-| Fecha | Decisión Proyectual | Fundamento Técnico & Normativo |
-|---|---|---|
-| 2026-09-19 | **Layout de Subsuelos S1-S3** | 270 plazas totales (90 plazas/nivel en módulos de $2,50 \times 5,00\text{ m}$). Pasillos de maniobra $W \ge 6,00\text{ m}$. |
-| 2026-09-19 | **Ubicación PTAR en Subsuelo S3** | Recinto estanco aislado de $120\text{ m}^2$ con ventilación mecánica forzada en la cota $-10.50\text{ m}$ ([Ord. 030/2020 Art. 5°](visor_ordenanzas.html?id=2462)). |
-| 2026-09-19 | **Tipologías Residenciales (P01-P18)** | 6 dptos/piso (2 Tipologías 3D de $140\text{ m}^2$, 2 Tipologías 2D de $100\text{ m}^2$ y 2 Tipologías 1D de $70\text{ m}^2$). Huella Torre: $48\text{m} \times 30\text{m} = 1.440\text{ m}^2\text{/piso}$. |
-| 2026-09-19 | **Aislamiento Acústico Medianero** | Muros divisorios entre departamentos en H°A° de $e = 20\text{ cm}$ ($Rw \ge 54\text{ dB}$) conforme a NBR 15575. |
-| 2026-09-19 | **Estructura de Azotea y Piscina** | Losa maciza de H°A° de $H = 30\text{ cm}$ bajo el vaso de piscina ($8 \times 16\text{ m}$, tirante $1,00\text{ m}$, carga $10\text{ kN/m}^2$). |
+| Fecha | Decisión Proyectual | Fundamento Técnico & Normativo | Estado |
+|---|---|---|---|
+| 2026-09-19 | **Layout de Subsuelos S1-S3 (diseño viejo — 1 torre)** | 270 plazas totales (90 plazas/nivel en módulos de $2,50 \times 5,00\text{ m}$). Pasillos de maniobra $W \ge 6,00\text{ m}$. | ❌ **ANULADO** — Rediseñar para 3 torres |
+| 2026-09-19 | **Ubicación PTAR en Subsuelo S3** | Recinto estanco aislado de $120\text{ m}^2$ con ventilación mecánica forzada ([Ord. 030/2020 Art. 5°](visor_ordenanzas.html?id=2462)). | ⏳ Pendiente reconfirmación en nuevo layout |
+| 2026-09-19 | **Tipologías Residenciales (diseño viejo — 1 torre 48×30m)** | 6 dptos/piso (2×3D $140\text{ m}^2$ + 2×2D $100\text{ m}^2$ + 2×1D $70\text{ m}^2$). Huella Torre: $48\text{m} \times 30\text{m} = 1.440\text{ m}^2\text{/piso}$. | ❌ **ANULADO** — Rediseñar para 3 torres |
+| 2026-09-19 | **Aislamiento Acústico Medianero** | Muros divisorios en H°A° $e = 20\text{ cm}$ ($Rw \ge 54\text{ dB}$) conforme a NBR 15575. | ⏳ Pendiente — aplicar en nuevo diseño |
+| 2026-09-19 | **Estructura de Azotea y Piscina** | Losa maciza H°A° $H = 30\text{ cm}$ bajo piscina ($8 \times 16\text{ m}$, tirante $1,00\text{ m}$, $q = 10\text{ kN/m}^2$). | ⏳ Pendiente — reconfirmar en nuevo layout |
 
 ---
 

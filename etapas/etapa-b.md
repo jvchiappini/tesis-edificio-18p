@@ -1,8 +1,8 @@
 # Etapa B — Arquitectura Completa
 
-> **Prioridad:** Crítico · **Estado:** 🟢 Completado (2026-09-19)
+> **Prioridad:** Crítico · **Estado:** 🔴 En Re-planificación (diseño de subsuelos y torres ANULADO — ver nota)
 
-Esta etapa consolida la resolución arquitectónica integral del edificio mixto de 18 pisos (3 subsuelos + PB comercial + 18 plantas tipo residenciales + azotea técnica), articulando la **compatibilidad estructural avanzada por nivel** (variación de pilares $90\times90 \to 60\times60\text{ cm}$ y vigas de transferencia en PB).
+> ⚠️ **NOTA (2026-09-19):** Las distribuciones espaciales del anteproyecto previo (1 sola torre continua y subsuelos individualizados) fueron anuladas. **Lo único válido es `B.1 §2.2 Zonificación PB` (imagen `figura_2_1_zonificacion_planta_baja.png`)**, la cual define Planta Baja comercial en la huella de $3.145\text{ m}^2$ articulando accesos a **3 torres independientes** con subsuelos abarcando la huella completa. Todo el resto de layouts, cuadros de áreas y plantas se están rediseñando desde cero.
 
 ---
 
@@ -10,12 +10,12 @@ Esta etapa consolida la resolución arquitectónica integral del edificio mixto 
 
 | Sub-etapa | Contenido Principal | Estado | Documento |
 |---|---|---|---|
-| **B.1 — Programa y Organización Funcional** | Cuadro maestro de áreas ($68.600\text{ m}^2$), FOS/FOT, 2 núcleos H°A° ($7 \times 9\text{ m}$), zonificación PB y evacuación PCI | ✅ Completado (2026-09-19) | [Borrador B.1](visor.html?doc=b-1) |
-| **B.2 — Plantas Arquitectónicas por Nivel** | Layouts de Subsuelos S1-S3 (278 cocheras + PTAR), PB Megastore ($1.200\text{ m}^2$), Plantas Tipo P01-P18 (108 dptos en 3 tipologías) y Azotea | ✅ Completado (2026-09-19) | [Borrador B.2](visor.html?doc=b-2) |
-| **B.3 — Cortes, Fachadas y Detalles** | Relación de alturas (+68,80m), elevación de transición de pilares, fachadas Low-E no espejadas ([Ord. 003/2026 Art. 7°](visor_ordenanzas.html?id=3693)) y detalles | ✅ Completado (2026-09-19) | [Borrador B.3](visor.html?doc=b-3) |
+| **B.1 — Programa y Organización Funcional** | Cuadro maestro de áreas, FOS/FOT, núcleos, zonificación PB y evacuación PCI | 🔴 En Re-planificación (Solo §2.2 Zonificación PB válido) | [Borrador B.1](visor.html?doc=b-1) |
+| **B.2 — Plantas Arquitectónicas por Nivel** | Layouts de Subsuelos S1-S3, PB Megastore, Plantas Tipo P01-P18 (3 Torres) y Azotea | 🔴 Pendiente de Rediseño | [Borrador B.2](visor.html?doc=b-2) |
+| **B.3 — Cortes, Fachadas y Detalles** | Relación de alturas, elevaciones de 3 torres, fachadas Low-E ([Ord. 003/2026 Art. 7°](visor_ordenanzas.html?id=3693)) | 🔴 Pendiente de Rediseño | [Borrador B.3](visor.html?doc=b-3) |
 
 ---
 
 ## 🔒 Hito B — Congelamiento Arquitectónico
 
-> 🔒 **Hito B:** Las plantas, alturas, núcleos y fachadas quedan formalmente coordinadas para servir de insumo definitivo al diseño geotécnico (Etapa C) y al descenso de cargas y grilla estructural (Etapa D).
+> ⏳ **Hito B:** En proceso de re-definición de anteproyecto con 3 torres independientes. Una vez concluidos los nuevos layouts, las plantas, alturas, núcleos y fachadas servirán de insumo definitivo a las Etapas C (Geotecnia) y D (Estructuras).
