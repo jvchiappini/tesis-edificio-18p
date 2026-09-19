@@ -125,11 +125,11 @@ $DIMSCALE
   9
 $DIMASZ
  40
-0.175
+0.8
   9
 $DIMEXO
  40
-0.125
+0.5
   9
 $DIMDLI
  40
@@ -145,7 +145,7 @@ $DIMDLE
   9
 $DIMEXE
  40
-0.375
+0.5
   9
 $DIMTP
  40
@@ -157,7 +157,7 @@ $DIMTM
   9
 $DIMTXT
  40
-0.25
+1.2
   9
 $DIMCEN
  40
@@ -229,11 +229,11 @@ $DIMALTD
   9
 $DIMALTF
  40
-0.03937007874
+1.0
   9
 $DIMLFAC
  40
-100.0
+1.0
   9
 $DIMTOFL
  70
@@ -433,7 +433,7 @@ $LUNITS
   9
 $LUPREC
  70
-4
+2
   9
 $SKETCHINC
  40
@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461303.672071759
+2461303.679479167
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461303.672071759
+2461303.679479167
   9
 $TDUUPDATE
  40
@@ -553,7 +553,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-DF
+10B
   9
 $SURFTAB1
  70
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{FE1E0CAF-FDF9-4A53-B31D-DC5EA47DA0FB}
+{E1566964-EC4B-46BB-BD0D-7471C36326A7}
   9
 $VERSIONGUID
   2
-{71516DFE-D7BD-4C8F-8AD5-CD933A4EF7E7}
+{6FDE31BA-2A3D-436A-A6B9-27CCF84947A5}
   9
 $EXTNAMES
 290
@@ -1327,9 +1327,9 @@ ISM
   0
 CLASS
   1
-ACDBPLACEHOLDER
+LAYOUT
   2
-AcDbPlaceHolder
+AcDbLayout
   3
 ObjectDBX Classes
  90
@@ -1343,9 +1343,9 @@ ObjectDBX Classes
   0
 CLASS
   1
-LAYOUT
+ACDBPLACEHOLDER
   2
-AcDbLayout
+AcDbPlaceHolder
   3
 ObjectDBX Classes
  90
@@ -2291,7 +2291,7 @@ Continuous
   0
 LAYER
   5
-8A
+8B
 330
 1
 100
@@ -2321,7 +2321,7 @@ Límite Catastral Terreno (7.618,49 m²)
   0
 LAYER
   5
-8C
+8D
 330
 1
 100
@@ -2351,7 +2351,7 @@ Vértices UTM P1-P4
   0
 LAYER
   5
-8D
+8E
 330
 1
 100
@@ -2381,7 +2381,7 @@ Textos y Cotas del Terreno
   0
 LAYER
   5
-8E
+8F
 330
 1
 100
@@ -2411,7 +2411,7 @@ Línea de Retiros Reglamentarios (3m/2m)
   0
 LAYER
   5
-8F
+90
 330
 1
 100
@@ -2441,7 +2441,7 @@ Huella Edificable PB (3.145,00 m²)
   0
 LAYER
   5
-90
+91
 330
 1
 100
@@ -2471,7 +2471,7 @@ Huella Torre Residencial (1.440,00 m²)
   0
 LAYER
   5
-91
+92
 330
 1
 100
@@ -2501,7 +2501,7 @@ Núcleos Estructurales H°A° (7x9m c/u)
   0
 LAYER
   5
-92
+93
 330
 1
 100
@@ -2531,7 +2531,7 @@ Locales Comerciales PB (1.850 m²)
   0
 LAYER
   5
-93
+94
 330
 1
 100
@@ -2561,7 +2561,7 @@ Lobby Principal Residencial (250 m²)
   0
 LAYER
   5
-94
+95
 330
 1
 100
@@ -2591,7 +2591,7 @@ Bloque Técnico, RSU & Rampa Subsuelos
   0
 LAYER
   5
-95
+96
 330
 1
 100
@@ -2621,7 +2621,7 @@ Acotaciones del Proyecto
   0
 LAYER
   5
-96
+97
 330
 1
 100
@@ -2651,7 +2651,7 @@ Textos de Espacios y Especificaciones
   0
 LAYER
   5
-97
+98
 330
 1
 100
@@ -3479,7 +3479,7 @@ ACAD
   0
 APPID
   5
-8B
+8C
 330
 3
 100
@@ -3493,7 +3493,7 @@ AcAecLayerStandard
   0
 APPID
   5
-DC
+108
 330
 3
 100
@@ -3507,7 +3507,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-DD
+109
 330
 3
 100
@@ -3531,7 +3531,7 @@ DIMSTYLE
 100
 AcDbSymbolTable
  70
-12
+13
 100
 AcDbDimStyleTable
   0
@@ -5197,6 +5197,142 @@ EZ_CURVED
 372
 -2
   0
+DIMSTYLE
+105
+8A
+330
+4
+100
+AcDbSymbolTableRecord
+100
+AcDbDimStyleTableRecord
+  2
+METRIC_METERS
+ 70
+0
+ 40
+1.0
+ 41
+0.8
+ 42
+0.625
+ 43
+3.75
+ 44
+1.25
+ 45
+0.0
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+2.5
+140
+1.2
+141
+2.5
+142
+0.0
+143
+0.03937007874
+144
+1.0
+145
+0.0
+146
+1.0
+147
+0.625
+148
+0.0
+ 69
+0
+ 70
+0
+ 71
+0
+ 72
+0
+ 73
+0
+ 74
+0
+ 75
+0
+ 76
+0
+ 77
+1
+ 78
+8
+ 79
+3
+170
+0
+171
+3
+172
+1
+173
+0
+174
+0
+175
+0
+176
+2
+177
+2
+178
+7
+179
+2
+271
+2
+272
+2
+273
+2
+274
+3
+275
+0
+276
+0
+277
+2
+278
+44
+279
+0
+280
+0
+281
+0
+282
+0
+283
+0
+284
+8
+285
+0
+286
+0
+288
+0
+289
+3
+290
+0
+371
+-2
+372
+-2
+  0
 ENDTAB
   0
 TABLE
@@ -5619,7 +5755,7 @@ ENTITIES
   0
 LWPOLYLINE
   5
-98
+99
 330
 17
 100
@@ -5653,7 +5789,7 @@ AcDbPolyline
   0
 CIRCLE
   5
-99
+9A
 330
 17
 100
@@ -5673,7 +5809,7 @@ AcDbCircle
   0
 CIRCLE
   5
-9A
+9B
 330
 17
 100
@@ -5693,7 +5829,7 @@ AcDbCircle
   0
 TEXT
   5
-9B
+9C
 330
 17
 100
@@ -5723,7 +5859,7 @@ AcDbText
   0
 TEXT
   5
-9C
+9D
 330
 17
 100
@@ -5753,7 +5889,7 @@ AcDbText
   0
 CIRCLE
   5
-9D
+9E
 330
 17
 100
@@ -5773,7 +5909,7 @@ AcDbCircle
   0
 CIRCLE
   5
-9E
+9F
 330
 17
 100
@@ -5793,7 +5929,7 @@ AcDbCircle
   0
 TEXT
   5
-9F
+A0
 330
 17
 100
@@ -5823,7 +5959,7 @@ AcDbText
   0
 TEXT
   5
-A0
+A1
 330
 17
 100
@@ -5853,7 +5989,7 @@ AcDbText
   0
 CIRCLE
   5
-A1
+A2
 330
 17
 100
@@ -5873,7 +6009,7 @@ AcDbCircle
   0
 CIRCLE
   5
-A2
+A3
 330
 17
 100
@@ -5893,7 +6029,7 @@ AcDbCircle
   0
 TEXT
   5
-A3
+A4
 330
 17
 100
@@ -5923,7 +6059,7 @@ AcDbText
   0
 TEXT
   5
-A4
+A5
 330
 17
 100
@@ -5953,7 +6089,7 @@ AcDbText
   0
 CIRCLE
   5
-A5
+A6
 330
 17
 100
@@ -5973,7 +6109,7 @@ AcDbCircle
   0
 CIRCLE
   5
-A6
+A7
 330
 17
 100
@@ -5993,7 +6129,7 @@ AcDbCircle
   0
 TEXT
   5
-A7
+A8
 330
 17
 100
@@ -6023,7 +6159,7 @@ AcDbText
   0
 TEXT
   5
-A8
+A9
 330
 17
 100
@@ -6053,7 +6189,39 @@ AcDbText
   0
 LWPOLYLINE
   5
-A9
+AA
+330
+17
+100
+AcDbEntity
+  8
+C-SETB-LINE
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+2.5
+ 20
+3.0
+ 10
+87.5
+ 20
+3.0
+ 10
+87.5
+ 20
+40.0
+ 10
+2.5
+ 20
+40.0
+  0
+LWPOLYLINE
+  5
+AB
 330
 17
 100
@@ -6087,7 +6255,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-AA
+AC
 330
 17
 100
@@ -6121,7 +6289,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-AB
+AD
 330
 17
 100
@@ -6155,7 +6323,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-AC
+AE
 330
 17
 100
@@ -6189,7 +6357,7 @@ AcDbPolyline
   0
 TEXT
   5
-AD
+AF
 330
 17
 100
@@ -6219,7 +6387,7 @@ AcDbText
   0
 TEXT
   5
-AE
+B0
 330
 17
 100
@@ -6249,7 +6417,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-AF
+B1
 330
 17
 100
@@ -6281,7 +6449,7 @@ AcDbPolyline
   0
 TEXT
   5
-B0
+B2
 330
 17
 100
@@ -6311,7 +6479,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-B1
+B3
 330
 17
 100
@@ -6343,7 +6511,7 @@ AcDbPolyline
   0
 TEXT
   5
-B2
+B4
 330
 17
 100
@@ -6373,7 +6541,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-B3
+B5
 330
 17
 100
@@ -6405,7 +6573,7 @@ AcDbPolyline
   0
 TEXT
   5
-B4
+B6
 330
 17
 100
@@ -6435,7 +6603,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-B5
+B7
 330
 17
 100
@@ -6467,7 +6635,7 @@ AcDbPolyline
   0
 TEXT
   5
-B6
+B8
 330
 17
 100
@@ -6497,7 +6665,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-B7
+B9
 330
 17
 100
@@ -6529,7 +6697,7 @@ AcDbPolyline
   0
 TEXT
   5
-B8
+BA
 330
 17
 100
@@ -6559,7 +6727,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-B9
+BB
 330
 17
 100
@@ -6591,7 +6759,7 @@ AcDbPolyline
   0
 TEXT
   5
-BA
+BC
 330
 17
 100
@@ -6619,99 +6787,7 @@ RAMPA SUBSUELOS (400 m²)
 100
 AcDbText
   0
-DIMENSION
-  5
-BB
-330
-17
-100
-AcDbEntity
-  8
-A-ANNO-DIMS
-100
-AcDbDimension
-280
-0
-  3
-EZDXF
- 10
-0.0
- 20
-5.0
- 30
-0.0
- 70
-32
- 71
-5
-  1
-<>
-100
-AcDbAlignedDimension
- 13
-0.0
- 23
-0.0
- 33
-0.0
- 14
-117.27
- 24
-0.0
- 34
-0.0
- 50
-0.0
-100
-AcDbRotatedDimension
-  0
-DIMENSION
-  5
-BC
-330
-17
-100
-AcDbEntity
-  8
-A-ANNO-DIMS
-100
-AcDbDimension
-280
-0
-  3
-EZDXF
- 10
-112.58894741608373
- 20
-1.7571985393264045
- 30
-0.0
- 70
-32
- 71
-5
-  1
-<>
-100
-AcDbAlignedDimension
- 13
-117.27
- 23
-0.0
- 33
-0.0
- 14
-133.1
- 24
-42.17
- 34
-0.0
- 50
-69.42460061371939
-100
-AcDbRotatedDimension
-  0
-DIMENSION
+LINE
   5
 BD
 330
@@ -6721,43 +6797,21 @@ AcDbEntity
   8
 A-ANNO-DIMS
 100
-AcDbDimension
-280
-0
-  3
-EZDXF
+AcDbLine
  10
-131.3778504393466
+0.0
  20
-37.47593982881118
+0.5
  30
 0.0
- 70
-32
- 71
-5
-  1
-<>
-100
-AcDbAlignedDimension
- 13
-133.1
- 23
-42.17
- 33
+ 11
 0.0
- 14
-35.52
- 24
-77.97
- 34
+ 21
+-5.2
+ 31
 0.0
- 50
-159.85300062363507
-100
-AcDbRotatedDimension
   0
-DIMENSION
+LINE
   5
 BE
 330
@@ -6767,43 +6821,21 @@ AcDbEntity
   8
 A-ANNO-DIMS
 100
-AcDbDimension
-280
-0
-  3
-EZDXF
+AcDbLine
  10
-40.070092062446506
+117.27
  20
-75.89716083034372
+0.5
  30
 0.0
- 70
-32
- 71
-5
-  1
-<>
-100
-AcDbAlignedDimension
- 13
-35.52
- 23
-77.97
- 33
+ 11
+117.27
+ 21
+-5.2
+ 31
 0.0
- 14
-0.0
- 24
-0.0
- 34
-0.0
- 50
--114.49210387818063
-100
-AcDbRotatedDimension
   0
-DIMENSION
+LINE
   5
 BF
 330
@@ -6813,43 +6845,21 @@ AcDbEntity
   8
 A-ANNO-DIMS
 100
-AcDbDimension
-280
-0
-  3
-EZDXF
+AcDbLine
  10
-5.0
+0.0
  20
-2.0
+-6.0
  30
 0.0
- 70
-32
- 71
-5
-  1
-<>
-100
-AcDbAlignedDimension
- 13
-5.0
- 23
-5.0
- 33
+ 11
+117.27
+ 21
+-6.0
+ 31
 0.0
- 14
-90.0
- 24
-5.0
- 34
-0.0
- 50
-0.0
-100
-AcDbRotatedDimension
   0
-DIMENSION
+LINE
   5
 C0
 330
@@ -6859,45 +6869,1127 @@ AcDbEntity
   8
 A-ANNO-DIMS
 100
-AcDbDimension
-280
-0
-  3
-EZDXF
+AcDbLine
  10
-8.0
+-0.6
+ 20
+-6.6
+ 30
+0.0
+ 11
+0.6
+ 21
+-5.4
+ 31
+0.0
+  0
+LINE
+  5
+C1
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+116.67
+ 20
+-6.6
+ 30
+0.0
+ 11
+117.86999999999999
+ 21
+-5.4
+ 31
+0.0
+  0
+TEXT
+  5
+C2
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbText
+ 10
+57.135
+ 20
+-5.2
+ 30
+0.0
+ 40
+1.0
+  1
+L = 117.27 m
+ 11
+57.135
+ 21
+-5.2
+ 31
+0.0
+100
+AcDbText
+  0
+LINE
+  5
+C3
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+116.80189474160836
+ 20
+0.17571985393264045
+ 30
+0.0
+ 11
+110.90376848587388
+ 21
+2.38979001348391
+ 31
+0.0
+  0
+LINE
+  5
+C4
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+132.63189474160836
+ 20
+42.34571985393264
+ 30
+0.0
+ 11
+126.73376848587388
+ 21
+44.55979001348391
+ 31
+0.0
+  0
+LINE
+  5
+C5
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+111.65273689930048
+ 20
+2.1086382471916854
+ 30
+0.0
+ 11
+127.48273689930048
+ 21
+44.27863824719169
+ 31
+0.0
+  0
+LINE
+  5
+C6
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+111.05273689930048
+ 20
+1.5086382471916853
+ 30
+0.0
+ 11
+112.25273689930047
+ 21
+2.7086382471916854
+ 31
+0.0
+  0
+LINE
+  5
+C7
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+126.88273689930048
+ 20
+43.678638247191685
+ 30
+0.0
+ 11
+128.08273689930047
+ 21
+44.87863824719169
+ 31
+0.0
+  0
+TEXT
+  5
+C8
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbText
+ 10
+117.31876848587389
+ 20
+23.47479001348391
+ 30
+0.0
+ 40
+1.0
+  1
+L = 45.04 m
+ 11
+117.31876848587389
+ 21
+23.47479001348391
+ 31
+0.0
+100
+AcDbText
+  0
+LINE
+  5
+C9
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+132.92778504393465
+ 20
+41.70059398288112
+ 30
+0.0
+ 11
+130.75787659751134
+ 21
+35.7860781671832
+ 31
+0.0
+  0
+LINE
+  5
+CA
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+35.347785043934664
+ 20
+77.50059398288111
+ 30
+0.0
+ 11
+33.177876597511364
+ 21
+71.58607816718319
+ 31
+0.0
+  0
+LINE
+  5
+CB
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+131.0334205272159
+ 20
+36.53712779457341
+ 30
+0.0
+ 11
+33.45342052721591
+ 21
+72.3371277945734
+ 31
+0.0
+  0
+LINE
+  5
+CC
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+130.4334205272159
+ 20
+35.93712779457341
+ 30
+0.0
+ 11
+131.6334205272159
+ 21
+37.13712779457341
+ 31
+0.0
+  0
+LINE
+  5
+CD
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+32.85342052721591
+ 20
+71.73712779457341
+ 30
+0.0
+ 11
+34.05342052721591
+ 21
+72.9371277945734
+ 31
+0.0
+  0
+TEXT
+  5
+CE
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbText
+ 10
+80.46787659751136
+ 20
+53.6860781671832
+ 30
+0.0
+ 40
+1.0
+  1
+L = 104.57 m
+ 11
+80.46787659751136
+ 21
+53.6860781671832
+ 31
+0.0
+100
+AcDbText
+  0
+LINE
+  5
+CF
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+35.97500920624466
+ 20
+77.76271608303438
+ 30
+0.0
+ 11
+41.70812520492725
+ 21
+75.15093872926747
+ 31
+0.0
+  0
+LINE
+  5
+D0
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+0.4550092062446504
+ 20
+-0.2072839169656276
+ 30
+0.0
+ 11
+6.188125204927245
+ 21
+-2.8190612707325355
+ 31
+0.0
+  0
+LINE
+  5
+D1
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+40.980110474935806
+ 20
+75.48259299641246
+ 30
+0.0
+ 11
+5.460110474935805
+ 21
+-2.4874070035875313
+ 31
+0.0
+  0
+LINE
+  5
+D2
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+40.380110474935805
+ 20
+74.88259299641247
+ 30
+0.0
+ 11
+41.58011047493581
+ 21
+76.08259299641246
+ 31
+0.0
+  0
+LINE
+  5
+D3
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+4.860110474935805
+ 20
+-3.0874070035875314
+ 30
+0.0
+ 11
+6.060110474935804
+ 21
+-1.8874070035875312
+ 31
+0.0
+  0
+TEXT
+  5
+D4
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbText
+ 10
+22.448125204927244
+ 20
+36.16593872926746
+ 30
+0.0
+ 40
+1.0
+  1
+L = 85.70 m
+ 11
+22.448125204927244
+ 21
+36.16593872926746
+ 31
+0.0
+100
+AcDbText
+  0
+LINE
+  5
+D5
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+5.0
+ 20
+5.5
+ 30
+0.0
+ 11
+5.0
+ 21
+2.3
+ 31
+0.0
+  0
+LINE
+  5
+D6
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+90.0
+ 20
+5.5
+ 30
+0.0
+ 11
+90.0
+ 21
+2.3
+ 31
+0.0
+  0
+LINE
+  5
+D7
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+5.0
+ 20
+1.5
+ 30
+0.0
+ 11
+90.0
+ 21
+1.5
+ 31
+0.0
+  0
+LINE
+  5
+D8
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+4.4
+ 20
+0.9
+ 30
+0.0
+ 11
+5.6
+ 21
+2.1
+ 31
+0.0
+  0
+LINE
+  5
+D9
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+89.4
+ 20
+0.9
+ 30
+0.0
+ 11
+90.6
+ 21
+2.1
+ 31
+0.0
+  0
+TEXT
+  5
+DA
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbText
+ 10
+46.0
+ 20
+2.3
+ 30
+0.0
+ 40
+1.0
+  1
+Huella L = 85.00 m
+ 11
+46.0
+ 21
+2.3
+ 31
+0.0
+100
+AcDbText
+  0
+LINE
+  5
+DB
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+4.5
  20
 5.0
  30
 0.0
- 70
-32
- 71
-5
-  1
-<>
-100
-AcDbAlignedDimension
- 13
+ 11
+7.7
+ 21
 5.0
- 23
-5.0
- 33
+ 31
 0.0
- 14
-5.0
- 24
+  0
+LINE
+  5
+DC
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+4.5
+ 20
 42.0
- 34
+ 30
 0.0
- 50
-90.0
+ 11
+7.7
+ 21
+42.0
+ 31
+0.0
+  0
+LINE
+  5
+DD
+330
+17
 100
-AcDbRotatedDimension
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+8.5
+ 20
+5.0
+ 30
+0.0
+ 11
+8.5
+ 21
+42.0
+ 31
+0.0
+  0
+LINE
+  5
+DE
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+7.9
+ 20
+4.4
+ 30
+0.0
+ 11
+9.1
+ 21
+5.6
+ 31
+0.0
+  0
+LINE
+  5
+DF
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+7.9
+ 20
+41.4
+ 30
+0.0
+ 11
+9.1
+ 21
+42.6
+ 31
+0.0
+  0
+TEXT
+  5
+E0
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbText
+ 10
+6.2
+ 20
+23.5
+ 30
+0.0
+ 40
+1.0
+  1
+Huella W = 37.00 m
+ 11
+6.2
+ 21
+23.5
+ 31
+0.0
+100
+AcDbText
+  0
+LINE
+  5
+E1
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+23.5
+ 20
+39.0
+ 30
+0.0
+ 11
+23.5
+ 21
+41.8
+ 31
+0.0
+  0
+LINE
+  5
+E2
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+71.5
+ 20
+39.0
+ 30
+0.0
+ 11
+71.5
+ 21
+41.8
+ 31
+0.0
+  0
+LINE
+  5
+E3
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+23.5
+ 20
+41.0
+ 30
+0.0
+ 11
+71.5
+ 21
+41.0
+ 31
+0.0
+  0
+LINE
+  5
+E4
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+22.9
+ 20
+40.4
+ 30
+0.0
+ 11
+24.1
+ 21
+41.6
+ 31
+0.0
+  0
+LINE
+  5
+E5
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+70.9
+ 20
+40.4
+ 30
+0.0
+ 11
+72.1
+ 21
+41.6
+ 31
+0.0
+  0
+TEXT
+  5
+E6
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbText
+ 10
+46.0
+ 20
+41.8
+ 30
+0.0
+ 40
+1.0
+  1
+Torre L = 48.00 m
+ 11
+46.0
+ 21
+41.8
+ 31
+0.0
+100
+AcDbText
+  0
+LINE
+  5
+E7
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+71.0
+ 20
+8.5
+ 30
+0.0
+ 11
+68.2
+ 21
+8.5
+ 31
+0.0
+  0
+LINE
+  5
+E8
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+71.0
+ 20
+38.5
+ 30
+0.0
+ 11
+68.2
+ 21
+38.5
+ 31
+0.0
+  0
+LINE
+  5
+E9
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+69.0
+ 20
+8.5
+ 30
+0.0
+ 11
+69.0
+ 21
+38.5
+ 31
+0.0
+  0
+LINE
+  5
+EA
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+68.4
+ 20
+7.9
+ 30
+0.0
+ 11
+69.6
+ 21
+9.1
+ 31
+0.0
+  0
+LINE
+  5
+EB
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbLine
+ 10
+68.4
+ 20
+37.9
+ 30
+0.0
+ 11
+69.6
+ 21
+39.1
+ 31
+0.0
+  0
+TEXT
+  5
+EC
+330
+17
+100
+AcDbEntity
+  8
+A-ANNO-DIMS
+100
+AcDbText
+ 10
+66.7
+ 20
+23.5
+ 30
+0.0
+ 40
+1.0
+  1
+Torre W = 30.00 m
+ 11
+66.7
+ 21
+23.5
+ 31
+0.0
+100
+AcDbText
   0
 LWPOLYLINE
   5
-C1
+ED
 330
 17
 100
@@ -6929,7 +8021,7 @@ AcDbPolyline
   0
 LINE
   5
-C2
+EE
 330
 17
 100
@@ -6953,7 +8045,7 @@ AcDbLine
   0
 LINE
   5
-C3
+EF
 330
 17
 100
@@ -6977,7 +8069,7 @@ AcDbLine
   0
 LINE
   5
-C4
+F0
 330
 17
 100
@@ -7001,7 +8093,7 @@ AcDbLine
   0
 LINE
   5
-C5
+F1
 330
 17
 100
@@ -7025,7 +8117,7 @@ AcDbLine
   0
 TEXT
   5
-C6
+F2
 330
 17
 100
@@ -7055,7 +8147,7 @@ AcDbText
   0
 TEXT
   5
-C7
+F3
 330
 17
 100
@@ -7085,7 +8177,7 @@ AcDbText
   0
 TEXT
   5
-C8
+F4
 330
 17
 100
@@ -7115,7 +8207,7 @@ AcDbText
   0
 TEXT
   5
-C9
+F5
 330
 17
 100
@@ -7145,7 +8237,7 @@ AcDbText
   0
 TEXT
   5
-CA
+F6
 330
 17
 100
@@ -7175,7 +8267,7 @@ AcDbText
   0
 TEXT
   5
-CB
+F7
 330
 17
 100
@@ -7205,7 +8297,7 @@ AcDbText
   0
 TEXT
   5
-CC
+F8
 330
 17
 100
@@ -7235,7 +8327,7 @@ AcDbText
   0
 TEXT
   5
-CD
+F9
 330
 17
 100
@@ -7265,7 +8357,7 @@ AcDbText
   0
 TEXT
   5
-CE
+FA
 330
 17
 100
@@ -7295,7 +8387,7 @@ AcDbText
   0
 TEXT
   5
-CF
+FB
 330
 17
 100
@@ -7325,7 +8417,7 @@ AcDbText
   0
 TEXT
   5
-D0
+FC
 330
 17
 100
@@ -7355,7 +8447,7 @@ AcDbText
   0
 TEXT
   5
-D1
+FD
 330
 17
 100
@@ -7385,7 +8477,7 @@ AcDbText
   0
 TEXT
   5
-D2
+FE
 330
 17
 100
@@ -7415,7 +8507,7 @@ AcDbText
   0
 TEXT
   5
-D3
+FF
 330
 17
 100
@@ -7445,7 +8537,7 @@ AcDbText
   0
 TEXT
   5
-D4
+100
 330
 17
 100
@@ -7475,7 +8567,7 @@ AcDbText
   0
 TEXT
   5
-D5
+101
 330
 17
 100
@@ -7505,7 +8597,7 @@ AcDbText
   0
 TEXT
   5
-D6
+102
 330
 17
 100
@@ -7535,7 +8627,7 @@ AcDbText
   0
 TEXT
   5
-D7
+103
 330
 17
 100
@@ -7565,7 +8657,7 @@ AcDbText
   0
 TEXT
   5
-D8
+104
 330
 17
 100
@@ -7595,7 +8687,7 @@ AcDbText
   0
 TEXT
   5
-D9
+105
 330
 17
 100
@@ -7625,7 +8717,7 @@ AcDbText
   0
 TEXT
   5
-DA
+106
 330
 17
 100
@@ -7643,7 +8735,7 @@ AcDbText
  40
 0.9
   1
-• ESCALA: 1:200 | UNIDADES: Metros (m)
+• ESCALA: 1:1 METROS (1 UNIDAD = 1 METRO)
  11
 97.0
  21
@@ -7655,7 +8747,7 @@ AcDbText
   0
 TEXT
   5
-DB
+107
 330
 17
 100
@@ -7673,7 +8765,7 @@ AcDbText
  40
 0.9
   1
-• FECHA: 2026-09-19 | REVISIÓN: Rev. 01
+• FECHA: 2026-09-19 | REVISIÓN: Rev. 02 (Escala Corregida)
  11
 97.0
  21
@@ -8773,7 +9865,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-DE
+10A
   0
 DICTIONARYVAR
   5
@@ -8785,7 +9877,7 @@ DictionaryVariables
 280
 0
   1
-1.4.3 @ 2026-09-19T19:07:47.554013+00:00
+1.4.3 @ 2026-09-19T19:18:27.180730+00:00
   0
 VISUALSTYLE
   5
@@ -15339,7 +16431,7 @@ strokes_ogs.tif
   0
 DICTIONARYVAR
   5
-DE
+10A
 330
 2D
 100
@@ -15347,7 +16439,7 @@ DictionaryVariables
 280
 0
   1
-1.4.3 @ 2026-09-19T19:07:47.558957+00:00
+1.4.3 @ 2026-09-19T19:18:27.186728+00:00
   0
 ENDSEC
   0
