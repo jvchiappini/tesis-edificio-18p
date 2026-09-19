@@ -21,7 +21,7 @@
 | ID | Ordenanza | Tema | Artículos / contenido verificado | Ficha |
 |---:|---|---|---|---|
 | 3146 | **Ord. 011/1994** | Uso del suelo CDE (zonificación A1–A4) | Art.4: retiro mín. **5 m a calles / 6 m a avenidas**. Art.3: A1 máx. **3 plantas**; A2/A3 remiten a Ord. 10/88; A4 = **4 plantas + 1 subsuelo**. Art.5: vereda mín. 2 m. Art.6: pozos ciegos solo sin red cloacal. Art.7: prohíbe industrias nocivas y moteles. | [3146](../02_Texto_Completo/3146_ordenanza-011-1994-.md) |
-| 3693 | **Ord. M. 003/2026** | **Modifica 011/1994 y 027/2014** — uso de suelo, planificación urbana, ordenamiento territorial y protección ambiental | **ESCANEADO** — texto no legible aún | [3693](../02_Texto_Completo/3693_ordenanza-m-n003-2026-jm.md) |
+| 3693 | **Ord. M. 003/2026** | **Modifica 011/1994 y 027/2014** — uso de suelo, planificación urbana, ordenamiento territorial y protección ambiental | **VERIFICADO COMPLETO** — Art.3°: Uso Residencial Mixto. Art.4°: IOS desde subsuelo + Geotecnia/Agua subterránea. Art.5°: Lote mín. 3.000 m², Frente mín. 30 m (4–12P). Art.6°: Retiro frontal 8m calles / 10m avenidas (8m terreno 2 frentes). Art.7°: **Prohibición de fachadas espejo**. | [3693](../02_Texto_Completo/3693_ordenanza-m-n003-2026-jm.md) |
 | 3691 | Ord. 006/2026 | Regula uso del suelo y zona residencial Barrio Boquerón II | **ESCANEADO** — verificar si el terreno cae en su ámbito | [3691](../02_Texto_Completo/3691_ordenanza-n-006-2026-jm-.md) |
 | 3692 | Ord. 007/2026 | Regula uso del suelo y zona residencial **Área 1** | **ESCANEADO** — verificar ámbito | [3692](../02_Texto_Completo/3692_ordenanza-n-007-2026-jm.md) |
 | 3143 | **Ord. 010/1988** | **Altura y características de los edificios** en zona céntrica | **ESCANEADO** — crítica para 18 pisos | — |

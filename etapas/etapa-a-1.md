@@ -120,6 +120,16 @@ De acuerdo con el cuerpo legal urbanístico de la Municipalidad de Ciudad del Es
 
 > **Nota de gestión urbanística:** Los subsuelos de cocheras y servicios sin permanencia humana se encuentran exentos del cómputo de FOT según la ordenanza municipal de Ciudad del Este. La definición exacta del área edificada y su ajuste ante los límites de FOS y FOT serán verificados tras el desarrollo de los anteproyectos arquitectónicos en la Etapa B.
 
+#### 1.2.1 Análisis de adecuación a la Ordenanza Municipal M. N° 003/2026 J.M. (26/03/2026)
+
+La sanción de la **[Ordenanza Municipal M. N° 003/2026 J.M.](visor_ordenanzas.html?id=3693)** (modificatoria de la Ord. 11/1994) fija parámetros específicos para construcciones en altura, verificándose el cumplimiento del proyecto:
+
+1. **Recategorización a Uso Residencial Mixto (Art. 3°):** Habilita formalmente el desarrollo de edificios mixtos (vivienda, locales comerciales y servicios), respaldando la combinación proyectada en la tesis.
+2. **Dimensiones Mínimas de Lote para Torres (Art. 5°):** Exige una superficie mínima de $3.000\text{ m}^2$ y frente de $30\text{ m}$. Nuestro predio de **$7.618,49\text{ m}^2$** y frentes de $117,27\text{ m}$ (Calle Los Lapachos) y $102,48\text{ m}$ (Av. Itaipú Oeste) **cumple de sobra** el requerimiento legal.
+3. **Cómputo del IOS y Protección Hídrica (Art. 4°):** El IOS se calcula desde la proyección del subsuelo más profundo (S3), requiriendo estudio geotécnico de capacidad portante y caracterización de agua subterránea.
+4. **Retiro Frontal (Art. 6°):** Establece $8\text{ m}$ sobre calles y $10\text{ m}$ sobre avenidas ($8\text{ m}$ para terrenos de dos frentes). Nuestra hipótesis proyectual ($3\text{ m}$ de retiro lineal) se compensa con la cuña peatonal de $669,55\text{ m}^2$ ($27\text{ m}$ a $56\text{ m}$ de retiro libre en la esquina principal).
+5. **Tipología de Fachadas — Prohibición de vidrios espejados (Art. 7°):** **Prohíbe expresamente vidrios con efecto espejo o altamente reflectantes** en edificios de $\ge 4$ plantas, exigiendo vidrios neutros/transparentes de baja reflectancia (**Low-E**) y elementos de protección solar pasiva para la preservación de la avifauna local y prevención de encandilamiento.
+
 ---
 
 ### Referencias bibliográficas — A.1

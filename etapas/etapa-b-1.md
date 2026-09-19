@@ -1,7 +1,7 @@
 # B.1 — Programa y Organización Funcional
 
 > **Etapa B › Sub-etapa 1** · **Tareas:** 4 · **Estado:** 🔲 Sin iniciar  
-> Normativa: Código de Edificación CDE · NBR 9050 (Accesibilidad) · Neufert
+> Normativa: MCDE ([Ord. M. 003/2026 J.M. Art. 3° y 5°](visor_ordenanzas.html?id=3693) — Uso Residencial Mixto y Lote Mínimo 3.000m²; [Ord. 011/1994](visor_ordenanzas.html?id=3146); [Ord. 005/1976](visor_ordenanzas.html?id=3118)) · NBR 9050 · Neufert
 
 ---
 

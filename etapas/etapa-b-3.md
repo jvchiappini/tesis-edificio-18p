@@ -27,6 +27,10 @@ La relación vertical del edificio establece una altura total de +64.30m sobre e
 - **Plantas Tipo P01 a P18:** Altura entrepiso = 3.35m (Canto de losa nervada 0.35m + altura libre 3.00m).
 - **Azotea Técnica:** Nivel +64.30m a +68.80m (Parapetos de seguridad H=1.20m, caseta de máquinas H=4.50m).
 
-### 2. Envolvente Térmica y Criterios Facádicos
+### 2. Envolvente Térmica y Criterios Facádicos (Cumplimiento Ord. M. 003/2026 J.M.)
 
-Las fachadas incorporan un sistema de parasoles horizontales y mamparas de vidrio DVH (Doble Vidriado Hermético) para mitigar la radiación solar directa característica de la región de Alto Paraná.
+En cumplimiento estricto del **[Art. 7° de la Ordenanza Municipal M. N° 003/2026 J.M.](visor_ordenanzas.html?id=3693)**, **queda expresamente prohibido el uso de fachadas con efecto espejo o altamente reflectantes** en edificaciones en altura, con el objetivo de proteger la avifauna del ecosistema urbano y evitar encandilamientos. 
+
+Por consiguiente, el diseño facádico adopta:
+- **Vidrios neutros de control solar (Low-E no espejados):** Paneles DVH (Doble Vidriado Hermético) incoloros de baja reflectancia exterior.
+- **Protecciones solares pasivas (Brise-Soleil):** Parasoles horizontales de aluminio extruido y balcones corridos para mitigar la radiación solar directa característica de la región de Alto Paraná sin recurrir a reflectividad vidriada.
