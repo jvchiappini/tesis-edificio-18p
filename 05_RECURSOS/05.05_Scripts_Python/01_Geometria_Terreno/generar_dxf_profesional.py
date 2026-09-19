@@ -4,8 +4,10 @@
 ===============================================================================
 TESIS DE GRADO — EDIFICIO DE USO MIXTO 18 PISOS + 3 SUBSUELOS (CIUDAD DEL ESTE)
 Script: generar_dxf_profesional.py
-Propósito: Generar el archivo CAD DXF profesional en METROS 1:1 (ISO 13567 / AIA CAD)
-           Garantiza escala real 1 unidad = 1 metro en AutoCAD sin escalados 100x/1000x.
+Propósito: Generar la base CAD DXF limpia y profesional con ORIENTACIÓN NORTE REAL
+           (Norte Geográfico = Eje +Y), coordenadas UTM Zona 21J reales y relativas,
+           retiros reglamentarios, acotaciones y capas pre-configuradas según
+           estándar ISO 13567 / AIA CAD.
 ===============================================================================
 """
 
@@ -25,56 +27,37 @@ PATH_WIP = os.path.join(WIP_DIR, FILE_NAME)
 PATH_PUB = os.path.join(PUB_DIR, FILE_NAME)
 
 
-def crear_dxf_profesional():
-    # 1. Crear documento DXF R2018 con setup completo
+def crear_dxf_profesional_norte_real():
+    # 1. Crear documento DXF R2018
     doc = ezdxf.new('R2018', setup=True)
 
     # Configuración estricta de Encabezado Unidades Métricas (Metros 1:1)
     doc.header['$INSUNITS'] = 6       # 6 = Metros
-    doc.header['$MEASUREMENT'] = 1   # 1 = Métrico (mm/m)
+    doc.header['$MEASUREMENT'] = 1   # 1 = Métrico
     doc.header['$LUNITS'] = 2        # 2 = Decimal
     doc.header['$LUPREC'] = 2        # 2 decimales
     doc.header['$AUNITS'] = 0        # Grados decimales
-    doc.header['$AUPREC'] = 2
     doc.header['$DIMALTF'] = 1.0     # Multiplicador alternativo 1.0
-    doc.header['$DIMLFAC'] = 1.0     # Factor de escala de cota lineal 1.0 (1 unidad = 1 metro)
+    doc.header['$DIMLFAC'] = 1.0     # Factor de cota lineal 1.0 (1m = 1u)
     doc.header['$DIMSCALE'] = 1.0    # Escala global de cotas 1.0
-    doc.header['$DIMTXT'] = 1.2      # Altura texto de cota en metros
-    doc.header['$DIMASZ'] = 0.8      # Tamaño de flecha en metros
-    doc.header['$DIMEXO'] = 0.5      # Desfase línea extensión
-    doc.header['$DIMEXE'] = 0.5      # Extensión de línea
+    doc.header['$DIMTXT'] = 1.2
+    doc.header['$DIMASZ'] = 0.8
 
-    # 2. Definir Estilo de Cota Nuncio Métrico
-    try:
-        dimstyle = doc.dimstyles.new('METRIC_METERS')
-    except Exception:
-        dimstyle = doc.dimstyles.get('METRIC_METERS')
-
-    dimstyle.dxf.dimtxt = 1.2
-    dimstyle.dxf.dimasz = 0.8
-    dimstyle.dxf.dimlfac = 1.0
-    dimstyle.dxf.dimscale = 1.0
-    dimstyle.dxf.dimdec = 2
-    dimstyle.dxf.dimunit = 2
-    dimstyle.dxf.dimclrd = 2
-    dimstyle.dxf.dimclrt = 7
-    dimstyle.dxf.dimclre = 2
-
-    # 3. Definir Capas (ISO 13567 / AIA Standard)
+    # 2. Definir Capas Profesionales Normalizadas (ISO 13567 / AIA CAD)
     capas = [
-        ("C-PROP-LINE", 3, "Continuous", 0.50, "Límite Catastral Terreno (7.618,49 m²)"),
-        ("C-PROP-VERT", 2, "Continuous", 0.25, "Vértices UTM P1-P4"),
-        ("C-PROP-TEXT", 7, "Continuous", 0.25, "Textos y Cotas del Terreno"),
-        ("C-SETB-LINE", 1, "DASHED", 0.25, "Línea de Retiros Reglamentarios (3m/2m)"),
-        ("A-FOOT-PB", 4, "Continuous", 0.35, "Huella Edificable PB (3.145,00 m²)"),
+        ("C-PROP-LINE", 3, "Continuous", 0.50, "Límite Catastral del Terreno (7.618,49 m²)"),
+        ("C-PROP-VERT", 2, "Continuous", 0.25, "Vértices P1-P4 con Marcadores y Coordenadas"),
+        ("C-PROP-TEXT", 7, "Continuous", 0.25, "Textos del Predio, Rumbos y Áreas"),
+        ("C-SETB-LINE", 1, "DASHED", 0.25, "Línea de Retiros Reglamentarios (3m Frente/Fondo, 2m Lat.)"),
+        ("A-FOOT-PB", 4, "Continuous", 0.35, "Huella Edificable de Referencia PB (3.145,00 m²)"),
         ("A-FOOT-TOWR", 5, "Continuous", 0.35, "Huella Torre Residencial (1.440,00 m²)"),
         ("A-WALL-CORE", 251, "Continuous", 0.50, "Núcleos Estructurales H°A° (7x9m c/u)"),
-        ("A-ZONE-COMM", 30, "Continuous", 0.25, "Locales Comerciales PB (1.850 m²)"),
-        ("A-ZONE-LOBBY", 40, "Continuous", 0.25, "Lobby Principal Residencial (250 m²)"),
-        ("A-ZONE-SERV", 140, "Continuous", 0.25, "Bloque Técnico, RSU & Rampa Subsuelos"),
+        ("A-ZONE-COMM", 30, "Continuous", 0.25, "Capa para Zonificación Comercial"),
+        ("A-ZONE-LOBBY", 40, "Continuous", 0.25, "Capa para Lobby Residencial"),
+        ("A-ZONE-SERV", 140, "Continuous", 0.25, "Capa para Bloque Técnico, RSU & Rampas"),
         ("A-ANNO-DIMS", 2, "Continuous", 0.18, "Acotaciones del Proyecto"),
         ("A-ANNO-TEXT", 7, "Continuous", 0.25, "Textos de Espacios y Especificaciones"),
-        ("G-TITLE-BLOCK", 7, "Continuous", 0.35, "Carátula Rótulo ISO 19650 (Formato A1)")
+        ("G-TITLE-BLOCK", 7, "Continuous", 0.35, "Carátula / Rótulo de Plano ISO 19650")
     ]
 
     for name, color, linetype, lineweight, desc in capas:
@@ -87,203 +70,196 @@ def crear_dxf_profesional():
 
     msp = doc.modelspace()
 
-    # --- 4. GEOMETRÍA DEL TERRENO EN COORDENADAS LOCALES EN METROS (P1 EN 0,0) ---
-    p1 = (0.0, 0.0)
-    p2 = (117.27, 0.0)
-    p3 = (133.10, 42.17)
-    p4 = (35.52, 77.97)
+    # --- 3. COORDENADAS UTM REALES Y RELATIVAS CON NORTE REAL (NORTE = +Y) ---
+    # Coordenadas UTM WGS84 Zona 21J
+    utm_p1 = (737721.76, 7176185.26)
+    utm_p2 = (737837.53, 7176203.96)
+    utm_p3 = (737853.36, 7176246.13)
+    utm_p4 = (737755.78, 7176281.93)
+
+    # Coordenadas Relativas en Metros manteniendo la orientación exacta del Norte Real (P1 en 0,0)
+    p1 = (0.00, 0.00)
+    p2 = (utm_p2[0] - utm_p1[0], utm_p2[1] - utm_p1[1])  # (115.77, 18.70)
+    p3 = (utm_p3[0] - utm_p1[0], utm_p3[1] - utm_p1[1])  # (131.60, 60.87)
+    p4 = (utm_p4[0] - utm_p1[0], utm_p4[1] - utm_p1[1])  # (34.02, 96.67)
+
     pts_terreno = [p1, p2, p3, p4]
 
-    # Polígono Terreno
+    # Polígono Catastral Terreno (Límite de Propiedad)
     poly_terreno = msp.add_lwpolyline(pts_terreno, close=True, dxfattribs={'layer': 'C-PROP-LINE'})
     poly_terreno.dxf.const_width = 0.35
 
-    # Vértices y Coordenadas UTM WGS84
-    vertices_data = [
-        ("P1", p1, "E: 737721.76 | N: 7176185.26", "Vértice Agudo 61,44°"),
-        ("P2", p2, "E: 737837.53 | N: 7176203.96", "Frente Principal 117,27m"),
-        ("P3", p3, "E: 737853.36 | N: 7176246.13", "Esquina Fondo Este"),
-        ("P4", p4, "E: 737755.78 | N: 7176281.93", "Esquina Fondo Norte")
+    # Vértices y Marcas de Registro
+    vertices_info = [
+        ("P1", p1, f"E: {utm_p1[0]:.2f} | N: {utm_p1[1]:.2f}", "Vértice Agudo 61.44°"),
+        ("P2", p2, f"E: {utm_p2[0]:.2f} | N: {utm_p2[1]:.2f}", "Frente Principal 117.27m"),
+        ("P3", p3, f"E: {utm_p3[0]:.2f} | N: {utm_p3[1]:.2f}", "Esquina Fondo Este"),
+        ("P4", p4, f"E: {utm_p4[0]:.2f} | N: {utm_p4[1]:.2f}", "Esquina Fondo Norte")
     ]
 
-    for label, pos, utm_txt, desc in vertices_data:
+    for label, pos, utm_txt, desc in vertices_info:
         msp.add_circle(pos, radius=0.8, dxfattribs={'layer': 'C-PROP-VERT'})
         msp.add_circle(pos, radius=0.2, dxfattribs={'layer': 'C-PROP-VERT'})
         msp.add_text(f"{label} ({desc})", dxfattribs={'layer': 'C-PROP-TEXT', 'height': 1.2}).set_placement((pos[0] + 1.5, pos[1] + 1.5))
         msp.add_text(utm_txt, dxfattribs={'layer': 'C-PROP-TEXT', 'height': 0.8}).set_placement((pos[0] + 1.5, pos[1] - 1.0))
 
-    # --- 5. LÍNEA DE RETIROS REGLAMENTARIOS (3m Frente/Fondo, 2m Laterales) ---
-    # Rectángulo Edificable Inscripto PB (85.00m x 37.00m = 3.145,00 m²)
-    x0, y0 = 5.0, 5.0
-    bw, bh = 85.0, 37.0
+    # --- 4. FLECHA SÍMBOLO DE NORTE REAL (NORTE GEOGRÁFICO = +Y) ---
+    nx, ny = -15.0, 50.0
+    msp.add_line((nx, ny), (nx, ny + 15.0), dxfattribs={'layer': 'C-PROP-TEXT'})
+    msp.add_line((nx, ny + 15.0), (nx - 1.5, ny + 11.0), dxfattribs={'layer': 'C-PROP-TEXT'})
+    msp.add_line((nx, ny + 15.0), (nx + 1.5, ny + 11.0), dxfattribs={'layer': 'C-PROP-TEXT'})
+    msp.add_text("N (NORTE REAL)", dxfattribs={'layer': 'C-PROP-TEXT', 'height': 1.5}).set_placement((nx - 4.5, ny + 17.0))
 
-    retiro_pts = [(2.5, 3.0), (87.5, 3.0), (87.5, 40.0), (2.5, 40.0)]
+    # --- 5. LÍNEAS DE RETIROS REGLAMENTARIOS (3m Frente P1-P2, 3m Fondo P3-P4, 2m Laterales) ---
+    # Calculamos offset paralelo de 3m desde P1-P2 (frente)
+    ang_frente = math.atan2(p2[1] - p1[1], p2[0] - p1[0])
+    nx_frente = -math.sin(ang_frente)
+    ny_frente = math.cos(ang_frente)
+
+    # Offset 3m frente
+    ret_p1 = (p1[0] + nx_frente * 3.0 + math.cos(ang_frente)*2.0, p1[1] + ny_frente * 3.0 + math.sin(ang_frente)*2.0)
+    ret_p2 = (p2[0] + nx_frente * 3.0 - math.cos(ang_frente)*2.0, p2[1] + ny_frente * 3.0 - math.sin(ang_frente)*2.0)
+
+    ang_fondo = math.atan2(p4[1] - p3[1], p4[0] - p3[0])
+    nx_fondo = math.sin(ang_fondo)
+    ny_fondo = -math.cos(ang_fondo)
+    ret_p3 = (p3[0] + nx_fondo * 3.0 - math.cos(ang_fondo)*2.0, p3[1] + ny_fondo * 3.0 - math.sin(ang_fondo)*2.0)
+    ret_p4 = (p4[0] + nx_fondo * 3.0 + math.cos(ang_fondo)*2.0, p4[1] + ny_fondo * 3.0 + math.sin(ang_fondo)*2.0)
+
+    retiro_pts = [ret_p1, ret_p2, ret_p3, ret_p4]
     poly_retiro = msp.add_lwpolyline(retiro_pts, close=True, dxfattribs={'layer': 'C-SETB-LINE'})
 
-    # --- 6. HUELLA EDIFICABLE DE PLANTA BAJA (85.00m x 37.00m = 3.145,00 m²) ---
-    pb_pts = [(x0, y0), (x0 + bw, y0), (x0 + bw, y0 + bh), (x0, y0 + bh)]
-    poly_pb = msp.add_lwpolyline(pb_pts, close=True, dxfattribs={'layer': 'A-FOOT-PB'})
+    # --- 6. HUELLA EDIFICABLE DE REFERENCIA EN METROS (85m x 37m = 3.145,00 m²) ---
+    # Rectángulo alineado a la grilla de diseño en cota interior
+    pb_x0, pb_y0 = 12.0, 15.0
+    bw, bh = 85.0, 37.0
+
+    # Construimos el rectángulo rotado alineado al frente del terreno (9.17°)
+    cos_a = math.cos(ang_frente)
+    sin_a = math.sin(ang_frente)
+
+    def to_global(lx, ly):
+        gx = pb_x0 + lx * cos_a - ly * sin_a
+        gy = pb_y0 + lx * sin_a + ly * cos_a
+        return (gx, gy)
+
+    pb_p1 = to_global(0, 0)
+    pb_p2 = to_global(bw, 0)
+    pb_p3 = to_global(bw, bh)
+    pb_p4 = to_global(0, bh)
+
+    poly_pb = msp.add_lwpolyline([pb_p1, pb_p2, pb_p3, pb_p4], close=True, dxfattribs={'layer': 'A-FOOT-PB'})
     poly_pb.dxf.const_width = 0.25
 
-    # --- 7. HUELLA DE TORRE RESIDENCIAL (48.00m x 30.00m = 1.440,00 m²) ---
-    tx0, ty0 = x0 + 18.5, y0 + 3.5
+    # Huella Torre Residencial de Referencia (48m x 30m)
     tw, th = 48.0, 30.0
-    torre_pts = [(tx0, ty0), (tx0 + tw, ty0), (tx0 + tw, ty0 + th), (tx0, ty0 + th)]
-    poly_torre = msp.add_lwpolyline(torre_pts, close=True, dxfattribs={'layer': 'A-FOOT-TOWR'})
+    torre_p1 = to_global(18.5, 3.5)
+    torre_p2 = to_global(18.5 + tw, 3.5)
+    torre_p3 = to_global(18.5 + tw, 3.5 + th)
+    torre_p4 = to_global(18.5, 3.5 + th)
+
+    poly_torre = msp.add_lwpolyline([torre_p1, torre_p2, torre_p3, torre_p4], close=True, dxfattribs={'layer': 'A-FOOT-TOWR'})
     poly_torre.dxf.const_width = 0.20
 
-    # --- 8. NÚCLEOS ESTRUCTURALES H°A° (2x Gemelos 7x9m = 126 m²) ---
-    # Núcleo 1 (7m x 9m)
-    nc1_pts = [(x0 + 25.0, y0 + 3.0), (x0 + 32.0, y0 + 3.0), (x0 + 32.0, y0 + 12.0), (x0 + 25.0, y0 + 12.0)]
-    poly_nc1 = msp.add_lwpolyline(nc1_pts, close=True, dxfattribs={'layer': 'A-WALL-CORE'})
+    # Núcleos Estructurales H°A° de Referencia (7x9m c/u)
+    nc1_p1 = to_global(25.0, 3.0)
+    nc1_p2 = to_global(32.0, 3.0)
+    nc1_p3 = to_global(32.0, 12.0)
+    nc1_p4 = to_global(25.0, 12.0)
+    poly_nc1 = msp.add_lwpolyline([nc1_p1, nc1_p2, nc1_p3, nc1_p4], close=True, dxfattribs={'layer': 'A-WALL-CORE'})
     poly_nc1.dxf.const_width = 0.30
 
-    # Núcleo 2 (9m x 7m)
-    nc2_pts = [(x0 + 48.0, y0 + 3.0), (x0 + 57.0, y0 + 3.0), (x0 + 57.0, y0 + 10.0), (x0 + 48.0, y0 + 10.0)]
-    poly_nc2 = msp.add_lwpolyline(nc2_pts, close=True, dxfattribs={'layer': 'A-WALL-CORE'})
+    nc2_p1 = to_global(48.0, 3.0)
+    nc2_p2 = to_global(57.0, 3.0)
+    nc2_p3 = to_global(57.0, 10.0)
+    nc2_p4 = to_global(48.0, 10.0)
+    poly_nc2 = msp.add_lwpolyline([nc2_p1, nc2_p2, nc2_p3, nc2_p4], close=True, dxfattribs={'layer': 'A-WALL-CORE'})
     poly_nc2.dxf.const_width = 0.30
 
-    # Textos de Núcleos
-    msp.add_text("NÚCLEO 1 H°A° (7x9m)", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 0.9}).set_placement((x0 + 25.5, y0 + 7.0))
-    msp.add_text("NÚCLEO 2 H°A° (9x7m)", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 0.9}).set_placement((x0 + 48.5, y0 + 6.0))
-
-    # --- 9. ZONIFICACIÓN DE LOCALES COMERCIALES PB ---
-    # Megastore Comercial (1.050 m²)
-    ms_pts = [(x0 + 40.0, y0 + 14.0), (x0 + 85.0, y0 + 14.0), (x0 + 85.0, y0 + 37.0), (x0 + 40.0, y0 + 37.0)]
-    msp.add_lwpolyline(ms_pts, close=True, dxfattribs={'layer': 'A-ZONE-COMM'})
-    msp.add_text("MEGASTORE COMERCIAL (1.050,00 m²)", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 1.2}).set_placement((x0 + 45.0, y0 + 25.0))
-
-    # Local Comercial 2 (450 m²)
-    l2_pts = [(x0 + 20.0, y0 + 14.0), (x0 + 40.0, y0 + 14.0), (x0 + 40.0, y0 + 37.0), (x0 + 20.0, y0 + 37.0)]
-    msp.add_lwpolyline(l2_pts, close=True, dxfattribs={'layer': 'A-ZONE-COMM'})
-    msp.add_text("LOCAL 2 (450,00 m²)", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 1.0}).set_placement((x0 + 22.0, y0 + 25.0))
-
-    # Local Comercial 1 (350 m²)
-    l1_pts = [(x0, y0 + 20.0), (x0 + 20.0, y0 + 20.0), (x0 + 20.0, y0 + 37.0), (x0, y0 + 37.0)]
-    msp.add_lwpolyline(l1_pts, close=True, dxfattribs={'layer': 'A-ZONE-COMM'})
-    msp.add_text("LOCAL 1 (350,00 m²)", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 1.0}).set_placement((x0 + 3.0, y0 + 28.0))
-
-    # Lobby Residencial (250 m²)
-    lb_pts = [(x0, y0), (x0 + 20.0, y0), (x0 + 20.0, y0 + 20.0), (x0, y0 + 20.0)]
-    msp.add_lwpolyline(lb_pts, close=True, dxfattribs={'layer': 'A-ZONE-LOBBY'})
-    msp.add_text("LOBBY RESIDENCIAL (250,00 m²)", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 1.0}).set_placement((x0 + 2.0, y0 + 10.0))
-
-    # Bloque Técnico & RSU (395 m²)
-    bt_pts = [(x0 + 60.0, y0), (x0 + 85.0, y0), (x0 + 85.0, y0 + 14.0), (x0 + 60.0, y0 + 14.0)]
-    msp.add_lwpolyline(bt_pts, close=True, dxfattribs={'layer': 'A-ZONE-SERV'})
-    msp.add_text("BLOQUE TÉCNICO & RSU (395 m²)", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 0.9}).set_placement((x0 + 62.0, y0 + 7.0))
-
-    # Rampa de Subsuelos (400 m²)
-    rp_pts = [(x0 + 33.0, y0), (x0 + 47.0, y0), (x0 + 47.0, y0 + 12.0), (x0 + 33.0, y0 + 12.0)]
-    msp.add_lwpolyline(rp_pts, close=True, dxfattribs={'layer': 'A-ZONE-SERV'})
-    msp.add_text("RAMPA SUBSUELOS (400 m²)", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 0.8}).set_placement((x0 + 34.0, y0 + 5.0))
-
-    # --- 10. ACOTACIONES DE DIMENSIONES VECTORIALES LIMPIAS 1:1 ---
-    def agregar_cota_limpia(p_a, p_b, offset, texto):
-        """Dibuja una cota limpia vectorial 1:1 en metros sin problemas de multiplicador de bloque."""
-        ax_dx = p_b[0] - p_a[0]
-        ax_dy = p_b[1] - p_a[1]
+    # --- 7. ACOTACIONES LINEALES 1:1 EN METROS ---
+    def agregar_cota_limpia(pa, pb, offset, texto):
+        ax_dx = pb[0] - pa[0]
+        ax_dy = pb[1] - pa[1]
         dist = math.hypot(ax_dx, ax_dy)
         if dist == 0:
             return
-
-        # Vector normal para offset
-        nx = -ax_dy / dist
-        ny = ax_dx / dist
-
-        # Puntos de línea de cota
-        c_a = (p_a[0] + nx * offset, p_a[1] + ny * offset)
-        c_b = (p_b[0] + nx * offset, p_b[1] + ny * offset)
-
-        # Líneas de extensión
-        msp.add_line((p_a[0] + nx * 0.5, p_a[1] + ny * 0.5), (c_a[0] + nx * 0.8, c_a[1] + ny * 0.8), dxfattribs={'layer': 'A-ANNO-DIMS'})
-        msp.add_line((p_b[0] + nx * 0.5, p_b[1] + ny * 0.5), (c_b[0] + nx * 0.8, c_b[1] + ny * 0.8), dxfattribs={'layer': 'A-ANNO-DIMS'})
-
-        # Línea principal de cota
-        msp.add_line(c_a, c_b, dxfattribs={'layer': 'A-ANNO-DIMS'})
-
-        # Ticks en extremos (45 grados)
+        nx_val = -ax_dy / dist
+        ny_val = ax_dx / dist
+        ca = (pa[0] + nx_val * offset, pa[1] + ny_val * offset)
+        cb = (pb[0] + nx_val * offset, pb[1] + ny_val * offset)
+        msp.add_line((pa[0] + nx_val * 0.5, pa[1] + ny_val * 0.5), (ca[0] + nx_val * 0.8, ca[1] + ny_val * 0.8), dxfattribs={'layer': 'A-ANNO-DIMS'})
+        msp.add_line((pb[0] + nx_val * 0.5, pb[1] + ny_val * 0.5), (cb[0] + nx_val * 0.8, cb[1] + ny_val * 0.8), dxfattribs={'layer': 'A-ANNO-DIMS'})
+        msp.add_line(ca, cb, dxfattribs={'layer': 'A-ANNO-DIMS'})
         tick_len = 0.6
-        msp.add_line((c_a[0] - tick_len, c_a[1] - tick_len), (c_a[0] + tick_len, c_a[1] + tick_len), dxfattribs={'layer': 'A-ANNO-DIMS'})
-        msp.add_line((c_b[0] - tick_len, c_b[1] - tick_len), (c_b[0] + tick_len, c_b[1] + tick_len), dxfattribs={'layer': 'A-ANNO-DIMS'})
-
-        # Texto de cota centrado
-        mid_x = (c_a[0] + c_b[0]) / 2.0 + nx * 0.8
-        mid_y = (c_a[1] + c_b[1]) / 2.0 + ny * 0.8
+        msp.add_line((ca[0] - tick_len, ca[1] - tick_len), (ca[0] + tick_len, ca[1] + tick_len), dxfattribs={'layer': 'A-ANNO-DIMS'})
+        msp.add_line((cb[0] - tick_len, cb[1] - tick_len), (cb[0] + tick_len, cb[1] + tick_len), dxfattribs={'layer': 'A-ANNO-DIMS'})
+        mid_x = (ca[0] + cb[0]) / 2.0 + nx_val * 0.8
+        mid_y = (ca[1] + cb[1]) / 2.0 + ny_val * 0.8
         msp.add_text(texto, dxfattribs={'layer': 'A-ANNO-DIMS', 'height': 1.0}).set_placement((mid_x - 1.5, mid_y))
 
-    # Cotas de Terreno (P1->P2, P2->P3, P3->P4, P4->P1)
-    agregar_cota_limpia(p1, p2, -6.0, "L = 117.27 m")
+    agregar_cota_limpia(p1, p2, -6.0, "Frente L = 117.27 m")
     agregar_cota_limpia(p2, p3, 6.0, "L = 45.04 m")
-    agregar_cota_limpia(p3, p4, 6.0, "L = 104.57 m")
-    agregar_cota_limpia(p4, p1, 6.0, "L = 85.70 m")
+    agregar_cota_limpia(p3, p4, 6.0, "Fondo L = 103.94 m")
+    agregar_cota_limpia(p4, p1, 6.0, "L = 102.48 m")
 
-    # Cotas Huella PB
-    agregar_cota_limpia((x0, y0), (x0 + bw, y0), -3.5, "Huella L = 85.00 m")
-    agregar_cota_limpia((x0, y0), (x0, y0 + bh), -3.5, "Huella W = 37.00 m")
-
-    # Cotas Huella Torre
-    agregar_cota_limpia((tx0, ty0 + th), (tx0 + tw, ty0 + th), 2.5, "Torre L = 48.00 m")
-    agregar_cota_limpia((tx0 + tw, ty0), (tx0 + tw, ty0 + th), 2.5, "Torre W = 30.00 m")
-
-    # --- 11. RÓTULO / CARÁTULA PROFESIONAL ISO 19650 (EN ESPACIO MODELO) ---
-    rx, ry = 95.0, -10.0
-    rw, rh = 45.0, 95.0
+    # --- 8. RÓTULO / CARÁTULA PROFESIONAL ISO 19650 (EN METROS) ---
+    rx, ry = 145.0, -10.0
+    rw, rh = 45.0, 110.0
     rotulo_box = [(rx, ry), (rx + rw, ry), (rx + rw, ry + rh), (rx, ry + rh)]
     msp.add_lwpolyline(rotulo_box, close=True, dxfattribs={'layer': 'G-TITLE-BLOCK'})
 
-    # Líneas de División de Carátula
-    y_lines = [ry + 15.0, ry + 35.0, ry + 55.0, ry + 75.0]
+    y_lines = [ry + 15.0, ry + 40.0, ry + 65.0, ry + 90.0]
     for yl in y_lines:
         msp.add_line((rx, yl), (rx + rw, yl), dxfattribs={'layer': 'G-TITLE-BLOCK'})
 
-    # Textos de la Carátula / Rótulo
-    msp.add_text("TESIS DE GRADO — INGENIERÍA CIVIL", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 1.6}).set_placement((rx + 2.0, ry + 85.0))
-    msp.add_text("EDIFICIO MIXTO 18 PISOS + 3 SUBSUELOS", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 1.3}).set_placement((rx + 2.0, ry + 80.0))
-    msp.add_text("CIUDAD DEL ESTE — ALTO PARANÁ — PARAGUAY", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 1.0}).set_placement((rx + 2.0, ry + 76.5))
+    msp.add_text("TESIS DE GRADO — INGENIERÍA CIVIL", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 1.6}).set_placement((rx + 2.0, ry + 100.0))
+    msp.add_text("EDIFICIO MIXTO 18 PISOS + 3 SUBSUELOS", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 1.3}).set_placement((rx + 2.0, ry + 95.0))
+    msp.add_text("CIUDAD DEL ESTE — PARAGUAY (UTM 21J)", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 1.0}).set_placement((rx + 2.0, ry + 91.5))
 
     datos_urbanisticos = [
-        "PARÁMETROS URBANÍSTICOS (CDE):",
+        "DATOS DE TERRENO Y ZONIFICACIÓN:",
         "• Superficie Terreno: 7.618,49 m²",
+        "• Orientación: NORTE REAL (Eje +Y)",
         "• FOS Máximo: 0,70 | Real: 41,28% (3.145m²)",
         "• FOT Máximo: 4,00 | Real: 3,97 (30.265m²)",
         "• Lote Mínimo: Ord. M. 003/2026 Art. 3° (≥3.000m²)",
         "• Retiros: 3m Frente / 3m Fondo / 2m Lat."
     ]
     for idx, txt in enumerate(datos_urbanisticos):
-        msp.add_text(txt, dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 0.9}).set_placement((rx + 2.0, ry + 70.0 - idx * 2.5))
+        msp.add_text(txt, dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 0.9}).set_placement((rx + 2.0, ry + 85.0 - idx * 2.5))
 
-    datos_programa = [
-        "PROGRAMA ARQUITECTÓNICO & COCHERAS:",
-        "• Planta Baja Comercial: 3.145,00 m² (1.850m² Locales)",
-        "• Torre Residencial (P01-P18): 1.440,00 m²/piso",
-        "• Total Departamentos: 108 Dptos (6 dptos/piso)",
-        "• Cocheras Requeridas: 187 Autos (1.5/dpto + Com)",
-        "• Cocheras Proyectadas: 270 Plazas (3 Subsuelos)"
+    datos_capas = [
+        "ESTÁNDAR DE CAPAS CAD (ISO 13567):",
+        "• C-PROP-LINE: Terreno Real (Verde, 0.50mm)",
+        "• C-PROP-VERT: Vértices UTM P1-P4 (Amarillo)",
+        "• C-SETB-LINE: Retiros Reglamentarios (Rojo)",
+        "• A-FOOT-PB: Huella PB (Cian, 0.35mm)",
+        "• A-FOOT-TOWR: Huella Torre (Azul, 0.35mm)",
+        "• A-WALL-CORE: Núcleos H°A° (Gris, 0.50mm)",
+        "• A-ZONE-*: Capas para Zonificación Manual"
     ]
-    for idx, txt in enumerate(datos_programa):
-        msp.add_text(txt, dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 0.9}).set_placement((rx + 2.0, ry + 50.0 - idx * 2.5))
+    for idx, txt in enumerate(datos_capas):
+        msp.add_text(txt, dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 0.9}).set_placement((rx + 2.0, ry + 60.0 - idx * 2.5))
 
     datos_plano = [
-        "INFORMACIÓN DEL PLANO CAD:",
-        "• CODIGO: TESIS-ARQ-GEN-DR-001",
+        "FICHA TÉCNICA DEL PLANO CAD:",
+        "• CÓDIGO: TESIS-ARQ-GEN-DR-001",
         "• DISCIPLINA: Arquitectura (ARQ)",
-        "• CONTENIDO: Planimetría, Retiros & Zonificación PB",
-        "• METODOLOGÍA: BIM ISO 19650 / CAD Standard",
-        "• ESCALA: 1:1 METROS (1 UNIDAD = 1 METRO)",
-        "• FECHA: 2026-09-19 | REVISIÓN: Rev. 02 (Escala Corregida)"
+        "• ESCALA: 1:1 METROS (Norte Real = Eje +Y)",
+        "• ESTADO: Base Limpia para Distribución",
+        "• FECHA: 2026-09-19 | REVISIÓN: Rev. 03 (Norte Real)"
     ]
     for idx, txt in enumerate(datos_plano):
-        msp.add_text(txt, dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 0.9}).set_placement((rx + 2.0, ry + 30.0 - idx * 2.5))
+        msp.add_text(txt, dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 0.9}).set_placement((rx + 2.0, ry + 35.0 - idx * 2.5))
 
     # Guardar DXF en carpetas WIP y PUBLISHED
     doc.saveas(PATH_WIP)
     doc.saveas(PATH_PUB)
-    print("[SUCCESS] Archivo DXF creado en WIP: " + PATH_WIP)
-    print("[SUCCESS] Archivo DXF creado en PUBLISHED: " + PATH_PUB)
+    print("[SUCCESS] Archivo DXF base creado en WIP: " + PATH_WIP)
+    print("[SUCCESS] Archivo DXF base creado en PUBLISHED: " + PATH_PUB)
 
 
 if __name__ == "__main__":
-    print("[INFO] Generando archivo CAD DXF profesional en METROS 1:1 (ISO 13567 / ISO 19650)...")
-    crear_dxf_profesional()
-    print("[SUCCESS] Archivos DXF corregidos y generados exitosamente!")
+    print("[INFO] Generando base CAD DXF con NORTE REAL (Eje +Y) y capas normalizadas...")
+    crear_dxf_profesional_norte_real()
+    print("[SUCCESS] Base CAD DXF generada exitosamente para diseño manual!")
