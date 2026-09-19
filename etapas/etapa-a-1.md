@@ -10,11 +10,12 @@
 ### Checklist de tareas
 
 - [x] **eA-1** · **Planimetría del polígono real con coordenadas UTM**
-  - Trazar el polígono: P1(737721.76, 7176185.26) → P2(737837.53, 7176203.96) → P3(737853.36, 7176246.13) → P4(737755.78, 7176281.93)
+  - Trazar el polígono de cuadrilátero irregular: P1(737721.76, 7176185.26) → P2(737837.53, 7176203.96) → P3(737853.36, 7176246.13) → P4(737755.78, 7176281.93)
   - Coordenadas extraídas mediante teledetección y digitalización satelital (Google Earth Pro v7.3, UTM Zona 21J WGS84/SIRGAS2000)
   - Calcular área exacta (7.618,49 m²) por método de Gauss/Shoelace
   - Verificar cierre de poligonal ($e_L = 0,00$ m, suma de ángulos interiores = 360,00°)
-  - Archivo de referencia: `05_RECURSOS/05.05_Scripts_Python/01_Geometria_Terreno/geometria_terreno.py` · `NOMENCLATURA.md`
+  - Generar Ortomapa Satelital Real: `etapas/img/figura_1_1_planimetria_satelital_utm.png`
+  - Archivo de referencia: `05_RECURSOS/05.05_Scripts_Python/01_Geometria_Terreno/generar_figuras_terreno.py` · `NOMENCLATURA.md`
 
 - [x] **eA-2** · **Identificación de calles y orientación geográfica**
   - Frente principal P1→P2 (117,27 m) sobre **Calle Los Lapachos** (Azimut 80,82°, Rumbo N 80°49' E)
@@ -22,19 +23,19 @@
   - Lindero posterior P3→P4 (103,94 m) lindante con **inmueble residencial privado unifamiliar** (predio vecino de dominio particular)
   - Frente secundario / lindero lateral P4→P1 (102,48 m) sobre **Avenida Itaipú Oeste** (Azimut 199,39°, Rumbo S 19°23' W)
   - Determinar Norte verdadero vs. Norte magnético (declinación magnética en CDE = -13,8° W ≈ -14°)
+  - Generar Mapa de Contexto Urbano Real (OpenStreetMap): `etapas/img/figura_1_3_mapa_contexto_osm.png`
 
 - [x] **eA-3** · **Análisis del vértice agudo P1 (61,44°) y definición de la cuña**
   - Demarcar la zona no edificable en la esquina de intersección entre Av. Itaipú Oeste y Calle Los Lapachos ($\alpha_1 = 61,44°$)
-  - El rectángulo edificable comienza en $u = 27,00$ m desde P1 sobre Calle Los Lapachos
-  - Cuña frontal no edificable de $669,55$ m² destinada a plaza seca de acceso peatonal, control de acceso y jardín ornamental sustentable
-  - Polígono edificable reducido de $85,0$ m × $37,0$ m ($3.145,00$ m² por planta) como **hipótesis formal de tesis** con retiros adoptados: 3,0 m frente, 3,0 m fondo, 2,0 m laterales
-  - ⚠️ El vértice P1 de 61,44° impide estructura regular hasta esa esquina — declarado explícitamente en la memoria de tesis
+  - Cuña frontal no edificable de 669,55 m² ($u = 27,00$ m de base y $h = 49,60$ m de altura perpendicular) destinada a plaza seca de acceso peatonal, control de acceso y jardín ornamental sustentable
+  - ⚠️ La distribución arquitectónica, huella del edificio y grilla estructural serán calculadas desde cero en la **Etapa B (Arquitectura Completa)**
+  - Generar Plano Técnico CAD de Implantación Urbana y Envolvente: `etapas/img/figura_1_2_rectangulo_edificable_cuña.png`
 
 - [x] **eA-4** · **Certificado de uso de suelo y normativa municipal**
-  - FOS = 0,70 → área máxima de huella = 5.332,94 m² (Huella adoptada = 3.145,00 m², FOS real = 41,28% ≤ 70,00% → CUMPLE)
-  - FOT = 4,0 → área total construible = 30.473,96 m²
+  - FOS = 0,70 → área máxima de huella edificable = 5.332,94 m²
+  - FOT = 4,0 → área total construible sobre rasante = 30.473,96 m²
   - Subsuelos exentos del cómputo FOT según ordenanza municipal de CDE
-  - ⚠️ Con huella de 3.145,00 m² y 18 pisos residenciales + PB (19 plantas sobre rasante): área construida = 59.755,00 m² > FOT (30.473,96 m²). Requiere varianza municipal por régimen especial de desarrollo de alta densidad
+  - Retiros obligatorios adoptados: Frente 3,0 m, Fondo 3,0 m, Laterales 2,0 m c/u
 
 ### Decisiones tomadas
 
@@ -42,18 +43,22 @@
 |---|---|---|
 | 2026-09-19 | Origen de Coordenadas UTM | Teledetección Satelital (Google Earth Pro v7.3, UTM 21J WGS84) — Hipótesis de anteproyecto |
 | 2026-09-19 | Nomenclatura Vial y Colindancias | P1-P2: Calle Los Lapachos · P2-P3: Calle Los Sauces · P3-P4: Inmueble Residencial Privado · P4-P1: Av. Itaipú Oeste |
-| 2026-09-19 | Retiros adoptados: 3,0 m frente / 3,0 m fondo / 2,0 m laterales | Hipótesis de tesis congelada para desarrollo arquitectónico y estructural |
-| 2026-09-19 | FOS = 0,70 / FOT = 4,0 (Huella 3.145 m² / FOS real = 41,28%) | Cumplimiento estricto de FOS municipal |
-| 2026-09-19 | Solicitud de Varianza Urbanística para FOT (59.755 m²) | Justificado por exención de subsuelos y convenio de desarrollo de alta densidad |
+| 2026-09-19 | Retiros adoptados: 3,0 m frente / 3,0 m fondo / 2,0 m laterales | Hipótesis urbanística formal para definir la envolvente máxima |
+| 2026-09-19 | FOS = 0,70 / FOT = 4,0 (Huella máx. 5.332,94 m² / Área total 30.473,96 m²) | Marco legal urbanístico de la Municipalidad de Ciudad del Este |
+| 2026-09-19 | Re-definición Arquitectónica | La arquitectura, plantas tipo, huella y grilla se diseñarán desde cero en la **Etapa B** |
 | 2026-09-19 | Destino de cuña aguda P1 (669,55 m²) | Plaza seca de acceso peatonal, control de acceso y paisajismo ambiental |
 
-### Archivos de referencia
+### Archivos de referencia y figuras generadas
 
 | Archivo | Descripción | Estado |
 |---|---|---|
 | `00_GESTION_DE_PROYECTO/NOMENCLATURA.md` | Convención de nombres CDE / ISO 19650 | Existente |
 | `05_RECURSOS/05.05_Scripts_Python/01_Geometria_Terreno/geometria_terreno.py` | Script Python de verificación geométrica del predio | Creado / Verificado |
+| `05_RECURSOS/05.05_Scripts_Python/01_Geometria_Terreno/generar_figuras_terreno.py` | Script Python generador de mapas y planos CAD con datos reales | Creado / Verificado |
 | `07_KNOWLEDGE_BASE/07.04_Normativa_Resumen/Normativa_Urbanistica_CDE_Planimetria_UTM_v01.md` | Documento técnico de base de conocimiento CDE | Creado / Verificado |
+| `etapas/img/figura_1_1_planimetria_satelital_utm.png` | Figura 1.1: Ortomapa Satelital Real Esri + Polígono UTM 21J | Generado |
+| `etapas/img/figura_1_2_rectangulo_edificable_cuña.png` | Figura 1.2: Plano Técnico CAD de Terreno Irregular y Envolvente Urbanística | Generado |
+| `etapas/img/figura_1_3_mapa_contexto_osm.png` | Figura 1.3: Mapa de Contexto Urbano OpenStreetMap (OSM) | Generado |
 
 ---
 
@@ -61,7 +66,7 @@
 
 ### 1.1 Descripción del predio, planimetría y metodología de relevamiento
 
-El terreno objeto de estudio se ubica en la ciudad de **Ciudad del Este**, departamento de Alto Paraná, República del Paraguay. Las coordenadas cartesianas de los vértices del predio fueron obtenidas mediante **técnicas de teledetección y digitalización de ortofotos satelitales (Google Earth Pro v7.3)** referenciadas al sistema de coordenadas **UTM Zona 21J, dátum WGS84 / SIRGAS2000**, resultando en la siguiente planimetría:
+El terreno objeto de estudio se ubica en la zona urbana de **Ciudad del Este**, departamento de Alto Paraná, República del Paraguay. Las coordenadas cartesianas de los vértices del predio fueron obtenidas mediante **técnicas de teledetección y digitalización sobre ortofotos satelitales (Google Earth Pro v7.3)** referenciadas al sistema geodésico **UTM Zona 21J, dátum WGS84 / SIRGAS2000**, resultando en la planimetría catastral tabulada a continuación:
 
 | Vértice | Este X (m) | Norte Y (m) | Lado | Longitud (m) | Azimut Norte (°) | Denominación de Vía Pública / Lindero Predial |
 |---|---|---|---|---|---|---|
@@ -72,40 +77,33 @@ El terreno objeto de estudio se ubica en la ciudad de **Ciudad del Este**, depar
 
 #### Consideración metodológica sobre la precisión planimétrica
 
-> **Nota técnica de tesis:** Las coordenadas UTM de los puntos P1 a P4 no fueron relevadas mediante una mensura geodésica directa con equipos GNSS diferencial (RTK/Estación Total) en campo, sino mediante la extracción de vectores en Google Earth Pro. Para fines del anteproyecto académico de tesis, este nivel de precisión planimétrica (con una incertidumbre posicional relativa estimada entre $\pm 1,5\text{ m}$ y $\pm 2,5\text{ m}$) resulta plenamente adecuado para la delimitación del polígono edificable. Se deja constancia de que, para la fase ejecutiva de construcción del proyecto, se requerirá un relevamiento topográfico perimetral definitivo a cargo de un perito agrimensor matriculado, en cumplimiento de la Ley N° 1083/1985 de Mensura y Procedimiento Catastral del Paraguay.
+> **Nota técnica de tesis:** Las coordenadas UTM de los puntos P1 a P4 no fueron relevadas mediante una mensura geodésica directa con equipos GNSS diferencial (RTK/Estación Total) en campo, sino mediante la extracción vectorizada sobre imágenes satelitales en Google Earth Pro. Para fines del anteproyecto académico de tesis de grado, este nivel de precisión planimétrica (con una incertidumbre posicional relativa estimada entre $\pm 1,5\text{ m}$ y $\pm 2,5\text{ m}$) resulta plenamente adecuado para la delimitación del polígono edificable. Se deja constancia de que, para la fase ejecutiva de construcción del proyecto, se requerirá un relevamiento topográfico perimetral definitivo a cargo de un perito agrimensor matriculado, en cumplimiento de la Ley N° 1083/1985 de Mensura y Procedimiento Catastral del Paraguay.
 
-El área bruta del predio calculada mediante la regla de Gauss (algoritmo de Shoelace) resulta en **7.618,49 m²**, con un perímetro total de **368,74 m**. El frente principal se extiende a lo largo de la **Calle Los Lapachos** (tramo P1→P2) con **117,27 m** de desarrollo. El frente secundario de **45,04 m** (tramo P2→P3) linda sobre la **Calle Los Sauces**, mientras que el lindero lateral/frente secundario de **102,48 m** (tramo P4→P1) limita con la **Avenida Itaipú Oeste**. El lindero posterior de **103,94 m** (tramo P3→P4) colinda directamente con un **inmueble unifamiliar residencial de dominio privado** (predio vecino).
+El predio presenta una **geometría irregular correspondiente a un cuadrilátero de cuatro lados desiguales**. El área bruta del predio calculada mediante el método de Gauss (algoritmo de Shoelace) resulta en **7.618,49 m²**, con un perímetro total de **368,74 m**. El frente principal se extiende a lo largo de la **Calle Los Lapachos** (tramo P1→P2) con **117,27 m** de desarrollo lineal. El frente secundario de **45,04 m** (tramo P2→P3) linda sobre la **Calle Los Sauces**, mientras que el lindero lateral/frente secundario de **102,48 m** (tramo P4→P1) limita con la **Avenida Itaipú Oeste**. El lindero posterior de **103,94 m** (tramo P3→P4) colinda directamente con un **inmueble unifamiliar residencial de dominio privado** (predio vecino).
 
-La declinación magnética local en Ciudad del Este se determina en **-13,8° W**, lo que implica una rotación de $13,8^\circ$ al Oeste entre el Norte magnético y el Norte verdadero.
+La declinación magnética local en Ciudad del Este se determina en **-13,8° W**, lo que implica una rotación de 13,8° al Oeste entre el Norte magnético y el Norte verdadero.
+
+![Figura 1.1: Planimetría catastral y ortomapa satelital real del predio (UTM Zona 21J / WGS84)](img/figura_1_1_planimetria_satelital_utm.png)
 
 #### Restricción geométrica — vértice agudo P1 (Intersección Av. Itaipú Oeste y Calle Los Lapachos)
 
-El análisis de los ángulos interiores del polígono revela la siguiente configuración geométrica:
-- Ángulo en $P_1$: $\alpha_1 = 61,44^\circ$ ($61,4365^\circ$) $\to$ Intersección Av. Itaipú Oeste / Calle Los Lapachos
-- Ángulo en $P_2$: $\alpha_2 = 119,75^\circ$ ($119,7510^\circ$) $\to$ Intersección Calle Los Lapachos / Calle Los Sauces
-- Ángulo en $P_3$: $\alpha_3 = 89,57^\circ$ ($89,5716^\circ$) $\to$ Esquina Calle Los Sauces / Lindero Privado Vecino
-- Ángulo en $P_4$: $\alpha_4 = 89,24^\circ$ ($89,2409^\circ$) $\to$ Esquina Lindero Privado Vecino / Av. Itaipú Oeste
+El análisis de los ángulos interiores del polígono irregular revela la siguiente configuración geométrica:
+- Ángulo en P1: $\alpha_1 = 61,44^\circ$ ($61,4365^\circ$) $\to$ Intersección Av. Itaipú Oeste / Calle Los Lapachos (Vértice Agudo)
+- Ángulo en P2: $\alpha_2 = 119,75^\circ$ ($119,7510^\circ$) $\to$ Intersección Calle Los Lapachos / Calle Los Sauces (Vértice Obtuso)
+- Ángulo en P3: $\alpha_3 = 89,57^\circ$ ($89,5716^\circ$) $\to$ Esquina Calle Los Sauces / Lindero Privado Vecino
+- Ángulo en P4: $\alpha_4 = 89,24^\circ$ ($89,2409^\circ$) $\to$ Esquina Lindero Privado Vecino / Av. Itaipú Oeste
 - Suma total de ángulos interiores: $360,00^\circ$ (Cierre teórico exacto).
 
-El vértice $P_1$ presenta un **ángulo interior de 61,44°**, clasificándose como vértice agudo severo. Esta condición geométrica en la esquina de la Av. Itaipú Oeste y Calle Los Lapachos impide inscribir una estructura rectangular regular con grilla continua de pilares hasta dicha esquina. La zona triangular resultante de **669,55 m²** (cuña frontal de $27,00$ m de base sobre Calle Los Lapachos y $49,60$ m de altura perpendicular) se destina formalmente a:
+El vértice P1 presenta un **ángulo interior agudo de 61,44°**. Esta condición geométrica en la esquina de la Av. Itaipú Oeste y Calle Los Lapachos impide proyectar estructuras hasta esa esquina. La zona triangular resultante de **669,55 m²** (cuña frontal de $u = 27,00\text{ m}$ de base sobre Calle Los Lapachos y $h = 49,60\text{ m}$ de altura perpendicular) se destina formalmente a:
 - Acceso peatonal principal y plaza seca de recepción desde la vía pública
 - Jardín de borde ornamental y arbolado nativo de amortiguación ambiental
 - Chaflán arquitectónico de fachada y control de accesos
 
-El rectángulo edificable neto inscripto de **85,0 m × 37,0 m** (área por planta = **3.145,00 m²**) comienza a una distancia de **27,00 m** desde el vértice $P_1$ medida sobre el eje de la Calle Los Lapachos (lado P1→P2).
+> 🔒 **Aviso de alcance arquitectónico:** La implantación de la edificación, el diseño formal del edificio, las plantas tipológicas y la grilla de pilares se encuentran en proceso de **re-definición completa desde cero en la Etapa B (Arquitectura Completa)**. En esta Sub-etapa A.1 se formaliza exclusivamente el polígono del terreno irregular y la envolvente urbanística máxima permitida.
 
-```
-          P4 (737755.78, 7176281.93) ─── L34 = 103.94 m (Predio Vecino Privado) ── P3 (737853.36, 7176246.13)
-                      │                                                                       │
- Av. Itaipú Oeste     │  ┌─────────────────────────────────────────────────────────────────┐ │  Calle Los Sauces
- (L41 = 102.48 m)     │  │                  RECTÁNGULO EDIFICABLE                          │ │  (L23 = 45.04 m)
-                      │  │                 85.00 m  ×  37.00 m                             │ │
-                      │  │                (Superficie: 3.145,00 m²)                        │ │
-                      │  └─────────────────────────────────────────────────────────────────┘ │
-                      │ <── 27.00 m ──>                                                       │
-  P1 (737721.76, 7176185.26) ──────── L12 = 117.27 m (Calle Los Lapachos - Frente Principal) ───── P2 (737837.53, 7176203.96)
-        ▲  (61.44° Cuña Jardin: 669.55 m²)                                                  (N 80°49' E)
-```
+![Figura 1.2: Plano técnico CAD de planimetría del terreno irregular y envolvente máxima urbanística](img/figura_1_2_rectangulo_edificable_cuña.png)
+
+![Figura 1.3: Mapa de contexto urbano en Ciudad del Este (OpenStreetMap Real)](img/figura_1_3_mapa_contexto_osm.png)
 
 ### 1.2 Parámetros urbanísticos y uso del suelo
 
@@ -113,14 +111,14 @@ De acuerdo con el Código de Edificación y Ordenamiento Urbano y Territorial de
 
 | Indicador | Valor Normativo / Adoptado | Estado de Cumplimiento | Observación / Fundamento |
 |---|---|---|---|
-| **Factor de Ocupación del Suelo (FOS)** | 0,70 (70,00%) | ✅ CUMPLE (41,28%) | Área máx. huella = $5.332,94\text{ m}^2$. Huella adoptada = $3.145,00\text{ m}^2$. |
-| **Factor de Ocupación Total (FOT)** | 4,0 | ⚠️ Varianza solicitada | Área máx. construible = $30.473,96\text{ m}^2$. Áreas sobre rasante = $59.755,00\text{ m}^2$. |
+| **Factor de Ocupación del Suelo (FOS)** | 0,70 (70,00%) | ✅ Límite Normativo | Área máx. de huella edificable = $5.332,94\text{ m}^2$. |
+| **Factor de Ocupación Total (FOT)** | 4,0 | ⚠️ Límite Normativo | Área máx. construible sobre rasante = $30.473,96\text{ m}^2$. |
 | **Retiro frontal** | 3,0 m | ✅ Adoptado | Sobre el frente Calle Los Lapachos ($117,27\text{ m}$). |
 | **Retiro de fondo** | 3,0 m | ✅ Adoptado | Sobre el lindero del inmueble privado residencial ($103,94\text{ m}$). |
 | **Retiros laterales** | 2,0 m c/u | ✅ Adoptado | Sobre Calle Los Sauces ($45,04\text{ m}$) y Av. Itaipú Oeste ($102,48\text{ m}$). |
 | **Altura máxima** | Sin restricción de altura | ✅ Conforme | Sujeto a plano de gálibo e iluminación según ordenanza CDE. |
 
-> **Nota de hipótesis urbanística:** El edificio proyectado de 18 pisos residenciales + Planta Baja comercial y 3 subsuelos origina un área construida sobre rasante de **59.755,00 m²** (excluyendo los $9.435,00\text{ m}^2$ de los 3 subsuelos exentos del FOT según ordenanza). Este valor excede el límite del FOT=4,0 ($30.473,96\text{ m}^2$). El proyecto se desarrolla bajo la hipótesis formal de concesión de una **varianza urbanística por régimen de desarrollo inmobiliario de alto impacto e interés municipal**, instrumento previsto en el Código Urbanístico de Ciudad del Este mediante convenio de desarrollo urbano aprobado por la Junta Municipal.
+> **Nota de gestión urbanística:** Los subsuelos de cocheras y servicios sin permanencia humana se encuentran exentos del cómputo de FOT según la ordenanza municipal de Ciudad del Este. La definición exacta del área edificada y su ajuste ante los límites de FOS y FOT serán verificados tras el desarrollo de los anteproyectos arquitectónicos en la Etapa B.
 
 ---
 
@@ -130,4 +128,5 @@ De acuerdo con el Código de Edificación y Ordenamiento Urbano y Territorial de
 - Dirección del Servicio Geográfico Militar (DISERGEMIL / IGM) — *Red Geodésica Nacional y Sistema de Referencia SIRGAS2000 / WGS84*, Asunción, Paraguay.
 - Ley N° 1083/1985 — *Ley de Mensura y Procedimiento Catastral de la República del Paraguay*.
 - Google LLC — *Google Earth Pro v7.3 Satellite Imaging & Geographic Data*, Mountain View, CA.
+- OpenStreetMap Contributors — *OpenStreetMap Vector Tile Mapping Services*, CDE, Paraguay.
 - INTN — Instituto Nacional de Tecnología y Normalización: Normativa Técnica Paraguaya.
