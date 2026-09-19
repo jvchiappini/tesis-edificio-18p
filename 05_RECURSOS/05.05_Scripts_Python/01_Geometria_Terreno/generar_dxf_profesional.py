@@ -55,6 +55,9 @@ def crear_dxf_base_limpio():
         ("A-ZONE-COMM", 30, "Continuous", 0.25, "Zonificación Locales Comerciales"),
         ("A-ZONE-LOBBY", 40, "Continuous", 0.25, "Zonificación Lobby Residencial"),
         ("A-ZONE-SERV", 140, "Continuous", 0.25, "Bloque Técnico, RSU & Rampas"),
+        ("A-ZONE-PARK", 61, "Continuous", 0.25, "Zonificación Estacionamiento Exterior/Frente"),
+        ("A-PARK-LINE", 140, "Continuous", 0.25, "Demarcación de Cocheras y Módulos de Parqueo (2.50x5.00m)"),
+        ("A-PARK-CARS", 8, "Continuous", 0.18, "Vehículos y Bloques de Estacionamiento"),
         ("A-ANNO-DIMS", 2, "Continuous", 0.18, "Acotaciones del Proyecto"),
         ("A-ANNO-TEXT", 7, "Continuous", 0.25, "Textos de Espacios y Especificaciones"),
         ("G-TITLE-BLOCK", 7, "Continuous", 0.35, "Carátula / Rótulo de Plano ISO 19650")
