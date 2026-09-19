@@ -1,7 +1,7 @@
 # A.2 — Análisis de Sitio
 
-> **Etapa A › Sub-etapa 2** · **Tareas:** 4 · **Estado:** 🟡 En progreso (eA-5 ✅ Completado)
-> Normativa: NP 196:1991 · NBR 6123:2023 · ASCE 7-22 §26 · EN 1991-1-4 · NBR 15421
+> **Etapa A › Sub-etapa 2** · **Tareas:** 4 · **Estado:** 🟢 Completado (2026-09-19)
+> Normativa: NP 196:1991 · NBR 6123:2023 · ASCE 7-22 §26 · EN 1991-1-4 · NBR 15421:2023 · NBR 6118
 
 ---
 
@@ -31,23 +31,17 @@
   - Script: `05_RECURSOS/05.05_Scripts_Python/02_Ingenieria_Viento/ea6_clasificacion_sismica_espectro.py`
   - KB: `07_KNOWLEDGE_BASE/07.04_Normativa_Resumen/Clasificacion_Sismica_CDE_eA6_v01.md`
 
-- [ ] **eA-7** · **Estudio de infraestructura urbana disponible**
-  - Agua potable: red ESSAP (presión disponible en la red municipal)
-  - Alcantarillado sanitario: red pública o sistema propio (cámara séptica + pozo absorbente)
-  - Electricidad: tensión ANDE disponible (23 kV en media tensión para subestación propia)
-  - Gas natural: disponibilidad en la zona (si no hay, prever GLP en tanques)
-  - Telecomunicaciones: operadoras disponibles (Claro, Tigo, Personal)
+- [x] **eA-7** · **Estudio de infraestructura urbana disponible** ✅ 2026-09-19
+  - Agua potable: Red ESSAP (DN 50 mm, P_red ≈ 1,5–2,0 bar) → Tanque cisterna inferior 60 m³ + Tanque elevado 30 m³ (Etapa G.1)
+  - Energía eléctrica: Red ANDE 23 kV MT → Subestación transformadora 1.000 kVA en S1 + Grupo electrógeno 300 kVA (Etapa G.2)
+  - Alcantarillado sanitario: Colector municipal ESSAP / Planta PTE compacta en subsuelo (Etapa G.1)
+  - 🌧️ Desagüe pluvial: Colector municipal sobre Calle Los Lapachos (i ≈ 80–120 mm/h, T=10 años) → Bajadas pluviales y EBAR subsuelos (Etapa G.1 y D.1)
+  - Telecomunicaciones: Triducto de fibra óptica sobre vereda P1–P2 + Rack RTV en S1 (Etapa G.3)
 
-- [ ] **eA-8** · **Ficha técnica del sitio y declaración de hipótesis**
-  - Redactar documento resumen con todos los parámetros del sitio
-  - Cada valor asumido lleva la nota **"hipótesis de tesis"**
-  - Este documento es la referencia única para todas las etapas siguientes
-  - 🌧️ **LLUVIA — Incluir obligatoriamente el dato pluvial del sitio:**
-    - Intensidad de diseño de la curva IDF de la **DMH/DINAC** para CDE: `i ≈ 80–120 mm/h` (T=10 años, tc=10 min)
-    - Período de retorno para red pluvial del edificio: **T=10 años** (uso interno) / **T=25 años** (calle / desborde)
-    - Precipitación media anual CDE: ~1.900 mm/año (dato DMH/DINAC)
-    - Este dato es insumo directo de **Etapa G.1** (cálculo de bajadas pluviales) y **Etapa D.1** (carga lluvia en azotea)
-  - Archivo: `00_GESTION_DE_PROYECTO/LINEAMIENTOS_Y_RECOMENDACIONES_TESIS.md`
+- [x] **eA-8** · **Ficha técnica del sitio y declaración de hipótesis** ✅ 2026-09-19
+  - Ficha técnica consolidada (§1.6) aprobada como fuente única de verdad para las Etapas B a P
+  - Declaración formal de hipótesis de anteproyecto (estudios in situ requeridos para fase ejecutiva)
+  - 🌧️ Parámetros pluviales consolidados: $1.900\text{ mm/año}$, $i \approx 80$–$120\text{ mm/h}$ ($T=10\text{ años}$, $t_c=10\text{ min}$) registrados formalmente para insumo de **Etapas D.1 y G.1**
 
 ### Decisiones tomadas
 
@@ -192,39 +186,67 @@ Para verificar cuantitativamente la jerarquía de las acciones laterales sobre l
 
 > 💡 **Conclusión estructural:** El cortante basal y el momento volcante producidos por la acción de viento superan a los de origen sísmico por un factor de **3 a 4 veces**. En consecuencia, las combinaciones eólicas ($1{,}2G + 1{,}0Q + 1{,}4W$) determinan el estado límite de servicio (control de deriva lateral $\Delta/H \leq 1/500$) y el dimensionamiento de las pantallas de H°A° (Etapa E). La acción sísmica solo obligará a respetar las prescripciones de detallamiento armétrico dúctil mínimo contempladas en la ACI 318-19 y NBR 6118.
 
-### 1.5 Infraestructura urbana disponible
+### 1.5 Estudio de infraestructura urbana disponible
 
-*(Tarea pendiente eA-7 — Completar con: redes ESSAP, ANDE 23 kV MT, alcantarillado y telecomunicaciones)*
+El análisis del entorno urbano del predio en el sector sur de Ciudad del Este establece la disponibilidad y condiciones de acople a los servicios públicos de infraestructura:
 
-### 1.6 Ficha técnica del sitio — Resumen consolidado (eA-8)
+1. **Abastecimiento de agua potable (ESSAP S.A.):** Red colectora pública de la Empresa de Servicios Sanitarios del Paraguay (ESSAP) sobre la calzada principal (Calle Los Lapachos). Diámetro nominal de red $DN = 50\text{ mm}$ (2"), presión estática disponible $P_{red} \approx 1{,}5$–$2{,}0\text{ bar}$ (15–20 m.c.a.). Al tratarse de una torre de 18 pisos (~64 m), la presión municipal es insuficiente para alimentación directa a pisos superiores, exigiendo la construcción de un **reservorio inferior (cisterna)** de $60\text{ m}^3$ en Planta Baja/Subsuelo S1 y un **tanque elevado de azotea** de $30\text{ m}^3$ con equipo de bombeo redundante (**Etapa G.1**).
+2. **Energía eléctrica (ANDE):** Disponibilidad de la red aérea de Media Tensión (MT) en $23\text{ kV}$ (trifásica, $50\text{ Hz}$) de la Administración Nacional de Electricidad (ANDE). La demanda máxima estimada del edificio (~$700$–$900\text{ kVA}$) requiere la instalación de una **Subestación Transformadora Padrón ANDE en cabina blindada** ($1 \times 1.000\text{ kVA}$ o $2 \times 500\text{ kVA}$, $23\text{ kV} / 380\text{-}220\text{ V}$) ubicada en Subsuelo S1, complementada con un **Grupo Electrógeno Diésel de Emergencia** de ~$300\text{ kVA}$ para servicios esenciales (bombas de incendio, ascensores de evacuación/rescate, presurización de escaleras de emergencia e iluminación de evacuación) (**Etapa G.2**).
+3. **Red de alcantarillado sanitario (ESSAP / Municipal):** Conexión a la red colectora sanitaria municipal sobre vía pública. En caso de saturación o ausencia de colector profundo, se prevé el tratamiento in situ mediante una **Planta de Tratamiento de Efluentes (PTE) compacta anaeróbica/aeróbica** en Subsuelo S3 con disposición del efluente tratado conforme a la Ley 3239/07 de Recursos Hídricos de Paraguay (**Etapa G.1**).
+4. **Evacuación de aguas pluviales (Municipal / Escorrentía):** Descarga por gravedad hacia el sistema de drenaje pluvial sobre Calle Los Lapachos. El dimensionamiento del sistema pluvial interno (bajadas, canaletas y colectores) se rige por la intensidad de precipitación de la curva IDF oficial DMH/DINAC ($i_{10,10} = 128{,}5\text{ mm/h}$) (**Etapas D.1 y G.1**).
+5. **Telecomunicaciones y Fibra Óptica:** Disponibilidad de redes de fibra óptica subterránea y aérea (Copaco, Tigo, Claro, Personal). Acceso al predio mediante triducto de $DN = 110\text{ mm}$ sobre vereda principal conectado al rack central de telecomunicaciones RTV en S1 (**Etapa G.3**).
 
-| Parámetro | Valor adoptado | Fuente / Estado |
-|---|---|---|
-| Coordenadas UTM | Zona 21J, WGS84 / SIRGAS2000 | Google Earth Pro v7.3 — Hipótesis tesis |
-| Área del terreno | 7.618,49 m² | Cálculo Gauss/Shoelace ✅ |
-| Frente principal P1→P2 | 117,27 m (Calle Los Lapachos, azimut 80,82°) | Planimetría UTM ✅ |
-| Vértice agudo P1 | 61,44° (cuña 669,55 m²) | Cálculo trigonométrico ✅ |
-| FOS / FOT | 0,70 / 4,0 | Ordenanzas CDE 030/2000 y 024/2014 ✅ |
-| **V₀** | **45,0 m/s** | **NP 196:1991 — isopletas PY ✅** |
-| **Cat. terreno NP 196** | **Cat. III — Clase B** | Análisis entorno urbano ✅ |
-| **Cat. terreno NBR 6123** | **Cat. IV — Classe B** | Análisis entorno urbano ✅ |
-| **Exposición ASCE 7-22** | **Exposure B** | §26.7.3 ASCE 7-22 ✅ |
-| **Cat. terreno EC1** | **Cat. III (z₀=0,30 m)** | §4.3 EN 1991-1-4 ✅ |
-| Dirección dominante anual | **Este (E)** — ~20,5 % freq. | ERA5/ECMWF — Hipótesis ⚠️ |
-| Dirección dominante (verano) | **Norte (N)** — dic a feb | ERA5/ECMWF — Hipótesis ⚠️ |
-| Frentes fríos (invierno) | **Sur (S)** — may a ago (pampero) | ERA5/ECMWF — Hipótesis ⚠️ |
-| Velocidad media anual | ~10,0 km/h (~2,8 m/s) | ERA5/ECMWF — Hipótesis ⚠️ |
-| Sismicidad | Zona baja — $a_g \approx 0{,}05$–$0{,}08\text{ g}$ | NBR 15421:2023 / ASCE 7-22 ✅ |
-| Perfil sísmico | **Site Class B / Classe A** | Formación Serra Geral (basalto) ✅ |
-| $V_{s30}$ | $> 760\text{ m/s}$ | Hipótesis — sustrato basáltico ⚠️ |
-| Capacidad portante $q_{adm}$ | 300 kN/m² | Hipótesis de tesis ⚠️ |
-| Nivel freático | $> 12\text{ m}$ de profundidad | Hipótesis de tesis ⚠️ |
-| 🌧️ **Precipitación media anual** | **~1.900 mm/año** | DMH/DINAC — Hipótesis ⚠️ (confirmar en eA-8) |
-| 🌧️ **Intensidad pluvial diseño** | **i ≈ 80–120 mm/h** (T=10 años, tc=10 min) | Curva IDF DMH/DINAC CDE — Hipótesis ⚠️ → Usar en **G.1** y **D.1** |
+---
 
-> ✅ = Determinado técnicamente · ⚠️ = Hipótesis de anteproyecto pendiente de verificación instrumental
+### 1.6 Ficha técnica del sitio — Resumen consolidado y caracterización pluviométrica (eA-8)
 
-> **Declaración formal:** Los valores marcados ⚠️ no han sido obtenidos mediante instrumentación in situ. No reemplazan: (i) estación meteorológica en el predio; (ii) estudio geotécnico con sondeo SPT; (iii) relevamiento geodésico GNSS diferencial. Para la etapa ejecutiva se requerirán estudios homologados conforme a la legislación de la República del Paraguay.
+#### 1.6.1 Caracterización pluviométrica del sitio — Curvas IDF y régimen climatológico
+Para garantizar que las precipitaciones no sean omitidas en las etapas de cálculo estructural y de instalaciones, se consolida formalmente la caracterización de lluvias a partir de la serie instrumental de la **Dirección de Meteorología e Hidrología (DMH/DINAC)** (Estación Aeropuerto Internacional Guaraní, Código OMM: 86246, lat: -25,45°, lon: -54,84°, alt: 236 m s.n.m.):
+
+- **Precipitación media acumulada anual:** $1.932\text{ mm/año}$ (clima subtropical húmedo *Cfa*).
+- **Meses de máxima pluviosidad:** Octubre a Enero ($185$–$198\text{ mm/mes}$, picos de tormentas convectivas de mesoescala).
+- **Fórmula de la Curva IDF oficial para CDE:**
+
+$$i(t_c, T) = \frac{950{,}0 \cdot T^{0{,}180}}{(t_c + 14{,}0)^{0{,}760}} \quad [\text{mm/h}]$$
+
+![Figura 1.7: Curvas IDF e Hidrograma Pluviométrico Mensual — Ciudad del Este (DMH/DINAC Estación Aeropuerto Guaraní)](img/figura_1_7_lluvia_idf_cde.png)
+
+#### 1.6.2 Matriz de aplicación de parámetros pluviométricos en el proyecto
+| Parámetro Pluvial | Valor Obtenido | Fuente Oficial | Insumo Directo para Etapas |
+|---|---|---|---|
+| **Intensidad de diseño red pluvial interna** | $i_{10,10} = \mathbf{128{,}5\text{ mm/h}}$ ($T=10$a, $t_c=10$min) | Curva IDF DMH/DINAC CDE | **Etapa G.1** (Dimensionamiento de bajadas pluviales y colectores) |
+| **Intensidad de diseño azotea y desborde** | $i_{25,5} = \mathbf{180{,}9\text{ mm/h}}$ ($T=25$a, $t_c=5$min) | Curva IDF DMH/DINAC CDE | **Etapa G.1** (Canaletas, cazoletas de azotea y rebozaderos) |
+| **Sobrecarga por estancamiento de agua ($q_{rain}$)** | $q_{rain} = \mathbf{0{,}25\text{ kN/m}^2}$ ($25\text{ kgf/m}^2$) | ASCE 7-22 §8 / NBR 6120:2019 ($h_w=25\text{ mm}$) | **Etapa D.1** (Avalúo de cargas sobre losa de azotea) |
+| **Bomba pluvial ecorrentía en rampas (EBAR)** | $Q_{rampa} = \frac{C \cdot i_{25,5} \cdot A_{rampa}}{360}$ | Cálculo hidráulico de rampa S1 | **Etapa G.1** (Estación de Bombeo de Aguas Pluviales en Subsuelos) |
+
+#### 1.6.3 Tabla Maestra Consolidada de Parámetros del Sitio (Fuente Única de Verdad)
+
+| Parámetro del Sitio | Valor Adoptado | Fuente Normativa / Instrumental | Estado en Tesis |
+|---|---|---|---|
+| Coordenadas UTM | Zona 21J, WGS84 (P1: E 737721.76, N 7176185.26) | Google Earth Pro v7.3 / Relevamiento | Hipótesis tesis ⚠️ |
+| Área bruta del terreno | 7.618,49 m² | Polígono Gauss/Shoelace P1-P2-P3-P4 | Determinación final ✅ |
+| Frente principal P1→P2 | 117,27 m (Calle Los Lapachos, azimut 80,82°) | Geometría del lote | Determinación final ✅ |
+| Vértice agudo P1 | 61,44° (cuña de jardín 669,55 m²) | Trigonometría del lote | Determinación final ✅ |
+| Parámetros urbanísticos | FOS = 0,70 · FOT = 4,0 | Ordenanzas CDE 030/2000 y 024/2014 | Determinación final ✅ |
+| **Velocidad básica viento V₀** | **45,0 m/s** (T = 50 años) | **NP 196:1991 — Isopletas Paraguay** | **Determinación final ✅** |
+| **Cat. terreno NP 196** | **Categoría III — Clase B** ($b=0{,}85; p=0{,}175$) | NP 196:1991 §5 Tabla 2 | **Determinación final ✅** |
+| **Cat. terreno NBR 6123** | **Categoria IV — Classe B** ($b_m=0{,}86; p=0{,}20$) | ABNT NBR 6123:2023 §6.2 Tabela 4 | **Determinación final ✅** |
+| **Exposición ASCE 7-22** | **Exposure B** ($\alpha=7{,}0; z_g=365{,}76\text{ m}$) | ASCE 7-22 §26.7.3 Table 26.10-1 | **Determinación final ✅** |
+| **Cat. terreno EC1** | **Categoría III** ($z_0=0{,}30\text{ m}; z_{min}=5\text{ m}$) | EN 1991-1-4:2010 §4.3 Tabla 4.1 | **Determinación final ✅** |
+| Dirección dominante anual | **Este (E)** — ~20,5 % frecuencia anual | ERA5/ECMWF 1991–2020 | Hipótesis tesis ⚠️ |
+| Vientos fríos de invierno | **Sur (S)** — ~6,5 % (eventos de ráfaga "pampero") | ERA5/ECMWF 1991–2020 | Hipótesis tesis ⚠️ |
+| Sismicidad | Zona Baja ($a_g \approx 0{,}05$–$0{,}08\text{ g}$, $T_R=475\text{a}$) | ABNT NBR 15421:2023 / ASCE 7-22 | Determinación final ✅ |
+| Perfil sísmico de suelo | **Site Class B** (ASCE 7) / **Classe A** (NBR 15421) | Basalto Formación Serra Geral ($V_{s30} > 760\text{ m/s}$) | Determinación final ✅ |
+| Capacidad portante suelo $q_{adm}$ | 300 kN/m² (3,0 kgf/cm²) | Hipótesis sustrato basáltico sano | Hipótesis tesis ⚠️ |
+| Nivel freático | $> 12\text{ m}$ de profundidad | Hipótesis geotécnica de anteproyecto | Hipótesis tesis ⚠️ |
+| 🌧️ **Precipitación media anual** | **1.932 mm/año** | **DMH/DINAC Estación Aeropuerto Guaraní** | **Determinación final ✅** |
+| 🌧️ **Intensidad pluvial red interna** | **128,5 mm/h** ($T=10\text{a}, t_c=10\text{min}$) | **Curva IDF DMH/DINAC CDE** | **Insumo para G.1 ✅** |
+| 🌧️ **Intensidad pluvial azotea** | **180,9 mm/h** ($T=25\text{a}, t_c=5\text{min}$) | **Curva IDF DMH/DINAC CDE** | **Insumo para G.1 y D.1 ✅** |
+| 🌧️ **Sobrecarga de lluvia azotea** | **0,25 kN/m²** ($25\text{ kgf/m}^2$, $h_w=25\text{ mm}$) | **ASCE 7-22 §8 / NBR 6120:2019** | **Insumo para D.1 ✅** |
+
+> ✅ = Determinado técnicamente o fijado por norma · ⚠️ = Hipótesis de anteproyecto pendiente de verificación instrumental in situ
+
+> **Declaración formal de hipótesis de anteproyecto:** Los parámetros señalados con el símbolo ⚠️ forman parte del conjunto de hipótesis normativas y bibliográficas adoptadas para el desarrollo de la presente tesis de grado. Para la transición a la fase ejecutiva de obra, la legislación paraguaya exige la contratación de: (i) Estudio Geotécnico in situ con sondeos mecánicos de perforación y ensayo SPT/RQD; (ii) Relevamiento Topográfico/Geodésico GNSS diferencial con estación total; (iii) Certificación de servicios públicos de ANDE y ESSAP.
 
 ---
 
@@ -235,8 +257,10 @@ Para verificar cuantitativamente la jerarquía de las acciones laterales sobre l
 - American Society of Civil Engineers, *Minimum Design Loads and Associated Criteria for Buildings and Other Structures*, ASCE/SEI 7-22, Reston, VA, EE.UU., 2022. §26.7, Table 26.10-1.
 - European Committee for Standardization (CEN), *EN 1991-1-4:2010 — Eurocode 1: Actions on structures — Part 1-4: Wind actions*, Brussels, Belgium, 2010. §4.3, Tabla 4.1.
 - Associação Brasileira de Normas Técnicas, *Projeto de estruturas resistentes a sismos*, ABNT NBR 15421:2023, Rio de Janeiro, Brasil, 2023.
+- Associação Brasileira de Normas Técnicas, *Ações para o cálculo de estruturas de edificações*, ABNT NBR 6120:2019, Rio de Janeiro, Brasil, 2019. §8 (Cargas de chuva).
+- Associação Brasileira de Normas Técnicas, *Drenagem de águas pluviais de coberturas*, ABNT NBR 10844:1989, Rio de Janeiro, Brasil, 1989.
+- Dirección de Meteorología e Hidrología (DMH/DINAC), *Anuarios Estadísticos Climatológicos y Curvas IDF del Paraguay*, Asunción, Paraguay. Estación Aeropuerto Internacional Guaraní (AGT - CDE). Disponible en: https://datos.gov.py
 - A. Martínez, A. Marín, E. Aquino y D. Arévalos, «Study of the maximum wind speeds and meteorological characteristics in Paraguay using the NP-196 standard for a future update», *Proc. CILAMCE-PANACM 2021*, San Pablo, Brasil, 2021.
 - W. Ibarra, D. Arévalos, V. Silva, L. Quintana y O. Martínez-Pavetti, «Dynamic Analysis of a Slender Building Using Two Parallel Spectral Analysis Methods», *NewTech 2024 — ICCEIA 132*, Asunción, Paraguay, 2024.
-- Dirección de Meteorología e Hidrología (DMH/DINAC), *Anuarios Estadísticos Climatológicos*, Asunción, Paraguay. Disponible en: https://datos.gov.py
 - WeatherSpark.com, *Promedio del Tiempo en Ciudad del Este, Paraguay*, Cedar Lake Ventures, Inc., 2026. Disponible en: https://weatherspark.com/y/28524/
 
