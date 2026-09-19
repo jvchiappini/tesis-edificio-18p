@@ -89,54 +89,13 @@ El edificio mixto de 18 pisos y 3 subsuelos se emplaza sobre un terreno de **$7.
 
 ![Figura 2.2: Perfil Volumétrico y Relación de Plantas — Edificio 18P + 3 Subsuelos](img/figura_2_2_volumetria_y_perfil_edificio.png)
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                        AZOTEA TÉCNICA & AMENITIES                      │ H = +64.30m
-│                        (1.200 m² · Piscina + SUM + Gym)                │
-├────────────────────────────────────────────────────────────────────────┤
-│                                                                        │
-│                      TORRE RESIDENCIAL (P01 – P18)                     │ H = +4.00m a +60.95m
-│                      Huella: 48,00 m × 30,00 m = 1.440,00 m²           │ (18 plantas × 6 dptos
-│                      (108 Departamentos / 1.5 autos por dpto)          │  = 108 dptos total)
-│                                                                        │
-├────────────────────────────────────────────────────────────────────────┤  Cota +4.00m (Vigas Apeo)
-│                                                                        │
-│                      PLANTA BAJA COMERCIAL & ACCESOS (PB)              │ H = 0.00m a +4.00m
-│                      Huella: 85,00 m × 37,00 m = 3.145,00 m²           │ (Locales comerciales
-│                      (Varios Locales + Lobby + Servicios + RSU)        │  + Lobby Residencial)
-│                                                                        │
-├────────────────────────────────────────────────────────────────────────┤  Cota 0.00m (Terreno)
-│                      SUBSUELO 1 (S1): 3.145 m² · 90 cocheras          │ Cota -3.50m
-├────────────────────────────────────────────────────────────────────────┤
-│                      SUBSUELO 2 (S2): 3.145 m² · 90 cocheras          │ Cota -7.00m
-├────────────────────────────────────────────────────────────────────────┤
-│                      SUBSUELO 3 (S3): 3.145 m² · 90 cocheras + PTAR   │ Cota -10.50m
-└────────────────────────────────────────────────────────────────────────┘
-```
+
 
 #### 2.2 Zonificación Detallada de Planta Baja ($3.145,00\text{ m}^2$)
 
 ![Figura 2.1: Planta Baja Comercial y de Servicios (3.145,00 m²)](img/figura_2_1_zonificacion_planta_baja.png)
 
-```
-┌────────────────────────────────────── 85,00 m ──────────────────────────────────────┐
-│                                                                                     │
-│  ┌──────────────────────┐  ┌──────────────────────┐  ┌───────────────────────────┐  │
-│  │ LOCAL COMERCIAL 1    │  │ LOCAL COMERCIAL 2    │  │ LOCAL COMERCIAL 3 (MEGA)  │  │
-│  │ 350,00 m²            │  │ 450,00 m²            │  │ 1.050,00 m²               │  │ 22,00 m
-│  │ Galería Comercial    │  │ Tiendas / Retail     │  │ Supermercado / Tienda     │  │
-│  └──────────────────────┘  └──────────────────────┘  └───────────────────────────┘  │
-│ ─────────────────────────────────────────────────────────────────────────────────── │
-│  ┌──────────────────────┐  ┌──────────────────────┐  ┌───────────────────────────┐  │
-│  │ LOBBY RESIDENCIAL    │  │ NÚCLEOS H°A° (2x)    │  │ BLOQUE TÉCNICO & RSU      │  │
-│  │ 250,00 m²            │  │ 126,00 m² (7x9m c/u) │  │ 395,00 m²                 │  │ 15,00 m
-│  │ Recep./Concierge/BMS │  │ Ascensores/Escaleras │  │ BMS, RSU, Baños NBR9050   │  │
-│  └──────────────────────┘  └──────────────────────┘  └───────────────────────────┘  │
-│  ┌───────────────────────────────────────────────────────────────────────────────┐  │
-│  │ RAMPA RAMAL SUBSUELOS (400,00 m² · Ancho W = 6.0m · i = 15%)                   │  │
-│  └───────────────────────────────────────────────────────────────────────────────┘  │
-└─────────────────────────────────────────────────────────────────────────────────────┘
-```
+
 
 ---
 
@@ -178,26 +137,7 @@ En la Torre Residencial ($P01$ a $P18$), cada planta tipo de **$1.440,00\text{ m
 
 Para absorber los esfuerzos cortantes eólicos ($V_0 = 45\text{ m/s}$) y albergar las circulaciones verticales, se disponen **dos núcleos estructurales gemelos de H°A° de $7,00\text{ m} \times 9,00\text{ m}$** ($A = 63,00\text{ m}^2$ c/u), rotados $90^\circ$ entre sí.
 
-```
-┌─────────────────────────────────────── 7.00 m ───────────────────────────────────────┐
-│                                                                                       │
-│  ┌───────────────────────────────┐ ┌──────────────────┐ ┌──────────────────────────┐  │
-│  │   ASCENSOR 1 (PASAJEROS)      │ │   SHAFT ELE/RTV  │ │  ASCENSOR 2 (SERVICIOS)  │  │ 3.00 m
-│  │   1.75 m/s · 10 personas      │ │   0.80m × 1.20m  │ │  1.75 m/s · 12 personas   │  │
-│  └───────────────────────────────┘ └──────────────────┘ └──────────────────────────┘  │
-│ ───────────────────────────────────────────────────────────────────────────────────── │
-│  ┌─────────────────────────────────────────────────────────────────────────────────┐  │
-│  │                     ANTECÁMARA PRESURIZADA DE SEGURIDAD                         │  │ 1.80 m
-│  │                     Puerta RF-60 · Inyección de Aire (1.20 m/s)                 │  │
-│  └─────────────────────────────────────────────────────────────────────────────────┘  │
-│ ───────────────────────────────────────────────────────────────────────────────────── │ 9.00 m
-│  ┌─────────────────────────────────────────────────────────────────────────────────┐  │
-│  │                     ESCALERA PRESURIZADA DE EVACUACIÓN (NBR 9077)               │  │
-│  │                     Ancho de tramo W = 1.20 m · Huella 28cm / Contrahuella 17cm │  │ 4.20 m
-│  │                     Caja de H°A° e = 20 cm estanca (Resistencia RF-180)         │  │
-│  └─────────────────────────────────────────────────────────────────────────────────┘  │
-└───────────────────────────────────────────────────────────────────────────────────────┘
-```
+
 
 #### 4.1 Rigidez Lateral Eólica y Desacoplamiento de Pilares
 - **Absorción de Cortante Basal:** Los 2 núcleos actúan como voladizos verticales empotrados en la platea de fundación en basalto. Debido a su elevada inercia ($I_x, I_y$), **absorben el $78\%$ del cortante eólico total**, limitando las derivas laterales ($\Delta/H \le 1/500$) y permitiendo que los pilares perimetrales trabajen prioritariamente a flexocompresión gravitatoria simple.
