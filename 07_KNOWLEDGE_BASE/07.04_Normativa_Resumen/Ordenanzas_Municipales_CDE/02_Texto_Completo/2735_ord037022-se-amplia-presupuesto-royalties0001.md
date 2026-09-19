@@ -1,0 +1,17 @@
+# Ord.037.022 Se amplia presupuesto Royalties_0001
+
+- **Relevancia:** BAJA
+- **Año (categoría):** 2022
+- **Categoría publicada:** Ordenanzas Junta Municipal 2022
+- **Texto (div mt-4):** ORDENANZA 2022
+- **Enlace oficial:** https://mcde.gov.py/post/ord037022-se-amplia-presupuesto-royalties0001
+- **PDF original local:** `03_PDF_Originales/2022/2735_ord037022-se-amplia-presupuesto-royalties0001.pdf`
+- **Método:** OCR Windows (es) · 2934 car.
+
+> Documento de la Municipalidad de Ciudad del Este. Verificar contra el PDF original.
+
+---
+
+PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO 2021 A". del y 595 "T 548440 ORDENA,VZ8V037/2022 CIUDAD DEL ESTE POR CUAL SE AMPLÍA EL PRESUPUESTO 2022 A DE INCORPORAR AL PRESUPUESTO LA TRANSFERENCIA RECIBIDI DEL MINISTERIO FONDOS REMANENTES DE ROYALTIES CORRESPONDIENTu AL AÑO 2021,- Viudod del Este, 22 r.le de 2022- VISTO: Mensaje Por la cual Jo Intendencia Municipa! elevcr ei proyecto de "POR SE EL PRESL.V1,ifiSilO 2022 A nr AL PRESUPUESIO LA DEL MINISTERIO REMANENTES DE ROYALTIES CORRESPONTJEA'TE .AL 21121 elaborado por de Adminiurecjón y Fint.mzos, conforme ú' planillo de cálculo remitida por la UDM y Ampliación de Fondos Genuinos, puro y ermsideración del regisio'h•o municipal, conformes disposiciones es$ohlecidcrs en Ley 3'366/8020 Orgónieo Municipa!, y; CONSIDERANDO: Que, Cartil Articulo 166 de la Autonomfo .rnunieif)filidades san jos órganns• de gobierno eon personerie jwrjdJ'et.T que, dentro de su (jenen GLItonomíü y norma!iva. osí en la recaudación e inversión de sus recarsos-- Que, el artículo RBB de V,ey 3966/2.010 establece sigue: Ampiifición riel' Presupuesto Genere! de Muniripojfdad,• {os Modificaciones al Presupuesio Genera de la Municipulidad que impliquen Jo ompiioción de los gastos previsinç, deherán crsignar explicí10rnenie ret'[trsvs coy' que se sufragará ampiiut.jÓn,- Que, los recursos prosenientes cie de créditos semn Íneorporodmç a! supuesto General de Municipalidad, A lof erecto, eI Intendente rern)ifti o Municipú'l e.' proyecto de Limpljoción pedido de aprobación w.;peeGva convenio de {'réd.;ya.- Quer por medir» del memorándum 207/2022 Ío Dirección de AdministraciÓn y Finrm.os de Ío WunicipaÍidcv,i de de! Este, Arnpliocidn Presupuestaria 2022, fin cie Pretupuesto transferencia recibida Minisyerin de iTuciendCT Fondos Remanentes Royalties correspondieni? 01 Año 20.21, e pmnij'L'a de rernilidll por Ío L.iJ1jdvdgi+' Departvmenms y Municipios 10 Ampliqción de fondos genuinos.- Que, teniendo en cuento ei Asesoría Jurídico 6466/2022 rie (echo que no opone legul Ofguno. 4 EI dictamen de fu Comisión de de y aprobcrr}o en Sesión fechil 22 del año 20/'2, Según Acta N" 69; por JUNTA MUNICIPAL CIUDAD REUNIDA ORDENP$ Articulo APROBAR, 10 Ampliacion de Ingresos sumil total de Gs, 4,332x012.232 de incorporar 01 presupues&a Ja transferencia recibida Ministerio de [Iacienda fondos remunentesdeRo correspondientes oidño 21121 y itrwn de Ingresos Genuinnç.- Pru Origen DL'LallC FF INti f..kl"f' (.k;v. dcC"iIlns. de Pavirw-'ll lu'. 11
+
+PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PÉñ10õ0 2021 - 2025 Av. rai. CIUDAD DEL ESTE Articulo DISPONER, distrjhucÍón de pagos de los siguientes rubros en los objetos de gnstos conforme siguiente cletülle.• 01 1 v e 1.41". Eon estú amp!iaeÍón el Presupues¿o de 10 Municipojiltad cie Liudad del Esle Ejercicio da' 2022, eumentn la strma de Gs. 30790,802, 782- INTCAR* o quienes corresponda y cumplido o o 10 etario General J.M. p ide ÑA Página 2 de 2

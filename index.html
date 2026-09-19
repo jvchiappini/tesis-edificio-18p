@@ -762,6 +762,31 @@
       background: var(--bg-p2);
     }
 
+    a.ghost {
+      font-family: "IBM Plex Sans", sans-serif;
+      font-size: 12px;
+      padding: 5px 10px;
+      background: transparent;
+      color: var(--ink-s);
+      border: 1px solid var(--line);
+      text-decoration: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background .15s, color .15s;
+    }
+
+    a.ghost:hover {
+      background: var(--bg-p2);
+      color: var(--ink);
+    }
+
+    a.ghost.normativa {
+      border-color: var(--amber-l);
+      color: var(--amber);
+    }
+
     #theme-btn {
       font-size: 12px;
       padding: 5px 10px;
@@ -888,6 +913,7 @@
         </div>
         <div class="prog-txt" id="overall-text">0 / 0 tareas completadas</div>
         <div class="hdr-actions">
+          <a href="visor_ordenanzas.html" class="ghost normativa" title="Visor de Ordenanzas Municipales de Ciudad del Este (2020–2026)">📚 Ordenanzas CDE</a>
           <button id="theme-btn" class="ghost">☾ Modo oscuro</button>
           <button id="expand-btn" class="ghost">Expandir todo</button>
         </div>
