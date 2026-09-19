@@ -65,7 +65,7 @@
 | `etapas/img/figura_1_4_rosa_de_vientos_cde.png` | Figura 1.4: Rosa de vientos anual CDE — ERA5/ECMWF 1991–2020 | ✅ Generado |
 | `etapas/img/figura_1_5_perfiles_velocidad_multinormativos.png` | Figura 1.5: Perfiles Vk(z) comparativos — 4 normas | ✅ Generado |
 | `07_KNOWLEDGE_BASE/07.04_Normativa_Resumen/Analisis_Viento_Exposicion_CDE_eA5_v01.md` | KB: Análisis multinormativo de exposición eA-5 | ✅ Creado |
-| `00_GESTION_DE_PROYECTO/LINEAMIENTOS_Y_RECOMENDACIONES_TESIS.md` | Ficha técnica del sitio (actualizar con parámetros eA-5) | Pendiente eA-8 |
+| `00_GESTION_DE_PROYECTO/LINEAMIENTOS_Y_RECOMENDACIONES_TESIS.md` | Ficha técnica del sitio consolidada (parámetros eA-5..eA-8) | ✅ Actualizado (eA-8) |
 
 ---
 
