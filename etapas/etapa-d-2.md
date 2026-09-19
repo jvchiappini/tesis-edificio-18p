@@ -19,7 +19,7 @@
 
 ### 1. Definición Geométrica de la Grilla Estructural
 
-La grilla estructural adopta una modulación de luces de 7.50m a 7.875m en dirección X y de 7.00m a 9.00m en dirección Y, perfectamente sincronizada con los núcleos gemelos de hormigón armado:
+La grilla estructural adopta una modulación de luces perfectamente sincronizada con los núcleos de hormigón armado:
 
 - **Ejes X (m):** `[2.50, 10.38, 18.25, 26.13, 34.00, 41.00, 49.00, 56.00, 63.88, 71.75, 79.63, 87.50]`
 - **Ejes Y (m):** `[3.00, 10.00, 17.00, 26.00, 33.00, 40.00]`

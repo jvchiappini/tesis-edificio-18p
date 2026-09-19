@@ -17,9 +17,9 @@
 
 ## 📝 SECCIÓN 2 — BORRADOR ACADÉMICO PARA TESIS
 
-### 1. Modelo de Sección de Pantalla H°A° (7.00m × 9.00m)
+### 1. Modelo de Sección de Pantallas de H°A°
 
-Los 2 núcleos gemelos actúan como muros de corte en C / U con espesor constante $t_w = 30\text{ cm}$ de Subsuelos a P06, y $t_w = 25\text{ cm}$ de P07 a P18.
+Los núcleos de H°A° actúan como muros de corte en C / U con espesor constante $t_w = 30\text{ cm}$ de Subsuelos a P06, y $t_w = 25\text{ cm}$ de P07 a P18.
 
 - **Resistencia al cortante por viento:** $V_{Ed,max} = 2.425\text{ kN}$ por núcleo.
 - **Momento flector basal:** $M_{Ed,max} = 99.100\text{ kN·m}$ por núcleo.

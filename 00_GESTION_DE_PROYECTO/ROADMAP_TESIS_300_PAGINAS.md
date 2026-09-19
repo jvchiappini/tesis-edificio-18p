@@ -10,7 +10,7 @@
 * **Título:** Diseño Estructural, Análisis Aerodinámico ante Cargas de Viento y Modelado BIM (ISO 19650) de un Edificio de Uso Mixto de 18 Plantas en Ciudad del Este, Paraguay.
 * **Autor:** José Valentino Chiappini Vergara.
 * **Extensión Objetivo:** **~300 Páginas** (Formato Word / PDF de Alta Fidelidad Académica).
-* **Núcleo Técnico:** Énfasis principal en **Ingeniería de Viento y Dinámica de Estructuras** comparando la **Norma Paraguaya NP 196:1991** con estándares internacionales (**NBR 6123:2023, ASCE 7-22, Eurocódigo 1 EN 1991-1-4**), complementado con diseño estructural completo en H°A° (losa nervada/reticular H=35cm, pilares continuos, núcleos gemelos), diseño integral de instalaciones MEP, optimización algorítmica (NSGA-II) y gestión BIM ISO 19650.
+* **Núcleo Técnico:** Énfasis principal en **Ingeniería de Viento y Dinámica de Estructuras** comparando la **Norma Paraguaya NP 196:1991** con estándares internacionales (**NBR 6123:2023, ASCE 7-22, Eurocódigo 1 EN 1991-1-4**), complementado con diseño estructural completo en H°A° (losa nervada/reticular H=35cm, pilares continuos, núcleos H°A°), diseño integral de instalaciones MEP, optimización algorítmica (NSGA-II) y gestión BIM ISO 19650.
 
 ---
 
@@ -24,7 +24,7 @@
 | **Capítulo 3** | **Marco Teórico Expositivo II — Comparativa Multi-Normativa de Viento:** Desglose artículo por artículo de la **NP 196:1991 (Paraguay)**, **NBR 6123:2023 (Brasil)**, **ASCE 7-22 (EE.UU.)** y **EN 1991-1-4 (Eurocódigo 1)**. Fórmulas, tablas de coeficientes de forma/presión, factores topográficos, ráfagas, resonancia y velocidades de referencia local. | ~40 págs. |
 | **Capítulo 4** | **Metodología BIM bajo ISO 19650 y Optimización Algorítmica Híbrida:** BEP (BIM Execution Plan), CDE (Common Data Environment), LOIN/LOD, Algoritmos Genéticos Multiobjetivo (NSGA-II) en Python combinados con refinamiento y ajuste manual arquitectónico de circulaciones, automatización con Dynamo y Revit 2024. | ~35 págs. |
 | **Capítulo 5** | **Análisis Eólico y Estructural del Caso de Estudio (Edificio 18P):** Cálculo numérico de presiones, succión, cortante basal, momento flector, deriva de piso (drift), confort humano ante aceleraciones top floor. Comparativa exhaustiva: NP 196 vs NBR 6123 vs ASCE 7-22 vs EC1. | ~45 págs. |
-| **Capítulo 6** | **Diseño Estructural de Hormigón Armado (Memoria de Cálculo):** Estructura formal canónica de cálculo de pórticos, losas nervadas/reticulares alivianadas (H=35cm y H=45cm), vigas spandrel, recálculo dinámico de pilares por grupos de niveles (flexocompresión biaxial N + Mx + My) y núcleos gemelos H°A°. Fundaciones y muros de contención. Estados Límites Últimos (ELU) y de Servicio (ELS). | ~40 págs. |
+| **Capítulo 6** | **Diseño Estructural de Hormigón Armado (Memoria de Cálculo):** Estructura formal canónica de cálculo de pórticos, losas nervadas/reticulares alivianadas (H=35cm y H=45cm), vigas spandrel, recálculo dinámico de pilares por grupos de niveles (flexocompresión biaxial N + Mx + My) y núcleos de H°A°. Fundaciones y muros de contención. Estados Límites Últimos (ELU) y de Servicio (ELS). | ~40 págs. |
 | **Capítulo 7** | **Diseño Integral de Instalaciones (MEP) y Coordinación:** Redes Sanitarias, Cloacales, Pluviales (PTE+EBAR), Eléctricas (Subestación ANDE 60m²), Contra Incendio (PCI), Climatización/Ventilación y Sistema RSU (Pleno T1-T2). Detección de interferencias. | ~30 págs. |
 | **Capítulo 8** | **Presupuesto, Cómputo Métrico y Cronograma 4D/5D:** Cómputo detallado ítem por ítem, precios unitarios (CYPE/CAPACO), cronograma de obra de 18 pisos, análisis de factibilidad económica y sustentabilidad. | ~15 págs. |
 | **Capítulo 9** | **Conclusiones, Recomendaciones y Futuras Líneas de Investigación.** | ~15 págs. |
@@ -41,7 +41,7 @@
 
 1. **Memoria Descriptiva y Objetivos:**
    - Descripción física, funcional y tipológica de la estructura (18 pisos + PB libre 4m + 3 subsuelos a -10.50m + azotea técnica).
-   - Justificación del sistema estructural adoptado: grilla continua sin apeos, losas nervadas alivianadas (menor masa sísmica/inercial), vigas de borde perimetrales spandrel y 2 núcleos gemelos rígidos de H°A° rotados 90°.
+   - Justificación del sistema estructural adoptado: grilla continua sin apeos, losas nervadas alivianadas (menor masa sísmica/inercial), vigas de borde perimetrales spandrel y núcleos rígidos de H°A°.
    - Objetivos de desempeño estructural y niveles de seguridad.
 
 2. **Normativa Aplicable y Códigos de Diseño:**
