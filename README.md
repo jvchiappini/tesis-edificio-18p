@@ -17,8 +17,8 @@ El proyecto integra la metodología **BIM (ISO 19650)**, el cálculo estructural
 ### 🏢 Ficha Técnica Sintética
 * **Tipología:** Edificio de uso mixto (Residencial + Comercial + Cocheras + Amenities).
 * **Configuración de Plantas:** 3 Subsuelos de cocheras ($S1\text{–}S3$) + Planta Baja Comercial ($PB$) + 18 Pisos Residenciales ($P01\text{–}P18$) + Azotea Técnica & Amenities (Piscina + SUM).
-* **Superficie Edificable por Planta:** $\approx 3.145\text{ m}^2$ ($85.0\text{m} \times 37.0\text{m}$).
-* **Superficie Construida Total:** $\approx 68.600\text{ m}^2$.
+* **Superficie Edificable por Planta:** ⏳ *En re-definición (Etapa B — Arquitectura Completa)*
+* **Superficie Construida Total:** ⏳ *En re-definición (Etapa B — Arquitectura Completa)*
 * **Superficie del Terreno:** $7.618,49\text{ m}^2$ (Polígono P1-P2-P3-P4, UTM Zona 21J).
 * **Parámetros Urbanísticos:** FOS = 0,70 ($A_{\text{máx huella}} = 5.332\text{ m}^2$) | FOT = 4,0 ($A_{\text{sobre rasante}} = 30.474\text{ m}^2$).
 
