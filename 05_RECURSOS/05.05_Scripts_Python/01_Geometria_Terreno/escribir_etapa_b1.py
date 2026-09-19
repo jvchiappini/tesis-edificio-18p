@@ -1,4 +1,12 @@
-# B.1 — Programa y Organización Funcional
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Script auxiliar para escribir etapa-b-1.md de forma limpia en UTF-8.
+"""
+
+path = r"c:\Users\jvchi\CARPETAS\IngChiappini\00_TESIS_EDIFICIO_18P\etapas\etapa-b-1.md"
+
+content = """# B.1 — Programa y Organización Funcional
 
 > **Etapa B › Sub-etapa 1** · **Tareas:** 4 · **Estado:** 🟢 Completado (2026-09-19)  
 > Normativa: MCDE ([Ord. M. 003/2026 J.M. Art. 3°, 4°, 5°, 6° y 7°](visor_ordenanzas.html?id=3693) — Uso Residencial Mixto, Lote Mínimo 3.000m², IOS desde Subsuelo y Fachadas No Espejadas; [Ord. 011/1994](visor_ordenanzas.html?id=3146); [Ord. 038/1999 PCI](visor_ordenanzas.html?id=3123)) · Ley N° 3966/2010 Orgánica Municipal · ABNT NBR 9050 · ABNT NBR 9077 · ISO 4190 · Neufert
@@ -10,9 +18,9 @@
 ### Checklist de Tareas
 
 - [x] **Task B1.1:** Definir el cuadro de áreas maestro por uso y nivel (Subsuelos 1-3, PB comercial, P01-P18 residencial, Azotea) integrando la **matriz de compatibilidad estructural avanzada** (variación de pilares por grupo de pisos y vigas de transferencia en PB).
-- [x] **Task B1.2:** Dimensionar y validar los 2 núcleos de circulación vertical de H°A° ($7,00\text{ m} \times 9,00\text{ m}$ c/u) como **pantallas principales de rigidez eólica** ($70\%-80\%$ del cortante basal $V_0 = 45\text{ m/s}$), aliviando pilares perimetrales.
-- [x] **Task B1.3:** Zonificar recintos de Planta Baja libre de pilares intermediarios mediante vigas de transferencia de gran canto (Lobby residencial, 3 Locales Comerciales totalizando $1.850\text{ m}^2$, Sanitarios adaptados NBR 9050, BMS/Admin, RSU y rampas).
-- [x] **Task B1.4:** Diseñar el esquema de evacuación y medios de escape según norma de protección contra incendios PCI (distancia máxima a antecámara presurizada $\le 28,40\text{ m} \le 30,00\text{ m}$) y cuantificar la dotación de cocheras en subsuelos ($1,5\text{ autos/departamento}$).
+- [x] **Task B1.2:** Dimensionar y validar los 2 núcleos de circulación vertical de H°A° ($7,00\\text{ m} \\times 9,00\\text{ m}$ c/u) como **pantallas principales de rigidez eólica** ($70\\%-80\\%$ del cortante basal $V_0 = 45\\text{ m/s}$), aliviando pilares perimetrales.
+- [x] **Task B1.3:** Zonificar recintos de Planta Baja libre de pilares intermediarios mediante vigas de transferencia de gran canto (Lobby residencial, 3 Locales Comerciales totalizando $1.850\\text{ m}^2$, Sanitarios adaptados NBR 9050, BMS/Admin, RSU y rampas).
+- [x] **Task B1.4:** Diseñar el esquema de evacuación y medios de escape según norma de protección contra incendios PCI (distancia máxima a antecámara presurizada $\\le 28,40\\text{ m} \\le 30,00\\text{ m}$) y cuantificar la dotación de cocheras en subsuelos ($1,5\\text{ autos/departamento}$).
 
 ---
 
@@ -21,13 +29,13 @@
 | Fecha | Decisión Proyectual | Fundamento Técnico & Normativo |
 |---|---|---|
 | 2026-09-19 | **Compatibilidad Estructural Flexible por Nivel** | `AGENTS.md §6.2 y §7`: Adaptación de la grilla a las necesidades funcionales de cada uso. |
-| 2026-09-19 | **Diferenciación de Huella PB vs. Torre Residencial** | Huella $PB = 3.145,00\text{ m}^2$ ($85\text{m} \times 37\text{m}$) vs. Huella Torre Residencial $P01\text{-}P18 = 1.440,00\text{ m}^2$ ($48\text{m} \times 30\text{m}$, es decir $45,79\%$ de PB). |
-| 2026-09-19 | **Programa de Departamentos y Cocheras** | 108 Departamentos (6 dptos/piso) $\times 1,5\text{ autos/dpto} = 162\text{ autos}$ residenciales + $25\text{ autos}$ comerciales = **187 cocheras requeridas** vs. **270 plazas disponibles en 3 subsuelos** (+83 plazas libres). |
-| 2026-09-19 | **Transición Escalonada de Pilares** | **S1-PB:** $90 \times 90\text{ cm}$ · **P01-P06:** $80 \times 80\text{ cm}$ · **P07-P12:** $70 \times 70\text{ cm}$ · **P13-P18:** $60 \times 60\text{ cm}$. Optimización de peso propio y economía de hormigón. |
-| 2026-09-19 | **Vigas de Transferencia / Apeo en PB** | Vigas de H°A° de gran canto en cota $+4,00\text{ m}$ para apeo de pilares residenciales de torre y liberación de $1.850\text{ m}^2$ libres comerciales en PB. |
-| 2026-09-19 | **Concentración de Rigidez en Núcleos H°A°** | 2 núcleos gemelos rotados $90^\circ$ ($7,00\text{ m} \times 9,00\text{ m}$) absorben el $78\%$ del cortante basal de viento ($V_0 = 45\text{ m/s}$), desacoplando los pilares perimetrales. |
-| 2026-09-19 | **Programa Mixto y Lote Mínimo** | [Ord. M. 003/2026 J.M. Art. 3° y 5°](visor_ordenanzas.html?id=3693) ($A_{\text{terreno}} = 7.618,49\text{ m}^2 \ge 3.000\text{ m}^2$, FOS real = 41,28% $\le 70\%$, FOT real = 3,97 $\le 4,00$). |
-| 2026-09-19 | **Evacuación y Medios de Escape (PCI)** | Recorrido máximo a antecámara presurizada $\le 28,40\text{ m} \le 30,00\text{ m}$ ([Ord. 038/1999 J.M.](visor_ordenanzas.html?id=3123)). |
+| 2026-09-19 | **Diferenciación de Huella PB vs. Torre Residencial** | Huella $PB = 3.145,00\\text{ m}^2$ ($85\\text{m} \\times 37\\text{m}$) vs. Huella Torre Residencial $P01\\text{-}P18 = 1.440,00\\text{ m}^2$ ($48\\text{m} \\times 30\\text{m}$, es decir $45,79\\%$ de PB). |
+| 2026-09-19 | **Programa de Departamentos y Cocheras** | 108 Departamentos (6 dptos/piso) $\\times 1,5\\text{ autos/dpto} = 162\\text{ autos}$ residenciales + $25\\text{ autos}$ comerciales = **187 cocheras requeridas** vs. **270 plazas disponibles en 3 subsuelos** (+83 plazas libres). |
+| 2026-09-19 | **Transición Escalonada de Pilares** | **S1-PB:** $90 \\times 90\\text{ cm}$ · **P01-P06:** $80 \\times 80\\text{ cm}$ · **P07-P12:** $70 \\times 70\\text{ cm}$ · **P13-P18:** $60 \\times 60\\text{ cm}$. Optimización de peso propio y economía de hormigón. |
+| 2026-09-19 | **Vigas de Transferencia / Apeo en PB** | Vigas de H°A° de gran canto en cota $+4,00\\text{ m}$ para apeo de pilares residenciales de torre y liberación de $1.850\\text{ m}^2$ libres comerciales en PB. |
+| 2026-09-19 | **Concentración de Rigidez en Núcleos H°A°** | 2 núcleos gemelos rotados $90^\\circ$ ($7,00\\text{ m} \\times 9,00\\text{ m}$) absorben el $78\\%$ del cortante basal de viento ($V_0 = 45\\text{ m/s}$), desacoplando los pilares perimetrales. |
+| 2026-09-19 | **Programa Mixto y Lote Mínimo** | [Ord. M. 003/2026 J.M. Art. 3° y 5°](visor_ordenanzas.html?id=3693) ($A_{\\text{terreno}} = 7.618,49\\text{ m}^2 \\ge 3.000\\text{ m}^2$, FOS real = 41,28% $\\le 70\\%$, FOT real = 3,97 $\\le 4,00$). |
+| 2026-09-19 | **Evacuación y Medios de Escape (PCI)** | Recorrido máximo a antecámara presurizada $\\le 28,40\\text{ m} \\le 30,00\\text{ m}$ ([Ord. 038/1999 J.M.](visor_ordenanzas.html?id=3123)). |
 
 ---
 
@@ -38,9 +46,9 @@
 | `00_GESTION_DE_PROYECTO/ROADMAP_TESIS_300_PAGINAS.md` | Hoja de ruta académica de la tesis | Actualizado |
 | `07_KNOWLEDGE_BASE/.../3693_ordenanza-m-n003-2026-jm.md` | Texto completo verificado de la Ord. M. 003/2026 J.M. | Verificado |
 | `05_RECURSOS/05.05_Scripts_Python/01_Geometria_Terreno/dibujar_zonificacion_b1.py` | Script Python generador de figuras vectoriales (300 DPI) | ✅ Creado |
-| `etapas/img/figura_2_1_zonificacion_planta_baja.png` | Figura 2.1: Zonificación de Planta Baja Comercial ($3.145\text{ m}^2$) | ✅ Generado |
+| `etapas/img/figura_2_1_zonificacion_planta_baja.png` | Figura 2.1: Zonificación de Planta Baja Comercial ($3.145\\text{ m}^2$) | ✅ Generado |
 | `etapas/img/figura_2_2_volumetria_y_perfil_edificio.png` | Figura 2.2: Perfil Volumétrico y Relación de Plantas (18P + 3 Subsuelos) | ✅ Generado |
-| `etapas/img/figura_2_3_planta_tipo_residencial.png` | Figura 2.3: Planta Tipo Residencial ($1.440\text{ m}^2$) | ✅ Generado |
+| `etapas/img/figura_2_3_planta_tipo_residencial.png` | Figura 2.3: Planta Tipo Residencial ($1.440\\text{ m}^2$) | ✅ Generado |
 
 ---
 
@@ -48,20 +56,20 @@
 
 ### 1. Cuadro de Áreas Maestro, Desglose por Uso y Compatibilidad Estructural por Nivel
 
-El edificio mixto de 18 pisos y 3 subsuelos se emplaza sobre un terreno de **$7.618,49\text{ m}^2$** en Ciudad del Este (UTM Zona 21J). El anteproyecto contempla una superficie construida total acumulada de **$39.700,00\text{ m}^2$** sobre rasante y **$9.435,00\text{ m}^2$** bajo rasante en 3 subsuelos (exentos del cómputo FOT según Art. 226 de la Ley N° 3966/2010 Orgánica Municipal).
+El edificio mixto de 18 pisos y 3 subsuelos se emplaza sobre un terreno de **$7.618,49\\text{ m}^2$** en Ciudad del Este (UTM Zona 21J). El anteproyecto contempla una superficie construida total acumulada de **$39.700,00\\text{ m}^2$** sobre rasante y **$9.435,00\\text{ m}^2$** bajo rasante en 3 subsuelos (exentos del cómputo FOT según Art. 226 de la Ley N° 3966/2010 Orgánica Municipal).
 
 #### 1.1 Matriz de Superficies y Transición Estructural por Nivel
 
 | Nivel / Planta | Cota (m) | Altura Libre (m) | Función Principal / Programa | Área Construida (m²) | Área FOT (m²) | Sección Pilares H°A° | Sistema de Entrepiso & Transición |
 |---|---|---|---|---|---|---|---|
-| **Subsuelo 3 (S3)** | -10.50 | 3.10 | Estacionamiento (90 autos/18 motos), Depósitos & PTAR Estanca | 3.145,00 | 0,00 *(Exento)* | Muros contención $30\text{cm}$ + Pilares $90 \times 90\text{ cm}$ | Platea cimentación en basalto $q_{\text{adm}}=300\text{ kN/m}^2$ + Losa H=45cm |
-| **Subsuelo 2 (S2)** | -7.00 | 3.10 | Estacionamiento (90 autos/15 motos) & Depósitos Privados | 3.145,00 | 0,00 *(Exento)* | Pilares $90 \times 90\text{ cm}$ | Losa nervada bidireccional H=45cm con casetones recuperables |
-| **Subsuelo 1 (S1)** | -3.50 | 3.20 | Estacionamiento (90 autos/15 motos), ANDE 1.000kVA, Genset, Cisterna 60m³ | 3.145,00 | 0,00 *(Exento)* | Pilares $90 \times 90\text{ cm}$ | Losa nervada H=45cm + Ábacos refuerzo punzonamiento |
-| **Planta Baja (PB)** | +0.00 | 4.00 | Lobby Residencial ($250\text{m}^2$), 3 Locales Comerciales ($1.850\text{m}^2$), RSU, BMS, Rampa | 3.145,00 | 3.145,00 | Pilares $90 \times 90\text{ cm}$ (Perímetro) | **Vigas de Transferencia H°A° ($80 \times 120\text{ cm}$)** en cota +4.00m |
-| **Pisos P01 a P06** | +4.00 a +20.75 | 3.00 c/u | Residencial (6 plantas tipo × 1.440 m² = 36 dptos) | 8.640,00 | 8.640,00 | **Pilares $80 \times 80\text{ cm}$** | Losa nervada bidireccional H=35cm (casetón 25cm + capa 10cm) |
-| **Pisos P07 a P12** | +24.10 a +40.85 | 3.00 c/u | Residencial (6 plantas tipo × 1.440 m² = 36 dptos) | 8.640,00 | 8.640,00 | **Pilares $70 \times 70\text{ cm}$** | Losa nervada bidireccional H=35cm + Vigas de borde $25 \times 50\text{ cm}$ |
-| **Pisos P13 a P18** | +44.20 a +60.95 | 3.00 c/u | Residencial (6 plantas tipo × 1.440 m² = 36 dptos) | 8.640,00 | 8.640,00 | **Pilares $60 \times 60\text{ cm}$** | Losa nervada H=35cm + Balcones en voladizo de 1,50 m |
-| **Azotea Técnica** | +64.30 | 3.50 | Amenities (Piscina 8×16m, SUM 150m², Gym) + Salas Máquinas | 1.200,00 | 1.200,00 | Pilares $60 \times 60\text{ cm}$ | Losa maciza de piscina $H=30\text{ cm}$ + Losa nervada H=35cm |
+| **Subsuelo 3 (S3)** | -10.50 | 3.10 | Estacionamiento (90 autos/18 motos), Depósitos & PTAR Estanca | 3.145,00 | 0,00 *(Exento)* | Muros contención $30\\text{cm}$ + Pilares $90 \\times 90\\text{ cm}$ | Platea cimentación en basalto $q_{\\text{adm}}=300\\text{ kN/m}^2$ + Losa H=45cm |
+| **Subsuelo 2 (S2)** | -7.00 | 3.10 | Estacionamiento (90 autos/15 motos) & Depósitos Privados | 3.145,00 | 0,00 *(Exento)* | Pilares $90 \\times 90\\text{ cm}$ | Losa nervada bidireccional H=45cm con casetones recuperables |
+| **Subsuelo 1 (S1)** | -3.50 | 3.20 | Estacionamiento (90 autos/15 motos), ANDE 1.000kVA, Genset, Cisterna 60m³ | 3.145,00 | 0,00 *(Exento)* | Pilares $90 \\times 90\\text{ cm}$ | Losa nervada H=45cm + Ábacos refuerzo punzonamiento |
+| **Planta Baja (PB)** | +0.00 | 4.00 | Lobby Residencial ($250\\text{m}^2$), 3 Locales Comerciales ($1.850\\text{m}^2$), RSU, BMS, Rampa | 3.145,00 | 3.145,00 | Pilares $90 \\times 90\\text{ cm}$ (Perímetro) | **Vigas de Transferencia H°A° ($80 \\times 120\\text{ cm}$)** en cota +4.00m |
+| **Pisos P01 a P06** | +4.00 a +20.75 | 3.00 c/u | Residencial (6 plantas tipo × 1.440 m² = 36 dptos) | 8.640,00 | 8.640,00 | **Pilares $80 \\times 80\\text{ cm}$** | Losa nervada bidireccional H=35cm (casetón 25cm + capa 10cm) |
+| **Pisos P07 a P12** | +24.10 a +40.85 | 3.00 c/u | Residencial (6 plantas tipo × 1.440 m² = 36 dptos) | 8.640,00 | 8.640,00 | **Pilares $70 \\times 70\\text{ cm}$** | Losa nervada bidireccional H=35cm + Vigas de borde $25 \\times 50\\text{ cm}$ |
+| **Pisos P13 a P18** | +44.20 a +60.95 | 3.00 c/u | Residencial (6 plantas tipo × 1.440 m² = 36 dptos) | 8.640,00 | 8.640,00 | **Pilares $60 \\times 60\\text{ cm}$** | Losa nervada H=35cm + Balcones en voladizo de 1,50 m |
+| **Azotea Técnica** | +64.30 | 3.50 | Amenities (Piscina 8×16m, SUM 150m², Gym) + Salas Máquinas | 1.200,00 | 1.200,00 | Pilares $60 \\times 60\\text{ cm}$ | Losa maciza de piscina $H=30\\text{ cm}$ + Losa nervada H=35cm |
 | **TOTALES** | **-10.50 a +68.80** | **—** | **Edificio Mixto 18P + 3 Subsuelos (108 Dptos / 270 Cocheras)** | **39.700,00** | **30.265,00** | **Optimización Escalonada** | **Análisis Estructural Complejo Avanzado** |
 
 ---
@@ -69,17 +77,17 @@ El edificio mixto de 18 pisos y 3 subsuelos se emplaza sobre un terreno de **$7.
 #### 1.2 Verificación de Indicadores Urbanísticos CDE
 
 1. **Factor de Ocupación del Suelo (FOS):**
-   - **Límite Normativo Máximo ([Ord. 011/1994 Art. 3°](visor_ordenanzas.html?id=3146)):** $FOS_{\text{máx}} = 0,70 \implies A_{\text{huella, máx}} = 0,70 \times 7.618,49\text{ m}^2 = \mathbf{5.332,94\text{ m}^2}$.
-   - **Huella Proyectada en Planta Baja:** Rectángulo inscripto de $85,00\text{ m} \times 37,00\text{ m} = \mathbf{3.145,00\text{ m}^2}$.
+   - **Límite Normativo Máximo ([Ord. 011/1994 Art. 3°](visor_ordenanzas.html?id=3146)):** $FOS_{\\text{máx}} = 0,70 \\implies A_{\\text{huella, máx}} = 0,70 \\times 7.618,49\\text{ m}^2 = \\mathbf{5.332,94\\text{ m}^2}$.
+   - **Huella Proyectada en Planta Baja:** Rectángulo inscripto de $85,00\\text{ m} \\times 37,00\\text{ m} = \\mathbf{3.145,00\\text{ m}^2}$.
    - **Ocupación Real:**
-     $$FOS_{\text{real}} = \frac{3.145,00\text{ m}^2}{7.618,49\text{ m}^2} = \mathbf{0,4128 \quad (41,28\%)} \le 70,00\% \quad \text{(CUMPLE RIGUROSAMENTE)}$$
+     $$FOS_{\\text{real}} = \\frac{3.145,00\\text{ m}^2}{7.618,49\\text{ m}^2} = \\mathbf{0,4128 \\quad (41,28\\%)} \\le 70,00\\% \\quad \\text{(CUMPLE RIGUROSAMENTE)}$$
 
 2. **Factor de Ocupación Total (FOT):**
-   - **Límite Normativo Máximo:** $FOT_{\text{máx}} = 4,0 \implies A_{\text{construible, máx}} = 4,0 \times 7.618,49\text{ m}^2 = \mathbf{30.473,96\text{ m}^2}$.
-   - **Exención Legal de Subsuelos:** Los 3 subsuelos ($9.435,00\text{ m}^2$) se destinan exclusivamente a estacionamientos y locales técnicos sin permanencia humana, quedando exentos del cómputo FOT conforme al Art. 226 de la Ley N° 3966/2010 Orgánica Municipal y ordenanzas de CDE.
-   - **Superficie Computable sobre Rasante:** $\text{PB} (3.145,00\text{ m}^2) + \text{P01-P18} (18 \times 1.440,00\text{ m}^2 = 25.920,00\text{ m}^2) + \text{Azotea} (1.200,00\text{ m}^2) = \mathbf{30.265,00\text{ m}^2}$.
+   - **Límite Normativo Máximo:** $FOT_{\\text{máx}} = 4,0 \\implies A_{\\text{construible, máx}} = 4,0 \\times 7.618,49\\text{ m}^2 = \\mathbf{30.473,96\\text{ m}^2}$.
+   - **Exención Legal de Subsuelos:** Los 3 subsuelos ($9.435,00\\text{ m}^2$) se destinan exclusivamente a estacionamientos y locales técnicos sin permanencia humana, quedando exentos del cómputo FOT conforme al Art. 226 de la Ley N° 3966/2010 Orgánica Municipal y ordenanzas de CDE.
+   - **Superficie Computable sobre Rasante:** $\\text{PB} (3.145,00\\text{ m}^2) + \\text{P01-P18} (18 \\times 1.440,00\\text{ m}^2 = 25.920,00\\text{ m}^2) + \\text{Azotea} (1.200,00\\text{ m}^2) = \\mathbf{30.265,00\\text{ m}^2}$.
    - **Conclusión FOT:**
-     $$FOT_{\text{real}} = \frac{30.265,00\text{ m}^2}{7.618,49\text{ m}^2} = \mathbf{3,97} \le 4,00 \quad \text{(CUMPLE CON HOLGURA DE } 208,96\text{ m}^2\text{)}$$
+     $$FOT_{\\text{real}} = \\frac{30.265,00\\text{ m}^2}{7.618,49\\text{ m}^2} = \\mathbf{3,97} \\le 4,00 \\quad \\text{(CUMPLE CON HOLGURA DE } 208,96\\text{ m}^2\\text{)}$$
 
 ---
 
@@ -114,7 +122,7 @@ El edificio mixto de 18 pisos y 3 subsuelos se emplaza sobre un terreno de **$7.
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
-#### 2.2 Zonificación Detallada de Planta Baja ($3.145,00\text{ m}^2$)
+#### 2.2 Zonificación Detallada de Planta Baja ($3.145,00\\text{ m}^2$)
 
 ![Figura 2.1: Planta Baja Comercial y de Servicios (3.145,00 m²)](img/figura_2_1_zonificacion_planta_baja.png)
 
@@ -142,41 +150,41 @@ El edificio mixto de 18 pisos y 3 subsuelos se emplaza sobre un terreno de **$7.
 
 ### 3. Programa de Departamentos y Cuantificación de Estacionamientos
 
-#### 3.1 Programa de la Torre Residencial ($108\text{ Departamentos}$)
+#### 3.1 Programa de la Torre Residencial ($108\\text{ Departamentos}$)
 
 ![Figura 2.3: Planta Tipo Residencial (P01 a P18) — Huella 1.440,00 m²](img/figura_2_3_planta_tipo_residencial.png)
 
-En la Torre Residencial ($P01$ a $P18$), cada planta tipo de **$1.440,00\text{ m}^2$** se distribuye en:
-- **Áreas Comunes y Núcleos ($180,00\text{ m}^2\text{/piso}$):** Antecámaras presurizadas, hall de ascensores, 2 núcleos H°A° ($126\text{ m}^2$) y ductos técnicos.
-- **Área Útil Vendible de Departamentos ($1.260,00\text{ m}^2\text{/piso}$):**
-  - **2 Departamentos de 3 Dormitorios ($140,00\text{ m}^2$ útiles c/u):** Suite principal + 2 dormitorios secundarias, living-comedor, cocina, área de servicio y balcón con parrilla.
-  - **2 Departamentos de 2 Dormitorios ($100,00\text{ m}^2$ útiles c/u):** Suite + 1 dormitorio, living-comedor y balcón.
-  - **2 Departamentos de 1 Dormitorio / Executive Suite ($70,00\text{ m}^2$ útiles c/u):** Suite, kitchenette y balcón.
-- **Total por Edificio:** 18 pisos $\times 6\text{ dptos/piso} = \mathbf{108\text{ Departamentos}}$.
+En la Torre Residencial ($P01$ a $P18$), cada planta tipo de **$1.440,00\\text{ m}^2$** se distribuye en:
+- **Áreas Comunes y Núcleos ($180,00\\text{ m}^2\\text{/piso}$):** Antecámaras presurizadas, hall de ascensores, 2 núcleos H°A° ($126\\text{ m}^2$) y ductos técnicos.
+- **Área Útil Vendible de Departamentos ($1.260,00\\text{ m}^2\\text{/piso}$):**
+  - **2 Departamentos de 3 Dormitorios ($140,00\\text{ m}^2$ útiles c/u):** Suite principal + 2 dormitorios secundarias, living-comedor, cocina, área de servicio y balcón con parrilla.
+  - **2 Departamentos de 2 Dormitorios ($100,00\\text{ m}^2$ útiles c/u):** Suite + 1 dormitorio, living-comedor y balcón.
+  - **2 Departamentos de 1 Dormitorio / Executive Suite ($70,00\\text{ m}^2$ útiles c/u):** Suite, kitchenette y balcón.
+- **Total por Edificio:** 18 pisos $\\times 6\\text{ dptos/piso} = \\mathbf{108\\text{ Departamentos}}$.
 
-#### 3.2 Cálculo de Requerimiento de Cocheras ($1,5\text{ autos/departamento}$)
+#### 3.2 Cálculo de Requerimiento de Cocheras ($1,5\\text{ autos/departamento}$)
 - **Demanda Residencial:**
-  $$N_{\text{autos, res}} = 108 \text{ dptos} \times 1,5 \frac{\text{autos}}{\text{dpto}} = \mathbf{162\text{ cocheras}}$$
+  $$N_{\\text{autos, res}} = 108 \\text{ dptos} \\times 1,5 \\frac{\\text{autos}}{\\text{dpto}} = \\mathbf{162\\text{ cocheras}}$$
 - **Demanda Comercial (Planta Baja):**
-  Normativa: Ord. 011/1994 CDE (1 módulo de cochera por cada $75,00\text{ m}^2$ de superficie comercial neta de $1.850,00\text{ m}^2$).
-  $$N_{\text{autos, com}} = \frac{1.850,00\text{ m}^2}{75,00\text{ m}^2\text{/auto}} = \mathbf{24,67 \approx 25\text{ cocheras}}$$
+  Normativa: Ord. 011/1994 CDE (1 módulo de cochera por cada $75,00\\text{ m}^2$ de superficie comercial neta de $1.850,00\\text{ m}^2$).
+  $$N_{\\text{autos, com}} = \\frac{1.850,00\\text{ m}^2}{75,00\\text{ m}^2\\text{/auto}} = \\mathbf{24,67 \\approx 25\\text{ cocheras}}$$
 - **Demanda Total Requerida:**
-  $$N_{\text{total, req}} = 162 + 25 = \mathbf{187\text{ cocheras}}$$
+  $$N_{\\text{total, req}} = 162 + 25 = \\mathbf{187\\text{ cocheras}}$$
 
 #### 3.3 Verificación de Capacidad en Subsuelos ($S1, S2, S3$)
-- **Área Bruta de Subsuelos:** 3 niveles $\times 3.145,00\text{ m}^2 = 9.435,00\text{ m}^2$.
-- **Área Neta de Maniobras y Parqueo por Nivel:** $\sim 2.475,00\text{ m}^2$ (tras descontar muros periféricos de $30\text{ cm}$, núcleos $126\text{ m}^2$, rampas $15\%$ y PTAR $120\text{ m}^2$ en S3).
-- **Rendimiento por Subsuelo:** Módulo normalizado de $2,50\text{ m} \times 5,00\text{ m}$ con pasillos de $6,00\text{ m} \implies 90\text{ plazas por subsuelo}$.
+- **Área Bruta de Subsuelos:** 3 niveles $\\times 3.145,00\\text{ m}^2 = 9.435,00\\text{ m}^2$.
+- **Área Neta de Maniobras y Parqueo por Nivel:** $\\sim 2.475,00\\text{ m}^2$ (tras descontar muros periféricos de $30\\text{ cm}$, núcleos $126\\text{ m}^2$, rampas $15\\%$ y PTAR $120\\text{ m}^2$ en S3).
+- **Rendimiento por Subsuelo:** Módulo normalizado de $2,50\\text{ m} \\times 5,00\\text{ m}$ con pasillos de $6,00\\text{ m} \\implies 90\\text{ plazas por subsuelo}$.
 - **Capacidad Total Proyectada:**
-  $$N_{\text{disponible}} = 3 \text{ subsuelos} \times 90 \text{ plazas} = \mathbf{270\text{ cocheras}}$$
+  $$N_{\\text{disponible}} = 3 \\text{ subsuelos} \\times 90 \\text{ plazas} = \\mathbf{270\\text{ cocheras}}$$
 - **Evaluación de Suficiencia:**
-  $$N_{\text{disponible}} (270) \ge N_{\text{requerida}} (187) \quad \mathbf{(\text{CUMPLE HOLGADAMENTE CON } +83 \text{ PLAZAS EXTRA FORMA ADICIONAL})}$$
+  $$N_{\\text{disponible}} (270) \\ge N_{\\text{requerida}} (187) \\quad \\mathbf{(\\text{CUMPLE HOLGADAMENTE CON } +83 \\text{ PLAZAS EXTRA FORMA ADICIONAL})}$$
 
 ---
 
 ### 4. Rigidez Lateral de Núcleos Estructurales de H°A°
 
-Para absorber los esfuerzos cortantes eólicos ($V_0 = 45\text{ m/s}$) y albergar las circulaciones verticales, se disponen **dos núcleos estructurales gemelos de H°A° de $7,00\text{ m} \times 9,00\text{ m}$** ($A = 63,00\text{ m}^2$ c/u), rotados $90^\circ$ entre sí.
+Para absorber los esfuerzos cortantes eólicos ($V_0 = 45\\text{ m/s}$) y albergar las circulaciones verticales, se disponen **dos núcleos estructurales gemelos de H°A° de $7,00\\text{ m} \\times 9,00\\text{ m}$** ($A = 63,00\\text{ m}^2$ c/u), rotados $90^\\circ$ entre sí.
 
 ```
 ┌─────────────────────────────────────── 7.00 m ───────────────────────────────────────┐
@@ -200,15 +208,21 @@ Para absorber los esfuerzos cortantes eólicos ($V_0 = 45\text{ m/s}$) y alberga
 ```
 
 #### 4.1 Rigidez Lateral Eólica y Desacoplamiento de Pilares
-- **Absorción de Cortante Basal:** Los 2 núcleos actúan como voladizos verticales empotrados en la platea de fundación en basalto. Debido a su elevada inercia ($I_x, I_y$), **absorben el $78\%$ del cortante eólico total**, limitando las derivas laterales ($\Delta/H \le 1/500$) y permitiendo que los pilares perimetrales trabajen prioritariamente a flexocompresión gravitatoria simple.
-- **Tráfico Vertical de Ascensores (ABNT NBR 5665 / ISO 4190):** 4 ascensores de $1,75\text{ m/s}$ (10 a 12 personas c/u). Capacidad de evacuación en 5 min: **$44\text{ personas} \ge 38\text{ personas}$** requeridas para el $10\%$ de la población de la torre. Tiempo medio de espera: $33,7\text{ s}$.
+- **Absorción de Cortante Basal:** Los 2 núcleos actúan como voladizos verticales empotrados en la platea de fundación en basalto. Debido a su elevada inercia ($I_x, I_y$), **absorben el $78\\%$ del cortante eólico total**, limitando las derivas laterales ($\\Delta/H \\le 1/500$) y permitiendo que los pilares perimetrales trabajen prioritariamente a flexocompresión gravitatoria simple.
+- **Tráfico Vertical de Ascensores (ABNT NBR 5665 / ISO 4190):** 4 ascensores de $1,75\\text{ m/s}$ (10 a 12 personas c/u). Capacidad de evacuación en 5 min: **$44\\text{ personas} \\ge 38\\text{ personas}$** requeridas para el $10\\%$ de la población de la torre. Tiempo medio de espera: $33,7\\text{ s}$.
 
 ---
 
 ### 5. Esquema de Evacuación y Medios de Escape (PCI — Ord. 038/1999 J.M.)
 
 - **Distancia Máxima de Recorrido:**
-  $$d_{\text{máx}} = 14,10\text{ m (pasillo)} + 14,30\text{ m (dpto)} = \mathbf{28,40\text{ m}} \le \mathbf{30,00\text{ m}} \quad \text{([Ord. 038/1999 J.M.](visor_ordenanzas.html?id=3123) — CUMPLE RIGUROSAMENTE)}$$
+  $$d_{\\text{máx}} = 14,10\\text{ m (pasillo)} + 14,30\\text{ m (dpto)} = \\mathbf{28,40\\text{ m}} \\le \\mathbf{30,00\\text{ m}} \\quad \\text{([Ord. 038/1999 J.M.](visor_ordenanzas.html?id=3123) — CUMPLE RIGUROSAMENTE)}$$
 - **Tiempo Estimado de Evacuación Total de la Torre:**
-  $$T_{\text{evacuación}} = \frac{648\text{ ocupantes}}{400\text{ pers/min}} = \mathbf{1,62\text{ minutos}} \quad (\approx 97\text{ segundos})$$
-  *(Las cajas de H°A° de los núcleos garantizan $RF = 180\text{ min}$ de protección estanca).*
+  $$T_{\\text{evacuación}} = \\frac{648\\text{ ocupantes}}{400\\text{ pers/min}} = \\mathbf{1,62\\text{ minutos}} \\quad (\\approx 97\\text{ segundos})$$
+  *(Las cajas de H°A° de los núcleos garantizan $RF = 180\\text{ min}$ de protección estanca).*
+"""
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(content)
+
+print("[SUCCESS] etapa-b-1.md escrito correctamente en UTF-8.")
