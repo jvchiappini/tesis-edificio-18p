@@ -135,3 +135,4 @@ El proyecto dispone de una plataforma estática completa navegable desde la web 
    5. Modelado Matemático y Criterios de Análisis.
    6. Dimensionamiento y Verificación ELU/ELS.
 3. **No alterar parámetros maestros ni decisiones de diseño congeladas.**
+4. **Actualización del Dashboard Web (`index.html`):** Al completar tareas o sub-etapas, es **obligatorio** actualizar `index.html` cambiando la etiqueta del elemento HTML a `<label class="task done">` y agregando el atributo `checked` en el `<input type="checkbox" data-id="..." checked>` correspondiente para mantener la sincronización visual del proyecto.
