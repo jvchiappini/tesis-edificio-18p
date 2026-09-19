@@ -39,6 +39,11 @@
   - Redactar documento resumen con todos los parámetros del sitio
   - Cada valor asumido lleva la nota **"hipótesis de tesis"**
   - Este documento es la referencia única para todas las etapas siguientes
+  - 🌧️ **LLUVIA — Incluir obligatoriamente el dato pluvial del sitio:**
+    - Intensidad de diseño de la curva IDF de la **DMH/DINAC** para CDE: `i ≈ 80–120 mm/h` (T=10 años, tc=10 min)
+    - Período de retorno para red pluvial del edificio: **T=10 años** (uso interno) / **T=25 años** (calle / desborde)
+    - Precipitación media anual CDE: ~1.900 mm/año (dato DMH/DINAC)
+    - Este dato es insumo directo de **Etapa G.1** (cálculo de bajadas pluviales) y **Etapa D.1** (carga lluvia en azotea)
   - Archivo: `00_GESTION_DE_PROYECTO/LINEAMIENTOS_Y_RECOMENDACIONES_TESIS.md`
 
 ### Decisiones tomadas
@@ -176,6 +181,8 @@ La **acción de viento gobierna** sobre la acción sísmica para este edificio e
 | $V_{s30}$ | $> 760\text{ m/s}$ | Hipótesis — sustrato basáltico ⚠️ |
 | Capacidad portante $q_{adm}$ | 300 kN/m² | Hipótesis de tesis ⚠️ |
 | Nivel freático | $> 12\text{ m}$ de profundidad | Hipótesis de tesis ⚠️ |
+| 🌧️ **Precipitación media anual** | **~1.900 mm/año** | DMH/DINAC — Hipótesis ⚠️ (confirmar en eA-8) |
+| 🌧️ **Intensidad pluvial diseño** | **i ≈ 80–120 mm/h** (T=10 años, tc=10 min) | Curva IDF DMH/DINAC CDE — Hipótesis ⚠️ → Usar en **G.1** y **D.1** |
 
 > ✅ = Determinado técnicamente · ⚠️ = Hipótesis de anteproyecto pendiente de verificación instrumental
 

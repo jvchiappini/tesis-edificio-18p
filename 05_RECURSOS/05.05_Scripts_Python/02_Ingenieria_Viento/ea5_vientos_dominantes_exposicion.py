@@ -43,18 +43,18 @@ from pathlib import Path
 # Ruta de salida - hardcoded para maxima robustez
 OUTPUT_DIR = Path(r"c:\Users\jvchi\CARPETAS\IngChiappini\00_TESIS_EDIFICIO_18P\etapas\img")
 
-# --- Paleta de colores del proyecto -----------------------------------------
-COLOR_BG      = "#0D1117"
-COLOR_PANEL   = "#161B22"
-COLOR_GRID    = "#21262D"
-COLOR_ACCENT1 = "#58A6FF"   # azul principal
-COLOR_ACCENT4 = "#E3B341"   # amarillo
-COLOR_TEXT    = "#C9D1D9"
-COLOR_SUBTEXT = "#8B949E"
-COLOR_NP196   = "#58A6FF"
-COLOR_NBR6123 = "#56D364"
-COLOR_ASCE722 = "#F78166"
-COLOR_EC1     = "#E3B341"
+# --- Paleta de colores FONDO CLARO (tema academico para impresion) -----------
+COLOR_BG      = "#FFFFFF"   # Fondo blanco puro
+COLOR_PANEL   = "#F5F7FA"   # Gris muy claro para paneles
+COLOR_GRID    = "#D1D9E6"   # Gris medio para grillas y bordes
+COLOR_ACCENT1 = "#1A56A0"   # Azul oscuro principal (legible en blanco)
+COLOR_ACCENT4 = "#B45309"   # Naranja oscuro (contraste en blanco)
+COLOR_TEXT    = "#1A202C"   # Texto principal casi negro
+COLOR_SUBTEXT = "#4A5568"   # Texto secundario gris oscuro
+COLOR_NP196   = "#1A56A0"   # Azul oscuro - NP 196
+COLOR_NBR6123 = "#166534"   # Verde oscuro - NBR 6123
+COLOR_ASCE722 = "#9B1C1C"   # Rojo oscuro - ASCE 7-22
+COLOR_EC1     = "#92400E"   # Naranja/marron oscuro - EC1
 
 plt.rcParams.update({
     "figure.facecolor": COLOR_BG,
@@ -210,7 +210,7 @@ def generar_rosa_de_vientos():
     vel_norm = (VEL_MEDIA_KMH - VEL_MEDIA_KMH.min()) / (VEL_MEDIA_KMH.max() - VEL_MEDIA_KMH.min())
     cmap_wind = LinearSegmentedColormap.from_list(
         "wind_cmap",
-        ["#1E3A5F", "#2D7DD2", "#58A6FF", "#F0A500", "#E05A00"],
+        ["#BFD7ED", "#6BAED6", "#2171B5", "#D94801", "#7F2704"],
         N=256
     )
     colors = [cmap_wind(v) for v in vel_norm]
@@ -234,8 +234,8 @@ def generar_rosa_de_vientos():
     ax.set_yticks([5, 10, 15, 20])
     ax.set_yticklabels(["5%", "10%", "15%", "20%"], fontsize=7.5, color=COLOR_SUBTEXT)
     ax.tick_params(axis="y", labelcolor=COLOR_SUBTEXT)
-    ax.grid(color=COLOR_GRID, linestyle="--", linewidth=0.6, alpha=0.7)
-    ax.spines["polar"].set_edgecolor(COLOR_GRID)
+    ax.grid(color=COLOR_GRID, linestyle="--", linewidth=0.8, alpha=0.9)
+    ax.spines["polar"].set_edgecolor("#555555")
 
     # Anotacion sector E dominante
     idx_E = DIRECTIONS_16.index("E")
