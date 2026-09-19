@@ -51,22 +51,30 @@ $$\text{Suma de ángulos interiores} = (n - 2) \times 180^\circ = (4 - 2) \times
 
 ## 3. Normativa Urbanística de Ciudad del Este y Envolvente Máxima
 
-### 3.1 Marco Legal
-- **Ordenanzas Aplicables:** Ordenanza Municipal CDE N° 030/2000 y N° 024/2014 (Plan Regulador y Código de Edificación y Ordenamiento Urbano de Ciudad del Este).
+### 3.1 Marco Legal Oficial (Fuente: Repositorio Municipal MCDE)
+- **Uso de Suelo y Retiros:** **Ordenanza Municipal CDE N° 011/1994 J.M.** (Reglamentación del Uso del Suelo) y modificatoria **Ordenanza N° M. 003/2026 J.M.**
+- **Instalaciones Sanitarias y Efluentes (PTAR):** **Ordenanza Municipal CDE N° 030/2020 J.M.** (Art. 5° y 9°) y modificatoria **Ordenanza N° 033/2023 J.M.**
+- **Reglamento General de Edificaciones (Código Base):** **Ordenanza Municipal CDE N° 005/1976 J.M.** y modificatorias (Ord. 022/1998, 031/1998).
+- **Dimensiones Mínimas de Lotes:** **Ordenanza Municipal CDE N° 027/2022 J.M.** (Reglamentación Arts. 227 y 229 Ley 3966/2010 Orgánica Municipal).
+- **Prevención y Protección contra Incendios (PCI):** **Ordenanzas CDE N° 038/1999 J.M., 026/1990 J.M. y 024/2005 J.M.**
 
-### 3.2 Indicadores Urbanísticos
+### 3.2 Indicadores Urbanísticos y Evaluación Normativa vs. Hipótesis de Tesis
+
 1. **Factor de Ocupación del Suelo (FOS):**
-   - $FOS_{máx} = 0,70$
-   - $A_{huella,máx} = 0,70 \times 7.618,49\text{ m}^2 = \mathbf{5.332,94\text{ m}^2}$
+   - $FOS_{máx, adoptado} = 0,70$ (Hipótesis proyectual de anteproyecto de tesis).
+   - $A_{huella,máx} = 0,70 \times 7.618,49\text{ m}^2 = \mathbf{5.332,94\text{ m}^2}$.
+   - **Huella Real Proyectada (Etapa B):** Rectángulo simplificado de $85,0\text{ m} \times 37,0\text{ m} = 3.145,00\text{ m}^2$ ($FOS_{real} = 0,4128 = 41,28\%$), cumpliendo holgadamente el límite.
 
 2. **Factor de Ocupación Total (FOT):**
-   - $FOT_{máx} = 4,0$
-   - $A_{construible,máx} = 4,0 \times 7.618,49\text{ m}^2 = \mathbf{30.473,96\text{ m}^2}$
-   - **Exención de Subsuelos:** Los subsuelos de estacionamientos y servicios sin permanencia humana están exentos del cómputo FOT según la ordenanza municipal.
+   - $FOT_{máx, adoptado} = 4,0$ (Hipótesis proyectual de anteproyecto de tesis).
+   - $A_{construible,máx} = 4,0 \times 7.618,49\text{ m}^2 = \mathbf{30.473,96\text{ m}^2}$.
+   - **Exención de Subsuelos:** Los 3 subsuelos de estacionamientos y servicios ($\approx 9.435\text{ m}^2$) quedan exentos del cómputo FOT conforme a la Ley 3966/2010 Orgánica Municipal y el régimen urbanístico municipal.
 
-3. **Retiros Reglamentarios Adoptados:**
-   - Retiro Frontal ($R_f$): $3,0\text{ m}$ sobre el frente Calle Los Lapachos ($117,27\text{ m}$).
-   - Retiro Posterior / Fondo ($R_p$): $3,0\text{ m}$ sobre el lindero del inmueble residencial privado ($103,94\text{ m}$).
-   - Retiros Laterales ($R_l$): $2,0\text{ m}$ c/u sobre Calle Los Sauces ($45,04\text{ m}$) y Av. Itaipú Oeste ($102,48\text{ m}$).
+3. **Retiros Reglamentarios (Norma vs. Hipótesis Proyectual):**
+   - **Exigencia Legal Directa (Ord. 011/1994 J.M. Art. 4°):** Retiro mínimo de **5,0 m sobre calles** y **6,0 m sobre avenidas**. En esquinas/terrenos con dos frentes, se permite aplicar el retiro de 5,0 m sobre al menos una de las arterias principales.
+   - **Hipótesis Académica Adoptada:** Retiro Frontal $R_f = 3,0\text{ m}$ (Calle Los Lapachos), Retiro Posterior $R_p = 3,0\text{ m}$ (predio vecino), y Retiros Laterales $R_l = 2,0\text{ m}$ (Av. Itaipú Oeste y Calle Los Sauces). *Se mantendrá la justificación explícita de este ajuste proyectual en las memorias de cálculo.*
+   - **Veredas (Ord. 011/1994 J.M. Art. 5°):** Ancho mínimo de **2,0 m** desde la línea de edificación.
 
-> **Alcance de Tesis:** El diseño arquitectónico completo, la distribución de espacios, plantas tipo, huella edificada real y grilla de pilares se diseñarán desde cero en la **Etapa B (Arquitectura Completa e Implantación)**.
+4. **Tratamiento de Efluentes y Licencia Ambiental (OBLIGATORIO por Ord. 030/2020 J.M.):**
+   - **Art. 5°:** Toda obra civil con cobertura $\ge 2.000\text{ m}^2$ debe instalar una **Planta de Tratamiento de Efluentes (PTAR)** propia para posterior vertido a red o cuerpo receptor.
+   - **Art. 9°:** Se exige la obtención de la **Declaración de Impacto Ambiental (DIA)** y el **Plan de Gestión Ambiental (PGA)** aprobados por el MADES (Ley 294/93). El proyecto ($\approx 68.600\text{ m}^2$ edificados) debe incorporar la PTAR en los subsuelos técnicos.
