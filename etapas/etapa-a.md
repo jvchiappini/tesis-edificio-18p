@@ -36,5 +36,12 @@ Esta etapa es el **punto de partida absoluto** de todo el proyecto. Antes de dis
 - `NP 196:1991` — Norma Paraguaya de cargas de viento
 - `NBR 6123:2023` — Forças devidas ao vento
 - `ASCE 7-22 §26` — Wind loads
-- Municipalidad CDE — Código de Edificación y Ordenamiento Urbano (Ordenanzas 030/2000 y 024/2014)
+- **Municipalidad de Ciudad del Este (MCDE) — Marco Urbanístico y Edilicio:**
+  - [Ord. 011/1994 J.M.](visor_ordenanzas.html?id=3146) — Uso del Suelo, Zonificación y Retiros (5m en calles / 6m en avenidas)
+  - [Ord. M. 003/2026 J.M.](visor_ordenanzas.html?id=3693) — Planificación Urbana y Protección Ambiental
+  - [Ord. 010/1988 J.M.](visor_ordenanzas.html?id=3143) — Altura y Volumetría de Edificios en Altura
+  - [Ord. 005/1976 J.M.](visor_ordenanzas.html?id=3118) — Código Base de Edificaciones (Modificatorias: [Ord. 022/1998](visor_ordenanzas.html?id=3122), [Ord. 031/1998](visor_ordenanzas.html?id=3165))
+  - [Ord. 027/2022 J.M.](visor_ordenanzas.html?id=2725) — Lotes Mínimos y Fraccionamiento (Ley 3966/2010 Orgánica Municipal)
+  - [Ord. 030/2020 J.M.](visor_ordenanzas.html?id=2462) — Instalaciones Sanitarias, PTAR Obligatoria ($\ge 2.000\text{ m}^2$) y DIA/PGA (MADES)
+  - [Ord. 038/1999 J.M.](visor_ordenanzas.html?id=3123) / [Ord. 026/1990 J.M.](visor_ordenanzas.html?id=3161) — Prevención y Protección contra Incendios (PCI)
 - Ley N° 1083/1985 — Ley de Mensura y Procedimiento Catastral del Paraguay

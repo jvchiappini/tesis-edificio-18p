@@ -1,7 +1,7 @@
 # A.1 — Formalización del Terreno
 
 > **Etapa A › Sub-etapa 1** · **Tareas:** 4 · **Estado:** ✅ Completado
-> Normativa: Municipalidad CDE (Ordenanzas 030/2000 y 024/2014) · Ley de Mensura N° 1083/1985 · NOMENCLATURA.md
+> Normativa: MCDE ([Ord. 011/1994](visor_ordenanzas.html?id=3146), [Ord. M. 003/2026](visor_ordenanzas.html?id=3693), [Ord. 027/2022](visor_ordenanzas.html?id=2725), [Ord. 030/2020](visor_ordenanzas.html?id=2462), [Ord. 005/1976](visor_ordenanzas.html?id=3118)) · Ley de Mensura N° 1083/1985 · NOMENCLATURA.md
 
 ---
 
@@ -44,7 +44,7 @@
 | 2026-09-19 | Origen de Coordenadas UTM | Teledetección Satelital (Google Earth Pro v7.3, UTM 21J WGS84) — Hipótesis de anteproyecto |
 | 2026-09-19 | Nomenclatura Vial y Colindancias | P1-P2: Calle Los Lapachos · P2-P3: Calle Los Sauces · P3-P4: Inmueble Residencial Privado · P4-P1: Av. Itaipú Oeste |
 | 2026-09-19 | Retiros adoptados: 3,0 m frente / 3,0 m fondo / 2,0 m laterales | Hipótesis urbanística formal para definir la envolvente máxima |
-| 2026-09-19 | FOS = 0,70 / FOT = 4,0 (Huella máx. 5.332,94 m² / Área total 30.473,96 m²) | Marco legal urbanístico de la Municipalidad de Ciudad del Este |
+| 2026-09-19 | FOS = 0,70 / FOT = 4,0 (Huella máx. 5.332,94 m² / Área total 30.473,96 m²) | Marco legal urbanístico de CDE ([Ord. 011/1994](visor_ordenanzas.html?id=3146) y [Ord. M. 003/2026](visor_ordenanzas.html?id=3693)) |
 | 2026-09-19 | Re-definición Arquitectónica | La arquitectura, plantas tipo, huella y grilla se diseñarán desde cero en la **Etapa B** |
 | 2026-09-19 | Destino de cuña aguda P1 (669,55 m²) | Plaza seca de acceso peatonal, control de acceso y paisajismo ambiental |
 
@@ -107,7 +107,7 @@ El vértice P1 presenta un **ángulo interior agudo de 61,44°**. Esta condició
 
 ### 1.2 Parámetros urbanísticos y uso del suelo
 
-De acuerdo con el Código de Edificación y Ordenamiento Urbano y Territorial de la Municipalidad de Ciudad del Este (Ordenanzas N° 030/2000 y N° 024/2014), los indicadores urbanísticos aplicables a la parcela son:
+De acuerdo con el cuerpo legal urbanístico de la Municipalidad de Ciudad del Este ([Ord. 011/1994 J.M.](visor_ordenanzas.html?id=3146), [Ord. M. 003/2026 J.M.](visor_ordenanzas.html?id=3693), [Ord. 027/2022 J.M.](visor_ordenanzas.html?id=2725) y [Ord. 005/1976 J.M.](visor_ordenanzas.html?id=3118)), los indicadores urbanísticos aplicables a la parcela son:
 
 | Indicador | Valor Normativo / Adoptado | Estado de Cumplimiento | Observación / Fundamento |
 |---|---|---|---|
@@ -124,7 +124,8 @@ De acuerdo con el Código de Edificación y Ordenamiento Urbano y Territorial de
 
 ### Referencias bibliográficas — A.1
 
-- Municipalidad de Ciudad del Este — *Código de Ordenamiento Urbano y Territorial y Plan Regulador* (Ordenanzas N° 030/2000 y N° 024/2014), CDE, Paraguay.
+- Municipalidad de Ciudad del Este — *Reglamentación del Uso del Suelo, Zonificación y Edificaciones* ([Ordenanza N° 011/1994](visor_ordenanzas.html?id=3146), [Ordenanza N° M. 003/2026](visor_ordenanzas.html?id=3693), [Ordenanza N° 027/2022](visor_ordenanzas.html?id=2725) y [Ordenanza N° 005/1976](visor_ordenanzas.html?id=3118)), CDE, Paraguay.
+- Municipalidad de Ciudad del Este — *Instalaciones Sanitarias y Tratamiento de Efluentes PTAR* ([Ordenanza N° 030/2020 J.M.](visor_ordenanzas.html?id=2462) y [Ordenanza N° 033/2023 J.M.](visor_ordenanzas.html?id=2849)), CDE, Paraguay.
 - Dirección del Servicio Geográfico Militar (DISERGEMIL / IGM) — *Red Geodésica Nacional y Sistema de Referencia SIRGAS2000 / WGS84*, Asunción, Paraguay.
 - Ley N° 1083/1985 — *Ley de Mensura y Procedimiento Catastral de la República del Paraguay*.
 - Google LLC — *Google Earth Pro v7.3 Satellite Imaging & Geographic Data*, Mountain View, CA.

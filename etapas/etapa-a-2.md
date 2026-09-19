@@ -34,7 +34,7 @@
 - [x] **eA-7** · **Estudio de infraestructura urbana disponible** ✅ 2026-09-19
   - Agua potable: Red ESSAP (DN 50 mm, P_red ≈ 1,5–2,0 bar) → Tanque cisterna inferior 60 m³ + Tanque elevado 30 m³ (Etapa G.1)
   - Energía eléctrica: Red ANDE 23 kV MT → Subestación transformadora 1.000 kVA en S1 + Grupo electrógeno 300 kVA (Etapa G.2)
-  - Alcantarillado sanitario: Colector municipal ESSAP / Planta PTE compacta en subsuelo (Etapa G.1)
+  - Alcantarillado sanitario: Colector municipal ESSAP / Planta de Tratamiento (PTAR) obligatoria en subsuelo ([Ord. 030/2020 J.M. Art. 5°](visor_ordenanzas.html?id=2462)) (Etapa G.1 y E)
   - 🌧️ Desagüe pluvial: Colector municipal sobre Calle Los Lapachos (i ≈ 80–120 mm/h, T=10 años) → Bajadas pluviales y EBAR subsuelos (Etapa G.1 y D.1)
   - Telecomunicaciones: Triducto de fibra óptica sobre vereda P1–P2 + Rack RTV en S1 (Etapa G.3)
 
@@ -192,7 +192,7 @@ El análisis del entorno urbano del predio en el sector sur de Ciudad del Este e
 
 1. **Abastecimiento de agua potable (ESSAP S.A.):** Red colectora pública de la Empresa de Servicios Sanitarios del Paraguay (ESSAP) sobre la calzada principal (Calle Los Lapachos). Diámetro nominal de red $DN = 50\text{ mm}$ (2"), presión estática disponible $P_{red} \approx 1{,}5$–$2{,}0\text{ bar}$ (15–20 m.c.a.). Al tratarse de una torre de 18 pisos (~64 m), la presión municipal es insuficiente para alimentación directa a pisos superiores, exigiendo la construcción de un **reservorio inferior (cisterna)** de $60\text{ m}^3$ en Planta Baja/Subsuelo S1 y un **tanque elevado de azotea** de $30\text{ m}^3$ con equipo de bombeo redundante (**Etapa G.1**).
 2. **Energía eléctrica (ANDE):** Disponibilidad de la red aérea de Media Tensión (MT) en $23\text{ kV}$ (trifásica, $50\text{ Hz}$) de la Administración Nacional de Electricidad (ANDE). La demanda máxima estimada del edificio (~$700$–$900\text{ kVA}$) requiere la instalación de una **Subestación Transformadora Padrón ANDE en cabina blindada** ($1 \times 1.000\text{ kVA}$ o $2 \times 500\text{ kVA}$, $23\text{ kV} / 380\text{-}220\text{ V}$) ubicada en Subsuelo S1, complementada con un **Grupo Electrógeno Diésel de Emergencia** de ~$300\text{ kVA}$ para servicios esenciales (bombas de incendio, ascensores de evacuación/rescate, presurización de escaleras de emergencia e iluminación de evacuación) (**Etapa G.2**).
-3. **Red de alcantarillado sanitario (ESSAP / Municipal):** Conexión a la red colectora sanitaria municipal sobre vía pública. En caso de saturación o ausencia de colector profundo, se prevé el tratamiento in situ mediante una **Planta de Tratamiento de Efluentes (PTE) compacta anaeróbica/aeróbica** en Subsuelo S3 con disposición del efluente tratado conforme a la Ley 3239/07 de Recursos Hídricos de Paraguay (**Etapa G.1**).
+3. **Red de alcantarillado sanitario (ESSAP / Municipal / PTAR):** Conexión a la red colectora sanitaria municipal sobre vía pública. En cumplimiento obligatorio de la [Ord. 030/2020 J.M. Art. 5° y 9°](visor_ordenanzas.html?id=2462) (para obras de superficie $\ge 2.000\text{ m}^2$), se incorpora una **Planta de Tratamiento de Efluentes (PTAR)** propia en Subsuelo S3 con Licencia DIA y Plan PGA (MADES) conforme a la Ley 294/93 y Ley 5428/15 (**Etapa G.1 y E**).
 4. **Evacuación de aguas pluviales (Municipal / Escorrentía):** Descarga por gravedad hacia el sistema de drenaje pluvial sobre Calle Los Lapachos. El dimensionamiento del sistema pluvial interno (bajadas, canaletas y colectores) se rige por la intensidad de precipitación de la curva IDF oficial DMH/DINAC ($i_{10,10} = 128{,}5\text{ mm/h}$) (**Etapas D.1 y G.1**).
 5. **Telecomunicaciones y Fibra Óptica:** Disponibilidad de redes de fibra óptica subterránea y aérea (Copaco, Tigo, Claro, Personal). Acceso al predio mediante triducto de $DN = 110\text{ mm}$ sobre vereda principal conectado al rack central de telecomunicaciones RTV en S1 (**Etapa G.3**).
 
@@ -233,7 +233,7 @@ $$i(t_c, T) = \frac{950{,}0 \cdot T^{0{,}180}}{(t_c + 14{,}0)^{0{,}760}} \quad [
 | Área bruta del terreno | 7.618,49 m² | Polígono Gauss/Shoelace P1-P2-P3-P4 | Determinación final ✅ |
 | Frente principal P1→P2 | 117,27 m (Calle Los Lapachos, azimut 80,82°) | Geometría del lote | Determinación final ✅ |
 | Vértice agudo P1 | 61,44° (cuña de jardín 669,55 m²) | Trigonometría del lote | Determinación final ✅ |
-| Parámetros urbanísticos | FOS = 0,70 · FOT = 4,0 | Ordenanzas CDE 030/2000 y 024/2014 | Determinación final ✅ |
+| Parámetros urbanísticos | FOS = 0,70 · FOT = 4,0 | [Ord. 011/1994 J.M.](visor_ordenanzas.html?id=3146) y [Ord. M. 003/2026](visor_ordenanzas.html?id=3693) | Determinación final ✅ |
 | **Velocidad básica viento V₀** | **45,0 m/s** (T = 50 años) | **NP 196:1991 — Isopletas Paraguay** | **Determinación final ✅** |
 | **Cat. terreno NP 196** | **Categoría III — Clase B** ($b=0{,}85; p=0{,}175$) | NP 196:1991 §5 Tabla 2 | **Determinación final ✅** |
 | **Cat. terreno NBR 6123** | **Categoria IV — Classe B** ($b_m=0{,}86; p=0{,}20$) | ABNT NBR 6123:2023 §6.2 Tabela 4 | **Determinación final ✅** |
