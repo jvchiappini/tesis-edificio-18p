@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461303.684872685
+2461303.688275463
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461303.684872685
+2461303.688275463
   9
 $TDUUPDATE
  40
@@ -553,7 +553,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-EA
+E5
   9
 $SURFTAB1
  70
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{4FD4A16B-878E-4960-ADF3-43F8CF64B5D4}
+{365A5208-6211-441C-B399-C8426573E436}
   9
 $VERSIONGUID
   2
-{DD7A0E23-8D3F-4E38-8940-B113EC4114A4}
+{AE741E99-DCFC-4917-8E28-CB7AA6EB6666}
   9
 $EXTNAMES
 290
@@ -2407,7 +2407,7 @@ AcAecLayerStandard
 1000
 
 1000
-Línea de Retiros Reglamentarios (3m Frente/Fondo, 2m Lat.)
+Línea de Retiros Reglamentarios (A definir por arquitecto)
   0
 LAYER
   5
@@ -2437,7 +2437,7 @@ AcAecLayerStandard
 1000
 
 1000
-Huella Edificable de Referencia PB (3.145,00 m²)
+Huella Edificable Planta Baja
   0
 LAYER
   5
@@ -2467,7 +2467,7 @@ AcAecLayerStandard
 1000
 
 1000
-Huella Torre Residencial (1.440,00 m²)
+Huella Torre Residencial
   0
 LAYER
   5
@@ -2497,7 +2497,7 @@ AcAecLayerStandard
 1000
 
 1000
-Núcleos Estructurales H°A° (7x9m c/u)
+Núcleos Estructurales H°A°
   0
 LAYER
   5
@@ -2527,7 +2527,7 @@ AcAecLayerStandard
 1000
 
 1000
-Capa para Zonificación Comercial
+Zonificación Locales Comerciales
   0
 LAYER
   5
@@ -2557,7 +2557,7 @@ AcAecLayerStandard
 1000
 
 1000
-Capa para Lobby Residencial
+Zonificación Lobby Residencial
   0
 LAYER
   5
@@ -2587,7 +2587,7 @@ AcAecLayerStandard
 1000
 
 1000
-Capa para Bloque Técnico, RSU & Rampas
+Bloque Técnico, RSU & Rampas
   0
 LAYER
   5
@@ -3493,7 +3493,7 @@ AcAecLayerStandard
   0
 APPID
   5
-E7
+E2
 330
 3
 100
@@ -3507,7 +3507,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-E8
+E3
 330
 3
 100
@@ -5711,7 +5711,7 @@ AcDbText
  40
 1.2
   1
-P1 (Vértice Agudo 61.44°)
+P1 (Vértice Agudo 61,44°)
  11
 1.5
  21
@@ -5811,7 +5811,7 @@ AcDbText
  40
 1.2
   1
-P2 (Frente Principal 117.27m)
+P2 (Frente Principal 117,27m)
  11
 117.27000000001863
  21
@@ -6153,177 +6153,9 @@ N (NORTE REAL)
 100
 AcDbText
   0
-LWPOLYLINE
-  5
-AD
-330
-17
-100
-AcDbEntity
-  8
-C-SETB-LINE
-100
-AcDbPolyline
- 90
-4
- 70
-1
- 10
-1.4960277205459458
- 20
-3.2805336546601835
- 10
-113.31721036515766
- 20
-21.34269237863644
- 10
-134.510913804841
- 20
-62.99757627856818
- 10
-33.175665667929735
- 20
-100.17529592689885
-  0
-LWPOLYLINE
-  5
-AE
-330
-17
-100
-AcDbEntity
-  8
-A-FOOT-PB
-100
-AcDbPolyline
- 90
-4
- 70
-1
- 43
-0.25
- 10
-12.0
- 20
-15.0
- 10
-95.91236880239674
- 20
-28.5541271194627
- 10
-90.01233699745416
- 20
-65.08068765697658
- 10
-6.099968195057414
- 20
-51.52656053751387
-  0
-LWPOLYLINE
-  5
-AF
-330
-17
-100
-AcDbEntity
-  8
-A-FOOT-TOWR
-100
-AcDbPolyline
- 90
-4
- 70
-1
- 43
-0.2
- 10
-29.70516915207318
- 20
-21.405231088452336
- 10
-77.09097741695604
- 20
-29.05932640297245
- 10
-72.30716784538097
- 20
-58.67545656852424
- 10
-24.92135958049811
- 20
-51.02136125400413
-  0
-LWPOLYLINE
-  5
-B0
-330
-17
-100
-AcDbEntity
-  8
-A-WALL-CORE
-100
-AcDbPolyline
- 90
-4
- 70
-1
- 43
-0.3
- 10
-36.20172751413565
- 20
-21.94812099286774
- 10
-43.11215788609774
- 20
-23.064343226235255
- 10
-41.67701501462522
- 20
-31.94918227590079
- 10
-34.766584642663126
- 20
-30.832960042533273
-  0
-LWPOLYLINE
-  5
-B1
-330
-17
-100
-AcDbEntity
-  8
-A-WALL-CORE
-100
-AcDbPolyline
- 90
-4
- 70
-1
- 43
-0.3
- 10
-58.90742730772536
- 20
-25.615708331075293
- 10
-67.79226635739089
- 20
-27.050851202547815
- 10
-66.67604412402338
- 20
-33.9612815745099
- 10
-57.79120507435784
- 20
-32.526138703037375
-  0
 LINE
   5
-B2
+AD
 330
 17
 100
@@ -6347,7 +6179,7 @@ AcDbLine
   0
 LINE
   5
-B3
+AE
 330
 17
 100
@@ -6371,7 +6203,7 @@ AcDbLine
   0
 LINE
   5
-B4
+AF
 330
 17
 100
@@ -6395,7 +6227,7 @@ AcDbLine
   0
 LINE
   5
-B5
+B0
 330
 17
 100
@@ -6419,7 +6251,7 @@ AcDbLine
   0
 LINE
   5
-B6
+B1
 330
 17
 100
@@ -6443,7 +6275,7 @@ AcDbLine
   0
 TEXT
   5
-B7
+B2
 330
 17
 100
@@ -6473,7 +6305,7 @@ AcDbText
   0
 LINE
   5
-B8
+B3
 330
 17
 100
@@ -6497,7 +6329,7 @@ AcDbLine
   0
 LINE
   5
-B9
+B4
 330
 17
 100
@@ -6521,7 +6353,7 @@ AcDbLine
   0
 LINE
   5
-BA
+B5
 330
 17
 100
@@ -6545,7 +6377,7 @@ AcDbLine
   0
 LINE
   5
-BB
+B6
 330
 17
 100
@@ -6569,7 +6401,7 @@ AcDbLine
   0
 LINE
   5
-BC
+B7
 330
 17
 100
@@ -6593,7 +6425,7 @@ AcDbLine
   0
 TEXT
   5
-BD
+B8
 330
 17
 100
@@ -6623,7 +6455,7 @@ AcDbText
   0
 LINE
   5
-BE
+B9
 330
 17
 100
@@ -6647,7 +6479,7 @@ AcDbLine
   0
 LINE
   5
-BF
+BA
 330
 17
 100
@@ -6671,7 +6503,7 @@ AcDbLine
   0
 LINE
   5
-C0
+BB
 330
 17
 100
@@ -6695,7 +6527,7 @@ AcDbLine
   0
 LINE
   5
-C1
+BC
 330
 17
 100
@@ -6719,7 +6551,7 @@ AcDbLine
   0
 LINE
   5
-C2
+BD
 330
 17
 100
@@ -6743,7 +6575,7 @@ AcDbLine
   0
 TEXT
   5
-C3
+BE
 330
 17
 100
@@ -6773,7 +6605,7 @@ AcDbText
   0
 LINE
   5
-C4
+BF
 330
 17
 100
@@ -6797,7 +6629,7 @@ AcDbLine
   0
 LINE
   5
-C5
+C0
 330
 17
 100
@@ -6821,7 +6653,7 @@ AcDbLine
   0
 LINE
   5
-C6
+C1
 330
 17
 100
@@ -6845,7 +6677,7 @@ AcDbLine
   0
 LINE
   5
-C7
+C2
 330
 17
 100
@@ -6869,7 +6701,7 @@ AcDbLine
   0
 LINE
   5
-C8
+C3
 330
 17
 100
@@ -6893,7 +6725,7 @@ AcDbLine
   0
 TEXT
   5
-C9
+C4
 330
 17
 100
@@ -6923,7 +6755,7 @@ AcDbText
   0
 LWPOLYLINE
   5
-CA
+C5
 330
 17
 100
@@ -6955,7 +6787,7 @@ AcDbPolyline
   0
 LINE
   5
-CB
+C6
 330
 17
 100
@@ -6979,7 +6811,7 @@ AcDbLine
   0
 LINE
   5
-CC
+C7
 330
 17
 100
@@ -7003,7 +6835,7 @@ AcDbLine
   0
 LINE
   5
-CD
+C8
 330
 17
 100
@@ -7027,7 +6859,7 @@ AcDbLine
   0
 LINE
   5
-CE
+C9
 330
 17
 100
@@ -7051,7 +6883,7 @@ AcDbLine
   0
 TEXT
   5
-CF
+CA
 330
 17
 100
@@ -7081,7 +6913,7 @@ AcDbText
   0
 TEXT
   5
-D0
+CB
 330
 17
 100
@@ -7111,7 +6943,7 @@ AcDbText
   0
 TEXT
   5
-D1
+CC
 330
 17
 100
@@ -7141,7 +6973,7 @@ AcDbText
   0
 TEXT
   5
-D2
+CD
 330
 17
 100
@@ -7159,7 +6991,7 @@ AcDbText
  40
 0.9
   1
-DATOS DE TERRENO Y ZONIFICACIÓN:
+DATOS DEL TERRENO (PARÁMETROS CDE):
  11
 147.0
  21
@@ -7171,7 +7003,7 @@ AcDbText
   0
 TEXT
   5
-D3
+CE
 330
 17
 100
@@ -7201,7 +7033,7 @@ AcDbText
   0
 TEXT
   5
-D4
+CF
 330
 17
 100
@@ -7231,7 +7063,7 @@ AcDbText
   0
 TEXT
   5
-D5
+D0
 330
 17
 100
@@ -7249,7 +7081,7 @@ AcDbText
  40
 0.9
   1
-• FOS Máximo: 0,70 | Real: 41,28% (3.145m²)
+• FOS Máximo: 0,70 (Huella máx. 5.332,94 m²)
  11
 147.0
  21
@@ -7261,7 +7093,7 @@ AcDbText
   0
 TEXT
   5
-D6
+D1
 330
 17
 100
@@ -7279,7 +7111,7 @@ AcDbText
  40
 0.9
   1
-• FOT Máximo: 4,00 | Real: 3,97 (30.265m²)
+• FOT Máximo: 4,00 (Sup. máx. 30.473,96 m²)
  11
 147.0
  21
@@ -7291,7 +7123,7 @@ AcDbText
   0
 TEXT
   5
-D7
+D2
 330
 17
 100
@@ -7321,7 +7153,7 @@ AcDbText
   0
 TEXT
   5
-D8
+D3
 330
 17
 100
@@ -7339,7 +7171,7 @@ AcDbText
  40
 0.9
   1
-• Retiros: 3m Frente / 3m Fondo / 2m Lat.
+• Retiros: Según Ord. M. 003/2026 y Ord. 011/1994
  11
 147.0
  21
@@ -7351,7 +7183,7 @@ AcDbText
   0
 TEXT
   5
-D9
+D4
 330
 17
 100
@@ -7369,7 +7201,7 @@ AcDbText
  40
 0.9
   1
-ESTÁNDAR DE CAPAS CAD (ISO 13567):
+ESTÁNDAR DE CAPAS CAD PRE-CONFIGURADAS:
  11
 147.0
  21
@@ -7381,7 +7213,7 @@ AcDbText
   0
 TEXT
   5
-DA
+D5
 330
 17
 100
@@ -7411,7 +7243,7 @@ AcDbText
   0
 TEXT
   5
-DB
+D6
 330
 17
 100
@@ -7441,7 +7273,7 @@ AcDbText
   0
 TEXT
   5
-DC
+D7
 330
 17
 100
@@ -7471,7 +7303,7 @@ AcDbText
   0
 TEXT
   5
-DD
+D8
 330
 17
 100
@@ -7489,7 +7321,7 @@ AcDbText
  40
 0.9
   1
-• A-FOOT-PB: Huella PB (Cian, 0.35mm)
+• A-FOOT-PB: Capa para Huella PB (Cian)
  11
 147.0
  21
@@ -7501,7 +7333,7 @@ AcDbText
   0
 TEXT
   5
-DE
+D9
 330
 17
 100
@@ -7519,7 +7351,7 @@ AcDbText
  40
 0.9
   1
-• A-FOOT-TOWR: Huella Torre (Azul, 0.35mm)
+• A-FOOT-TOWR: Capa para Huella Torre (Azul)
  11
 147.0
  21
@@ -7531,7 +7363,7 @@ AcDbText
   0
 TEXT
   5
-DF
+DA
 330
 17
 100
@@ -7549,7 +7381,7 @@ AcDbText
  40
 0.9
   1
-• A-WALL-CORE: Núcleos H°A° (Gris, 0.50mm)
+• A-WALL-CORE: Capa para Núcleos H°A° (Gris)
  11
 147.0
  21
@@ -7561,7 +7393,7 @@ AcDbText
   0
 TEXT
   5
-E0
+DB
 330
 17
 100
@@ -7579,7 +7411,7 @@ AcDbText
  40
 0.9
   1
-• A-ZONE-*: Capas para Zonificación Manual
+• A-ZONE-*: Capas para Zonificación Libre
  11
 147.0
  21
@@ -7591,7 +7423,7 @@ AcDbText
   0
 TEXT
   5
-E1
+DC
 330
 17
 100
@@ -7621,7 +7453,7 @@ AcDbText
   0
 TEXT
   5
-E2
+DD
 330
 17
 100
@@ -7651,7 +7483,7 @@ AcDbText
   0
 TEXT
   5
-E3
+DE
 330
 17
 100
@@ -7681,7 +7513,7 @@ AcDbText
   0
 TEXT
   5
-E4
+DF
 330
 17
 100
@@ -7699,7 +7531,7 @@ AcDbText
  40
 0.9
   1
-• ESCALA: 1:1 METROS (Norte Real = Eje +Y)
+• ESCALA: 1:1 METROS (1 unidad = 1 metro)
  11
 147.0
  21
@@ -7711,7 +7543,7 @@ AcDbText
   0
 TEXT
   5
-E5
+E0
 330
 17
 100
@@ -7729,7 +7561,7 @@ AcDbText
  40
 0.9
   1
-• ESTADO: Base Limpia para Distribución
+• ESTADO: Plantilla Limpia para Diseño Manual
  11
 147.0
  21
@@ -7741,7 +7573,7 @@ AcDbText
   0
 TEXT
   5
-E6
+E1
 330
 17
 100
@@ -7759,7 +7591,7 @@ AcDbText
  40
 0.9
   1
-• FECHA: 2026-09-19 | REVISIÓN: Rev. 03 (Norte Real)
+• FECHA: 2026-09-19 | REVISIÓN: Rev. 04 (Lienzo Limpio)
  11
 147.0
  21
@@ -8859,7 +8691,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-E9
+E4
   0
 DICTIONARYVAR
   5
@@ -8871,7 +8703,7 @@ DictionaryVariables
 280
 0
   1
-1.4.3 @ 2026-09-19T19:26:13.725590+00:00
+1.4.3 @ 2026-09-19T19:31:07.857836+00:00
   0
 VISUALSTYLE
   5
@@ -15425,7 +15257,7 @@ strokes_ogs.tif
   0
 DICTIONARYVAR
   5
-E9
+E4
 330
 2D
 100
@@ -15433,7 +15265,7 @@ DictionaryVariables
 280
 0
   1
-1.4.3 @ 2026-09-19T19:26:13.741999+00:00
+1.4.3 @ 2026-09-19T19:31:07.873859+00:00
   0
 ENDSEC
   0
