@@ -1,7 +1,7 @@
-"""
+﻿"""
 ====================================================================
  GENERADOR DE DXF BASE — PLANTA BAJA (PB) PARA TRAZADO EN AutoCAD
- Edificio de Uso Mixto 18P + 3 Subsuelos | Ciudad del Este, Paraguay
+ Edificio de Uso Mixto 18P + 2 Subsuelos | Ciudad del Este, Paraguay
  Metodología BIM ISO 19650 | Refinamiento manual profesional (§10.7)
 ====================================================================
 

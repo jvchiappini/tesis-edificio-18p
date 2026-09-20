@@ -1,7 +1,7 @@
-"""
+﻿"""
 ====================================================================
  VERIFICACIÓN POR EMPARRILLADO (GRID) DE LA LOSA NERVADA RETICULAR
- Edificio de Uso Mixto 18P + 3 Subsuelos | Ciudad del Este, Paraguay
+ Edificio de Uso Mixto 18P + 2 Subsuelos | Ciudad del Este, Paraguay
 ====================================================================
 
  Verifica con PyNite (emparrillado de nervios) el reparto BIDIRECCIONAL

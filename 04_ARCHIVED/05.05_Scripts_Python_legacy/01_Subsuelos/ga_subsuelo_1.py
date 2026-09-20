@@ -1,7 +1,7 @@
-"""
+﻿"""
 ====================================================================
  SUBSUELO 1 (S1) — COCHERAS + SALAS TÉCNICAS (Cota -3.50 m)
- Edificio de Uso Mixto 18P + 3 Subsuelos | Ciudad del Este, Paraguay
+ Edificio de Uso Mixto 18P + 2 Subsuelos | Ciudad del Este, Paraguay
  Metodología BIM ISO 19650 | Layout S3 adaptado con salas técnicas
 ====================================================================
 

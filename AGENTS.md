@@ -2,14 +2,14 @@
 
 > Punto de entrada **obligatorio** para cualquier agente que trabaje en este proyecto.
 > Leer este archivo completo antes de responder, editar o crear archivos.
-> Este proyecto NO es un repositorio de código convencional: es un **proyecto de tesis de grado de ingeniería civil con metodología BIM (ISO 19650)** de un edificio en altura de uso mixto (18P + 3 Subsuelos).
+> Este proyecto NO es un repositorio de código convencional: es un **proyecto de tesis de grado de ingeniería civil con metodología BIM (ISO 19650)** de un edificio en altura de uso mixto (18P + 2 Subsuelos).
 
 ---
 
 ## 1. Contexto del Proyecto
 
-- **Título del Trabajo:** Tesis de Grado en Ingeniería Civil — Diseño Estructural, Análisis Dinámico al Viento, Coordinación BIM y Presupuesto de un Edificio Mixto de 18 Pisos y 3 Subsuelos.
-- **Alcance Físico:** Edificio de 18 plantas tipo residenciales (P01–P18) + Planta Baja comercial + 3 Subsuelos de cocheras (S1–S3) + Azotea Técnica y Amenities (Piscina + SUM). **Sin oficinas.**
+- **Título del Trabajo:** Tesis de Grado en Ingeniería Civil — Diseño Estructural, Análisis Dinámico al Viento, Coordinación BIM y Presupuesto de un Edificio Mixto de 18 Pisos y 2 Subsuelos.
+- **Alcance Físico:** Edificio de 18 plantas tipo residenciales (P01–P18) + Planta Baja comercial + 2 Subsuelos de cocheras (S1–S2) + Azotea Técnica y Amenities (Piscina + SUM). **Sin oficinas.**
 - **Superficie Construida Total:** ~68.600 m² (Área por planta edificable: ~3.145 m²).
 - **Ubicación del Terreno:** Ciudad del Este, Departamento de Alto Paraná, Paraguay (UTM Zona 21J).
 - **Extensión Obligatoria Tesis:** Documento académico de **~200–300 PÁGINAS**. Ver `00_GESTION_DE_PROYECTO/ROADMAP_TESIS_300_PAGINAS.md`.
@@ -44,7 +44,7 @@
 Convención única e inviolable: `TESIS-[DISCIPLINA]-[NIVEL]-[TIPO]-[NUMERO]`
 
 - **DISCIPLINA:** `ARQ`, `EST`, `SAN`, `ELE`, `INC`, `MEC`, `CLO`, `PLU`, `COORD`.
-- **NIVEL:** `SUB3`, `SUB2`, `SUB1`, `PB`, `P01`–`P18`, `AZ` (Azotea), `GEN` (General).
+- **NIVEL:** `SUB2`, `SUB1`, `PB`, `P01`–`P18`, `AZ` (Azotea), `GEN` (General). *(SUB3 eliminado — edificio tiene 2 subsuelos)*
 - **TIPO:** `M3` (Modelo 3D), `DR` (Plano 2D), `SC` (Tabla/Cómputo), `RP` (Reporte/Memoria), `CALC` (Cálculo), `SCRIPT` (Código).
 - **NUMERO:** Correlativo de 3 dígitos (`001`, `002`, ...).
 
@@ -99,7 +99,9 @@ Cuando se resuelva una duda técnica (normas, Revit, cálculo estructural):
 
 > **ESTADO:** ⏳ *Todas las distribuciones espaciales anteriores quedan anuladas.* Se re-planificarán desde cero en la **Etapa B (Arquitectura Completa)**.
 
-- **Niveles Base:** 3 Subsuelos (S1–S3) + PB Comercial + 18 Pisos Residenciales (P01–P18, sin oficinas) + Azotea.
+- **Niveles Base:** 2 Subsuelos (S1–S2) + PB Comercial + 18 Pisos Residenciales (P01–P18, sin oficinas) + Azotea.
+- **Alturas de Entrepiso (Parámetro Maestro Congelado):** Subsuelos S1–S2 = **3,50 m** total (libre: 3,05 m + losa 45 cm) · Pisos P01–P18 = **3,35 m** total (libre: 3,00 m + losa 35 cm) · PB = **4,50 m** (libre: 4,05 m + losa 45 cm).
+- **Cotas de Nivel Definitivas:** SUB2 = **-7,00 m** · SUB1 = **-3,50 m** · PB = ±0,00 m · P01 = +4,50 m · P18 = +64,80 m · Azotea = +68,15 m (estimado).
 - **Núcleos H°A° y Grilla:** La cantidad, posición, forma de los núcleos y la grilla de pilares se definirán en la Etapa B.
 - **Distribución de Cocheras, PB, Planta Tipo y Amenities:** Se diseñarán desde cero en la Etapa B.
 

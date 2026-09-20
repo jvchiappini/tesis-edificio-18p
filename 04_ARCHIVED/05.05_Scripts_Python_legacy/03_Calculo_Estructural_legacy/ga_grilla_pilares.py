@@ -1,7 +1,7 @@
-"""
+﻿"""
 ====================================================================
  GRILLA Y PILARES ESTRUCTURALES — GRILLA DEFINITIVA (idéntica a S1)
- Edificio de Uso Mixto 18P + 3 Subsuelos | CDE, Paraguay
+ Edificio de Uso Mixto 18P + 2 Subsuelos | CDE, Paraguay
  Metodología BIM ISO 19650 | Fuente: modelo_estructural.py
 ====================================================================
 
@@ -183,7 +183,7 @@ def generar_plano():
     ax.set_xticks([])
     ax.set_yticks([])
     ax.set_title("GRILLA DE EJES Y PILARES ESTRUCTURALES H°A° — GRILLA DEFINITIVA (idéntica a Subsuelos)\n"
-                 f"Edificio 18P + 3 Subsuelos · {len(XS)} ejes X × {len(YS)} ejes Y · {len(pilares)} pilares · "
+                 f"Edificio 18P + 2 Subsuelos · {len(XS)} ejes X × {len(YS)} ejes Y · {len(pilares)} pilares · "
                  "Continuidad vertical 100% (S3→Azotea)",
                  fontsize=11, fontweight='bold')
 

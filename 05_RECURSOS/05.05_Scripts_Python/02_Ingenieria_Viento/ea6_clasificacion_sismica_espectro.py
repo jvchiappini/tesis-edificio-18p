@@ -1,7 +1,7 @@
-"""
+﻿"""
 ea6_clasificacion_sismica_espectro.py
 --------------------------------------------------------------------------------
-Edificio Mixto 18P + 3 Subsuelos — Ciudad del Este, Paraguay
+Edificio Mixto 18P + 2 Subsuelos — Ciudad del Este, Paraguay
 Tarea eA-6: Clasificacion Sismica del Sitio y Espectro de Respuesta Elastica
 Normativa: NBR 15421:2023 / ASCE 7-22 §11 / Eurocodigo 8 (EN 1998-1)
 
@@ -145,3 +145,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

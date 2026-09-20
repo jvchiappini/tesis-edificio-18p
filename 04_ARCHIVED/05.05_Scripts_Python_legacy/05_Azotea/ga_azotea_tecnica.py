@@ -1,7 +1,7 @@
 ﻿"""
 ====================================================================
  AZOTEA TÉCNICA + TERRAZA DE EVENTOS + PISCINA (NIVEL AZ, cota 58.00)
- Edificio de Uso Mixto 18P + 3 Subsuelos | Ciudad del Este, Paraguay
+ Edificio de Uso Mixto 18P + 2 Subsuelos | Ciudad del Este, Paraguay
  Metodología BIM ISO 19650 | AGENTS.md §13
 ====================================================================
 
@@ -265,7 +265,7 @@ def generar_plano():
     ax.set_xticks([])
     ax.set_yticks([])
     ax.set_title(
-        "AZOTEA TÉCNICA + TERRAZA DE EVENTOS + PISCINA — EDIFICIO 18P + 3 SUBSUELOS\n"
+        "AZOTEA TÉCNICA + TERRAZA DE EVENTOS + PISCINA — EDIFICIO 18P + 2 Subsuelos\n"
         "Nivel AZ (cota 58.00 m) · CDE, Paraguay  |  Huella 85×37 m = 3.145 m²  |  "
         "Zona técnica central + amenities en alas y frente",
         fontsize=11, fontweight="bold", pad=12)

@@ -1,4 +1,4 @@
-// =====================================================================
+﻿// =====================================================================
 //  Capítulo 7: Diseño Estructural de Hormigón Armado.
 //  Documento monumental, exhaustivo y riguroso con Ecuaciones Nativas
 //  de Word (OMML), desglose de variables ("Donde:") y detalles constructivos.
@@ -318,7 +318,7 @@ module.exports = function () {
         h2("7.4 Pilares a Flexocompresión Biaxial y Reducción Escalonada en Altura"),
         
         h3("7.4.1 Determinación de Cargas Axiales y Reducción por Número de Pisos"),
-        p("La bajada de cargas axiales acumuladas se determina mediante la matriz de áreas tributarias por pilar para los 21 niveles estructurales (3 subsuelos + PB + 18 pisos tipo + azotea). Para edificaciones de gran altura, los reglamentos ACI 318-19 (§6.4.3), ASCE 7-22 (§4.7) y NBR 6120 (§5.4.3) permiten aplicar el factor de reducción de sobrecarga viva por número de pisos sustentados (hasta un 50 % de reducción en columnas que soportan más de 8 niveles), reconociendo la improbabilidad estadística de que todas las plantas alcancen su carga máxima simultáneamente."),
+        p("La bajada de cargas axiales acumuladas se determina mediante la matriz de áreas tributarias por pilar para los 21 niveles estructurales (2 subsuelos + PB + 18 pisos tipo + azotea). Para edificaciones de gran altura, los reglamentos ACI 318-19 (§6.4.3), ASCE 7-22 (§4.7) y NBR 6120 (§5.4.3) permiten aplicar el factor de reducción de sobrecarga viva por número de pisos sustentados (hasta un 50 % de reducción en columnas que soportan más de 8 niveles), reconociendo la improbabilidad estadística de que todas las plantas alcancen su carga máxima simultáneamente."),
 
         h3("7.4.2 Verificación de Capacidad Resistente de la Sección 90×90 cm en Subsuelos"),
         p([
@@ -374,7 +374,7 @@ module.exports = function () {
 
         h3("7.4.3 Estrategia de Reducción Escalonada de Secciones en Altura"),
         p("La sección de los pilares se optimiza por grupos de niveles manteniendo continua la grilla estructural:"),
-        bullet("Subsuelos S3 a Planta Baja (Cota -10,50 m a +4,00 m): 90×90 cm (Ag = 0,81 m²), armadura 16Ø25 + 4Ø20, estribos Ø10 c/15 cm."),
+        bullet("Subsuelos S2 a Planta Baja (Cota -6,40 m a +4,00 m): 90×90 cm (Ag = 0,81 m²), armadura 16Ø25 + 4Ø20, estribos Ø10 c/15 cm."),
         bullet("Niveles P01 a P06 (Cota +4,00 m a +24,10 m): 80×80 cm (Ag = 0,64 m²), armadura 12Ø25, estribos Ø8 c/15 cm."),
         bullet("Niveles P07 a P12 (Cota +24,10 m a +44,20 m): 70×70 cm (Ag = 0,49 m²), armadura 12Ø20, estribos Ø8 c/20 cm."),
         bullet("Niveles P13 a P18 (Cota +44,20 m a +64,30 m): 60×60 cm (Ag = 0,36 m²), armadura 8Ø20, estribos Ø8 c/20 cm."),
@@ -403,7 +403,7 @@ module.exports = function () {
 
         // ================================================================
         h2("7.7 Muros de Contención de Subsuelos y Fundaciones"),
-        p("El perímetro de los 3 niveles enterrados (cota -10,50 m a 0,00 m) se contiene mediante un muro de hormigón armado de e = 40 cm de espesor reforzado con contrafuertes alineados a los pilares de la grilla modular, calculado para resistir el empuje del suelo en reposo (Ko = 0,50) y la subpresión hidrostática del nivel freático a cota -4,00 m."),
+        p("El perímetro de los 3 niveles enterrados (cota -6,40 m a 0,00 m) se contiene mediante un muro de hormigón armado de e = 40 cm de espesor reforzado con contrafuertes alineados a los pilares de la grilla modular, calculado para resistir el empuje del suelo en reposo (Ko = 0,50) y la subpresión hidrostática del nivel freático a cota -4,00 m."),
         p("Las fundaciones transmiten las cargas concentradas al macizo basáltico competente mediante una platea general rigidizada de 1,20 m de espesor en el sector de los núcleos centrales y cabezales sobre pilotes para los pilares perimetrales, asegurando asentamientos diferenciales inferiores a 10 mm."),
 
         // ================================================================
@@ -438,3 +438,4 @@ module.exports = function () {
         pageBreak(),
     ];
 };
+

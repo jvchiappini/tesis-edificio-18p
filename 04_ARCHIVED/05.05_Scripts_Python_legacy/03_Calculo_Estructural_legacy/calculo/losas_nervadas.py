@@ -1,7 +1,7 @@
 ﻿"""
 ====================================================================
  DISENO DE LOSA NERVADA / RETICULAR ALIVIANADA
- Edificio de Uso Mixto 18P + 3 Subsuelos | Ciudad del Este, Paraguay
+ Edificio de Uso Mixto 18P + 2 Subsuelos | Ciudad del Este, Paraguay
 ====================================================================
 
  Metodologia:

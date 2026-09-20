@@ -1,7 +1,7 @@
-"""
+﻿"""
 ====================================================================
  ARQUITECTURA EXTERIOR EXÓTICA — FACHADA Y VOLUMETRÍA
- Torre 18P + PB + 3 Subsuelos | Ciudad del Este, Paraguay
+ Torre 18P + PB + 2 Subsuelos | Ciudad del Este, Paraguay
  Metodología BIM ISO 19650 | Enfoque híbrido (algorítmico + manual)
 ====================================================================
 
@@ -42,7 +42,7 @@
  Geometría del edificio:
    X: [2.5 → 87.5 m] (85m) · Y: [3.0 → 40.0 m] (37m)
    PB 4.00m · P01-P18 3.00m c/u · Subsuelos 3.50m c/u
-   Altura total ≈ PB(4.0) + 18×3.0 = 58.0 m (+ 3 subsuelos 10.5m)
+   Altura total ≈ PB(4.0) + 18×3.0 = 58.0 m (+ 2 subsuelos 10.5m)
 
  OUTPUT: outputs/fachada_sur_estrategias.png
          outputs/volumetria_3d_huella_uniforme.png

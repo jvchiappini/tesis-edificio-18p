@@ -1,4 +1,4 @@
-// =====================================================================
+﻿// =====================================================================
 //  Capítulo 4: Descripción del Edificio.
 //  Ampliado con los criterios de diseño de cada nivel.
 // =====================================================================
@@ -26,7 +26,7 @@ module.exports = function () {
                 ["Terreno", "90,0 × 40,0 m", "3.600,0 m²"],
                 ["Huella edificable", "85,0 × 37,0 m", "3.145,0 m² por nivel"],
                 ["Núcleos H°A°", "2 × (7 × 9 m)", "Gemelos rotados 90°, N1 (X:34→41) y N2 (X:49→56), Y:17→26"],
-                ["Subsuelos S1–S3", "3,50 m por nivel", "Cocheras: 278 plazas en total"],
+                ["Subsuelos S1–S3", "3,20 m por nivel", "Cocheras: 180 plazas en total"],
                 ["Planta Baja", "4,00 m libres", "Comercial + lobby + residuos + servicios"],
                 ["P01–P18 residencial", "3,00 m libres (entrepiso 3,35 m)", "432 apartamentos en 3 disposiciones"],
                 ["Azotea", "+64,30 m", "Salas de máquinas, tanques, terraza de eventos, piscina 8×16 m"],
@@ -36,7 +36,7 @@ module.exports = function () {
 
         // ================================================================
         h2("4.2 Subsuelos de Cocheras (S1, S2 y S3)"),
-        p("El edificio tiene tres niveles de cocheras bajo el nivel de calle, con una altura de entrepiso de 3,50 m cada uno. Los tres comparten la misma huella y los mismos dos núcleos, y se designan S1 (el más cercano a la calle, cota -3,50 m), S2 (cota -7,00 m) y S3 (el más profundo, cota -10,50 m). En total suman 278 plazas de estacionamiento."),
+        p("El edificio tiene tres niveles de cocheras bajo el nivel de calle, con una altura de entrepiso de 3,50 m cada uno. Los tres comparten la misma huella y los mismos dos núcleos, y se designan S1 (el más cercano a la calle, cota -3,20 m), [S2 eliminado — solo 2 subsuelos] y S2 (el más profundo, cota -6,40 m). En total suman 278 plazas de estacionamiento."),
         h3("4.2.1 Criterios de Diseño de las Cocheras"),
         p("El diseño de una cochera se rige por dimensiones mínimas que garanticen que los vehículos entren, circulen y estacionen con comodidad. En este proyecto se adoptaron los siguientes criterios:"),
         bullet("Módulo de cochera de 2,50 m de ancho por 5,00 m de fondo, con estacionamiento perpendicular a la circulación. Es la medida habitual para automóviles."),
@@ -48,7 +48,7 @@ module.exports = function () {
         p("En los Subsuelos S2 y S3 se dispuso una doble rampa de esquina a esquina: el vehículo entra por la esquina sureste y sale por la esquina noroeste, recorriendo el subsuelo en diagonal. Esta solución separa los flujos de entrada y salida y evita cruces peligrosos. En el Subsuelo S1, en cambio, se adoptó una rampa única en la esquina noreste, mirando hacia el oeste."),
         h3("4.2.3 Salas Técnicas"),
         p("El Subsuelo S1 aloja además las salas técnicas principales del edificio, agrupadas en un bloque central para que las cañerías entre ellas sean cortas: las cisternas y bombas de agua potable y de agua contra incendio, el grupo electrógeno de emergencia, el tablero general, la planta de tratamiento del agua de lluvia y el taller de mantenimiento. La planta de tratamiento cloacal (llamada EBAR) se ubica aparte, en la esquina sureste. Las plantas de los tres subsuelos se muestran en las Ilustraciones 3, 4 y 5."),
-        ...figura(IMG.s3, 560, 300, "fig_s3", "Planta del Subsuelo 3 (S3) — cocheras (98 plazas)."),
+        ...figura(IMG.s3, 560, 300, "fig_s3", "Planta del Subsuelo 2 (S2) — cocheras (98 plazas)."),
         ...figura(IMG.s2, 560, 300, "fig_s2", "Planta del Subsuelo 2 (S2) — cocheras (98 plazas)."),
         ...figura(IMG.s1, 560, 300, "fig_s1", "Planta del Subsuelo 1 (S1) — cocheras (82 plazas) + bloque técnico + rampa única noreste."),
 
@@ -109,3 +109,5 @@ module.exports = function () {
         pageBreak(),
     ];
 };
+
+

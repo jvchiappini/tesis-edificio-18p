@@ -1,7 +1,7 @@
 ﻿"""
 ====================================================================
  GENERADOR VISOR 3D WEB (THREE.JS) â€” MODELO ESTRUCTURAL EDIFICIO 18P
- Edificio 18P + 3 Subsuelos | MetodologÃ­a BIM ISO 19650
+ Edificio 18P + 2 Subsuelos | MetodologÃ­a BIM ISO 19650
 ====================================================================
 
 Lee `outputs/elementos_3d.json` (misma fuente de verdad que el IFC) y
@@ -110,7 +110,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Visor 3D â€” Modelo Estructural Edificio 18P + 3 Subsuelos</title>
+<title>Visor 3D â€” Modelo Estructural Edificio 18P + 2 Subsuelos</title>
 <style>
   :root { --panel: rgba(15,23,42,.88); --txt:#e2e8f0; --acc:#38bdf8; }
   * { box-sizing: border-box; }
@@ -150,7 +150,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <div id="app"></div>
 
 <div id="panel">
-  <h1>Modelo Estructural â€” Edificio 18P + 3 Subsuelos
+  <h1>Modelo Estructural â€” Edificio 18P + 2 Subsuelos
     <small>Three.js Â· datos de modelo_estructural.py Â· ISO 19650</small></h1>
   <div class="sec" id="toggles"></div>
   <div class="sec">

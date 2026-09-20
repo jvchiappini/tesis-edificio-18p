@@ -1,4 +1,4 @@
-# B.3 — Cortes, Fachadas y Detalles Constructivos
+﻿# B.3 — Cortes, Fachadas y Detalles Constructivos
 
 > **Etapa B › Sub-etapa 3** · **Tareas:** 4 · **Estado:** ⏳ En Desarrollo (Cortes, Elevaciones y Envolventes de 3 Torres)  
 > Archivos fuente: `01_WIP/01.01_ARQ/` · Autodesk Revit 2024 · MCDE ([Ord. M. 003/2026 Art. 7°](visor_ordenanzas.html?id=3693) — Fachadas No Espejadas; [Ord. 011/1994](visor_ordenanzas.html?id=3146))
@@ -20,7 +20,7 @@
 
 | Fecha | Decisión Proyectual | Fundamento Técnico & Normativo | Estado |
 |---|---|---|---|
-| 2026-09-19 | **Definición de Alturas y Relación Vertical** | Cota $-10.50\text{ m}$ en S3 a nivel de coronamiento en azotea técnica. | ⏳ En desarrollo |
+| 2026-09-19 | **Definición de Alturas y Relación Vertical** | Cota $-6{,}40\text{ m}$ en S2 (2 subsuelos) a nivel de coronamiento en azotea técnica. Alturas: Subsuelos = 3,50 m/nivel · Pisos P01–P18 = 3,35 m/nivel (libre: 3,00 m). | ✅ Adoptado |
 | 2026-09-19 | **Prohibición de Cristales Espejados** | [Ord. M. 003/2026 J.M. Art. 7°](visor_ordenanzas.html?id=3693) (Protección de avifauna y prevención de deslumbramientos). | ✅ Adoptado |
 | 2026-09-19 | **Vidriado Adoptado (DVH Low-E)** | Doble Vidriado Hermético incoloro neutro ($6\text{mm} + 12\text{mm aire} + 6\text{mm}$), transmisión luminosa $\ge 65\%$, reflectancia $< 12\%$. | ✅ Adoptado |
 | 2026-09-19 | **Juntas de Dilatación Térmica** | Junta vertical continua con sellador elastomérico de poliuretano entre cuerpos de edificación. | ⏳ En desarrollo |
@@ -31,7 +31,12 @@
 
 ### 1. Definición de Alturas y Relación Vertical
 
-La relación vertical del conjunto contempla la cota de fundación de los 3 subsuelos en **$-10,50\text{ m}$** sobre el basamento rocoso, el nivel de vereda en **$+0,00\text{ m}$** (Planta Baja comercial) y las alturas libres de las **3 Torres Residenciales** (P01 a P18) hasta la Azotea Técnica.
+La relación vertical del conjunto contempla la cota de fundación de los 2 subsuelos en **$-6{,}40\text{ m}$** sobre el basamento rocoso, el nivel de vereda en **$+0{,}00\text{ m}$** (Planta Baja comercial) y las alturas libres de las **3 Torres Residenciales** (P01 a P18) hasta la Azotea Técnica.
+
+> **Alturas de entrepiso congeladas (parámetro maestro):**
+> - **Subsuelos S1–S2:** 3,50 m de losa a losa (altura libre libre ≈ 2,75 m con losa de 45 cm).
+> - **Planta Baja PB:** 4,50 m de losa a losa (altura libre ≈ 4,05 m).
+> - **Pisos P01–P18:** 3,35 m de losa a losa (altura libre a cielo raso = **3,00 m** + losa nervada 35 cm).
 
 ---
 
@@ -73,5 +78,6 @@ En cumplimiento estricto del **[Art. 7° de la Ordenanza Municipal M. N° 003/20
    - Membrana asfáltica de $4\text{ mm}$ modificada con polímeros SBS sobre imprimación bituminosa, protegida térmicamente con planchas de Poliestireno Expandido (EPS) de $50\text{ mm}$ de alta densidad ($30\text{ kg/m}^3$) y carpeta de mortero armado de protección mecánica.
    - Vaso de piscina impermeabilizado mediante revestimiento cementicio elástico bicomponente con malla de fibra de vidrio de refuerzo.
 
-3. **Impermeabilización Estanca de Subsuelos (S1-S3):**
-   - Muros pantalla de H°A° ($e = 30\text{ cm}$) tratados con aditivo cristalizante por capilaridad en la masa de hormigón + geomembrana de HDPE exterior y geodren con geotextil no tejido para conducción de aguas de infiltración hacia la EBAR en S3.
+3. **Impermeabilización Estanca de Subsuelos (S1-S2):**
+   - Muros pantalla de H°A° ($e = 30\text{ cm}$) tratados con aditivo cristalizante por capilaridad en la masa de hormigón + geomembrana de HDPE exterior y geodren con geotextil no tejido para conducción de aguas de infiltración hacia la EBAR en S2.
+

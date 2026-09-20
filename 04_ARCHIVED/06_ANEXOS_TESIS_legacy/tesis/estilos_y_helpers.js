@@ -1,4 +1,4 @@
-const docxModule = require("docx");
+﻿const docxModule = require("docx");
 const {
     Paragraph, TextRun, HeadingLevel, AlignmentType,
     LevelFormat, PageBreak, SimpleField, ImageRun, Table, TableRow, TableCell, WidthType, ShadingType,
@@ -26,7 +26,7 @@ const FONT_HEAD = "Calibri";   // Encabezados y títulos (Sans-serif)
 const AUTOR = "José Valentino Chiappini Vergara";
 const UNIVERSIDAD = "Universidad Internacional Tres Fronteras (UNINTER)";
 const FACULTAD = "FACULTAD DE CIENCIAS Y TECNOLOGÍA (FACITPRO) — INGENIERÍA CIVIL";
-const TITULO_TESIS = "DISEÑO ESTRUCTURAL, OPTIMIZACIÓN ALGORÍTMICA (NSGA-II) Y METODOLOGÍA BIM (ISO 19650) DE UN EDIFICIO DE USO MIXTO DE 18 NIVELES Y 3 SUBSUELOS SOMETIDO A CARGAS DE VIENTO EN CIUDAD DEL ESTE";
+const TITULO_TESIS = "DISEÑO ESTRUCTURAL, OPTIMIZACIÓN ALGORÍTMICA (NSGA-II) Y METODOLOGÍA BIM (ISO 19650) DE UN EDIFICIO DE USO MIXTO DE 18 pisos y 2 subsuelos SOMETIDO A CARGAS DE VIENTO EN CIUDAD DEL ESTE";
 const SUBTITULO_TESIS = "Aplicación al Caso de Estudio: Edificio de 18 Niveles (90.0m x 40.0m) en Ciudad del Este, Paraguay";
 const TITULO_CORTO = "Tesis de Grado — Edificio Mixto 18P (Ingeniería Estructural & BIM)";
 
@@ -314,3 +314,4 @@ module.exports = {
     MathRadical, MathRoundBrackets, MathSquareBrackets, MathCurlyBrackets,
     eqBlock, eqDonde, mathInline, mRun, mSub, mSup, mSubSup, mFrac, mRad, mBrackets, mSquareBrackets
 };
+

@@ -1,7 +1,7 @@
-"""
+﻿"""
 ====================================================================
  CARGAS GRAVITATORIAS — PESO PROPIO + SOBRECARGAS + AXIAL POR PILAR
- Edificio 18P + 3 Subsuelos | CDE, Paraguay
+ Edificio 18P + 2 Subsuelos | CDE, Paraguay
  Normas: NBR 6120:2019 (base) · ASCE 7-22 (comparativa)
 ====================================================================
 

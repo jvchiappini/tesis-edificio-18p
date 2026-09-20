@@ -1,7 +1,7 @@
-"""
+﻿"""
 ====================================================================
  GENERADOR DE DXF BASE — SUBSUELO 3 (COCHERAS)
- Edificio de Uso Mixto 18P + 3 Subsuelos | Ciudad del Este, Paraguay
+ Edificio de Uso Mixto 18P + 2 Subsuelos | Ciudad del Este, Paraguay
  Metodología BIM ISO 19650 | Flujo manual en AutoCAD
 ====================================================================
 

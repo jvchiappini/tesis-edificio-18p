@@ -1,7 +1,7 @@
-"""
+﻿"""
 ====================================================================
  MODELO DE DATOS ESTRUCTURAL (SDF) — FUENTE ÚNICA DE VERDAD
- Edificio de Uso Mixto 18P + 3 Subsuelos | Ciudad del Este, Paraguay
+ Edificio de Uso Mixto 18P + 2 Subsuelos | Ciudad del Este, Paraguay
  Metodología BIM ISO 19650 | Versión: v1 (2026-09-09)
 ====================================================================
 
@@ -146,7 +146,7 @@ RECINTOS = {
 def exportar_json(ruta=None):
     """Serializa el modelo a JSON estandarizado."""
     data = dict(
-        proyecto="Edificio de Uso Mixto 18P + 3 Subsuelos - CDE, Paraguay",
+        proyecto="Edificio de Uso Mixto 18P + 2 Subsuelos - CDE, Paraguay",
         norma="NBR 6123 / NBR 6118 / ASCE 7-22 / Eurocodigo 1",
         terreno=TERRENO,
         huella=HUELLA,

@@ -1,7 +1,7 @@
-"""
+﻿"""
 ====================================================================
  SUBSUELO 3 (S3) — COCHERAS (Nivel más profundo, -10.50m)
- Edificio de Uso Mixto 18P + 3 Subsuelos | Ciudad del Este, Paraguay
+ Edificio de Uso Mixto 18P + 2 Subsuelos | Ciudad del Este, Paraguay
  Metodología BIM ISO 19650 | GA de Distribución de Cocheras
 ====================================================================
 

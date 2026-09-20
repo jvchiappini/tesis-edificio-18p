@@ -1,8 +1,8 @@
-"""
+﻿"""
 ====================================================================
  PLANTA TIPO RESIDENCIAL — LAYOUT B: MUCHOS APARTAMENTOS GRANDES
  Pisos P03, P06, P09, P12, P15, P18 (6 pisos — incluye el ÚLTIMO piso) 
- Edificio 18P + 3 Subsuelos | Ciudad del Este, Paraguay
+ Edificio 18P + 2 Subsuelos | Ciudad del Este, Paraguay
  Metodología BIM ISO 19650
 ====================================================================
 

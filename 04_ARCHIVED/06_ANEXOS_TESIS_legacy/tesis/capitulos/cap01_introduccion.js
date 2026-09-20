@@ -1,4 +1,4 @@
-// =====================================================================
+﻿// =====================================================================
 //  Capítulo 1: Introducción.
 //  Orden: Planteamiento -> Preguntas abiertas -> Objetivos ->
 //  Justificación -> Hipótesis -> Alcance -> Programa -> Guía de lectura.
@@ -74,7 +74,7 @@ module.exports = function () {
             [1600, 2200, 1800, 3300],
             ["Nivel / Sector", "Cota / Altura", "Superficie por Nivel", "Destino Funcional"],
             [
-                ["Subsuelos S1–S3", "-10,50 m a -3,50 m (3,50 m c/u)", "3.145,0 m²", "Cocheras (278 plazas) + salas técnicas (S1)"],
+                ["Subsuelos S1–S3", "-6,40 m a -3,20 m (3,20 m c/u)", "3.145,0 m²", "Cocheras (278 plazas) + salas técnicas (S1)"],
                 ["Planta Baja (PB)", "0,00 m (4,00 m libres)", "3.145,0 m²", "5 locales comerciales + lobby + residuos + servicios"],
                 ["Pisos P01–P18", "+4,00 m a +60,95 m (3,35 m c/u)", "2.949,0 m²", "Torre residencial (432 apartamentos, disposiciones A/C/B)"],
                 ["Azotea (AZ)", "+64,30 m", "2.949,0 m²", "Salas de máquinas + tanques + terraza de eventos + piscina 8×16 m"],
@@ -88,3 +88,4 @@ module.exports = function () {
         pageBreak(),
     ];
 };
+

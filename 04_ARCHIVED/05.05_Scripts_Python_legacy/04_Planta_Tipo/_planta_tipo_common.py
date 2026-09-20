@@ -1,8 +1,8 @@
-"""
+﻿"""
 ====================================================================
  MÓDULO COMÚN — PLANTA TIPO RESIDENCIAL P01-P18 (3 LAYOUTS)
  Comparte la geometría y el dibujo entre ga_planta_tipo_A/B/C.py
- Edificio 18P + 3 Subsuelos | Ciudad del Este, Paraguay
+ Edificio 18P + 2 Subsuelos | Ciudad del Este, Paraguay
 ====================================================================
 
  Geometría (idéntica a PB/subsuelos, AGENTS.md §11.1):
@@ -257,7 +257,7 @@ def generar_plano_layout(codigo, titulo, w_sur, w_nor, out_name):
 
     ax.set_title(
         f"PLANTA TIPO RESIDENCIAL — LAYOUT {codigo} ({titulo})\n"
-        f"Edificio 18P + 3 subsuelos · CDE, Paraguay  |  {len(w_sur)+len(w_nor)} apartamentos/piso  |  "
+        f"Edificio 18P + 2 Subsuelos · CDE, Paraguay  |  {len(w_sur)+len(w_nor)} apartamentos/piso  |  "
         f"Área media {np.mean(areas):.1f} m²  |  Balcones en todo el perímetro exterior",
         fontsize=11, fontweight='bold', pad=12
     )

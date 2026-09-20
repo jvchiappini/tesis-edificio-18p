@@ -1,4 +1,4 @@
-// =====================================================================
+﻿// =====================================================================
 //  Capítulo 9: Cómputos, Presupuesto, Método Constructivo y Cronograma.
 // =====================================================================
 const { h1, h2, h3, p, bullet, pageBreak } = require("../estilos_y_helpers");
@@ -24,7 +24,7 @@ module.exports = function () {
         h2("9.3 Método Constructivo y Secuencia de Obra"),
         p("Pensar cómo se construye es parte del diseño: una solución muy elegante en el papel puede ser imposible de ejecutar. En este edificio, el método constructivo sigue una secuencia lógica que empieza desde el fondo y sube."),
         h3("9.3.1 Excavación y Contención"),
-        p("La obra comienza con la excavación para los tres Subsuelos, que alcanzan los 10,50 m de profundidad. A medida que se excava, las paredes del terreno deben contenerse para que no se derrumben: para eso se usan pantallas o tablestacas. Si aparece agua freática, se la controla con agotamiento, es decir, bombeando el agua para mantener el fondo seco mientras se trabaja. Estas tareas son críticas y su costo depende directamente del estudio geotécnico del terreno."),
+        p("La obra comienza con la excavación para los tres Subsuelos, que alcanzan los 6,40 m de profundidad. A medida que se excava, las paredes del terreno deben contenerse para que no se derrumben: para eso se usan pantallas o tablestacas. Si aparece agua freática, se la controla con agotamiento, es decir, bombeando el agua para mantener el fondo seco mientras se trabaja. Estas tareas son críticas y su costo depende directamente del estudio geotécnico del terreno."),
         h3("9.3.2 Estructura de Subsuelos y Torre"),
         p("Una vez contenida la excavación, se construyen los muros perimetrales y la platea de fundación, y luego la estructura de los subsuelos hacia arriba. A partir de la Planta Baja, el edificio se levanta piso por piso con un ciclo repetitivo: se encofran y hormigonan los pilares y los núcleos, se colocan los casetones de la losa nervada, se arma el acero y se hormigona la losa. El ciclo se repite idéntico en cada nivel, lo que permite que la cuadrilla gane velocidad con la práctica. La losa nervada con casetones recuperables es especialmente adecuada para este ritmo, porque los casetones se retiran, se limpian y se vuelven a usar en el piso siguiente."),
         h3("9.3.3 Verificaciones de Constructibilidad"),
@@ -38,3 +38,4 @@ module.exports = function () {
         pageBreak(),
     ];
 };
+

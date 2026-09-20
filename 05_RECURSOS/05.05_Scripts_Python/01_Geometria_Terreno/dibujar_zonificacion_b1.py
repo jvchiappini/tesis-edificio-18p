@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 ===============================================================================
-TESIS DE GRADO — EDIFICIO DE USO MIXTO 18 PISOS + 3 SUBSUELOS (CIUDAD DEL ESTE)
+TESIS DE GRADO — EDIFICIO DE USO MIXTO 18 PISOS + 2 SUBSUELOS (CIUDAD DEL ESTE)
 Script: dibujar_zonificacion_b1.py
 Sub-etapa: B.1 — Programa y Organización Funcional
 
@@ -300,7 +300,7 @@ def generar_figura_2_2_volumetria():
             color='#D4B2A7', fontsize=9, fontweight='bold', ha='center', va='center')
 
     subsuelos = [
-        ("Subsuelo 3 (S3)", -10.50, -7.40, "#1A2533", "Estacionamiento + PTAR Estanca (120m²)"),
+        ("[S3 ELIMINADO]", -10.50, -7.40  # S3 eliminado — 2 subsuelos, "#1A2533", "Estacionamiento + PTAR Estanca (120m²)"),
         ("Subsuelo 2 (S2)", -7.40, -4.30, "#1E2C3D", "Depósitos Privados & Estacionamiento Autos"),
         ("Subsuelo 1 (S1)", -4.30, -1.10, "#223347", "SALA ANDE (1.000kVA), Genset, Cisterna (60m³)")
     ]
@@ -333,7 +333,7 @@ def generar_figura_2_2_volumetria():
     ax.set_ylim(-18, 72)
     ax.grid(True, linestyle=':', alpha=0.25, color=TEXT_MUTED)
 
-    ax.set_title("FIGURA 2.2 — PERFIL VOLUMÉTRICO Y RELACIÓN DE PLANTAS (3 TORRES INDEPENDIENTES + 3 SUBSUELOS)\nBasamento Comercial $3.145\\text{ m}^2$ e Integración de Núcleos de H°A°",
+    ax.set_title("FIGURA 2.2 — PERFIL VOLUMÉTRICO Y RELACIÓN DE PLANTAS (3 TORRES INDEPENDIENTES + 2 SUBSUELOS)\nBasamento Comercial $3.145\\text{ m}^2$ e Integración de Núcleos de H°A°",
                  color=TEXT_LIGHT, fontsize=12.5, fontweight='bold', pad=15)
     ax.set_xlabel("Desarrollo Longitudinal (m)", color=TEXT_MUTED, fontsize=10)
     ax.set_ylabel("Cota de Nivel Z (m)", color=TEXT_MUTED, fontsize=10)
@@ -350,3 +350,4 @@ if __name__ == "__main__":
     generar_figura_2_1_planta_baja()
     generar_figura_2_2_volumetria()
     print("[SUCCESS] ¡Generación desde DXF completada exitosamente!")
+

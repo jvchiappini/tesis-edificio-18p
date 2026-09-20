@@ -1,4 +1,4 @@
-# Tesis de Grado — Diseño Estructural, Análisis Dinámico al Viento, Coordinación BIM & Presupuesto de Edificio de 18 Pisos y 3 Subsuelos
+# Tesis de Grado — Diseño Estructural, Análisis Dinámico al Viento, Coordinación BIM & Presupuesto de Edificio de 18 Pisos y 2 Subsuelos
 
 ![BIM Standard](https://img.shields.io/badge/BIM%20Standard-ISO%2019650-blue.svg)
 ![Revit Version](https://img.shields.io/badge/Autodesk%20Revit-2024-0696D7.svg)
@@ -16,7 +16,9 @@ El proyecto integra la metodología **BIM (ISO 19650)**, el cálculo estructural
 
 ### 🏢 Ficha Técnica Sintética
 * **Tipología:** Edificio de uso mixto (Residencial + Comercial + Cocheras + Amenities).
-* **Configuración de Plantas:** 3 Subsuelos de cocheras ($S1\text{–}S3$) + Planta Baja Comercial ($PB$) + 18 Pisos Residenciales ($P01\text{–}P18$) + Azotea Técnica & Amenities (Piscina + SUM).
+* **Configuración de Plantas:** 2 Subsuelos de cocheras ($S1\text{–}S2$) + Planta Baja Comercial ($PB$) + 18 Pisos Residenciales ($P01\text{–}P18$) + Azotea Técnica & Amenities (Piscina + SUM).
+* **Alturas de Entrepiso:** Subsuelos S1–S2 = 3,50 m · PB = 4,50 m · P01–P18 = 3,35 m (libre: 3,00 m + losa 35 cm).
+* **Cotas:** SUB2 = −7,00 m · SUB1 = −3,50 m · PB = ±0,00 m · Profundidad total excavación = 7,00 m.
 * **Superficie Edificable por Planta:** ⏳ *En re-definición (Etapa B — Arquitectura Completa)*
 * **Superficie Construida Total:** ⏳ *En re-definición (Etapa B — Arquitectura Completa)*
 * **Superficie del Terreno:** $7.618,49\text{ m}^2$ (Polígono P1-P2-P3-P4, UTM Zona 21J).
@@ -77,7 +79,7 @@ Todos los entregables y modelos siguen estrictamente el estándar del proyecto:
 $$\text{TESIS-[DISCIPLINA]-[NIVEL]-[TIPO]-[NUMERO]}$$
 
 * **DISCIPLINA:** `ARQ`, `EST`, `SAN`, `ELE`, `INC`, `MEC`, `CLO`, `PLU`, `COORD`.
-* **NIVEL:** `SUB3`, `SUB2`, `SUB1`, `PB`, `P01`–`P18`, `AZ`, `GEN`.
+* **NIVEL:** `SUB2`, `SUB1`, `PB`, `P01`–`P18`, `AZ`, `GEN`. *(SUB3 eliminado — 2 subsuelos)*
 * **TIPO:** `M3` (Modelo 3D), `DR` (Plano 2D), `SC` (Tabla/Cómputo), `RP` (Memoria/Reporte), `CALC` (Cálculo), `SCRIPT` (Código).
 * **Ejemplo:** `TESIS-EST-P05-M3-001.rvt`
 

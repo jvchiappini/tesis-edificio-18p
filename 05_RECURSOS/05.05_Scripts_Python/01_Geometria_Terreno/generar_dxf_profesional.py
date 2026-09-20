@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 ===============================================================================
-TESIS DE GRADO — EDIFICIO DE USO MIXTO 18 PISOS + 3 SUBSUELOS (CIUDAD DEL ESTE)
+TESIS DE GRADO — EDIFICIO DE USO MIXTO 18 PISOS + 2 SUBSUELOS (CIUDAD DEL ESTE)
 Script: generar_dxf_profesional.py
 Propósito: Generar la plantilla CAD DXF base limpia y profesional con ORIENTACIÓN NORTE REAL
            (Norte Geográfico = Eje +Y), coordenadas UTM Zona 21J reales y relativas,
@@ -149,7 +149,7 @@ def crear_dxf_base_limpio():
         msp.add_line((rx, yl), (rx + rw, yl), dxfattribs={'layer': 'G-TITLE-BLOCK'})
 
     msp.add_text("TESIS DE GRADO — INGENIERÍA CIVIL", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 1.6}).set_placement((rx + 2.0, ry + 100.0))
-    msp.add_text("EDIFICIO MIXTO 18 PISOS + 3 SUBSUELOS", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 1.3}).set_placement((rx + 2.0, ry + 95.0))
+    msp.add_text("EDIFICIO MIXTO 18 PISOS + 2 SUBSUELOS", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 1.3}).set_placement((rx + 2.0, ry + 95.0))
     msp.add_text("CIUDAD DEL ESTE — PARAGUAY (UTM 21J)", dxfattribs={'layer': 'A-ANNO-TEXT', 'height': 1.0}).set_placement((rx + 2.0, ry + 91.5))
 
     datos_urbanisticos = [
@@ -199,3 +199,4 @@ if __name__ == "__main__":
     print("[INFO] Generando plantilla CAD DXF limpia (1:1 Metros / Norte Real) para diseño manual...")
     crear_dxf_base_limpio()
     print("[SUCCESS] Plantilla CAD DXF creada exitosamente!")
+

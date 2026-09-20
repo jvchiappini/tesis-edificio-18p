@@ -1,7 +1,7 @@
-"""
+﻿"""
 ====================================================================
  COMPARATIVA DE SISTEMAS ESTRUCTURALES DE ENTREPISO — COSTO
- Edificio 18P + 3 Subsuelos | CDE, Paraguay | 2026
+ Edificio 18P + 2 Subsuelos | CDE, Paraguay | 2026
 ====================================================================
 
  OBJETIVO

@@ -1,6 +1,6 @@
-"""
+﻿"""
 ====================================================================
- MODELO 3D ESTRUCTURAL — EDIFICIO 18P + 3 SUBSUELOS (CDE, Paraguay)
+ MODELO 3D ESTRUCTURAL — EDIFICIO 18P + 2 Subsuelos (CDE, Paraguay)
  Metodología BIM ISO 19650 | AGENTS.md §10 · modelo_estructural.py
 ====================================================================
 
@@ -15,7 +15,7 @@
  ELEMENTOS (fuente única de verdad: modelo_estructural.py):
    - Grilla X: [2.50 ... 87.50] (12 ejes) · Y: [3.00 ... 40.00] (6 ejes)
    - Núcleos: N1 X:34→41 / N2 X:49→56 · Y:17→26 (7m×9m, rotados 90°)
-   - Niveles: S3 -10.50 · S2 -7.00 · S1 -3.50 · PB 0.00 (h=4.00)
+   - Niveles: S2 -6,40 · S1 -3,20 · PB 0,00 (h=4,50)
              P01..P18 cada 3.35 m (3.00 m libres piso a cielo raso)
              AZ 64.30 (h=2.20)
 
@@ -300,7 +300,7 @@ def generar_render(elementos, vista="iso", nombre="modelo_3d_iso.png"):
     elif vista == "elevacion":
         ax.view_init(elev=0, azim=-90)  # fachada SUR (frente, 85 m) — no el costado
 
-    ax.set_title("MODELO 3D ESTRUCTURAL — Edificio 18P + 3 Subsuelos\n"
+    ax.set_title("MODELO 3D ESTRUCTURAL — Edificio 18P + 2 Subsuelos\n"
                  "Grilla continua S3→AZ · Losas nervuradas/reticulares · 2 Núcleos H°A° · "
                  f"{len(elementos['pilares'])} tramos de pilar",
                  fontsize=11, fontweight="bold")

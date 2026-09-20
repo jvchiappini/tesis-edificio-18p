@@ -1,7 +1,7 @@
-"""
+﻿"""
 ====================================================================
  PLANTA TIPO RESIDENCIAL — LAYOUT C: COMBINADOS
- Pisos P02, P05, P08, P11, P14, P17 (6 pisos) | Edificio 18P + 3 Subsuelos
+ Pisos P02, P05, P08, P11, P14, P17 (6 pisos) | Edificio 18P + 2 Subsuelos
  Ciudad del Este, Paraguay | Metodología BIM ISO 19650
 ====================================================================
 

@@ -1,4 +1,4 @@
-// =====================================================================
+﻿// =====================================================================
 //  TESIS DE GRADO — DOCUMENTO FINAL (build_tesis.js)
 //  Genera TESIS_CHIAPPINI_v01.docx — documento de la tesis completa.
 //  Pipeline: Word (docx) para el documento; cálculos en anexo LaTeX.
@@ -30,7 +30,7 @@ const doc = new Document({
     title: TITULO_TESIS,
     subject: "Tesis de Grado — Ingeniería Civil · BIM ISO 19650 · Estructuras",
     keywords: "Tesis; BIM; ISO 19650; NSGA-II; Viento; Losa nervada; Ciudad del Este",
-    description: "Documento final de Trabajo de Grado: diseño estructural, optimización algorítmica (NSGA-II) y metodología BIM ISO 19650 de un edificio de uso mixto de 18 niveles y 3 subsuelos en Ciudad del Este.",
+    description: "Documento final de Trabajo de Grado: diseño estructural, optimización algorítmica (NSGA-II) y metodología BIM ISO 19650 de un edificio de uso mixto de 18 pisos y 2 subsuelos en Ciudad del Este.",
     lastModifiedBy: AUTOR,
     features: { updateFields: true },
     numbering: {
@@ -136,3 +136,4 @@ Packer.toBuffer(doc).then((buf) => {
 }).catch((err) => {
     console.error("❌ ERROR DURANTE LA COMPILACIÓN DE LA TESIS:", err);
 });
+

@@ -1,7 +1,7 @@
-"""
+﻿"""
 ====================================================================
  LOSAS POSTENSADAS — DISEÑO POR TIPO DE LOSA (AZ · PB · PT-A/B/C · S1/S2/S3)
- Edificio 18P + 3 Subsuelos | CDE, Paraguay
+ Edificio 18P + 2 Subsuelos | CDE, Paraguay
  Normas: ACI 318-19 (§8.10/§8.11 EFM/DDM, §19 presfuerzo, §22.6 punzonamiento)
          NBR 6118 (§14.7.6 losas macizas, §19.5 punzonamiento, ELS)
          PTI (postensado no adherido)

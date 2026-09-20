@@ -1,4 +1,4 @@
-# Estándar de Nomenclatura de Archivos del Proyecto (ISO 19650)
+﻿# Estándar de Nomenclatura de Archivos del Proyecto (ISO 19650)
 
 > **Documento de Gestión:** `00_GESTION_DE_PROYECTO/00.03_Estandares_del_Proyecto/NOMENCLATURA.md`  
 > **Estado:** Obligatorio · **Versión:** 2.0 (Edificio 18P + 3 Subsuelos)
@@ -33,11 +33,10 @@ $$\text{TESIS-}[DISCIPLINA]-[NIVEL]-[TIPO]-[NUMERO]$$
 
 | Código | Nivel del Edificio | Cota de Referencia |
 |---|---|---|
-| **SUB3** | Subsuelo 3 (Cocheras) | Cota -10.50 m |
-| **SUB2** | Subsuelo 2 (Cocheras) | Cota -7.00 m |
-| **SUB1** | Subsuelo 1 (Cocheras + Bloque Técnico) | Cota -3.50 m |
-| **PB** | Planta Baja (Comercial + Lobby + RSU) | Cota ±0.00 m |
-| **P01** – **P18** | Plantas Tipo Residenciales 01 a 18 | Cota +4.00 m a +60.95 m |
+| **SUB2** | Subsuelo 2 (Cocheras) | Cota -7,00 m | h/piso = 3,50 m |
+| **SUB1** | Subsuelo 1 (Cocheras + Bloque Técnico) | Cota -3,50 m | h/piso = 3,50 m |
+| **PB** | Planta Baja (Comercial + Lobby + RSU) | Cota ±0,00 m | h libre = 4,05 m |
+| **P01** – **P18** | Plantas Tipo Residenciales 01 a 18 | Cota +4,50 m a +64,80 m | h libre = 3,00 m · h/piso = 3,35 m |
 | **AZ** | Azotea Técnica + Amenities (Piscina/SUM) | Cota +64.30 m |
 | **GEN** | General (Modelos completos, ejes, memorias) | Múltiples niveles |
 
@@ -69,3 +68,4 @@ $$\text{TESIS-}[DISCIPLINA]-[NIVEL]-[TIPO]-[NUMERO]$$
 - `TESIS-EST-P05-CALC-001.py`: Script de cálculo de losa nervada para la Planta Tipo P05.
 - `TESIS-COORD-GEN-RP-001.pdf`: Informe final de Clash Detection en Navisworks.
 - `TESIS-SAN-SUB1-DR-002.dwg`: Plano de distribución sanitaria en Subsuelo 1.
+

@@ -1,7 +1,7 @@
-"""
+﻿"""
 ====================================================================
  PLANTA TIPO RESIDENCIAL — LAYOUT A: MUCHOS APARTAMENTOS PEQUEÑOS
- Pisos P01, P04, P07, P10, P13, P16 (6 pisos) | Edificio 18P + 3 Subsuelos
+ Pisos P01, P04, P07, P10, P13, P16 (6 pisos) | Edificio 18P + 2 Subsuelos
  Ciudad del Este, Paraguay | Metodología BIM ISO 19650
 ====================================================================
 

@@ -30,7 +30,7 @@ content = """# B.1 — Programa y Organización Funcional
 |---|---|---|
 | 2026-09-19 | **Compatibilidad Estructural Flexible por Nivel** | `AGENTS.md §6.2 y §7`: Adaptación de la grilla a las necesidades funcionales de cada uso. |
 | 2026-09-19 | **Diferenciación de Huella PB vs. Torre Residencial** | Huella $PB = 3.145,00\\text{ m}^2$ ($85\\text{m} \\times 37\\text{m}$) vs. Huella Torre Residencial $P01\\text{-}P18 = 1.440,00\\text{ m}^2$ ($48\\text{m} \\times 30\\text{m}$, es decir $45,79\\%$ de PB). |
-| 2026-09-19 | **Programa de Departamentos y Cocheras** | 108 Departamentos (6 dptos/piso) $\\times 1,5\\text{ autos/dpto} = 162\\text{ autos}$ residenciales + $25\\text{ autos}$ comerciales = **187 cocheras requeridas** vs. **270 plazas disponibles en 3 subsuelos** (+83 plazas libres). |
+| 2026-09-19 | **Programa de Departamentos y Cocheras** | 108 Departamentos (6 dptos/piso) $\\times 1,5\\text{ autos/dpto} = 162\\text{ autos}$ residenciales + $25\\text{ autos}$ comerciales = **187 cocheras requeridas** vs. **270 plazas disponibles en 2 subsuelos** (+83 plazas libres). |
 | 2026-09-19 | **Transición Escalonada de Pilares** | **S1-PB:** $90 \\times 90\\text{ cm}$ · **P01-P06:** $80 \\times 80\\text{ cm}$ · **P07-P12:** $70 \\times 70\\text{ cm}$ · **P13-P18:** $60 \\times 60\\text{ cm}$. Optimización de peso propio y economía de hormigón. |
 | 2026-09-19 | **Vigas de Transferencia / Apeo en PB** | Vigas de H°A° de gran canto en cota $+4,00\\text{ m}$ para apeo de pilares residenciales de torre y liberación de $1.850\\text{ m}^2$ libres comerciales en PB. |
 | 2026-09-19 | **Concentración de Rigidez en Núcleos H°A°** | 2 núcleos gemelos rotados $90^\\circ$ ($7,00\\text{ m} \\times 9,00\\text{ m}$) absorben el $78\\%$ del cortante basal de viento ($V_0 = 45\\text{ m/s}$), desacoplando los pilares perimetrales. |
@@ -47,7 +47,7 @@ content = """# B.1 — Programa y Organización Funcional
 | `07_KNOWLEDGE_BASE/.../3693_ordenanza-m-n003-2026-jm.md` | Texto completo verificado de la Ord. M. 003/2026 J.M. | Verificado |
 | `05_RECURSOS/05.05_Scripts_Python/01_Geometria_Terreno/dibujar_zonificacion_b1.py` | Script Python generador de figuras vectoriales (300 DPI) | ✅ Creado |
 | `etapas/img/figura_2_1_zonificacion_planta_baja.png` | Figura 2.1: Zonificación de Planta Baja Comercial ($3.145\\text{ m}^2$) | ✅ Generado |
-| `etapas/img/figura_2_2_volumetria_y_perfil_edificio.png` | Figura 2.2: Perfil Volumétrico y Relación de Plantas (18P + 3 Subsuelos) | ✅ Generado |
+| `etapas/img/figura_2_2_volumetria_y_perfil_edificio.png` | Figura 2.2: Perfil Volumétrico y Relación de Plantas (18P + 2 SUBSUELOS) | ✅ Generado |
 | `etapas/img/figura_2_3_planta_tipo_residencial.png` | Figura 2.3: Planta Tipo Residencial ($1.440\\text{ m}^2$) | ✅ Generado |
 
 ---
@@ -56,21 +56,20 @@ content = """# B.1 — Programa y Organización Funcional
 
 ### 1. Cuadro de Áreas Maestro, Desglose por Uso y Compatibilidad Estructural por Nivel
 
-El edificio mixto de 18 pisos y 3 subsuelos se emplaza sobre un terreno de **$7.618,49\\text{ m}^2$** en Ciudad del Este (UTM Zona 21J). El anteproyecto contempla una superficie construida total acumulada de **$39.700,00\\text{ m}^2$** sobre rasante y **$9.435,00\\text{ m}^2$** bajo rasante en 3 subsuelos (exentos del cómputo FOT según Art. 226 de la Ley N° 3966/2010 Orgánica Municipal).
+El edificio mixto de 18 pisos y 2 subsuelos se emplaza sobre un terreno de **$7.618,49\\text{ m}^2$** en Ciudad del Este (UTM Zona 21J). El anteproyecto contempla una superficie construida total acumulada de **$39.700,00\\text{ m}^2$** sobre rasante y **$9.435,00\\text{ m}^2$** bajo rasante en 2 subsuelos (exentos del cómputo FOT según Art. 226 de la Ley N° 3966/2010 Orgánica Municipal).
 
 #### 1.1 Matriz de Superficies y Transición Estructural por Nivel
 
 | Nivel / Planta | Cota (m) | Altura Libre (m) | Función Principal / Programa | Área Construida (m²) | Área FOT (m²) | Sección Pilares H°A° | Sistema de Entrepiso & Transición |
 |---|---|---|---|---|---|---|---|
-| **Subsuelo 3 (S3)** | -10.50 | 3.10 | Estacionamiento (90 autos/18 motos), Depósitos & PTAR Estanca | 3.145,00 | 0,00 *(Exento)* | Muros contención $30\\text{cm}$ + Pilares $90 \\times 90\\text{ cm}$ | Platea cimentación en basalto $q_{\\text{adm}}=300\\text{ kN/m}^2$ + Losa H=45cm |
-| **Subsuelo 2 (S2)** | -7.00 | 3.10 | Estacionamiento (90 autos/15 motos) & Depósitos Privados | 3.145,00 | 0,00 *(Exento)* | Pilares $90 \\times 90\\text{ cm}$ | Losa nervada bidireccional H=45cm con casetones recuperables |
-| **Subsuelo 1 (S1)** | -3.50 | 3.20 | Estacionamiento (90 autos/15 motos), ANDE 1.000kVA, Genset, Cisterna 60m³ | 3.145,00 | 0,00 *(Exento)* | Pilares $90 \\times 90\\text{ cm}$ | Losa nervada H=45cm + Ábacos refuerzo punzonamiento |
+| **Subsuelo 2 (S2)** | -7.00 | 3.50 | Estacionamiento (90 autos/15 motos) & Depósitos Privados | 3.145,00 | 0,00 *(Exento)* | Pilares $90 \\times 90\\text{ cm}$ | Losa nervada bidireccional H=45cm con casetones recuperables |
+| **Subsuelo 1 (S1)** | -3.50 | 3.50 | Estacionamiento (90 autos/15 motos), ANDE 1.000kVA, Genset, Cisterna 60m³ | 3.145,00 | 0,00 *(Exento)* | Pilares $90 \\times 90\\text{ cm}$ | Losa nervada H=45cm + Ábacos refuerzo punzonamiento |
 | **Planta Baja (PB)** | +0.00 | 4.00 | Lobby Residencial ($250\\text{m}^2$), 3 Locales Comerciales ($1.850\\text{m}^2$), RSU, BMS, Rampa | 3.145,00 | 3.145,00 | Pilares $90 \\times 90\\text{ cm}$ (Perímetro) | **Vigas de Transferencia H°A° ($80 \\times 120\\text{ cm}$)** en cota +4.00m |
 | **Pisos P01 a P06** | +4.00 a +20.75 | 3.00 c/u | Residencial (6 plantas tipo × 1.440 m² = 36 dptos) | 8.640,00 | 8.640,00 | **Pilares $80 \\times 80\\text{ cm}$** | Losa nervada bidireccional H=35cm (casetón 25cm + capa 10cm) |
 | **Pisos P07 a P12** | +24.10 a +40.85 | 3.00 c/u | Residencial (6 plantas tipo × 1.440 m² = 36 dptos) | 8.640,00 | 8.640,00 | **Pilares $70 \\times 70\\text{ cm}$** | Losa nervada bidireccional H=35cm + Vigas de borde $25 \\times 50\\text{ cm}$ |
 | **Pisos P13 a P18** | +44.20 a +60.95 | 3.00 c/u | Residencial (6 plantas tipo × 1.440 m² = 36 dptos) | 8.640,00 | 8.640,00 | **Pilares $60 \\times 60\\text{ cm}$** | Losa nervada H=35cm + Balcones en voladizo de 1,50 m |
 | **Azotea Técnica** | +64.30 | 3.50 | Amenities (Piscina 8×16m, SUM 150m², Gym) + Salas Máquinas | 1.200,00 | 1.200,00 | Pilares $60 \\times 60\\text{ cm}$ | Losa maciza de piscina $H=30\\text{ cm}$ + Losa nervada H=35cm |
-| **TOTALES** | **-10.50 a +68.80** | **—** | **Edificio Mixto 18P + 3 Subsuelos (108 Dptos / 270 Cocheras)** | **39.700,00** | **30.265,00** | **Optimización Escalonada** | **Análisis Estructural Complejo Avanzado** |
+| **TOTALES** | **-10.50 a +68.80** | **—** | **Edificio Mixto 18P + 2 SUBSUELOS (108 Dptos / 270 Cocheras)** | **39.700,00** | **30.265,00** | **Optimización Escalonada** | **Análisis Estructural Complejo Avanzado** |
 
 ---
 
@@ -84,7 +83,7 @@ El edificio mixto de 18 pisos y 3 subsuelos se emplaza sobre un terreno de **$7.
 
 2. **Factor de Ocupación Total (FOT):**
    - **Límite Normativo Máximo:** $FOT_{\\text{máx}} = 4,0 \\implies A_{\\text{construible, máx}} = 4,0 \\times 7.618,49\\text{ m}^2 = \\mathbf{30.473,96\\text{ m}^2}$.
-   - **Exención Legal de Subsuelos:** Los 3 subsuelos ($9.435,00\\text{ m}^2$) se destinan exclusivamente a estacionamientos y locales técnicos sin permanencia humana, quedando exentos del cómputo FOT conforme al Art. 226 de la Ley N° 3966/2010 Orgánica Municipal y ordenanzas de CDE.
+   - **Exención Legal de Subsuelos:** Los 2 subsuelos ($9.435,00\\text{ m}^2$) se destinan exclusivamente a estacionamientos y locales técnicos sin permanencia humana, quedando exentos del cómputo FOT conforme al Art. 226 de la Ley N° 3966/2010 Orgánica Municipal y ordenanzas de CDE.
    - **Superficie Computable sobre Rasante:** $\\text{PB} (3.145,00\\text{ m}^2) + \\text{P01-P18} (18 \\times 1.440,00\\text{ m}^2 = 25.920,00\\text{ m}^2) + \\text{Azotea} (1.200,00\\text{ m}^2) = \\mathbf{30.265,00\\text{ m}^2}$.
    - **Conclusión FOT:**
      $$FOT_{\\text{real}} = \\frac{30.265,00\\text{ m}^2}{7.618,49\\text{ m}^2} = \\mathbf{3,97} \\le 4,00 \\quad \\text{(CUMPLE CON HOLGURA DE } 208,96\\text{ m}^2\\text{)}$$
@@ -95,7 +94,7 @@ El edificio mixto de 18 pisos y 3 subsuelos se emplaza sobre un terreno de **$7.
 
 #### 2.1 Perfil Volumétrico y Relación de Plantas
 
-![Figura 2.2: Perfil Volumétrico y Relación de Plantas — Edificio 18P + 3 Subsuelos](img/figura_2_2_volumetria_y_perfil_edificio.png)
+![Figura 2.2: Perfil Volumétrico y Relación de Plantas — Edificio 18P + 2 SUBSUELOS](img/figura_2_2_volumetria_y_perfil_edificio.png)
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -118,7 +117,7 @@ El edificio mixto de 18 pisos y 3 subsuelos se emplaza sobre un terreno de **$7.
 ├────────────────────────────────────────────────────────────────────────┤
 │                      SUBSUELO 2 (S2): 3.145 m² · 90 cocheras          │ Cota -7.00m
 ├────────────────────────────────────────────────────────────────────────┤
-│                      SUBSUELO 3 (S3): 3.145 m² · 90 cocheras + PTAR   │ Cota -10.50m
+│                      Subsuelo 2 (S2) [ELIMINADO — 2 subsuelos]: 3.145 m² · 90 cocheras + PTAR   │ Cota -10.50m
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -226,3 +225,4 @@ with open(path, "w", encoding="utf-8") as f:
     f.write(content)
 
 print("[SUCCESS] etapa-b-1.md escrito correctamente en UTF-8.")
+

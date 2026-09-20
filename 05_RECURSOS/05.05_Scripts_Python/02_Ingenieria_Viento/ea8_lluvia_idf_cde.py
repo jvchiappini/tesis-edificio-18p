@@ -1,7 +1,7 @@
-"""
+﻿"""
 ea8_lluvia_idf_cde.py
 --------------------------------------------------------------------------------
-Edificio Mixto 18P + 3 Subsuelos — Ciudad del Este, Paraguay
+Edificio Mixto 18P + 2 Subsuelos — Ciudad del Este, Paraguay
 Tarea eA-8: Análisis Climatológico de Lluvia y Curvas IDF (DMH/DINAC - CDE)
 Normativa / Fuentes: DMH/DINAC (Estacion Aeropuerto Guarani CDE) · NBR 6120:2019 · ASCE 7-22 §8
 
@@ -148,3 +148,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

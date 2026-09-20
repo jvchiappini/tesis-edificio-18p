@@ -1,7 +1,7 @@
-"""
+﻿"""
 ====================================================================
  EXPORTADOR IFC — MODELO ESTRUCTURAL 3D → Revit 2024 / Navisworks
- Edificio 18P + 3 Subsuelos | Metodología BIM ISO 19650
+ Edificio 18P + 2 Subsuelos | Metodología BIM ISO 19650
 ====================================================================
 
  Convierte el inventario 3D (elementos_3d.json) a un archivo IFC4:
@@ -95,7 +95,7 @@ def crear_ifc(elementos, schema="IFC4"):
 
     # ── Proyecto ───────────────────────────────────────────────────
     project = f.createIfcProject(guid.new(), owner_history,
-                                 "Edificio 18P + 3 Subsuelos",
+                                 "Edificio 18P + 2 Subsuelos",
                                  "Edificio de Uso Mixto", None, None, None,
                                  (ctx,), unit_assign)
 
@@ -106,7 +106,7 @@ def crear_ifc(elementos, schema="IFC4"):
                            "CDE", "ELEMENT", None, None, None, None, None)
     building = f.createIfcBuilding(
         guid.new(), owner_history, "Edificio Torre",
-        "Edificio 18P + 3 Subsuelos",
+        "Edificio 18P + 2 Subsuelos",
         None, _local_placement(f, site.ObjectPlacement, 0, 0, 0), None,
         "Torre", "ELEMENT", None, None, None)
     f.createIfcRelAggregates(guid.new(), owner_history, None, None,

@@ -1,7 +1,7 @@
-"""
+﻿"""
 ====================================================================
  SUBSUELO 2 (S2) — COCHERAS (Cota -7.00 m)
- Edificio de Uso Mixto 18P + 3 Subsuelos | Ciudad del Este, Paraguay
+ Edificio de Uso Mixto 18P + 2 Subsuelos | Ciudad del Este, Paraguay
  Metodología BIM ISO 19650 | Layout reutilizado de S3
 ====================================================================
 

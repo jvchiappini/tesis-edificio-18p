@@ -1,7 +1,7 @@
-"""
+﻿"""
 ====================================================================
  DISEÑO DE LOSAS NERVADAS — PANEL POR PANEL (TODOS LOS NIVELES)
- Edificio de Uso Mixto 18P + 3 Subsuelos | Ciudad del Este, Paraguay
+ Edificio de Uso Mixto 18P + 2 Subsuelos | Ciudad del Este, Paraguay
 ====================================================================
 
  Enumeracion y diseno de TODOS los paneles de losa nervada de la
