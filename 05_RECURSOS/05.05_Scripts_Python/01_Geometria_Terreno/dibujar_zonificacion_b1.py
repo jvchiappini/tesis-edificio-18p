@@ -53,7 +53,9 @@ def clean_mtext(raw_text):
     t = t.replace(r'\P', '\n').replace('^J', '\n').replace(r'\p', '\n')
     t = re.sub(r'\\f[^;]+;', '', t)
     t = re.sub(r'\\[a-zA-Z0-9]+', '', t)
-    t = t.replace('vrtice', 'vértice').replace('Vrtice', 'Vértice').replace('Baos', 'Baños')
+    t = t.replace('vrtice', 'vértice').replace('Vrtice', 'Vértice')
+    t = t.replace('Baos sexados', 'Baños').replace('Baños sexados', 'Baños').replace('Baos', 'Baños')
+    t = t.replace('Administracion', 'Administración / Lobby').replace('Administración', 'Administración / Lobby')
     t = re.sub(r'(\d+)\.(\d+)m2', r'\1,\2 m²', t)
     t = re.sub(r'(\d+)m2', r'\1 m²', t)
     return t.strip()
@@ -66,6 +68,26 @@ def poly_centroid_and_area(pts):
     area = 0.5 * np.abs(np.dot(x, np.roll(y, 1)) - np.dot(y, np.roll(x, 1)))
     cx, cy = np.mean(x), np.mean(y)
     return cx, cy, area
+
+
+def extract_polygon_from_lines(lines_list):
+    """Extrae puntos ordenados de un conjunto de líneas DXF conectadas que forman un polígono."""
+    if not lines_list:
+        return []
+    pts = []
+    for line in lines_list:
+        p1 = (round(line.dxf.start[0], 2), round(line.dxf.start[1], 2))
+        p2 = (round(line.dxf.end[0], 2), round(line.dxf.end[1], 2))
+        if p1 not in pts:
+            pts.append(p1)
+        if p2 not in pts:
+            pts.append(p2)
+    # Ordenar azimutalmente respecto al centroide para asegurar recorrido poligonal convexo/simple
+    if len(pts) >= 3:
+        cx = sum(p[0] for p in pts) / len(pts)
+        cy = sum(p[1] for p in pts) / len(pts)
+        pts = sorted(pts, key=lambda p: np.arctan2(p[1] - cy, p[0] - cx))
+    return pts
 
 
 def generar_figura_2_1_planta_baja():
@@ -115,10 +137,41 @@ def generar_figura_2_1_planta_baja():
                 min_d = d
                 matched_txt = t_str
 
-        if matched_txt and not ("Nucleo" in matched_txt or "NÚCLEO" in matched_txt):
+        if matched_txt and not ("Nucleo" in matched_txt or "NÚCLEO" in matched_txt or "Administración" in matched_txt or "Baños" in matched_txt):
             ax.text(cx, cy, matched_txt, color=TEXT_LIGHT, fontsize=7.2, fontweight='bold',
                     ha='center', va='center', zorder=8,
                     bbox=dict(boxstyle='round,pad=0.25', facecolor='#0B1724', edgecolor=ACCENT_BLUE, alpha=0.9, lw=0.8))
+
+    # 3b. Dibujar Polígonos de Capa A-ZONE-LOBBY (Administración / Lobby) y A-ZONE-SERV (Baños / Servicios)
+    lobby_polys = [list(e.get_points('xy')) for e in msp.query('LWPOLYLINE[layer=="A-ZONE-LOBBY"]')]
+    lobby_lines = list(msp.query('LINE[layer=="A-ZONE-LOBBY"]'))
+    if lobby_lines:
+        lobby_polys.append(extract_polygon_from_lines(lobby_lines))
+
+    for pts in lobby_polys:
+        if len(pts) >= 3:
+            cx, cy, area = poly_centroid_and_area(pts)
+            poly_lobby = patches.Polygon(pts, closed=True, edgecolor=ACCENT_GOLD, facecolor='#382D12',
+                                         linewidth=2.2, alpha=0.95, zorder=7)
+            ax.add_patch(poly_lobby)
+            ax.text(cx, cy, f"Administración / Lobby\n{area:.2f} m²".replace('.', ','), color=ACCENT_GOLD, fontsize=8.0, fontweight='bold',
+                    ha='center', va='center', zorder=9,
+                    bbox=dict(boxstyle='round,pad=0.3', facecolor='#241B05', edgecolor=ACCENT_GOLD, alpha=0.95, lw=1.2))
+
+    serv_polys = [list(e.get_points('xy')) for e in msp.query('LWPOLYLINE[layer=="A-ZONE-SERV"]')]
+    serv_lines = list(msp.query('LINE[layer=="A-ZONE-SERV"]'))
+    if serv_lines:
+        serv_polys.append(extract_polygon_from_lines(serv_lines))
+
+    for pts in serv_polys:
+        if len(pts) >= 3:
+            cx, cy, area = poly_centroid_and_area(pts)
+            poly_serv = patches.Polygon(pts, closed=True, edgecolor=ACCENT_PURPLE, facecolor='#2B1A42',
+                                        linewidth=2.0, alpha=0.95, zorder=7)
+            ax.add_patch(poly_serv)
+            ax.text(cx, cy, f"Baños\n{area:.2f} m²".replace('.', ','), color='#E0B0FF', fontsize=8.0, fontweight='bold',
+                    ha='center', va='center', zorder=9,
+                    bbox=dict(boxstyle='round,pad=0.3', facecolor='#1C0D30', edgecolor=ACCENT_PURPLE, alpha=0.95, lw=1.2))
 
     # 4. Dibujar Torres con LÍNEAS DE PUNTOS (A-FOOT-TOWR)
     tower_idx = 1
@@ -195,7 +248,7 @@ def generar_figura_2_1_planta_baja():
     ax.set_aspect('equal')
     ax.grid(True, linestyle=':', alpha=0.25, color=TEXT_MUTED)
 
-    ax.set_title("FIGURA 2.1 — PLANTA BAJA COMERCIAL Y DE SERVICIOS (ZONIFICACIÓN OFICIAL EXTRAÍDA DEL DXF)\nBasamento $3.145,00\\text{ m}^2$, Proyección 3 Torres (Líneas de Puntos), Rampa Capa 'A-ZONE-RAMP' y Parking PB (FOS = 41,28% ≤ 70,00%)",
+    ax.set_title("FIGURA 2.1 — PLANTA BAJA COMERCIAL Y DE SERVICIOS (ZONIFICACIÓN OFICIAL EXTRAÍDA DEL DXF)\nBasamento $3.145,00\\text{ m}^2$, Administración/Lobby, Baños, Proyección 3 Torres y Parking PB (FOS = 41,28% ≤ 70,00%)",
                  color=TEXT_LIGHT, fontsize=12.5, fontweight='bold', pad=18)
     ax.set_xlabel("Coordenadas Longitudinales X (m)", color=TEXT_MUTED, fontsize=10.5)
     ax.set_ylabel("Coordenadas Transversales Y (m)", color=TEXT_MUTED, fontsize=10.5)
@@ -205,6 +258,8 @@ def generar_figura_2_1_planta_baja():
     legend_elements = [
         patches.Patch(facecolor='#1A2416', edgecolor='#6B8E23', linestyle='--', label='Límite Terreno (7.618,49 m²)'),
         patches.Patch(facecolor='#132738', edgecolor='#2E5B70', label='Salones Comercial / Servicios PB'),
+        patches.Patch(facecolor='#382D12', edgecolor=ACCENT_GOLD, label='Administración / Lobby (120 m²)'),
+        patches.Patch(facecolor='#2B1A42', edgecolor=ACCENT_PURPLE, label='Baños Públicos / Servicios (120 m²)'),
         patches.Patch(facecolor='#362C0B', edgecolor=ACCENT_GOLD, linestyle=':', label='Proyección 3 Torres (P01-P18)'),
         patches.Patch(facecolor='#520F1A', edgecolor=ACCENT_RED, hatch='//', label='Núcleos H°A° (Ascensores + Esc.)'),
         patches.Patch(facecolor='#3D1C08', edgecolor=ACCENT_ORANGE, label='Rampa Subsuelo 1 (Capa DXF A-ZONE-RAMP)'),
@@ -219,6 +274,7 @@ def generar_figura_2_1_planta_baja():
         "FUENTE: TESIS-ARQ-GEN-DR-001.dxf\n"
         "CONFIGURACIÓN: 3 Torres (Proyección Puntos)\n"
         "PLANTA BAJA: Basamento Comercial 3.145,00 m²\n"
+        "ZONAS: Administración/Lobby & Baños Incluidos\n"
         "RAMPA S1: Entidad DXF en capa A-ZONE-RAMP\n"
         "SUPERFICIE PB: 3.145,00 m² | TERRENO: 7.618,49 m²"
     )
