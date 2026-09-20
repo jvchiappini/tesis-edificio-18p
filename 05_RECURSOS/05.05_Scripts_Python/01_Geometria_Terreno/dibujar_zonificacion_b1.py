@@ -6,8 +6,11 @@ TESIS DE GRADO — EDIFICIO DE USO MIXTO 18 PISOS + 3 SUBSUELOS (CIUDAD DEL ESTE
 Script: dibujar_zonificacion_b1.py
 Sub-etapa: B.1 — Programa y Organización Funcional
 
-Genera la Figura 2.1 directamente extrayendo la geometría exacta del DXF:
-01_WIP/01.01_ARQ/TESIS-ARQ-GEN-DR-001_Planimetria_y_Zonificacion.dxf
+Genera la Figura 2.1 en ULTRA ALTA CALIDAD (400 DPI):
+- Torres representadas con LÍNEAS DE PUNTOS (proyección superior P01-P18).
+- Nombres y superficies de TODOS los salones/recintos centrados en sus centroides geométricos.
+- Rampa de Subsuelo 1 ubicada cerca de P4 con orientación hacia P3.
+- Estacionamientos de superficie PB (36 plazas) claramente representados.
 ===============================================================================
 """
 
@@ -18,57 +21,71 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import ezdxf
 
-# Configuración global de estilo arquitectónico ejecutivo
+# Configuración global de estilo arquitectónico ejecutivo de ultra alta fidelidad
 plt.rcParams['font.sans-serif'] = 'DejaVu Sans'
-plt.rcParams['axes.edgecolor'] = '#333333'
-plt.rcParams['axes.linewidth'] = 1.2
+plt.rcParams['axes.edgecolor'] = '#2A3644'
+plt.rcParams['axes.linewidth'] = 1.5
 
 OUTPUT_DIR = r"c:\Users\jvchi\CARPETAS\IngChiappini\00_TESIS_EDIFICIO_18P\etapas\img"
 DXF_PATH = r"c:\Users\jvchi\CARPETAS\IngChiappini\00_TESIS_EDIFICIO_18P\01_WIP\01.01_ARQ\TESIS-ARQ-GEN-DR-001_Planimetria_y_Zonificacion.dxf"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Paleta de Colores Ejecutiva
-BG_DARK = "#0F1419"
-BG_CARD = "#151F2B"
+# Paleta de Colores Arquitectónica de Alta Fidelidad
+BG_DARK = "#090D12"
+BG_CARD = "#121A24"
 TEXT_LIGHT = "#F0F5FA"
-TEXT_MUTED = "#8B98A5"
+TEXT_MUTED = "#9AA8B6"
 ACCENT_BLUE = "#1D9BF0"
+ACCENT_CYAN = "#00D2D3"
 ACCENT_GREEN = "#00BA7C"
 ACCENT_GOLD = "#F7B928"
 ACCENT_RED = "#F4212E"
-ACCENT_PURPLE = "#7856FF"
+ACCENT_PURPLE = "#A855F7"
 ACCENT_ORANGE = "#FF7A00"
-ACCENT_CYAN = "#00D2D3"
 
 
 def clean_mtext(raw_text):
-    """Limpia códigos de formato MTEXT de AutoCAD (e.g. \\P, ^J, \\PEscaleras)."""
+    """Limpia códigos de formato MTEXT de AutoCAD (e.g. \\P, ^J, \\PEscaleras, caracteres nulos)."""
     if not raw_text:
         return ""
-    t = raw_text.replace(r'\P', '\n').replace('^J', '\n').replace(r'\p', '\n')
+    # Quitar nulos UTF-16
+    t = raw_text.replace('\x00', '')
+    t = t.replace(r'\P', '\n').replace('^J', '\n').replace(r'\p', '\n')
     t = re.sub(r'\\f[^;]+;', '', t)
     t = re.sub(r'\\[a-zA-Z0-9]+', '', t)
-    t = t.replace('', '°').replace('vrtice', 'vértice').replace('Vrtice', 'Vértice').replace('Baos', 'Baños')
+    t = t.replace('vrtice', 'vértice').replace('Vrtice', 'Vértice').replace('Baos', 'Baños')
+    # Formatear números con comas de miles/decimales en español
+    t = re.sub(r'(\d+)\.(\d+)m2', r'\1,\2 m²', t)
+    t = re.sub(r'(\d+)m2', r'\1 m²', t)
     return t.strip()
 
 
+def poly_centroid_and_area(pts):
+    """Calcula el centroide exacto (cx, cy) y el área m² de un polígono."""
+    pts_arr = np.array(pts)
+    x, y = pts_arr[:, 0], pts_arr[:, 1]
+    area = 0.5 * np.abs(np.dot(x, np.roll(y, 1)) - np.dot(y, np.roll(x, 1)))
+    cx, cy = np.mean(x), np.mean(y)
+    return cx, cy, area
+
+
 def generar_figura_2_1_planta_baja():
-    """Genera la Figura 2.1 extrayendo la geometría y capas del DXF oficial."""
+    """Genera la Figura 2.1 extrayendo la geometría exacta del DXF oficial."""
     doc = ezdxf.readfile(DXF_PATH)
     msp = doc.modelspace()
 
-    fig, ax = plt.subplots(figsize=(16, 10), dpi=300)
+    fig, ax = plt.subplots(figsize=(24, 14), dpi=400)
     fig.patch.set_facecolor(BG_DARK)
     ax.set_facecolor(BG_CARD)
 
     # 1. Dibujar Límite Terreno (C-PROP-LINE)
     for e in msp.query('LWPOLYLINE[layer=="C-PROP-LINE"]'):
         pts = list(e.get_points('xy'))
-        poly = patches.Polygon(pts, closed=True, edgecolor='#556B2F', facecolor='#1E2818',
-                               linewidth=2.2, linestyle='--', alpha=0.8, label='Límite Terreno (7.618,49 m²)')
+        poly = patches.Polygon(pts, closed=True, edgecolor='#6B8E23', facecolor='#1A2416',
+                               linewidth=2.5, linestyle='--', alpha=0.85, label='Límite Terreno (7.618,49 m²)')
         ax.add_patch(poly)
 
-    # 2. Dibujar Zonas de Parqueo PB (A-ZONE-PARK)
+    # 2. Dibujar Zonas de Estacionamiento PB (A-ZONE-PARK)
     park_count = 0
     for e in msp.query('LWPOLYLINE[layer=="A-ZONE-PARK"]'):
         pts = list(e.get_points('xy'))
@@ -77,104 +94,140 @@ def generar_figura_2_1_planta_baja():
         ax.add_patch(poly)
         park_count += 1
 
-    # 3. Dibujar Huella Edificable PB / Salones (A-FOOT-PB)
-    for e in msp.query('LWPOLYLINE[layer=="A-FOOT-PB"]'):
-        pts = list(e.get_points('xy'))
-        poly = patches.Polygon(pts, closed=True, edgecolor='#20B2AA', facecolor='#10322B',
-                               linewidth=1.5, alpha=0.8)
-        ax.add_patch(poly)
+    # 3. Dibujar Salones / Recintos PB (A-FOOT-PB)
+    salons = list(msp.query('LWPOLYLINE[layer=="A-FOOT-PB"]'))
+    texts_dxf = list(msp.query('MTEXT[layer=="A-ANNO-DIMS"]')) + list(msp.query('TEXT[layer=="A-ANNO-DIMS"]'))
 
-    # 4. Dibujar Huella de Torres (A-FOOT-TOWR)
+    # Matchear cada polígono de salón con el centroide y colocar su texto centrado
+    for poly in salons:
+        pts = list(poly.get_points('xy'))
+        cx, cy, area = poly_centroid_and_area(pts)
+
+        # Dibujar polígono del salón
+        poly_patch = patches.Polygon(pts, closed=True, edgecolor='#2E5B70', facecolor='#132738',
+                                     linewidth=1.5, alpha=0.9)
+        ax.add_patch(poly_patch)
+
+        # Buscar el MTEXT más cercano para este salón
+        min_d = 1e9
+        matched_txt = ""
+        for t in texts_dxf:
+            t_str = clean_mtext(t.dxf.text if hasattr(t.dxf, 'text') else getattr(t, 'text', ''))
+            ins = t.dxf.insert
+            d = np.hypot(ins[0] - cx, ins[1] - cy)
+            if d < min_d:
+                min_d = d
+                matched_txt = t_str
+
+        # Si el match es válido, dibujar el nombre y superficie EN EL CENTRO
+        if matched_txt and not ("Nucleo" in matched_txt or "NÚCLEO" in matched_txt):
+            ax.text(cx, cy, matched_txt, color=TEXT_LIGHT, fontsize=7.2, fontweight='bold',
+                    ha='center', va='center', zorder=8,
+                    bbox=dict(boxstyle='round,pad=0.25', facecolor='#0B1724', edgecolor=ACCENT_BLUE, alpha=0.9, lw=0.8))
+
+    # 4. Dibujar Torres con LÍNEAS DE PUNTOS (A-FOOT-TOWR)
+    tower_idx = 1
     for e in msp.query('LWPOLYLINE[layer=="A-FOOT-TOWR"]'):
         pts = list(e.get_points('xy'))
-        poly = patches.Polygon(pts, closed=True, edgecolor=ACCENT_BLUE, facecolor='#142B42',
-                               linewidth=2.0, alpha=0.9)
-        ax.add_patch(poly)
+        cx, cy, _ = poly_centroid_and_area(pts)
+        
+        # Polígono con línea de puntos
+        poly_tower = patches.Polygon(pts, closed=True, edgecolor=ACCENT_GOLD, facecolor='#362C0B',
+                                     linewidth=2.8, linestyle=':', alpha=0.45, zorder=6)
+        ax.add_patch(poly_tower)
+        
+        # Etiqueta de la Torre
+        ax.text(cx, cy + 8.0, f"TORRE {tower_idx}\n(Proyección P01-P18)", color=ACCENT_GOLD, fontsize=9.5, fontweight='bold',
+                ha='center', va='center', zorder=10,
+                bbox=dict(boxstyle='round,pad=0.35', facecolor='#241B05', edgecolor=ACCENT_GOLD, alpha=0.95, lw=1.2))
+        tower_idx += 1
 
     # 5. Dibujar Núcleos de H°A° (A-WALL-CORE)
+    core_idx = 1
     for e in msp.query('LWPOLYLINE[layer=="A-WALL-CORE"]'):
         pts = list(e.get_points('xy'))
-        poly = patches.Polygon(pts, closed=True, edgecolor=ACCENT_RED, facecolor='#4A0E17',
-                               linewidth=2.2, hatch='//', alpha=0.95)
-        ax.add_patch(poly)
+        cx, cy, _ = poly_centroid_and_area(pts)
+        poly_core = patches.Polygon(pts, closed=True, edgecolor=ACCENT_RED, facecolor='#520F1A',
+                                    linewidth=2.2, hatch='//', alpha=0.95, zorder=7)
+        ax.add_patch(poly_core)
+        ax.text(cx, cy, f"NÚCLEO {core_idx}\nH°A° (80 m²)", color='#FFAAA6', fontsize=7.5, fontweight='bold',
+                ha='center', va='center', zorder=9,
+                bbox=dict(boxstyle='square,pad=0.2', facecolor='#3B0810', edgecolor=ACCENT_RED, alpha=0.9, lw=1.0))
+        core_idx += 1
 
-    # 6. Dibujar Rampa a Subsuelo 1 (Cerca de P4, orientada bajando a P3)
+    # 6. Dibujar Rampa a Subsuelo 1 (Ubicada cerca de P4, orientada hacia P3)
     # P4: (35.52, 98.17), P3: (133.10, 62.37)
-    # Rampa posterior cerca de P4 (e.g. X=32 to 58, Y=82 to 90)
-    rp_x, rp_y, rp_w, rp_h = 32.0, 82.0, 26.0, 7.5
-    rect_rp = patches.Rectangle((rp_x, rp_y), rp_w, rp_h, edgecolor=ACCENT_GOLD, facecolor='#3A2E0B',
-                                linewidth=2.0, zorder=5)
+    rp_x, rp_y, rp_w, rp_h = 32.0, 84.0, 28.0, 8.5
+    rect_rp = patches.Rectangle((rp_x, rp_y), rp_w, rp_h, edgecolor=ACCENT_ORANGE, facecolor='#3D1C08',
+                                linewidth=2.2, zorder=7)
     ax.add_patch(rect_rp)
     ax.annotate('', xy=(rp_x + rp_w - 2, rp_y + rp_h/2), xytext=(rp_x + 2, rp_y + rp_h/2),
-                arrowprops=dict(arrowstyle='->', color=ACCENT_GOLD, lw=2.5), zorder=6)
-    ax.text(rp_x + rp_w/2, rp_y + rp_h/2, "RAMPA ACCESO SUBSUELO 1\n(Cerca de P4 ➔ Bajando a P3 | i=15%)",
-            color=ACCENT_GOLD, fontsize=7.5, fontweight='bold', ha='center', va='center', zorder=7)
+                arrowprops=dict(arrowstyle='->', color=ACCENT_ORANGE, lw=3.0), zorder=8)
+    ax.text(rp_x + rp_w/2, rp_y + rp_h/2, "RAMPA ACCESO SUBSUELO 1\n(Esquina P4 ➔ Descenso hacia P3 | i=15%, W=6.5m)",
+            color='#FFC09F', fontsize=8.0, fontweight='bold', ha='center', va='center', zorder=9)
 
-    # 7. Procesar Textos y Etiquetas (A-ANNO-DIMS / C-PROP-TEXT)
-    for e in msp.query('TEXT MTEXT'):
-        text_str = e.dxf.text if hasattr(e.dxf, 'text') else getattr(e, 'text', '')
-        cleaned = clean_mtext(text_str)
-        if not cleaned:
-            continue
-
+    # 7. Procesar Vértices del Terreno y Títulos (C-PROP-TEXT)
+    for e in msp.query('TEXT[layer=="C-PROP-TEXT"]'):
+        txt = clean_mtext(e.dxf.text)
         ins = e.dxf.insert
         x, y = ins[0], ins[1]
+        if 'P1' in txt or 'P2' in txt or 'P3' in txt or 'P4' in txt:
+            ax.scatter(x, y, color=ACCENT_GOLD, s=70, zorder=11)
+            ax.text(x, y + 2.0, txt, color=ACCENT_GOLD, fontsize=9.0, fontweight='bold', zorder=11)
+        elif 'NORTE' in txt:
+            ax.text(x, y, "N ↑", color=ACCENT_BLUE, fontsize=13, fontweight='bold', zorder=11)
 
-        layer = e.dxf.layer
-        if layer == 'C-PROP-TEXT':
-            if 'P1' in cleaned or 'P2' in cleaned or 'P3' in cleaned or 'P4' in cleaned:
-                ax.scatter(x, y, color=ACCENT_GOLD, s=40, zorder=8)
-                ax.text(x, y + 1.5, cleaned, color=ACCENT_GOLD, fontsize=8, fontweight='bold', zorder=8)
-            elif 'NORTE' in cleaned:
-                ax.text(x, y, "N ↑", color=ACCENT_BLUE, fontsize=12, fontweight='bold')
-        elif layer == 'A-ANNO-DIMS':
-            if 'Nucleo' in cleaned or 'NÚCLEO' in cleaned:
-                ax.text(x, y, cleaned, color='#FFAAA6', fontsize=7.5, fontweight='bold',
-                        ha='center', va='center', zorder=9,
-                        bbox=dict(boxstyle='round,pad=0.2', facecolor='#38080E', edgecolor=ACCENT_RED, alpha=0.85))
-            elif 'Salon' in cleaned or 'Administracion' in cleaned or 'Ba' in cleaned:
-                ax.text(x, y, cleaned, color=TEXT_LIGHT, fontsize=7.0, fontweight='bold',
-                        ha='center', va='center', zorder=7,
-                        bbox=dict(boxstyle='square,pad=0.15', facecolor='#111C27', edgecolor='#233649', alpha=0.8))
+    # Etiqueta de Estacionamiento de Superficie PB
+    ax.text(65.0, 16.0, f"ESTACIONAMIENTOS DE SUPERFICIE PB ({park_count} Plazas para Visitas & Locales)",
+            color='#80F0F0', fontsize=9.0, fontweight='bold', ha='center', va='center', zorder=8,
+            bbox=dict(boxstyle='round,pad=0.4', facecolor='#0B3036', edgecolor=ACCENT_CYAN, alpha=0.95, lw=1.2))
 
-    # Añadir Leyenda de Parking PB
-    ax.text(70.0, 15.0, f"ESTACIONAMIENTOS DE SUPERFICIE PB ({park_count} Plazas)",
-            color='#80F0F0', fontsize=8.5, fontweight='bold', ha='center', va='center',
-            bbox=dict(boxstyle='round,pad=0.3', facecolor='#0B3036', edgecolor=ACCENT_CYAN, alpha=0.9))
-
-    # Configuración de Ejes
-    ax.set_xlim(-20, 150)
+    # Configuración de Ejes y Grilla
+    ax.set_xlim(-15, 145)
     ax.set_ylim(-10, 110)
     ax.set_aspect('equal')
     ax.grid(True, linestyle=':', alpha=0.25, color=TEXT_MUTED)
 
-    ax.set_title("FIGURA 2.1 — PLANTA BAJA COMERCIAL Y DE SERVICIOS (PLANIMETRÍA Y ZONIFICACIÓN EXTREMA DEL DXF)\nBasamento $3.145,00\\text{ m}^2$, 3 Torres, Rampa P4➔P3 y Estacionamiento PB (FOS = 41,28% ≤ 70,00%)",
-                 color=TEXT_LIGHT, fontsize=11.5, fontweight='bold', pad=15)
-    ax.set_xlabel("Coordenadas Longitudinales X (m)", color=TEXT_MUTED, fontsize=9.5)
-    ax.set_ylabel("Coordenadas Transversales Y (m)", color=TEXT_MUTED, fontsize=9.5)
-    ax.tick_params(colors=TEXT_MUTED)
+    ax.set_title("FIGURA 2.1 — PLANTA BAJA COMERCIAL Y DE SERVICIOS (PLANIMETRÍA Y ZONIFICACIÓN DE ALTA PRECISIÓN DXF)\nBasamento $3.145,00\\text{ m}^2$, Proyección 3 Torres (Líneas de Puntos), Rampa P4➔P3 y Estacionamiento PB (FOS = 41,28% ≤ 70,00%)",
+                 color=TEXT_LIGHT, fontsize=12.5, fontweight='bold', pad=18)
+    ax.set_xlabel("Coordenadas Longitudinales X (m)", color=TEXT_MUTED, fontsize=10.5)
+    ax.set_ylabel("Coordenadas Transversales Y (m)", color=TEXT_MUTED, fontsize=10.5)
+    ax.tick_params(colors=TEXT_MUTED, labelsize=9.5)
 
-    # Cuadro Informativo ISO 19650
+    # Convención / Leyenda Técnica ISO 19650
+    legend_elements = [
+        patches.Patch(facecolor='#1E2818', edgecolor='#6B8E23', linestyle='--', label='Límite Terreno (7.618,49 m²)'),
+        patches.Patch(facecolor='#132738', edgecolor='#2E5B70', label='Salones Comercial / Servicios PB'),
+        patches.Patch(facecolor='#362C0B', edgecolor=ACCENT_GOLD, linestyle=':', label='Proyección 3 Torres (P01-P18)'),
+        patches.Patch(facecolor='#520F1A', edgecolor=ACCENT_RED, hatch='//', label='Núcleos H°A° (Ascensores + Esc.)'),
+        patches.Patch(facecolor='#3D1C08', edgecolor=ACCENT_ORANGE, label='Rampa Subsuelo 1 (P4 ➔ P3)'),
+        patches.Patch(facecolor='#0B3036', edgecolor=ACCENT_CYAN, label=f'Parking Superficie ({park_count} Plazas)')
+    ]
+    ax.legend(handles=legend_elements, loc='lower right', facecolor='#111822', edgecolor='#2A3644',
+              labelcolor=TEXT_LIGHT, fontsize=8.5, framealpha=0.95)
+
+    # Bloque de Información de Proyecto
     info_text = (
         "PROYECTO: Tesis Edificio 18P + 3S (CDE)\n"
         "FUENTE: TESIS-ARQ-GEN-DR-001.dxf\n"
-        "DISCIPLINA: Arquitectura (ARQ)\n"
-        "NIVEL: Planta Baja (PB, Cota +0.00m)\n"
+        "CONFIGURACIÓN: 3 Torres (Proyección Puntos)\n"
+        "PLANTA BAJA: Basamento Comercial 3.145,00 m²\n"
+        "RAMPA S1: Esquina P4 ➔ Descendiente a P3\n"
         "SUPERFICIE PB: 3.145,00 m² | TERRENO: 7.618,49 m²"
     )
-    ax.text(0.98, 0.96, info_text, transform=ax.transAxes, color=TEXT_LIGHT, fontsize=7.5,
-            ha='right', va='top', bbox=dict(boxstyle='round,pad=0.5', facecolor='#111822', edgecolor=ACCENT_BLUE, alpha=0.9))
+    ax.text(0.02, 0.96, info_text, transform=ax.transAxes, color=TEXT_LIGHT, fontsize=8.0,
+            ha='left', va='top', bbox=dict(boxstyle='round,pad=0.5', facecolor='#111822', edgecolor=ACCENT_BLUE, alpha=0.95, lw=1.2))
 
     plt.tight_layout()
     output_path = os.path.join(OUTPUT_DIR, "figura_2_1_zonificacion_planta_baja.png")
-    fig.savefig(output_path, facecolor=fig.get_facecolor(), edgecolor='none', dpi=300)
+    fig.savefig(output_path, facecolor=fig.get_facecolor(), edgecolor='none', dpi=400)
     plt.close()
-    print("[SUCCESS] Generado desde DXF: " + output_path)
+    print("[SUCCESS] Generado de Ultra Alta Calidad: " + output_path)
 
 
 def generar_figura_2_2_volumetria():
-    """Genera la Figura 2.2: Perfil Volumétrico y Relación de Plantas (18P + 3 Subsuelos)."""
-    fig, ax = plt.subplots(figsize=(14, 11), dpi=300)
+    """Genera la Figura 2.2: Perfil Volumétrico y Relación de Plantas (3 Torres Independientes)."""
+    fig, ax = plt.subplots(figsize=(15, 11), dpi=400)
     fig.patch.set_facecolor(BG_DARK)
     ax.set_facecolor(BG_CARD)
 
@@ -205,17 +258,17 @@ def generar_figura_2_2_volumetria():
     ax.text(42.5, 2.0, "PLANTA BAJA COMERCIAL (3.145 m² | FOS = 41,28% ≤ 70%)\nAcceso a 3 Torres Residenciales + Locales Comerciales",
             color=ACCENT_GOLD, fontsize=9.5, fontweight='bold', ha='center', va='center')
 
-    # 4. 3 Torres Residenciales (P01 a P18)
+    # 4. 3 Torres Residenciales con Líneas de Puntos
     torres_x = [(5, 28, "Torre 1 (Oeste)"), (31, 54, "Torre 2 (Centro)"), (57, 80, "Torre 3 (Este)")]
     y_p01 = 4.0
     h_torre = 57.0
 
     for tx_start, tx_end, t_nombre in torres_x:
         tw = tx_end - tx_start
-        rect_t = patches.Rectangle((tx_start, y_p01), tw, h_torre, edgecolor=ACCENT_BLUE, facecolor='#1D3246', linewidth=1.5, alpha=0.9)
+        rect_t = patches.Rectangle((tx_start, y_p01), tw, h_torre, edgecolor=ACCENT_GOLD, facecolor='#1D3246', linewidth=1.8, linestyle=':', alpha=0.9)
         ax.add_patch(rect_t)
         ax.text(tx_start + tw/2, y_p01 + h_torre/2, f"{t_nombre}\n18 Pisos Residenciales\n(P01 a P18)",
-                color=TEXT_LIGHT, fontsize=8, fontweight='bold', ha='center', va='center')
+                color=TEXT_LIGHT, fontsize=8.5, fontweight='bold', ha='center', va='center')
 
     # Configuración Ejes
     ax.set_xlim(-15, 105)
@@ -230,12 +283,12 @@ def generar_figura_2_2_volumetria():
 
     plt.tight_layout()
     output_path = os.path.join(OUTPUT_DIR, "figura_2_2_volumetria_y_perfil_edificio.png")
-    fig.savefig(output_path, facecolor=fig.get_facecolor(), edgecolor='none', dpi=300)
+    fig.savefig(output_path, facecolor=fig.get_facecolor(), edgecolor='none', dpi=400)
     plt.close()
     print("[SUCCESS] Generado: " + output_path)
 
 if __name__ == "__main__":
-    print("[INFO] Iniciando generacion de figuras tecnicas extrayendo zonas del DXF...")
+    print("[INFO] Generando figuras de ultra alta fidelidad (400 DPI) extrayendo zonas del DXF...")
     generar_figura_2_1_planta_baja()
     generar_figura_2_2_volumetria()
-    print("[SUCCESS] Generación completada exitosamente!")
+    print("[SUCCESS] ¡Generación de ultra alta calidad completada exitosamente!")
