@@ -48,14 +48,14 @@
 
 ### 1. Cuadro de Áreas Maestro, Desglose por Uso y Compatibilidad Estructural por Nivel
 
-El edificio mixto de 18 pisos y 2 subsuelos se emplaza sobre un terreno de **$7.618,49\text{ m}^2$** en Ciudad del Este (UTM Zona 21J). El anteproyecto contempla una superficie construida total acumulada de **$39.700,00\text{ m}^2$** sobre rasante y **$9.435,00\text{ m}^2$** bajo rasante en 2 subsuelos (exentos del cómputo FOT según Art. 226 de la Ley N° 3966/2010 Orgánica Municipal).
+El edificio mixto de 18 pisos y 2 subsuelos se emplaza sobre un terreno de **$7.618,49\text{ m}^2$** en Ciudad del Este (UTM Zona 21J). El anteproyecto contempla una superficie construida total acumulada sobre rasante + bajo rasante con **$9.845,32\text{ m}^2$** bajo rasante en 2 subsuelos de **$4.922,66\text{ m}^2$** cada uno (exentos del cómputo FOT según Art. 226 de la Ley N° 3966/2010 Orgánica Municipal).
 
 #### 1.1 Matriz de Superficies y Transición Estructural por Nivel
 
 | Nivel / Planta | Cota (m) | Altura Libre (m) | Función Principal / Programa | Área Construida (m²) | Área FOT (m²) | Sección Pilares H°A° | Sistema de Entrepiso & Transición |
 |---|---|---|---|---|---|---|---|
-| **Subsuelo 2 (S2)** | -7.00 | 3.50 | Estacionamiento (90 autos/15 motos) & Depósitos Privados | 3.145,00 | 0,00 *(Exento)* | Pilares $90 \times 90\text{ cm}$ | Losa nervada bidireccional H=45cm con casetones recuperables |
-| **Subsuelo 1 (S1)** | -3.50 | 3.50 | Estacionamiento (90 autos/15 motos), ANDE 1.000kVA, Genset, Cisterna 60m³ | 3.145,00 | 0,00 *(Exento)* | Pilares $90 \times 90\text{ cm}$ | Losa nervada H=45cm + Ábacos refuerzo punzonamiento |
+| **Subsuelo 2 (S2)** | -7.00 | 3.50 | Estacionamiento (140 autos/18 motos) & Depósitos Privados | 4.922,66 | 0,00 *(Exento)* | Pilares $90 \times 90\text{ cm}$ | Losa nervada bidireccional H=45cm con casetones recuperables |
+| **Subsuelo 1 (S1)** | -3.50 | 3.50 | Estacionamiento (140 autos/15 motos), ANDE 1.000kVA, Genset, Cisterna | 4.922,66 | 0,00 *(Exento)* | Pilares $90 \times 90\text{ cm}$ | Losa nervada H=45cm + Ábacos refuerzo punzonamiento |
 | **Planta Baja (PB)** | +0.00 | 4.00 | Lobby Residencial ($250\text{m}^2$), 3 Locales Comerciales ($1.850\text{m}^2$), RSU, BMS, Rampa | 3.145,00 | 3.145,00 | Pilares $90 \times 90\text{ cm}$ (Perímetro) | **Vigas de Transferencia H°A° ($80 \times 120\text{ cm}$)** en cota +4.00m |
 | **Pisos P01 a P06** | +4.00 a +20.75 | 3.00 c/u | Residencial (6 plantas tipo × 1.440 m² = 36 dptos) | 8.640,00 | 8.640,00 | **Pilares $80 \times 80\text{ cm}$** | Losa nervada bidireccional H=35cm (casetón 25cm + capa 10cm) |
 | **Pisos P07 a P12** | +24.10 a +40.85 | 3.00 c/u | Residencial (6 plantas tipo × 1.440 m² = 36 dptos) | 8.640,00 | 8.640,00 | **Pilares $70 \times 70\text{ cm}$** | Losa nervada bidireccional H=35cm + Vigas de borde $25 \times 50\text{ cm}$ |
@@ -163,13 +163,13 @@ En la Torre Residencial ($P01$ a $P18$), cada planta tipo de **$1.440,00\text{ m
   $$N_{\text{total, req}} = 162 + 25 = \mathbf{187\text{ cocheras}}$$
 
 #### 3.3 Verificación de Capacidad en Subsuelos ($S1, S2$)
-- **Área Bruta de Subsuelos:** 2 niveles $\times 3.145,00\text{ m}^2 = 6.290,00\text{ m}^2$.
-- **Área Neta de Maniobras y Parqueo por Nivel:** $\sim 2.475,00\text{ m}^2$ (tras descontar muros periféricos de $30\text{ cm}$, núcleos $126\text{ m}^2$, rampas $15\%$ y PTAR $120\text{ m}^2$ en S2).
-- **Rendimiento por Subsuelo:** Módulo normalizado de $2,50\text{ m} \times 5,00\text{ m}$ con pasillos de $6,00\text{ m} \implies 90\text{ plazas por subsuelo}$.
+- **Área Bruta de Subsuelos:** 2 niveles $\times 4.922,66\text{ m}^2 = \mathbf{9.845,32\text{ m}^2}$ (sin descontar PTAR, áreas técnicas eléctricas ni rampas).
+- **Área Neta de Maniobras y Parqueo por Nivel:** $\sim 4.200,00\text{ m}^2$ (tras reserva de recintos técnicos de PTAR, subestación ANDE, grupos electrógenos, muros contención y circulaciones).
+- **Rendimiento por Subsuelo:** Módulo normalizado de $2,50\text{ m} \times 5,00\text{ m}$ con pasillos de maniobra de $6,00\text{ m} \implies \sim 140\text{ plazas por subsuelo}$.
 - **Capacidad Total Proyectada:**
-  $$N_{\text{disponible}} = 2 \text{ subsuelos} \times 90 \text{ plazas} = \mathbf{180\text{ cocheras}}$$
+  $$N_{\text{disponible}} = 2 \text{ subsuelos} \times 140 \text{ plazas} = \mathbf{280\text{ cocheras}}$$
 - **Evaluación de Suficiencia:**
-  $$N_{\text{disponible}} (180) \approx N_{\text{requerida}} (187) \quad \mathbf{(\text{CUMPLE CON LA CAPACIDAD DE COCHERAS REQUERIDA})}$$
+  $$N_{\text{disponible}} (280) \ge N_{\text{requerida}} (187) \quad \mathbf{(\text{CUMPLE AMPLIAMENTE CON } +93 \text{ PLAZAS DE HOLGURA})}$$
 
 ---
 

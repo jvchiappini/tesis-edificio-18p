@@ -19,6 +19,7 @@ El proyecto integra la metodología **BIM (ISO 19650)**, el cálculo estructural
 * **Configuración de Plantas:** 2 Subsuelos de cocheras ($S1\text{–}S2$) + Planta Baja Comercial ($PB$) + 18 Pisos Residenciales ($P01\text{–}P18$) + Azotea Técnica & Amenities (Piscina + SUM).
 * **Alturas de Entrepiso:** Subsuelos S1–S2 = 3,50 m · PB = 4,50 m · P01–P18 = 3,35 m (libre: 3,00 m + losa 35 cm).
 * **Cotas:** SUB2 = −7,00 m · SUB1 = −3,50 m · PB = ±0,00 m · Profundidad total excavación = 7,00 m.
+* **Superficie de Subsuelos:** $4.922,66\text{ m}^2$ por nivel ($S1$ y $S2$, total $9.845,32\text{ m}^2$ bajo rasante exentos de FOT).
 * **Superficie Edificable por Planta:** ⏳ *En re-definición (Etapa B — Arquitectura Completa)*
 * **Superficie Construida Total:** ⏳ *En re-definición (Etapa B — Arquitectura Completa)*
 * **Superficie del Terreno:** $7.618,49\text{ m}^2$ (Polígono P1-P2-P3-P4, UTM Zona 21J).

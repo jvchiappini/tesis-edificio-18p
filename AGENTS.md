@@ -100,6 +100,7 @@ Cuando se resuelva una duda técnica (normas, Revit, cálculo estructural):
 > **ESTADO:** ⏳ *Todas las distribuciones espaciales anteriores quedan anuladas.* Se re-planificarán desde cero en la **Etapa B (Arquitectura Completa)**.
 
 - **Niveles Base:** 2 Subsuelos (S1–S2) + PB Comercial + 18 Pisos Residenciales (P01–P18, sin oficinas) + Azotea.
+- **Superficie de Subsuelos (Parámetro Maestro Congelado):** **4.922,66 m² bruta por nivel** ($S1$ y $S2$, total $9.845,32\text{ m}^2$ sin descontar PTAR, subestación ANDE ni áreas técnicas, exentos de FOT).
 - **Alturas de Entrepiso (Parámetro Maestro Congelado):** Subsuelos S1–S2 = **3,50 m** total (libre: 3,05 m + losa 45 cm) · Pisos P01–P18 = **3,35 m** total (libre: 3,00 m + losa 35 cm) · PB = **4,50 m** (libre: 4,05 m + losa 45 cm).
 - **Cotas de Nivel Definitivas:** SUB2 = **-7,00 m** · SUB1 = **-3,50 m** · PB = ±0,00 m · P01 = +4,50 m · P18 = +64,80 m · Azotea = +68,15 m (estimado).
 - **Núcleos H°A° y Grilla:** La cantidad, posición, forma de los núcleos y la grilla de pilares se definirán en la Etapa B.
