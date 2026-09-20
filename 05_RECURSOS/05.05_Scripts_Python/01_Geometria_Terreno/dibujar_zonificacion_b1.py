@@ -6,11 +6,12 @@ TESIS DE GRADO — EDIFICIO DE USO MIXTO 18 PISOS + 3 SUBSUELOS (CIUDAD DEL ESTE
 Script: dibujar_zonificacion_b1.py
 Sub-etapa: B.1 — Programa y Organización Funcional
 
-Genera la Figura 2.1 en ULTRA ALTA CALIDAD (400 DPI):
+Genera la Figura 2.1 en ULTRA ALTA CALIDAD (400 DPI) extrayendo la geometría
+exacta del DXF oficial:
+01_WIP/01.01_ARQ/TESIS-ARQ-GEN-DR-001_Planimetria_y_Zonificacion.dxf
+- Rampa leída directamente de la capa DXF 'A-ZONE-RAMP' para permitir edición en CAD.
 - Torres representadas con LÍNEAS DE PUNTOS (proyección superior P01-P18).
 - Nombres y superficies de TODOS los salones/recintos centrados en sus centroides geométricos.
-- Rampa de Subsuelo 1 ubicada cerca de P4 con orientación hacia P3.
-- Estacionamientos de superficie PB (36 plazas) claramente representados.
 ===============================================================================
 """
 
@@ -45,16 +46,14 @@ ACCENT_ORANGE = "#FF7A00"
 
 
 def clean_mtext(raw_text):
-    """Limpia códigos de formato MTEXT de AutoCAD (e.g. \\P, ^J, \\PEscaleras, caracteres nulos)."""
+    """Limpia códigos de formato MTEXT de AutoCAD."""
     if not raw_text:
         return ""
-    # Quitar nulos UTF-16
     t = raw_text.replace('\x00', '')
     t = t.replace(r'\P', '\n').replace('^J', '\n').replace(r'\p', '\n')
     t = re.sub(r'\\f[^;]+;', '', t)
     t = re.sub(r'\\[a-zA-Z0-9]+', '', t)
     t = t.replace('vrtice', 'vértice').replace('Vrtice', 'Vértice').replace('Baos', 'Baños')
-    # Formatear números con comas de miles/decimales en español
     t = re.sub(r'(\d+)\.(\d+)m2', r'\1,\2 m²', t)
     t = re.sub(r'(\d+)m2', r'\1 m²', t)
     return t.strip()
@@ -70,7 +69,7 @@ def poly_centroid_and_area(pts):
 
 
 def generar_figura_2_1_planta_baja():
-    """Genera la Figura 2.1 extrayendo la geometría exacta del DXF oficial."""
+    """Genera la Figura 2.1 extrayendo la geometría y capas del DXF oficial."""
     doc = ezdxf.readfile(DXF_PATH)
     msp = doc.modelspace()
 
@@ -98,17 +97,14 @@ def generar_figura_2_1_planta_baja():
     salons = list(msp.query('LWPOLYLINE[layer=="A-FOOT-PB"]'))
     texts_dxf = list(msp.query('MTEXT[layer=="A-ANNO-DIMS"]')) + list(msp.query('TEXT[layer=="A-ANNO-DIMS"]'))
 
-    # Matchear cada polígono de salón con el centroide y colocar su texto centrado
     for poly in salons:
         pts = list(poly.get_points('xy'))
         cx, cy, area = poly_centroid_and_area(pts)
 
-        # Dibujar polígono del salón
         poly_patch = patches.Polygon(pts, closed=True, edgecolor='#2E5B70', facecolor='#132738',
                                      linewidth=1.5, alpha=0.9)
         ax.add_patch(poly_patch)
 
-        # Buscar el MTEXT más cercano para este salón
         min_d = 1e9
         matched_txt = ""
         for t in texts_dxf:
@@ -119,7 +115,6 @@ def generar_figura_2_1_planta_baja():
                 min_d = d
                 matched_txt = t_str
 
-        # Si el match es válido, dibujar el nombre y superficie EN EL CENTRO
         if matched_txt and not ("Nucleo" in matched_txt or "NÚCLEO" in matched_txt):
             ax.text(cx, cy, matched_txt, color=TEXT_LIGHT, fontsize=7.2, fontweight='bold',
                     ha='center', va='center', zorder=8,
@@ -131,12 +126,10 @@ def generar_figura_2_1_planta_baja():
         pts = list(e.get_points('xy'))
         cx, cy, _ = poly_centroid_and_area(pts)
         
-        # Polígono con línea de puntos
         poly_tower = patches.Polygon(pts, closed=True, edgecolor=ACCENT_GOLD, facecolor='#362C0B',
                                      linewidth=2.8, linestyle=':', alpha=0.45, zorder=6)
         ax.add_patch(poly_tower)
         
-        # Etiqueta de la Torre
         ax.text(cx, cy + 8.0, f"TORRE {tower_idx}\n(Proyección P01-P18)", color=ACCENT_GOLD, fontsize=9.5, fontweight='bold',
                 ha='center', va='center', zorder=10,
                 bbox=dict(boxstyle='round,pad=0.35', facecolor='#241B05', edgecolor=ACCENT_GOLD, alpha=0.95, lw=1.2))
@@ -155,16 +148,30 @@ def generar_figura_2_1_planta_baja():
                 bbox=dict(boxstyle='square,pad=0.2', facecolor='#3B0810', edgecolor=ACCENT_RED, alpha=0.9, lw=1.0))
         core_idx += 1
 
-    # 6. Dibujar Rampa a Subsuelo 1 (Ubicada cerca de P4, orientada hacia P3)
-    # P4: (35.52, 98.17), P3: (133.10, 62.37)
-    rp_x, rp_y, rp_w, rp_h = 32.0, 84.0, 28.0, 8.5
-    rect_rp = patches.Rectangle((rp_x, rp_y), rp_w, rp_h, edgecolor=ACCENT_ORANGE, facecolor='#3D1C08',
-                                linewidth=2.2, zorder=7)
-    ax.add_patch(rect_rp)
-    ax.annotate('', xy=(rp_x + rp_w - 2, rp_y + rp_h/2), xytext=(rp_x + 2, rp_y + rp_h/2),
-                arrowprops=dict(arrowstyle='->', color=ACCENT_ORANGE, lw=3.0), zorder=8)
-    ax.text(rp_x + rp_w/2, rp_y + rp_h/2, "RAMPA ACCESO SUBSUELO 1\n(Esquina P4 ➔ Descenso hacia P3 | i=15%, W=6.5m)",
-            color='#FFC09F', fontsize=8.0, fontweight='bold', ha='center', va='center', zorder=9)
+    # 6. Dibujar Rampa a Subsuelo 1 EXTRAÍDA DIRECTAMENTE DE LA CAPA DXF 'A-ZONE-RAMP'
+    ramp_polys = list(msp.query('LWPOLYLINE[layer=="A-ZONE-RAMP"]')) + list(msp.query('POLYLINE[layer=="A-ZONE-RAMP"]'))
+    ramp_texts = list(msp.query('MTEXT[layer=="A-ZONE-RAMP"]')) + list(msp.query('TEXT[layer=="A-ZONE-RAMP"]'))
+
+    for poly in ramp_polys:
+        pts = list(poly.get_points('xy'))
+        cx, cy, _ = poly_centroid_and_area(pts)
+        poly_ramp = patches.Polygon(pts, closed=True, edgecolor=ACCENT_ORANGE, facecolor='#3D1C08',
+                                    linewidth=2.2, zorder=7)
+        ax.add_patch(poly_ramp)
+        
+        # Orientación y flecha indicadora
+        pts_arr = np.array(pts)
+        min_x, max_x = np.min(pts_arr[:, 0]), np.max(pts_arr[:, 0])
+        min_y, max_y = np.min(pts_arr[:, 1]), np.max(pts_arr[:, 1])
+        ax.annotate('', xy=(max_x - 1.5, (min_y + max_y)/2), xytext=(min_x + 1.5, (min_y + max_y)/2),
+                    arrowprops=dict(arrowstyle='->', color=ACCENT_ORANGE, lw=3.0), zorder=8)
+
+    for t in ramp_texts:
+        t_str = clean_mtext(t.dxf.text if hasattr(t.dxf, 'text') else getattr(t, 'text', ''))
+        ins = t.dxf.insert
+        ax.text(ins[0], ins[1], t_str, color='#FFC09F', fontsize=8.0, fontweight='bold',
+                ha='center', va='center', zorder=9,
+                bbox=dict(boxstyle='round,pad=0.25', facecolor='#291104', edgecolor=ACCENT_ORANGE, alpha=0.95))
 
     # 7. Procesar Vértices del Terreno y Títulos (C-PROP-TEXT)
     for e in msp.query('TEXT[layer=="C-PROP-TEXT"]'):
@@ -188,7 +195,7 @@ def generar_figura_2_1_planta_baja():
     ax.set_aspect('equal')
     ax.grid(True, linestyle=':', alpha=0.25, color=TEXT_MUTED)
 
-    ax.set_title("FIGURA 2.1 — PLANTA BAJA COMERCIAL Y DE SERVICIOS (PLANIMETRÍA Y ZONIFICACIÓN DE ALTA PRECISIÓN DXF)\nBasamento $3.145,00\\text{ m}^2$, Proyección 3 Torres (Líneas de Puntos), Rampa P4➔P3 y Estacionamiento PB (FOS = 41,28% ≤ 70,00%)",
+    ax.set_title("FIGURA 2.1 — PLANTA BAJA COMERCIAL Y DE SERVICIOS (ZONIFICACIÓN OFICIAL EXTRAÍDA DEL DXF)\nBasamento $3.145,00\\text{ m}^2$, Proyección 3 Torres (Líneas de Puntos), Rampa Capa 'A-ZONE-RAMP' y Parking PB (FOS = 41,28% ≤ 70,00%)",
                  color=TEXT_LIGHT, fontsize=12.5, fontweight='bold', pad=18)
     ax.set_xlabel("Coordenadas Longitudinales X (m)", color=TEXT_MUTED, fontsize=10.5)
     ax.set_ylabel("Coordenadas Transversales Y (m)", color=TEXT_MUTED, fontsize=10.5)
@@ -196,11 +203,11 @@ def generar_figura_2_1_planta_baja():
 
     # Convención / Leyenda Técnica ISO 19650
     legend_elements = [
-        patches.Patch(facecolor='#1E2818', edgecolor='#6B8E23', linestyle='--', label='Límite Terreno (7.618,49 m²)'),
+        patches.Patch(facecolor='#1A2416', edgecolor='#6B8E23', linestyle='--', label='Límite Terreno (7.618,49 m²)'),
         patches.Patch(facecolor='#132738', edgecolor='#2E5B70', label='Salones Comercial / Servicios PB'),
         patches.Patch(facecolor='#362C0B', edgecolor=ACCENT_GOLD, linestyle=':', label='Proyección 3 Torres (P01-P18)'),
         patches.Patch(facecolor='#520F1A', edgecolor=ACCENT_RED, hatch='//', label='Núcleos H°A° (Ascensores + Esc.)'),
-        patches.Patch(facecolor='#3D1C08', edgecolor=ACCENT_ORANGE, label='Rampa Subsuelo 1 (P4 ➔ P3)'),
+        patches.Patch(facecolor='#3D1C08', edgecolor=ACCENT_ORANGE, label='Rampa Subsuelo 1 (Capa DXF A-ZONE-RAMP)'),
         patches.Patch(facecolor='#0B3036', edgecolor=ACCENT_CYAN, label=f'Parking Superficie ({park_count} Plazas)')
     ]
     ax.legend(handles=legend_elements, loc='lower right', facecolor='#111822', edgecolor='#2A3644',
@@ -212,7 +219,7 @@ def generar_figura_2_1_planta_baja():
         "FUENTE: TESIS-ARQ-GEN-DR-001.dxf\n"
         "CONFIGURACIÓN: 3 Torres (Proyección Puntos)\n"
         "PLANTA BAJA: Basamento Comercial 3.145,00 m²\n"
-        "RAMPA S1: Esquina P4 ➔ Descendiente a P3\n"
+        "RAMPA S1: Entidad DXF en capa A-ZONE-RAMP\n"
         "SUPERFICIE PB: 3.145,00 m² | TERRENO: 7.618,49 m²"
     )
     ax.text(0.02, 0.96, info_text, transform=ax.transAxes, color=TEXT_LIGHT, fontsize=8.0,
@@ -222,7 +229,7 @@ def generar_figura_2_1_planta_baja():
     output_path = os.path.join(OUTPUT_DIR, "figura_2_1_zonificacion_planta_baja.png")
     fig.savefig(output_path, facecolor=fig.get_facecolor(), edgecolor='none', dpi=400)
     plt.close()
-    print("[SUCCESS] Generado de Ultra Alta Calidad: " + output_path)
+    print("[SUCCESS] Generado desde DXF con capa A-ZONE-RAMP: " + output_path)
 
 
 def generar_figura_2_2_volumetria():
@@ -231,13 +238,11 @@ def generar_figura_2_2_volumetria():
     fig.patch.set_facecolor(BG_DARK)
     ax.set_facecolor(BG_CARD)
 
-    # 1. Fundación en Roca Basáltica
     rect_basalto = patches.Rectangle((-10, -16), 105, 5.5, facecolor='#2C221E', edgecolor='#4A3831', hatch='..')
     ax.add_patch(rect_basalto)
     ax.text(42.5, -13.5, "ROCA BASÁLTICA DE FUNDACIÓN (q_adm = 300 kN/m² / Platea H=45cm)",
             color='#D4B2A7', fontsize=9, fontweight='bold', ha='center', va='center')
 
-    # 2. Subsuelos (S3, S2, S1)
     subsuelos = [
         ("Subsuelo 3 (S3)", -10.50, -7.40, "#1A2533", "Estacionamiento + PTAR Estanca (120m²)"),
         ("Subsuelo 2 (S2)", -7.40, -4.30, "#1E2C3D", "Depósitos Privados & Estacionamiento Autos"),
@@ -252,13 +257,11 @@ def generar_figura_2_2_volumetria():
     ax.axhline(0, color=ACCENT_GREEN, linestyle='--', linewidth=2, label='Nivel Terreno Natural (Cota ±0.00m)')
     ax.text(-8, 0, "Nivel Ground\n±0.00m", color=ACCENT_GREEN, fontsize=9, fontweight='bold', va='center')
 
-    # 3. Planta Baja (PB, Cota 0.00m a +4.00m)
     rect_pb = patches.Rectangle((0, 0), 85, 4.0, edgecolor=ACCENT_GOLD, facecolor='#3A2E0B', linewidth=2, alpha=0.95)
     ax.add_patch(rect_pb)
     ax.text(42.5, 2.0, "PLANTA BAJA COMERCIAL (3.145 m² | FOS = 41,28% ≤ 70%)\nAcceso a 3 Torres Residenciales + Locales Comerciales",
             color=ACCENT_GOLD, fontsize=9.5, fontweight='bold', ha='center', va='center')
 
-    # 4. 3 Torres Residenciales con Líneas de Puntos
     torres_x = [(5, 28, "Torre 1 (Oeste)"), (31, 54, "Torre 2 (Centro)"), (57, 80, "Torre 3 (Este)")]
     y_p01 = 4.0
     h_torre = 57.0
@@ -270,7 +273,6 @@ def generar_figura_2_2_volumetria():
         ax.text(tx_start + tw/2, y_p01 + h_torre/2, f"{t_nombre}\n18 Pisos Residenciales\n(P01 a P18)",
                 color=TEXT_LIGHT, fontsize=8.5, fontweight='bold', ha='center', va='center')
 
-    # Configuración Ejes
     ax.set_xlim(-15, 105)
     ax.set_ylim(-18, 72)
     ax.grid(True, linestyle=':', alpha=0.25, color=TEXT_MUTED)
@@ -288,7 +290,7 @@ def generar_figura_2_2_volumetria():
     print("[SUCCESS] Generado: " + output_path)
 
 if __name__ == "__main__":
-    print("[INFO] Generando figuras de ultra alta fidelidad (400 DPI) extrayendo zonas del DXF...")
+    print("[INFO] Generando figuras extrayendo rampa y zonas directamente del DXF...")
     generar_figura_2_1_planta_baja()
     generar_figura_2_2_volumetria()
-    print("[SUCCESS] ¡Generación de ultra alta calidad completada exitosamente!")
+    print("[SUCCESS] ¡Generación desde DXF completada exitosamente!")
