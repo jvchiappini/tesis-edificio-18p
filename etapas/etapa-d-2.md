@@ -1,4 +1,4 @@
-# D.2 — Grilla Definitiva de Pilares y Continuidad Vertical
+﻿# D.2 — Grilla Definitiva de Pilares y Continuidad Vertical
 
 > **Etapa D › Sub-etapa 2** · **Tareas:** 3 · **Estado:** 🔲 Sin iniciar  
 > Normativa: NBR 6118:2023 · CIRSOC 201
@@ -10,8 +10,8 @@
 ### Checklist de Tareas
 
 - [ ] **Task D2.1:** Definir las coordenadas exactas $(X, Y)$ de los ejes de pilares alineados a la geometría de los 2 núcleos H°A°.
-- [ ] **Task D2.2:** Verificar la continuidad vertical 100% libre de apeos desde Subsuelo S3 hasta la Azotea.
-- [ ] **Task D2.3:** Reducir escalonadamente las secciones de los pilares en altura (S3-PB: 90x90 cm, P01-P06: 80x80 cm, P07-P12: 70x70 cm, P13-P18: 60x60 cm).
+- [ ] **Task D2.2:** Verificar la continuidad vertical 100% libre de apeos desde Subsuelo S2 hasta la Azotea.
+- [ ] **Task D2.3:** Reducir escalonadamente las secciones de los pilares en altura (S2-PB: 90x90 cm, P01-P06: 80x80 cm, P07-P12: 70x70 cm, P13-P18: 60x60 cm).
 
 ---
 
@@ -30,7 +30,9 @@ Para optimizar el volumen de hormigón y el consumo de acero, las secciones cuad
 
 | Tramo de Niveles | Sección Adoptada (cm) | Área $A_c$ (m²) | Resistencia $f'_c$ |
 |---|---|---|---|
-| Subsuelos S3 a PB | 90 × 90 | 0.810 | H-30 (30 MPa) |
+| Subsuelos S2 a PB | 90 × 90 | 0.810 | H-30 (30 MPa) |
 | Pisos P01 a P06 | 80 × 80 | 0.640 | H-30 (30 MPa) |
 | Pisos P07 a P12 | 70 × 70 | 0.490 | H-30 (30 MPa) |
 | Pisos P13 a P18 | 60 × 60 | 0.360 | H-30 (30 MPa) |
+
+

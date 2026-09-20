@@ -1,4 +1,4 @@
-# Lineamientos Estratégicos y Recomendaciones Clave para la Tesis
+﻿# Lineamientos Estratégicos y Recomendaciones Clave para la Tesis
 
 > **Documento de Referencia Permanente (Copilot / LLMs & Investigador)**  
 > **Proyecto:** Diseño estructural, análisis dinámico de viento y modelado BIM (ISO 19650) de un edificio de uso mixto en altura (18P + 3 Subsuelos).  
@@ -13,7 +13,7 @@ Este trabajo de grado aborda la integración entre la **Ingeniería Estructural*
 
 ### Parámetros Maestros Definitivos del Sitio (Ficha Técnica eA-8 Consolidada):
 
-* **Edificio de Uso Mixto:** 18 Pisos Residenciales (P01–P18, ~64,30 m de altura total sobre rasante) + Planta Baja Comercial + 3 Subsuelos de Cocheras (S1–S3) + Azotea Técnica (Piscina + SUM). **Sin oficinas.**
+* **Edificio de Uso Mixto:** 18 Pisos Residenciales (P01–P18, ~64,30 m de altura total sobre rasante) + Planta Baja Comercial + 3 Subsuelos de Cocheras (S1–S2) + Azotea Técnica (Piscina + SUM). **Sin oficinas.**
 * **Polígono del Terreno (UTM Zona 21J, WGS84):** **7.618,49 m²** (Vértices P1, P2, P3, P4).
   * **Frente Principal P1→P2:** 117,27 m sobre Calle Los Lapachos (declinación magnética en CDE ≈ -14° W).
   * **Vértice Agudo P1 (61,44°):** Zona no edificable / cuña frontal de 669,55 m² para plaza seca de acceso y jardín.
@@ -33,7 +33,7 @@ Este trabajo de grado aborda la integración entre la **Ingeniería Estructural*
 * **Servicios e Infraestructura Urbana:**
   * Agua Potable ESSAP ($DN 50\text{ mm}$, $P \approx 1{,}5$–$2{,}0\text{ bar}$): Cisterna inferior 60 m³ en S1 + Tanque elevado 30 m³ en azotea.
   * Energía Eléctrica ANDE MT $23\text{ kV}$: Subestación Transformadora $1.000\text{ kVA}$ en S1 + Grupo Electrógeno $300\text{ kVA}$.
-  * Alcantarillado: Colector municipal / Planta PTE compacta en Subsuelo S3.
+  * Alcantarillado: Colector municipal / Planta PTE compacta en Subsuelo S2.
 * **🌧️ Caracterización Pluviométrica de Sitio (DMH/DINAC CDE):**
   * Precipitación media anual CDE: **1.932 mm/año** (clima *Cfa*).
   * Ecuación IDF oficial: $i(t_c, T) = \frac{950{,}0 \cdot T^{0{,}180}}{(t_c + 14{,}0)^{0{,}760}}\text{ mm/h}$.
@@ -60,10 +60,12 @@ Este trabajo de grado aborda la integración entre la **Ingeniería Estructural*
 - [x] **Fase 1: Georreferenciación y Definición de Terreno (Etapa A)**
   - Polígono UTM real P1–P4 (7.618,49 m²), parámetros urbanísticos y caracterización eólica del sitio.
 - [ ] **Fase 2: Planificación Arquitectónica Completa (Etapa B)**
-  - Diseño de Plantas de Subsuelos (S1–S3), PB comercial, Plantas Tipo Residenciales P01–P18 y Azotea.
+  - Diseño de Plantas de Subsuelos (S1–S2), PB comercial, Plantas Tipo Residenciales P01–P18 y Azotea.
 - [ ] **Fase 3: Geotecnia y Fundaciones (Etapa C)**
 - [ ] **Fase 4: Ingeniería Estructural Gravitatoria y de Viento (Etapas D, E, F)**
 - [ ] **Fase 5: Instalaciones MEP, Coordinación BIM e Imprimibles (Etapas G, H, I, J, K, L, M, N, O, P)**
 
 ---
 *Este documento debe ser consultado por cualquier agente o LLM antes de redactar capítulos o realizar análisis computacionales del proyecto.*
+
+

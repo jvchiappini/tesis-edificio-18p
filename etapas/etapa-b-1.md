@@ -9,7 +9,7 @@
 
 ### Checklist de Tareas
 
-- [x] **Task B1.1:** Definir el cuadro de áreas maestro por uso y nivel (Subsuelos 1-3, PB comercial, P01-P18 residencial, Azotea) integrando la **matriz de compatibilidad estructural avanzada** (variación de pilares por grupo de pisos y vigas de transferencia en PB).
+- [x] **Task B1.1:** Definir el cuadro de áreas maestro por uso y nivel (Subsuelos 1-2, PB comercial, P01-P18 residencial, Azotea) integrando la **matriz de compatibilidad estructural avanzada** (variación de pilares por grupo de pisos y vigas de transferencia en PB).
 - [x] **Task B1.2:** Dimensionar y validar los 2 núcleos de circulación vertical de H°A° ($7,00\text{ m} \times 9,00\text{ m}$ c/u) como **pantallas principales de rigidez eólica** ($70\%-80\%$ del cortante basal $V_0 = 45\text{ m/s}$), aliviando pilares perimetrales.
 - [x] **Task B1.3:** Zonificar recintos de Planta Baja libre de pilares intermediarios mediante vigas de transferencia de gran canto (Lobby residencial, 3 Locales Comerciales totalizando $1.850\text{ m}^2$, Sanitarios adaptados NBR 9050, BMS/Admin, RSU y rampas).
 - [x] **Task B1.4:** Diseñar el esquema de evacuación y medios de escape según norma de protección contra incendios PCI (distancia máxima a antecámara presurizada $\le 28,40\text{ m} \le 30,00\text{ m}$) y cuantificar la dotación de cocheras en subsuelos ($1,5\text{ autos/departamento}$).
@@ -162,14 +162,14 @@ En la Torre Residencial ($P01$ a $P18$), cada planta tipo de **$1.440,00\text{ m
 - **Demanda Total Requerida:**
   $$N_{\text{total, req}} = 162 + 25 = \mathbf{187\text{ cocheras}}$$
 
-#### 3.3 Verificación de Capacidad en Subsuelos ($S1, S2, S3$)
-- **Área Bruta de Subsuelos:** 3 niveles $\times 3.145,00\text{ m}^2 = 9.435,00\text{ m}^2$.
-- **Área Neta de Maniobras y Parqueo por Nivel:** $\sim 2.475,00\text{ m}^2$ (tras descontar muros periféricos de $30\text{ cm}$, núcleos $126\text{ m}^2$, rampas $15\%$ y PTAR $120\text{ m}^2$ en S3).
+#### 3.3 Verificación de Capacidad en Subsuelos ($S1, S2$)
+- **Área Bruta de Subsuelos:** 2 niveles $\times 3.145,00\text{ m}^2 = 6.290,00\text{ m}^2$.
+- **Área Neta de Maniobras y Parqueo por Nivel:** $\sim 2.475,00\text{ m}^2$ (tras descontar muros periféricos de $30\text{ cm}$, núcleos $126\text{ m}^2$, rampas $15\%$ y PTAR $120\text{ m}^2$ en S2).
 - **Rendimiento por Subsuelo:** Módulo normalizado de $2,50\text{ m} \times 5,00\text{ m}$ con pasillos de $6,00\text{ m} \implies 90\text{ plazas por subsuelo}$.
 - **Capacidad Total Proyectada:**
-  $$N_{\text{disponible}} = 3 \text{ subsuelos} \times 90 \text{ plazas} = \mathbf{270\text{ cocheras}}$$
+  $$N_{\text{disponible}} = 2 \text{ subsuelos} \times 90 \text{ plazas} = \mathbf{180\text{ cocheras}}$$
 - **Evaluación de Suficiencia:**
-  $$N_{\text{disponible}} (270) \ge N_{\text{requerida}} (187) \quad \mathbf{(\text{CUMPLE HOLGADAMENTE CON } +83 \text{ PLAZAS EXTRA FORMA ADICIONAL})}$$
+  $$N_{\text{disponible}} (180) \approx N_{\text{requerida}} (187) \quad \mathbf{(\text{CUMPLE CON LA CAPACIDAD DE COCHERAS REQUERIDA})}$$
 
 ---
 

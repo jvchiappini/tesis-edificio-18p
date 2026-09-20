@@ -1,4 +1,4 @@
-# PROGRAMA DE NECESIDADES MAESTRO — EDIFICIO DE USO MIXTO (18P + 3 SUBS)
+﻿# PROGRAMA DE NECESIDADES MAESTRO — EDIFICIO DE USO MIXTO (18P + 3 SUBS)
 
 > **Fuente de verdad del programa arquitectónico del edificio.**  
 > **Proyecto:** Edificio de uso mixto 18 pisos + 3 subsuelos, Ciudad del Este, Paraguay.  
@@ -21,7 +21,7 @@
 
 ## 2. NIVELES Y USOS PRINCIPALES (Bases de Programa)
 
-1. **Subsuelos S3, S2, S1 (3 Niveles):**
+1. **Subsuelos S2, S1 (3 Niveles):**
    - Destino: Estacionamiento vehicular (cocheras autos y motos), rampas de acceso y maniobras.
    - S1 aloja además el Bloque Técnico (cisternas agua potable/PCI, grupo electrógeno, tableros generales, EBAR cloacal y PTE pluvial).
 

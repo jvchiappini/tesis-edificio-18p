@@ -1,4 +1,4 @@
-# A.2 — Análisis de Sitio
+﻿# A.2 — Análisis de Sitio
 
 > **Etapa A › Sub-etapa 2** · **Tareas:** 4 · **Estado:** 🟢 Completado (2026-09-19)
 > Normativa: NP 196:1991 · NBR 6123:2023 · ASCE 7-22 §26 · EN 1991-1-4 · NBR 15421:2023 · NBR 6118
@@ -192,7 +192,7 @@ El análisis del entorno urbano del predio en el sector sur de Ciudad del Este e
 
 1. **Abastecimiento de agua potable (ESSAP S.A.):** Red colectora pública de la Empresa de Servicios Sanitarios del Paraguay (ESSAP) sobre la calzada principal (Calle Los Lapachos). Diámetro nominal de red $DN = 50\text{ mm}$ (2"), presión estática disponible $P_{red} \approx 1{,}5$–$2{,}0\text{ bar}$ (15–20 m.c.a.). Al tratarse de una torre de 18 pisos (~64 m), la presión municipal es insuficiente para alimentación directa a pisos superiores, exigiendo la construcción de un **reservorio inferior (cisterna)** de $60\text{ m}^3$ en Planta Baja/Subsuelo S1 y un **tanque elevado de azotea** de $30\text{ m}^3$ con equipo de bombeo redundante (**Etapa G.1**).
 2. **Energía eléctrica (ANDE):** Disponibilidad de la red aérea de Media Tensión (MT) en $23\text{ kV}$ (trifásica, $50\text{ Hz}$) de la Administración Nacional de Electricidad (ANDE). La demanda máxima estimada del edificio (~$700$–$900\text{ kVA}$) requiere la instalación de una **Subestación Transformadora Padrón ANDE en cabina blindada** ($1 \times 1.000\text{ kVA}$ o $2 \times 500\text{ kVA}$, $23\text{ kV} / 380\text{-}220\text{ V}$) ubicada en Subsuelo S1, complementada con un **Grupo Electrógeno Diésel de Emergencia** de ~$300\text{ kVA}$ para servicios esenciales (bombas de incendio, ascensores de evacuación/rescate, presurización de escaleras de emergencia e iluminación de evacuación) (**Etapa G.2**).
-3. **Red de alcantarillado sanitario (ESSAP / Municipal / PTAR):** Conexión a la red colectora sanitaria municipal sobre vía pública. En cumplimiento obligatorio de la [Ord. 030/2020 J.M. Art. 5° y 9°](visor_ordenanzas.html?id=2462) (para obras de superficie $\ge 2.000\text{ m}^2$), se incorpora una **Planta de Tratamiento de Efluentes (PTAR)** propia en Subsuelo S3 con Licencia DIA y Plan PGA (MADES) conforme a la Ley 294/93 y Ley 5428/15 (**Etapa G.1 y E**).
+3. **Red de alcantarillado sanitario (ESSAP / Municipal / PTAR):** Conexión a la red colectora sanitaria municipal sobre vía pública. En cumplimiento obligatorio de la [Ord. 030/2020 J.M. Art. 5° y 9°](visor_ordenanzas.html?id=2462) (para obras de superficie $\ge 2.000\text{ m}^2$), se incorpora una **Planta de Tratamiento de Efluentes (PTAR)** propia en Subsuelo S2 con Licencia DIA y Plan PGA (MADES) conforme a la Ley 294/93 y Ley 5428/15 (**Etapa G.1 y E**).
 4. **Evacuación de aguas pluviales (Municipal / Escorrentía):** Descarga por gravedad hacia el sistema de drenaje pluvial sobre Calle Los Lapachos. El dimensionamiento del sistema pluvial interno (bajadas, canaletas y colectores) se rige por la intensidad de precipitación de la curva IDF oficial DMH/DINAC ($i_{10,10} = 128{,}5\text{ mm/h}$) (**Etapas D.1 y G.1**).
 5. **Telecomunicaciones y Fibra Óptica:** Disponibilidad de redes de fibra óptica subterránea y aérea (Copaco, Tigo, Claro, Personal). Acceso al predio mediante triducto de $DN = 110\text{ mm}$ sobre vereda principal conectado al rack central de telecomunicaciones RTV en S1 (**Etapa G.3**).
 
@@ -269,4 +269,5 @@ $$i(t_c, T) = \frac{950{,}0 \cdot T^{0{,}180}}{(t_c + 14{,}0)^{0{,}760}} \quad [
 - A. Martínez, A. Marín, E. Aquino y D. Arévalos, «Study of the maximum wind speeds and meteorological characteristics in Paraguay using the NP-196 standard for a future update», *Proc. CILAMCE-PANACM 2021*, San Pablo, Brasil, 2021.
 - W. Ibarra, D. Arévalos, V. Silva, L. Quintana y O. Martínez-Pavetti, «Dynamic Analysis of a Slender Building Using Two Parallel Spectral Analysis Methods», *NewTech 2024 — ICCEIA 132*, Asunción, Paraguay, 2024.
 - WeatherSpark.com, *Promedio del Tiempo en Ciudad del Este, Paraguay*, Cedar Lake Ventures, Inc., 2026. Disponible en: https://weatherspark.com/y/28524/
+
 
