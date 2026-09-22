@@ -9,23 +9,21 @@
 
 ### Checklist de Tareas
 
-- [x] **Task B1.1:** Definir el cuadro de áreas maestro por uso y nivel (Subsuelos 1-2, PB comercial, P01-P18 residencial, Azotea) integrando la **matriz de compatibilidad estructural avanzada** (variación de pilares por grupo de pisos y vigas de transferencia en PB).
-- [x] **Task B1.2:** Dimensionar y validar los **3 núcleos de circulación vertical de H°A°** (1 por cada una de las 3 torres, de $7,00\text{ m} \times 9,00\text{ m}$ c/u) como **pantallas principales de rigidez eólica** ($70\%-80\%$ del cortante basal $V_0 = 45\text{ m/s}$), aliviando pilares perimetrales.
-- [x] **Task B1.3:** Zonificar recintos de Planta Baja libre de pilares intermediarios mediante vigas de transferencia de gran canto (Lobby residencial, 3 Locales Comerciales totalizando $1.850\text{ m}^2$, Sanitarios adaptados NBR 9050, BMS/Admin, RSU y rampas).
-- [x] **Task B1.4:** Diseñar el esquema de evacuación y medios de escape según norma de protección contra incendios PCI (distancia máxima a antecámara presurizada $\le 28,40\text{ m} \le 30,00\text{ m}$) y cuantificar la dotación de cocheras en subsuelos ($1,5\text{ autos/departamento}$).
+- [x] **Task B1.1:** Definir el cuadro de áreas maestro por uso y nivel (Subsuelos 1-2, PB comercial, P01-P18 residencial en 3 torres, Azotea) y la matriz de programa arquitectónico.
+- [x] **Task B1.2:** Dimensionar y ubicar los **3 núcleos de circulación vertical** (1 por cada una de las 3 torres, de $7,00\text{ m} \times 9,00\text{ m}$ c/u) albergando ascensores, antecámaras presurizadas y escaleras PCI de evacuación.
+- [x] **Task B1.3:** Zonificar recintos de Planta Baja (Lobby residencial de $250\text{ m}^2$, 3 Locales Comerciales totalizando $1.850\text{ m}^2$, Sanitarios adaptados NBR 9050, BMS/Admin, RSU y rampas de acceso).
+- [x] **Task B1.4:** Diseñar el esquema de evacuación y medios de escape según norma de protección contra incendios PCI (distancia máxima a antecámara presurizada $\le 28,40\text{ m} \le 30,00\text{ m}$) y cuantificar la dotación de cocheras en subsuelos ($280\text{ plazas de estacionamiento}$).
 
 ---
 
-### Decisiones Tomadas — Re-planificación Arquitectónico-Estructural Avanzada
+### Decisiones Tomadas — Re-planificación Arquitectónica
 
 | Fecha | Decisión Proyectual | Fundamento Técnico & Normativo |
 |---|---|---|
-| 2026-09-19 | **Compatibilidad Estructural Flexible por Nivel** | `AGENTS.md §6.2 y §7`: Adaptación de la grilla a las necesidades funcionales de cada uso. |
+| 2026-09-19 | **Programa y Superficie por Nivel** | `AGENTS.md §6.1 y §6.2`: Adaptación del programa espacial a las necesidades funcionales de cada uso. |
 | 2026-09-19 | **Configuración Volumétrica en 3 Torres** | Huella $PB = 3.145,00\text{ m}^2$ ($85\text{m} \times 37\text{m}$) sirviendo de zócalo comercial sobre el que emergen 3 torres residenciales independientes. |
-| 2026-09-19 | **Programa de Cocheras en Subsuelos** | Subsuelos $S1$ y $S2$ ($4.922,66\text{ m}^2$ por nivel, total $9.845,32\text{ m}^2$) alojan $\sim 280\text{ plazas de cocheras}$ vs. $187\text{ requeridas}$ normativas (+93 plazas de holgura). |
-| 2026-09-19 | **Transición Escalonada de Pilares** | **S1-PB:** $90 \times 90\text{ cm}$ · **P01-P06:** $80 \times 80\text{ cm}$ · **P07-P12:** $70 \times 70\text{ cm}$ · **P13-P18:** $60 \times 60\text{ cm}$. Optimización de peso propio y economía de hormigón. |
-| 2026-09-19 | **Vigas de Transferencia / Apeo en PB** | Vigas de H°A° de gran canto en cota $+4,00\text{ m}$ para apeo de pilares residenciales de torres y liberación de $1.850\text{ m}^2$ libres comerciales en PB. |
-| 2026-09-19 | **Concentración de Rigidez en 3 Núcleos H°A°** | 3 núcleos estructurales de H°A° ($7,00\text{ m} \times 9,00\text{ m}$ c/u, 1 por cada torre) absorben la mayor parte del cortante basal de viento ($V_0 = 45\text{ m/s}$), desacoplando los pilares perimetrales. |
+| 2026-09-19 | **Programa de Cocheras en Subsuelos** | Subsuelos $S1$ y $S2$ ($4.922,66\text{ m}^2$ por nivel, total $9.845,32\text{ m}^2$) alojan $280\text{ plazas de cocheras}$ vs. $187\text{ requeridas}$ normativas (+93 plazas de holgura). |
+| 2026-09-19 | **Núcleos de Circulación Vertical y Escapes PCI** | 3 núcleos de circulación vertical ($7,00\text{ m} \times 9,00\text{ m}$ c/u, 1 por cada torre) albergan ascensores e independizan los flujos de evacuación PCI. |
 | 2026-09-19 | **Programa Mixto y Lote Mínimo** | [Ord. M. 003/2026 J.M. Art. 3° y 5°](visor_ordenanzas.html?id=3693) ($A_{\text{terreno}} = 7.618,49\text{ m}^2 \ge 3.000\text{ m}^2$, FOS real = 41,28% $\le 70\%$, FOT real = 3,97 $\le 4,00$). |
 | 2026-09-19 | **Evacuación y Medios de Escape (PCI)** | Recorrido máximo a antecámara presurizada $\le 28,40\text{ m} \le 30,00\text{ m}$ ([Ord. 038/1999 J.M.](visor_ordenanzas.html?id=3123)). |
 
@@ -40,7 +38,7 @@
 | `01_WIP/01.01_ARQ/TESIS-ARQ-GEN-DR-002...dxf` | CAD Volumetría Perspectiva Frontal | ✅ Disponible |
 | `01_WIP/01.01_ARQ/TESIS-ARQ-GEN-DR-003...dxf` | CAD Volumetría Perspectiva Lateral Derecho | ✅ Disponible |
 | `01_WIP/01.01_ARQ/TESIS-ARQ-GEN-DR-004...dxf` | CAD Volumetría Perspectiva Lateral Izquierdo | ✅ Disponible |
-| `01_WIP/01.01_ARQ/TESIS-ARQ-GEN-DR-005_Huella_3Torres_3Nucleos_PlantasTipo.dxf` | CAD Huella de 3 Torres y 3 Núcleos de H°A° (Con capas para 3 plantas tipo) | ✅ Creado |
+| `01_WIP/01.01_ARQ/TESIS-ARQ-GEN-DR-005_Huella_3Torres_3Nucleos_PlantasTipo.dxf` | CAD Huella de 3 Torres y 3 Núcleos (Con capas para 3 plantas tipo) | ✅ Creado |
 | `etapas/img/figura_2_1_zonificacion_planta_baja.png` | Figura 2.1: Zonificación de Planta Baja Comercial ($3.145\text{ m}^2$) | ✅ Generado |
 | `etapas/img/figura_2_2_volumetria_perspectiva_frontal.png` | Figura 2.2a: Volumetría Perspectiva Frontal (DXF DR-002) | ✅ Generado |
 | `etapas/img/figura_2_2_volumetria_perspectiva_lateral_derecho.png` | Figura 2.2b: Volumetría Perspectiva Lateral Derecho (DXF DR-003) | ✅ Generado |
@@ -51,22 +49,24 @@
 
 ## 📝 SECCIÓN 2 — BORRADOR ACADÉMICO PARA TESIS
 
-### 1. Cuadro de Áreas Maestro, Desglose por Uso y Compatibilidad Estructural por Nivel
+### 1. Cuadro de Áreas Maestro, Desglose por Uso y Programa Arquitectónico por Nivel
 
 El edificio mixto de 18 pisos y 2 subsuelos se emplaza sobre un terreno de **$7.618,49\text{ m}^2$** en Ciudad del Este (UTM Zona 21J). El anteproyecto contempla una superficie construida total acumulada sobre rasante + bajo rasante con **$9.845,32\text{ m}^2$** bajo rasante en 2 subsuelos de **$4.922,66\text{ m}^2$** cada uno (exentos del cómputo FOT según Art. 226 de la Ley N° 3966/2010 Orgánica Municipal).
 
-#### 1.1 Matriz de Superficies y Transición Estructural por Nivel
+#### 1.1 Matriz de Superficies y Programa Arquitectónico por Nivel
 
-| Nivel / Planta | Cota (m) | Altura Libre (m) | Función Principal / Programa | Área Construida (m²) | Área FOT (m²) | Sección Pilares H°A° | Sistema de Entrepiso & Transición |
-|---|---|---|---|---|---|---|---|
-| **Subsuelo 2 (S2)** | -7.00 | 3.50 | Estacionamiento (140 autos/18 motos) & Depósitos Privados | 4.922,66 | 0,00 *(Exento)* | Pilares $90 \times 90\text{ cm}$ | Losa nervada bidireccional H=45cm con casetones recuperables |
-| **Subsuelo 1 (S1)** | -3.50 | 3.50 | Estacionamiento (140 autos/15 motos), ANDE 1.000kVA, Genset, Cisterna | 4.922,66 | 0,00 *(Exento)* | Pilares $90 \times 90\text{ cm}$ | Losa nervada H=45cm + Ábacos refuerzo punzonamiento |
-| **Planta Baja (PB)** | +0.00 | 4.00 | Lobby Residencial ($250\text{m}^2$), 3 Locales Comerciales ($1.850\text{m}^2$), RSU, BMS, Rampa | 3.145,00 | 3.145,00 | Pilares $90 \times 90\text{ cm}$ (Perímetro) | **Vigas de Transferencia H°A° ($80 \times 120\text{ cm}$)** en cota +4.00m |
-| **Pisos P01 a P06** | +4.00 a +20.75 | 3.00 c/u | 3 Torres Residenciales (6 plantas tipo) | 8.640,00 | 8.640,00 | **Pilares $80 \times 80\text{ cm}$** | Losa nervada bidireccional H=35cm (casetón 25cm + capa 10cm) |
-| **Pisos P07 a P12** | +24.10 a +40.85 | 3.00 c/u | 3 Torres Residenciales (6 plantas tipo) | 8.640,00 | 8.640,00 | **Pilares $70 \times 70\text{ cm}$** | Losa nervada bidireccional H=35cm + Vigas de borde $25 \times 50\text{ cm}$ |
-| **Pisos P13 a P18** | +44.20 a +60.95 | 3.00 c/u | 3 Torres Residenciales (6 plantas tipo) | 8.640,00 | 8.640,00 | **Pilares $60 \times 60\text{ cm}$** | Losa nervada H=35cm + Balcones en voladizo de 1,50 m |
-| **Azotea Técnica** | +64.30 | 3.50 | Amenities (Piscina 8×16m, SUM 150m², Gym) + Salas Máquinas | 1.200,00 | 1.200,00 | Pilares $60 \times 60\text{ cm}$ | Losa maciza de piscina $H=30\text{ cm}$ + Losa nervada H=35cm |
-| **TOTALES** | **-7.00 a +68.15** | **—** | **Edificio Mixto 18P + 2 SUBSUELOS (3 Torres / 280 Cocheras)** | **40.110,32** | **30.265,00** | **Optimización Escalonada** | **Análisis Estructural Complejo Avanzado** |
+| Nivel / Planta | Cota (m) | Altura Libre (m) | Función Principal / Programa | Área Construida (m²) | Área FOT (m²) |
+|---|---|---|---|---|---|
+| **Subsuelo 2 (S2)** | -7.00 | 3.50 | Estacionamiento (140 autos/18 motos) & Depósitos Privados | 4.922,66 | 0,00 *(Exento)* |
+| **Subsuelo 1 (S1)** | -3.50 | 3.50 | Estacionamiento (140 autos/15 motos), ANDE 1.000kVA, Genset, Cisterna | 4.922,66 | 0,00 *(Exento)* |
+| **Planta Baja (PB)** | +0.00 | 4.00 | Lobby Residencial ($250\text{m}^2$), 3 Locales Comerciales ($1.850\text{m}^2$), RSU, BMS, Rampa | 3.145,00 | 3.145,00 |
+| **Pisos P01 a P06** | +4.00 a +20.75 | 3.00 c/u | 3 Torres Residenciales (6 plantas tipo) | 8.640,00 | 8.640,00 |
+| **Pisos P07 a P12** | +24.10 a +40.85 | 3.00 c/u | 3 Torres Residenciales (6 plantas tipo) | 8.640,00 | 8.640,00 |
+| **Pisos P13 a P18** | +44.20 a +60.95 | 3.00 c/u | 3 Torres Residenciales (6 plantas tipo) | 8.640,00 | 8.640,00 |
+| **Azotea Técnica** | +64.30 | 3.50 | Amenities (Piscina 8×16m, SUM 150m², Gym) + Salas Máquinas | 1.200,00 | 1.200,00 |
+| **TOTALES** | **-7.00 a +68.15** | **—** | **Edificio Mixto 18P + 2 SUBSUELOS (3 Torres / 280 Cocheras)** | **40.110,32** | **30.265,00** |
+
+> 📌 **Nota sobre Predimensionado y Transición Estructural:** El análisis estructural detallado, la graduación de secciones de pilares ($90\times 90\text{ cm} \to 60\times 60\text{ cm}$), las vigas de transferencia en cota $+4.00\text{ m}$ y los sistemas de entrepiso nervados se desarrollan y calculan formalmente en la [Etapa D — Estructuras (Sub-etapa D.2)](visor.html?doc=d-2).
 
 ---
 
