@@ -1,19 +1,116 @@
-# Ord.038.022 Se regula Plan Piloto transporte publico urbanos electricos_0001
-
-- **Relevancia:** BAJA
-- **Año (categoría):** 2022
-- **Categoría publicada:** Ordenanzas Junta Municipal 2022
-- **Texto (div mt-4):** ORDENANZA 2022
-- **Enlace oficial:** https://mcde.gov.py/post/ord038022-se-regula-plan-piloto-transporte-publico-urbanos-electricos0001
-- **PDF original local:** `03_PDF_Originales/2022/2736_ord038022-se-regula-plan-piloto-transporte-publico-urbanos-electricos0001.pdf`
-- **Método:** OCR Windows (es) · 7135 car.
-
-> Documento de la Municipalidad de Ciudad del Este. Verificar contra el PDF original.
-
+---
+id_documento: '2736'
+archivo_pdf_original: 2736_ord038022-se-regula-plan-piloto-transporte-publico-urbanos-electricos0001.pdf
+carpeta_anio: '2022'
+ruta_relativa_pdf: 2022/2736_ord038022-se-regula-plan-piloto-transporte-publico-urbanos-electricos0001.pdf
+tamano_pdf_kb: 362
+fecha_procesamiento: '2026-09-22T15:06:01.483Z'
+modelo_ocr: gemma-4-26b-a4b-it
+prompt_version: prompt_ocr_ordenanzas.md
+numero_ordenanza: 038/2022
+tipo_norma: Ordenanza
+anio: '2022'
+fecha_sancion: 22 de diciembre de 2022
+fecha_promulgacion: ''
+fecha_publicacion: ''
+titulo: POR LA CUAL SE REGULA EL PLAN PILOTO DEL SISTEMA DE TRANSPORTE PUBLICO DE ÓMNIBUS URBANOS ELÉCTRICOS DESDE SU PUESTA EN MARCHA HASTA EL TERMINO DEL AÑO 2023 EN EL MUNICIPIO DE CIUDAD DEL ESTE.-.-
+organo_emisor: Junta Municipal de Ciudad del Este
+numero_expediente: Mensaje N° 694 I.M.
+numero_sesion: '69'
+fecha_sesion: 22 de diciembre de 2022
+intendente_firmante: ''
+presidente_junta_firmante: ABG. PEDRO ACUÑA
+secretario_junta_firmante: CLAUDIO RAMÓN DURAÑONA M.
+concejales_firmantes: []
+relaciones_normativas: []
+categorias:
+  - transito_y_transporte
+  - medio_ambiente
+palabras_clave:
+  - transporte público
+  - ómnibus eléctricos
+  - plan piloto
+  - electromovilidad
+ambito_territorial: Ciudad del Este
+monto_o_tarifa_involucrado: ''
+tiene_anexos: false
+anexos_detalle: []
+tiene_tablas: false
+estado_legibilidad: buena
+confianza_transcripcion: alta
+observaciones_ocr: ''
+metadata_extraction: automatica_completa
 ---
 
-PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO 2021 2025 505 ORDENANZA 038'2022 CIUDAD DEL ESTE o POR CUAL SE REGUT.A PLAN SISTEMA TRAJVSPORTE ÕMMTYUS LTRBANOS ELÉCTRICOS PUESTA MARCIIA IZASTA EL TERWINO DEL AÑO 2023 EL MUNICIPIO DE CIUDAD ESTE. Ciudad del Estev 22 lie diciembre de 2022, M Mensaje 604 contiene de "POR .sE REGULA EL PLAN PJT.OTO DF.I. TRANSPORTE PÚBLICO DE F.T,ÉCTRTGOS nF.5nn SU PUESTA ILASTAEL DEL Ajo 2023 DEL ESTE" Y consideración del municipol,y; CONSIDELAIVDO: Que, la 11 1 de suArt. del Copftü,lo IV — III al referirse 0 10 ournnomiü de munfcipfns, menciono que "lus municipalidffdes son los órganos de for.ol can personería .jurfditu que, denlm de sw tompetencia, tienen autonomio administrativo y normativa, ust corno autarquía en in e inversión de sus recursos".- Que, en mismo cuerpo legui. en en los numerales sjgllientes establecen las atribuciones de municipalidades en sa jurisdicción territorial' La administración y disposición de sus biene5.' 3Jvvv4), , ,5), F,] dictodo de nrdenonzas# reglitmentosy resoluciones; O, , , Lu reqlamerzloción y 10 fisco!jzoción de tránsito, del transporte y ro de nfru.s müterias relatñras circulación de Que, e! Articulo mtmeral , de Jo Tey Orgánico MLInieÍpt1LT, dispone Sin perjuicio de fo expresado el párrafn anterior y de conformidad o los posiüi('idodes presupuestarias. municipalidades, pn ei ámbito de su terrilvrio, andrón los siguientes funcimes: En rmteriu de frunsportenúblico y de tránsito." prestación, reguioej'iny j'iscofizoción dei servicio de fronsporte público de pusqleros y de cargos; b) jo regLaacÍÓn y fiscalización del IrÚfiSi10 en r.üiles, avenidas y l}ernús munir.ipofes, incluyendo "o relatf&'u a seguriciúdy lu cicufoc.iôn de vehiccaos y de y Jos requisitos de cundueir pava mayores de edad, En (os de rutas nucionafes internacionoies que litrwiesen un munir.ipir,', est.gs ocultodes serán ejercidas por lu autoridad estohjecjda pwa el eleno por el Centro]"- Que, igualmente ei Arl, 15 de Ley 395&i0 Orgánico Municipol mencioncrr Ius pote<tafpffae municipofidede.s expreso que: Éne etanloemjdod ú' legislación vigenl% las o) Dictar y poner en ordenanzas, reglamentasy resoluciones I', Que eJArr, 51 de 111 referidil ley municipol of hgcer las utribuciones def Intendente en su lit. 'ie)AIrniaisCf'0ii' Jos hienes mtmieÍptiles y Qetfudar e invertir ingresos kJ municipalidad, de ü'vuerdo con presupuesto", Que, se requiere de un plan piloto ser puesto en marcho desde fecho cie operalividad d? e nnibus urbanoS hasta ei término del 2023, manera comprohor ilidad y sustentohÍiidQd de lus ómnibus elér.trirns nrienttil}os desarmlo de 10 movilidad éclri en municipio de CÃudad Esa o j" de determinar impudo de la electromovijidüd en y el ofconce de los mismos. Ei dictamen cle IÚ Comisión de Legislación y de Público y Tránsito, aprobado en Ordinaria de lecho 22 de diciembre de! 2022, Según Aero N" 69; por tanto." JUNTA DE CIUDAD DEL ESTE CONCEJO ORDENA TRANSPORTE PÚBLICO DE PASAJEROS Articulo r.- DE LOS CONCEPTOS.- Semieio de fransporte de Pasajeros: Se entiende por sen:icin de transporle de pasajems un servicio público cuando por e! se uncr tcrrÍfu„ de rrunsporte
+# ORDENANZA N° 038/2022 J.M. — POR LA CUAL SE REGULA EL PLAN PILOTO DEL SISTEMA DE TRANSPORTE PUBLICO DE ÓMNIBUS URBANOS ELÉCTRICOS DESDE SU PUESTA EN MARCHA HASTA EL TERMINO DEL AÑO 2023 EN EL MUNICIPIO DE CIUDAD DEL ESTE.-.-
 
-PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO 2021 - 2025 del E" y 595 8 1 548440 CIUDAD DEL ESTE CORRESPONTEA r.A ORDENANZA público de pasajews podrí ser prestado por personcrs• o jurídica* sean estus públicas o primdG5. (Art. 20 - Ley i530i00J.-. Servicio de Transporte Público de Pasajeros: Se entiende pnr servicio de público de pusojeras aquel es remij?.odo en Linidades qLte permitan el de personas y que cuenten con la hahflimción correspondiente, cohmndo por el mismo una tarifo. (Art. 3" - Ley Servicio de fransporte Público Municipal de Pasajeros: Se entiende por' de transporte público municipal de pasajeros aquel que se reofizo dentro d" limite territorial de municipio y bajo (o del mismo, 40- Ley 1590,1703.- V@hicufos Elécfficos: Snn nqL1ellos que están impulsados por un motor alimentado por una fuente de energía eléctrica que, posteriormente. se en energía cjnéúc•.a,- OBJETIVOS, COMPETENCIA* ÁMBITO YAI.CANCE Articulo OBJETIVO.- 1.11 presente ordenanza liene torno objeto establec.er e' morco normo,Tii.o que regulo el sistema, ei fincioncrnliena.l, ei control y los itinerarios de 105 Ómnibus I?éetricos en ej Municipio de Esle, además de eslubie.ce.r codo del poso}eror ja urijimció.'l del servicio de las mismos y eI deslino y disvÍbucj6n de los rer.ücrdur.joneç en dicha concepcr3 - mismo se busca ptiliCfr de ómnibus horarios nocturnos y por ende hrjndar soluciones inmediatas lu hocen uso de los medias de rvanspartes públicos paro su desplazcrmiento, además de coruribuir u 10 sostenjhifidúd mnhientoi y aj ühprro en la compra de derivud05 del petróleo,- Artículo 30.- DE LA CO,WPETENCIA,- Autorizar a fo Jniendencln Municipal o la organización administmdi'r•ti vinculada a! franspora. púhjfr:n elêcmensy establecer normas de políticos públicas poro ef aso de esle Sisl medio de transporte de energía limpia en eonsideraeión a 10 importonciü dej arigen hidroeléctrico corno unu opción de cambio de energético,- DEL ÁMBITO DE APLICACIÓN Y S U ALCANCE,- r.ü,q disposiciane5 prvfs•llls ea es¿a !eâdrúrt un oJr.i7üi.-e general en el sentido de icable5 a todas personas que hagan uso servicio dej transporte público eléctrico en el de C,iudod det FsÍe, teniendo en cuento excepciones previstas en la ley en cuanlo ro refiere.. A DE LOS ORGANOS ENCARGADOS LA ADMINISTRACIÓN a Intendencia Manicfpal. Irnvés de Dirección de Área (Irbann, Dirección de to, Dirección de Recaudaciones (Administración de Terminol de Ómnibus de Ciudad del Este) y la Oirección de Adminisff'ütióny Finanzas, dúrán estricto cumplimiento u la presente urdenanzo en cuonto oi control, firnciortGmienro, si5temo, recaudación, plariijíc.oe,ión y seaof,i'/.oción.- 7 Lü Intendencia Mwzicipol designoró u ins funcionm•ios que estarán cargo de la administrüvión _v juncionortjiertto de JO' Tronspwtes Públicos de Ómnibu: Elénricus, de/ respectivo.- Artículo e.- CREACIÓN A de operotieizor ei servicio de ómnibus eléctricus en ei marco un progrema de modernizacinn y de políti"üs- Zidmjnistr«tivcrs del lnwsporie público, se deberá eregy un Crun«elo de VISIO"! Páginu 2 de 3
+## VISTOS
+El Mensaje N° 694 I.M. que contiene el proyecto de Ordenanza "POR LA CUAL SE REGULA EL PLAN PILOTO DEL SISTEMA DE TRANSPORTE PÚBLICO DE ÓMNIBUS URBANOS ELÉCTRICOS DESDE SU PUESTA EN MARCHA HASTA EL TÉRMINO DEL AÑO 2023 EN EL MUNICIPIO DE CIUDAD DEL ESTE" para estudio y consideración del legislativo municipal, y;
 
-PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO 2021 - Av. del E"' y 595 CIUDAD DEL ESTE CORRESPONTE ORDENANZA 038/2022 .LM. Irunsporle Público, cuyo [uneionumiento será reglamenttldo el Municipal.- DEL PRECIO DEL PASAJE Artícu[0 DEL SERVICIO DE TRANSPORTE PÚBLICO DE PASAJEROS DE ÓMNIBUS ELÉCTRICOS.- EI rnvn10 d?! pasaje por ei servicio de transpone público d? pasajeras de Ómnibus EJée.ieicos -será equiporodo c.ott e} de/ pasaje es!obieejdo poro empresas de Transportes Públicos Tfrhonns de r.iudüd del Este, F.i' monto del posoje pndró sufrir voriuciones ü serpuesto a consfderoción y estudio dei Legislativo Municipal pura el efecto.- DISPOSICIONES FINALES Artículo g 0.— AUTORIZAR* 0 re.glornenlor por' e! y mod0iijdades dej porque de def Transpone Púbjir.n de Posojeros Menjçipg4, COMUNICAR* o ienes correspondo y cumplido orchivur.• 10 M. See torio General o ACUÑA esid te,I.M. Pógino 3 de 3
+## CONSIDERANDO
+Que, la Parte II del Título 1 de la Constitución Nacional en su Art. 166 del Capítulo IV - Sección 111 al referirse a la autonomía de los municipios, menciona que "las municipalidades son los órganos de gobierno local con personería jurídica que, dentro de su competencia, tienen autonomía política, administrativa y normativa, así como autarquía en la recaudación e inversión de sus recursos".
+
+Que, en el mismo cuerpo legal, en su Art, 168, en los numerales siguientes establecen las atribuciones de las municipalidades en su jurisdicción territorial: "1)...2). La administración y la disposición de sus bienes; 3)...4)...5)...6). El dictado de ordenanzas, reglamentos y resoluciones; 7)... 8). La reglamentación y la fiscalización de tránsito, del transporte público y la de otras materias relativas a la circulación de vehículos".-
+
+Que, el Artículo 12, numeral "3", literal "a" de la Ley Orgánica Municipal, dispone "Funciones.... Sin perjuicio de lo expresado en el párrafo anterior y de conformidad a las posibilidades presupuestarias, las municipalidades, en el ámbito de su territorio, tendrán las siguientes funciones: 3. En materia de transporte público y de tránsito: a) la prestación, regulación y fiscalización del servicio de transporte público de pasajeros y de cargas; b) la regulación y fiscalización del tránsito en calles, avenidas y demás caminos municipales, incluyendo lo relativo a la seguridad y la circulación de vehículos y de peatones, y los requisitos de conducir para mayores de edad. En los tramos de rutas nacionales e internacionales que atraviesen un municipio, estas facultades serán ejercidas por la autoridad establecida para el efecto por el Gobierno Central".-
+
+Que, igualmente el Art. 15 de la Ley 3966/10 Orgánica Municipal al mencionar las potestades de las municipalidades expresa que: "De conformidad a la legislación vigente, las municipalidades podrán: a) Dictar y poner en vigencia ordenanzas, reglamentos y resoluciones".-
+
+Que, el Art. 51 de la referida ley municipal al hacer alusión a las atribuciones del Intendente Municipal, expresa en su lit. "e) Administrar los bienes municipales y recaudar e invertir los ingresos de la municipalidad, de acuerdo con el presupuesto".-
+
+Que, se requiere de un plan piloto a ser puesto en marcha desde la fecha de operatividad de los ómnibus urbanos eléctricos hasta el término del año 2023, de manera a comprobar la sostenibilidad y sustentabilidad de los ómnibus eléctricos orientados al desarrollo de la movilidad eléctrica en el municipio de Ciudad del Este a fin de determinar el impacto de la electromovilidad en la ciudad y el alcance de los mismos.-
+
+El dictamen de la Comisión de Legislación y de Transporte Público y Tránsito, aprobado en Sesión Ordinaria de fecha 22 de diciembre del año 2022, Según Acta N° 69; por tanto:
+
+## LA JUNTA MUNICIPAL DE CIUDAD DEL ESTE REUNIDA EN CONCEJO ORDENA
+
+### TRANSPORTE PÚBLICO DE PASAJEROS
+
+### Artículo 1º.- DE LOS CONCEPTOS.-
+**Servicio de Transporte de Pasajeros:** Se entiende por servicio de transporte de pasajeros como un servicio público cuando por el mismo se perciba una tarifa. El servicio de transporte público de pasajeros podrá ser prestado por personas físicas o jurídicas, sean éstas públicas o privadas. (Art. 2º - Ley 1590/00).-
+
+**Servicio de Transporte Público de Pasajeros:** Se entiende por servicio de transporte público de pasajeros aquel que es realizado en unidades que permitan el traslado de personas y que cuenten con la habilitación correspondiente, cobrando por el mismo una tarifa. (Art. 3º - Ley 1590/00).-
+
+**Servicio de Transporte Público Municipal de Pasajeros:** Se entiende por servicio de transporte público municipal de pasajeros aquel que se realiza dentro del límite territorial de un municipio y bajo la competencia del mismo. (Art. 4º - Ley 1590/00).-
+
+**Vehículos Eléctricos:** Son aquellos que están impulsados por un motor alimentado por una fuente de energía eléctrica que, posteriormente, se transforma en energía cinética.-
+
+### OBJETIVOS, COMPETENCIA, ÁMBITO DE APLICACIÓN Y ALCANCE
+
+### Artículo 2º.- OBJETIVO.-
+La presente ordenanza tiene como objeto establecer el marco normativo que regula el sistema, el funcionamiento, el control y los itinerarios de los Ómnibus Eléctricos en el Municipio de Ciudad del Este, además de establecer el costo del pasaje por la utilización del servicio de los mismos y el destino y distribución de las recaudaciones en dicho concepto.-
+
+Así mismo se busca paliar la falta de ómnibus en horarios nocturnos y por ende brindar soluciones inmediatas a la ciudadanía que hacen uso de los medios de transportes públicos para su desplazamiento, además de contribuir a la sostenibilidad ambiental y al ahorro en la compra de derivados del petróleo.-
+
+### Artículo 3º.- DE LA COMPETENCIA.-
+Autorizar a la Intendencia Municipal a regular la organización administrativa pública vinculada al transporte público eléctrico, y establecer normas de políticas públicas para el uso de este sistema como medio de transporte de energía limpia en consideración a la importancia del uso de la energía de origen hidroeléctrico como una opción de cambio de la matriz energética.-
+
+### Artículo 4º.- DEL ÁMBITO DE APLICACIÓN Y SU ALCANCE.-
+Las disposiciones previstas en esta ordenanza tendrán un alcance general en el sentido de ser aplicables a todas las personas que hagan uso del servicio del transporte público eléctrico en el Municipio de Ciudad del Este, teniendo en cuenta las excepciones previstas en la ley en cuanto a la contraprestación refiere.-
+
+### Artículo 5º.- DE LOS ORGANOS ENCARGADOS DE LA ADMINISTRACIÓN Y CONTROL.-
+La Intendencia Municipal, a través de la Dirección de Área Urbana, Dirección de Tránsito, Dirección de Recaudaciones (Administración de la Terminal de Ómnibus de Ciudad del Este) y la Dirección de Administración y Finanzas, darán estricto cumplimiento a la presente ordenanza en cuanto al control, funcionamiento, sistema, recaudación, planificación y señalización.-
+
+La Intendencia Municipal designará a los funcionarios que estarán a cargo de la administración y funcionamiento de los Transportes Públicos de Ómnibus Eléctricos, a través del nombramiento administrativo respectivo.-
+
+### Artículo 6º.- DE LA CREACIÓN DEL CONSEJO.-
+A fin de operativizar el servicio de los ómnibus eléctricos en el marco de un programa de modernización y de políticas administrativas del transporte público, se deberá crear un Consejo de Transporte Público, cuyo funcionamiento será reglamentado por el Ejecutivo Municipal.-
+
+### DEL PRECIO DEL PASAJE
+
+### Artículo 7º.- DEL SERVICIO DE TRANSPORTE PÚBLICO DE PASAJEROS DE ÓMNIBUS ELÉCTRICOS.-
+El monto del pasaje por el servicio de transporte público de pasajeros de Ómnibus Eléctricos será equiparado con el monto del pasaje establecido para las empresas de Transportes Públicos Urbanos de Ciudad del Este. El monto del pasaje podrá sufrir variaciones a ser puesto a consideración y estudio del Legislativo Municipal para el efecto.-
+
+### DISPOSICIONES FINALES
+
+### Artículo 8º.- AUTORIZAR, al Ejecutivo Municipal a reglamentar por resolución el funcionamiento y modalidades del parque de automotor del Transporte Público de Pasajeros Municipal.-
+
+### Artículo 9º.- COMUNICAR, a quienes corresponda y cumplido archivar.-
+
+## Firmas
+- CLAUDIO RAMÓN DURAÑONA M. - Secretario General J.M.
+- ABG. PEDRO ACUÑA - Presidente J.M.
+
+---
+**MISIÓN:** Contribuir en el desarrollo económico, social, y cultural, mediante el uso óptimo de los recursos, como polo de desarrollo, en concertación con la sociedad y el medio ambiente.
+**VISIÓN:** Ser una ciudad autónoma y vanguardista, líder en el desarrollo nacional e internacional, resguardando las raíces culturales y su identidad.

@@ -1,275 +1,246 @@
-# Ordenanza.040.020 Que actualiza y se amplia la reglamentación de la tenencia de animales domésticos
-
-- **Relevancia:** BAJA
-- **Año (categoría):** 2020
-- **Categoría publicada:** Ordenanzas Junta Municipal 2020
-- **Texto (div mt-4):** ORDENANZAS JUNTA MUNICIPAL AÑO 2020
-- **Enlace oficial:** https://mcde.gov.py/post/ordenanza040020-que-actualiza-y-se-amplia-la-reglamentacion-de-la-tenencia-de-animales-domesticos
-- **PDF original local:** `03_PDF_Originales/2020/2452_ordenanza040020-que-actualiza-y-se-amplia-la-reglamentacion-de-la-tenencia-de-animales-dom.pdf`
-- **Método:** Texto del PDF (PyMuPDF) · 15919 car.
-
-> Documento de la Municipalidad de Ciudad del Este. Verificar contra el PDF original.
-
+---
+id_documento: '2452'
+archivo_pdf_original: 2452_ordenanza040020-que-actualiza-y-se-amplia-la-reglamentacion-de-la-tenencia-de-animales-dom.pdf
+carpeta_anio: '2020'
+ruta_relativa_pdf: 2020/2452_ordenanza040020-que-actualiza-y-se-amplia-la-reglamentacion-de-la-tenencia-de-animales-dom.pdf
+tamano_pdf_kb: 483
+fecha_procesamiento: '2026-09-22T22:06:09.469Z'
+modelo_ocr: gemini-2.5-flash
+prompt_version: prompt_ocr_ordenanzas.md
+numero_ordenanza: '040'
+tipo_norma: Ordenanza
+anio: '2020'
+fecha_sancion: 21-12-2020
+fecha_promulgacion: null
+fecha_publicacion: null
+titulo: POR LA CUAL SE ACTUALIZA Y SE AMPLIA LA REGLAMENTACIÓN DE LA TENENCIA DE ANIMALES DOMESTICO CANINO Y FELINO EN EL MUNICIPIO DE CIUDAD DEL ESTE Y SE DEROGA LA ORDENANZA N° 16/2001 J.M.
+organo_emisor: Junta Municipal de Ciudad del Este
+numero_expediente: null
+numero_sesion: '332'
+fecha_sesion: 21-12-2020
+intendente_firmante: null
+presidente_junta_firmante: NERE REINALDO CHAVEZ
+secretario_junta_firmante: CLAUDIO RAMÓN DURAÑONA M.
+concejales_firmantes: []
+relaciones_normativas:
+  - tipo: deroga
+    norma: Ordenanza N° 16/2001 J.M.
+categorias:
+  - animales_y_tenencia
+  - salud_publica
+  - medio_ambiente
+palabras_clave:
+  - animales domésticos
+  - canino
+  - felino
+  - mascotas
+  - tenencia responsable
+  - maltrato animal
+  - bienestar animal
+  - zoonosis
+  - infracciones
+  - sanciones
+  - jornales mínimos
+ambito_territorial: Ciudad del Este
+monto_o_tarifa_involucrado: Multas en jornales mínimos vigentes
+tiene_anexos: false
+anexos_detalle: []
+tiene_tablas: false
+estado_legibilidad: buena
+confianza_transcripcion: alta
+observaciones_ocr: ''
+metadata_extraction: automatica_completa
 ---
 
-Junta Municipal de 
-Ciudad del Este  
-ORDENANZA N° 040/2020 J.M.  
-POR LA CUAL SE ACTUALIZA Y SE AMPLÍA LA REGLAMENTACIÓN DE LA TENENCIA DE 
-ANIMALES DOMESTICO CANINO Y FELINO EN EL MUNICIPIO DE CIUDAD DEL ESTE Y SE 
-DEROGA LA ORDENANZA N°16/2001 
-VISTO: El Mensaje N° 348/I.M, de fecha 27 de noviembre de 2.020, por la que el Ejecutivo Municipal 
-eleva el proyecto elaborado por la Dirección de Gestión Ambiental-Departamento Técnico "POR LA CUAL SE 
-ACTUALIZA Y SE AMPLIA LA REGLAMENTACIÓN DE LA TENENCIA DE ANIMALES DOMESTICO 
-CANINO Y FELINO EN EL MUNICIPIO DE CIUDAD DEL ESTE Y SE DEROGA LA ORDENANZA N' 
-16/20011M, para su estudio consideración del organismo legislativo municipal, y; 
-CONSIDERANDO; Que, se hace necesario reordenar y actualizar la ordenanza existente y 
-proceder a la adecuación de la Ley 4840/13 de Protección y Bienestar animal y la Ley 3966/10 
-Orgánica Municipal, a fin de adecuar a la legislación municipal, para la tenencia responsable, la 
-protección y prevención de enfermedades zoonóticas.- 
-Considerando que, es de valor incuestionable el aporte de los animales domésticos en el 
-desarrollo de la sociedad humana.- 
-Que, está reconocido mundialmente la convivencia del hombre con los animales, los mismos 
-han ayudado, como, animales de compañía, guía para invidentes, discapacitados y con capacidades 
-diferentes (lazarillos), en el cuidado de otros animales (pastores) y también como instrumento de 
-apoyo a policías en la lucha contra de las drogas, detección de explosivos, rescates de personas, 
-seguridad pública (guardianes).- 
-Que, se debe instalar una cultura de respeto a la protección y bienestar de los animales, en  
-cony  ncia armoniosa con el interés de la ciudadanía.- 
-Que, la Junta Municipal tiene facultad constitucional, jurídica, administrativa y legal para 
-difar normas referentes a la creación de ordenanzas que regulen las conductas de personas  
-see.  as de animales domésticos caninos y felinos, las condiciones de tenencia y protección de los 
-- SMOS.- 
-El dictamen favorabk de las comisiones asesoras permanente de Legislación, de Salud, 
-1Higiene y Salubridad, aprobado en Sesión Ordinaria de fecha 21 de diciembre del año 2020, Según 
-Acta N° 332. Por tanto: 
-Al 	
-LA JUNTA MUNICIPAL DE CIUDAD DEL ESTE 
-_REUNIDA EN coNCE.J0 
-ORDENA 
-lo 1°- La presente Ordenanza tiene por objeto fijar la normativa administrativa 
-relación con la tenencia de animales doméstico en general o privadas general, para 
-a protección, implementación de actividades para el control y regulación de la población, 
-o también para hacerla compatible con la higiene, salud pública y la seguridad ambiental de 
-la ciudadanía.- 
-Artículo 2°.- La Intendencia Municipal, a través de la Dirección de Gestión Ambiental bajo la 
-División de bienestar animal, reglamentara las fases operativas de la presente Ordenanza. A los 
-ctos de su implementación.- 
-La Intendencia Municipal podrá firmar convenios y acuerdos con Instituciones oficiales o 
-privadas.- 
-CAPITULO I 
-Artículo 3°- Los propietarios de los animales domésticos están obligados a tener el carnet de 
-vacunación, suministrada por profesionales o Entidades habilitadas.- 
-Artículo 4°- Definiciones. Se entenderá, a los efectos de la presente Ordenanza.- 
-a- Animales domésticos: En los términos de la presente Ordenanza se define como animal 
-doméstico a aquellos seres vivos que han atravesado un proceso de domesticación y son utilizados 
-ap to . 
- 
+# ORDENANZA N° 040/2020 J.M. — POR LA CUAL SE ACTUALIZA Y SE AMPLIA LA REGLAMENTACIÓN DE LA TENENCIA DE ANIMALES DOMESTICO CANINO Y FELINO EN EL MUNICIPIO DE CIUDAD DEL ESTE Y SE DEROGA LA ORDENANZA N™ 16/2001 J.M.-
 
-Junta Municipal de 
-Ciudad del Este 
-CORRESPONDE A LA ORDENANZA N°040/2020  
-para proveer compañía y protección al ser humano, llamados como mascotas, principalmente a los 
-caninas y felinos) perro y gatos). Se exceptúa los animales' domésticos considerados de producción para 
-sacrificio y alimentación, tracción a sangre y otros establecidos en la Ordenanza 31/92 Tenencia de animales.- 
-b- Propietario de animal doméstico: Es la persona Alca o jurídica quien lo tiene adquirido por 
-instrumento traslativo de dominio de carácter notarial y al poseedor o tenedor, al que lo tiene por el simple 
-hecho de no tenerlo consigo y quererlo para sL- 
-c- Animal silvestre en cautiverio: Aquellos que se encontraban libres en su ámbito natural, ya sea en 
-ecosistema protegido o no, y por su condición fueron objeto de captura en su medio natural manteniéndose en 
-un grado absoluto, permanente o relativo, de dominio físico por personas naturales o jurídicas.- 
-d- Eutanasia: La muerte de un animal realizada por un método que produce una rápida inconciencia y 
-una muerta subsecuente, sin evidencia de dolor o molestia, como la producida por la anestesia u otro agente 
-que, sin dolor, causa la perdida de la conciencia y la muerte subsecuente.- 
-e- Zoofilia: Es la práctica sexual de humanos con animales.- 
-f- Zoocidio: Sacrificio o muerte de un animal que no esté legalmente autorizado o no tenga otra 
-justificación legal.- 
-Biocklio: todo acto que implique lo muerte de un gran número de animales sin causa legalmente 
-da; ya sea por una acción directa o por la contaminación y la destrucción del ambiente natural donde 
-h- Sacrifico animal: Es la muerte o sacrificio de un animal que tiene otras justificaciones legales y 
-ed 	
-r practicada.- 
-CAPITULO H 
-DE LAS RESPONSABILIDADES DE LOS DUEÑOS O TENEDORES: 
-Artículo 5°.- Los propietarios deberán suministrar los siguientes datos relacionados: 
-a- Al propietario: nombre del responsable del animal, dirección completa, Barrio y número de 
-justi 
-viv  
-el animal: nombre del animal, raza, edad sexo, color.- 
-ulo 6°- Son deberes del propietario del animal: 
-antener al animal en buenas condiciones de locativas en 
-seo e higiene.- 
-Suministrar bebida y alimento en cantidad y calidad suficiente.- 
-c- Velar por su salud y bienestar.- 
-d- Suministrar abrigo apropiado contra lo intemperie.- 
-e- Dar un trato gfable y amigable.- 
-cuanto a movilidad, luminosidad, 
-Artículo 71,- Queda prohibido el abandono de perros y gatos en cualquier área pública o privada.- 
-Artículo 8°.- Se considerará animal abandonado aquel que no tenga dueño ni domicilio conocido. Los 
-perros y gatos abandonados o callejeros no podrán ser sacrificados bajo ninguna circunstancia, excepto que 
-sea para poner fin a intensos sufrimientos producidos por lesión o herida corporal grave o incurable o 
-cualquier otra causa fisica irreversible capaz de producir sufrimiento innecesario debidamente avalado por 
-profesional médico veterinario con registro.- 
-Artículo 9°.- El propietario es responsable de sus animales domésticos enfermos o sospechosos de 
-alguna zoonosis, deberán someterlos en observación, aislamiento y cuidados en forma de que determine el 
-profesional veterinario.- 
-Artículo 10".- El propietario deberá permitir el acceso de los funcionarios municipales dependientes de 
-la división de bienestar animal cuando esté en ejercicio de sus funciones, a las dependencias del alojamiento 
-del animal para inspecciones de rutina o ante denuncias de vecinos. La negativa del propietario obligara a la 
-Municipalidad a solicitar un recurso de amparo ante un juez competente.- 
-CAPITULO Hl 
-NORMAS DE CONVIVENCIA HIGIENICO SANITARIA 
-Artículo 11°- La tenencia de mascotas en vivienda urbana o albergues, deberán contar con 
-alo amiento adecuado  sue  no atente contra la  hi  lene del mismo ni cause molestias a los vecinos.- 
+## VISTO
+El Mensaje N° 348/J.M., de fecha 27 de noviembre de 2.020, por la que el Ejecutivo Municipal eleva el proyecto elaborado por la Dirección de Gestión Ambiental-Departamento Técnico "POR LA CUAL SE ACTUALIZA Y SE AMPLÍA LA REGLAMENTACIÓN DE LA TENENCIA DE ANIMALES DOMESTICO CANINO Y FELINO EN EL MUNICIPIO DE CIUDAD DEL ESTE Y SE DEROGA LA ORDENANZA N 16/2001 J.M., para su estudio consideración del organismo legislativo municipal, y;
 
-Junta Municipal de 
-Ciudad del Este  
-CORRESPONDE A LA ORDENANZA N°040/2020  .LM.  
-a- Los propietarios que tengan algún animal doméstico en su vivienda está obligado a tener su 
-propiedad con cercado perimetral, a fin de evitar que salga el animal a la vía pública.- 
-b- Queda prohibida la cría y venta de animales domésticos en viviendas particulares, que no cuenten 
-con la autorización por los entes correspondientes Nacionales y la Institución Municipal.- 
-Artículo 12°.- Queda prohibida la circulación por la vía pública de aquellas mascotas que no vayan 
-provistos de collar y conducidos mediante cadena resistente y la aplicación de un bozal cuando el animal así lo 
-requiera. Además es de carácter obligatorio la recolección de los desechos orgánico e inorgánico dejados en la 
-vía pública.- 
-Artículo 13°.- El transporte de animales domésticos se empleará en vehículos que los protejan de las 
-condiciones climáticas adversas y será mediante cajas transportadoras o jaulas con la debida ventilación. 
-Además se debe efectuar en firma de que no perturbe la acción del conductor ni comprometa la seguridad del 
-tráfico.- 
-Artículo 14°.- Sobre los albergues, los mismos no deberán recoger más animales de lo que su 
-capacidad lo permita, los que recogieran deberán ser mantenidas en las condiciones higiénicas sanitarias 
-establecidas.- 
-Además, deberá contar con: 
-Plano aprobado.- 
-Sistema de tratamiento de efluentes líquidos.- 
-Sistema de disposición final de sólidos.- 
-egistro de la nomenclatura del albergue.- 
-CAPITULO IV 
-PROTECCION DEL ANIMAL 
-Artículo 15°.- Queda prohibido según esta ordenanza.- 
-15.1 Causar su muerte, excepto en los casos de enfermedades terminales. En todo caso el sacrificio 
-será realizado automáticamente, sin sufrimiento, por facultativo competente.- 
-112 Abandonarlo en viviendas cerradas o desalquiladas, en la vía pública, solares, jardines.- 
-15.3 Golpearlos, infringirles cualquier daño injustificable o cometer actos de crueldad contra los 
-4 Llevarlos atados en vehículo en marcha.- 
-Dejarlos atados en el sol, situarlos en la intemperie.- 
-Organizar peleas de caninos.- 
-Incitar a los animales a cometerse unos a otros o a lanzarse contra personas o vehículos de 
-junicitagMe clase, excepto los perros que por su adiestramiento específico, ejerzan funciones de instituciones 
-autor.': das al efecto.- 
-15.8 Mantenerlos en instalaciones con inadecuadas condiciones higiénico/Sanitaria.- 
-15.9 Practicarle cualquier procedimiento quirúrgico como castración, extirpación, sin previa 
-aplicación de anestesia, quedan exentos procedimientos que no sean invasivos y no requieran de la anestesia, 
-siempre y cuando este bajo asesoramiento de un profesional capacitado.- 
-15.10 Privar al animal domestico de luz, alimento, movimiento y espacio suficiente, higiene, cobijo 
-necesario para su normal desarrollo.- 
-15.11 Venderlos o donarlos a menores de 18 años, sin la autorización de quienes tengan su patria 
-potestad o custodia o a personas que no estén en condiciones psíquicas ofisicas de cuidarles.- 
-15.12 Utilización de animales ..en espe,ctikulo, fiestas populares yo/ras „actividades que impliquen 
-crueldad o maltrato, que puedan ocasionarlos la muerte, sufrimiento o hacerlos objeto de tratamiento 
-antinaturales o indignos.- 
-15.13 Practica de zoofilia en todas sus formas. 
-15.14 cometer zoocictio o biocidio. 
-15.15 Hacerle trabajar excesivamente, provocar innecesarios castigos o sanciones dolorosas. 
-15.16 Estimular al animal domestico con drogas sin perseguir fines terapéuticos.- 
-15.17 Vender animales domésticos en la vía pública o en establecimiento no autorizados para ellos.- 
-15.18 Herir o lesionar a un animal domestico, con golpes, quemadura, cortada, punzada o arma de 
-.fuego, causándole un daño grave o la muerte innecesaria.- 
-15.19 Mutilar o alterar cualquier miembro órgano o apéndice de un animal vivo, sin que medie razón 
-técnica o científica.- 
-15.20 Abandonar sustancias venenosas o perjudiciales en lugares accesibles a animales domésticos.- 
-15.21 Sepultar vivo a un animal domestico. - 
-• 
+## CONSIDERANDO
+Que, se hace necesario reordenar y actualizar la ordenanza existente y proceder a la adecuación de la Ley 4840/13 de Protección y Bienestar animal y la Ley 3966/10 Orgánica Municipal, a fin de adecuar a la legislación municipal, para la tenencia responsable, la protección y prevención de enfermedades zoonóticas.-
+Considerando que, es de valor incuestionable el aporte de los animales domésticos en el desarrollo de la sociedad humana.-
+Que, está reconocido mundialmente la convivencia del hombre con los animales, los mismos han ayudado, como, animales de compañía, guía para invidentes, discapacitados y con capacidades diferentes (lazarillos), en el cuidado de otros animales (pastores) y también como instrumento de apoyo a policias en la lucha contra de las drogas, detección de explosivos, rescates de personas, seguridad pública (guardianes).-
+Que, se debe instalar una cultura de respeto a la protección y bienestar de los animales, en convivencia armoniosa con el interés de la ciudadanía.-
+Que, la Junta Municipal tiene facultad constitucional, juridica, administrativa y legal para distar normas referentes a la creación de ordenanzas que regulen las conductas de personas poseedoras de animales domésticos caninos y felinos, las condiciones de tenencia y protección de los mismos.-
+El dictamen favorable de las comisiones asesoras permanente de Legislación, de Salud, Higiene y Salubridad, aprobado en Sesión Ordinaria de fecha 21 de diciembre del año 2020, Según Acta Nº 332. Por tanto:
 
-Junta Municipal de 
-Ciudad del Este  
-CORRESPONDE A LA ORDENANZA N°040/2020 J.M.  
-15.22  Cot  finar a uno o más animales domésticos en lugares locales o espacios físicos que le puedan 
-producir asfixia.- 
-15.23 Ahogar a un animal domestico, 
-15.24 Causarle la muerte a animales domestico grávidos.- 
-15.25 Lastimar o arrollar intencionalmente a un animal doméstico, o matarlo por perversidad.- 
-Artículo 16°.- Quienes infligieran daños graves o cometieron actos de crueldad y malos tratos contra 
-animales domésticos de propiedad ajena, serán sancionados. Sin perjuicio de la responsabilidad que proceda 
-para el dueño.- 
-Artículo 17°.- Queda prohibido el abandono de animales muertos, el propietario deberá hacerse cargo 
-de la disposición final del cadáver.- 
-CAPITULO V 
-INFRACCIONES Y SANCIONES 
-A4kjao4 ir.- Las infracciones .de .las .disposiciones de esta ordenanza serán sancionadas .conforme a 
-la Ley Orgánica Municipal 3966/10, previa instrucción de sumario con debido proceso, la multa será 
-establecida en la siguiente escala.- 
-1- Serán de infracciones leves.- 
-a- No disponer de las fichas clínicas de los animales.- 
-b- Exponer al animal en la vía pública sin cadena, collar, bozal.- 
-c- Dejar los excrementos en la vía pública.- 
-d- La venta o donación a menores de 18 años, sin autorización de sus tutores.- 
-- La venta ambulante de animales.- 
-2- Serán infracciones graves.- 
-a- Abandonar animales domésticos en la vía pública.- 
-b- La • •sesión de especies peligrosa, sin autorización previa.- 
-a posesión de animales sin la alimentación adecuada o en instalaciones inadecuadas.- 
-d- La no vacunación o la no realización de tratamientos obligatorios a los animales domésticos.- 
-e- Incumplimiento por parte de los centros de animales de cualquiera de los requisitos y condiciones 
-stablecidas por la presente ordenanza, - 
-f- La .filmación de escenas con animales que simulen crueldad, maltrato o sufrimiento, si las mismas 
-I
-ieren reales, constituirá filias muy graves.- 
-3-Serán infracciones muy graves.- 
-? sacrificio de los animales en contravención de los criterios de eutanasia. - 
-s malos tratos y agresiones físicas o psíquicas, crueles a los animales.- 
-bandono de los animales.- 
-intervenciones quirúrgicas en contravención de la ordenanza.- 
-ría y la comercialización de los animales sin la licencia y permiso correspondiente.- 
-mistrarle fármacos o alimentos que contenga o sustancias o elementos que puedan ocasionarle 
-g- La incitación a los animales para atacar personas u otros animales, exceptuando los perros de la 
-policía u otros organismos de seguridad legalmente autorizados.- 
-h- La práctica de la medicina veterinaria por personas no facultadas.- 
-i- La zoofilia en todas sus firmas.- 
-j- El zoocidio y biocidio.- 
-k- La reinddencia de una infracción grave.- 
-1- Los actos de crueldad de los que resulte la muerte del animal.- 
-Las infracciones leves se sancionarán con una multa de 5 (cinco) a 20 (cincuenta) jornales mínimos 
-vigente.- 
-Las infracciones graves se sancionarán con una mu/ta de 21 (veinte y uno) a 50 (cincuenta) jornales 
-mínimos vigente.- 
-Las infracciones muy graves se sancionarán con una multa de 51 (cincuenta y uno) a 200 (doscientos) 
-jornales mínimos vigente.- 
-Artículo 19°.- Los resultados de un hecho grave comprobado a través de un sumario administrativo del 
-juzgado de falta municipal, serán elevados al Ministerio Publico para la prosecución penal.- 
-~~ •  •  • 	
-4 • 
+## LA JUNTA MUNICIPAL DE CIUDAD DEL ESTE REUNIDA EN CONCEJO ORDENA
 
-Junta Municipal de 
-Ciudad del Este 
-E  
-CLAU i JO TIAMÓN  DURAÑONA M.  
-Seer  ario General J.M. 
-ALDO C AVEZ 
-esidente J 
-("ORRESPONDE A LA ORDENANZA N°040/2020 .1.111.  
-Artículo 20'.- La municipalidad arbitrara las acciones tendientes a fin de establecer medidas que 
-busquen el bienestar animal, como jornadas de castración gratuitas, promoción de adopción, jornadas de 
-concientización.- 
-Artículo 21°.- Queda facultada a la intendencia Municipal divulgar a través de la Dirección de prensa, 
-redes sociales, en un plazo de no mayor de 10 (diez) días a partir de la promulgación de la presente 
-Ordenanza.- 
-Artículo 22°.- Derogar la ordenanza 16/2001 .I.M. "POR  IA  QUE SE REGLAMENTA LA TENENCIA 
-DE PERROS EN EL MUNICIPIO DE CIUDAD DEL ESTE"- 
-Artículo 2.3°.- COMUNICAR; a quienes corresponda, cumplido archivar.- 
-Dada en la Sala de Sesiones de la Junta Municipal de Ciudad del Este, a los veinti d' s del mes de diciembre 
-del año d 
-• 
-• 	• 
+### Artículo 1º.-
+La presente Ordenanza tiene por objeto fijar la normativa administrativa aplicable en relación con la tenencia de animales doméstico en general o privadas general, para garantizar la protección, implementación de actividades para el control y regulación de la población, así como también para hacerla compatible con la higiene, salud pública y la seguridad ambiental de la ciudadanía.-
 
-r.VZ f' LI '1 	
-f.:q1JP(m) Dtl. 1,>,1-11. IMUNICtrii0 
-•".., - . 	
-' 	- 
-7,   
-rto ,. 
-1. 	
-_ii..-743-157 
-. ,_,.... ,.. 	
-. caa.b.... .
+### Artículo 2º.-
+La Intendencia Municipal, a través de la Dirección de Gestión Ambiental bajo la División de bienestar animal, reglamentara las fases operativas de la presente Ordenanza. A los efectos de su implementación.-
+La Intendencia Municipal podrá firmar convenios y acuerdos con Instituciones oficiales o privadas.-
+
+## CAPITULO I
+
+### Artículo 3º.-
+Los propietarios de los animales domésticos están obligados a tener el carnet de vacunación, suministrada por profesionales o Entidades habilitadas.-
+
+### Artículo 4º.-
+Definiciones. Se entenderá, a los efectos de la presente Ordenanza.-
+a- Animales domésticos: En los términos de la presente Ordenanza se define como animal doméstico a aquellos seres vivos que han atravesado un proceso de domesticación y son utilizados para proveer compañía y protección al ser humano, llamados como mascotas, principalmente a los caninas y felinos) perro y gatos). Se exceptúa los animales domésticos considerados de producción para sacrificio y alimentación, tracción a sangre y otros establecidos en la Ordenanza 31/92 Tenencia de animales.-
+
+b- Propietario de animal doméstico: Es la persona fisica o jurídica quien lo tiene adquirido por instrumento traslativo de dominio de carácter notarial y al poseedor o tenedor, al que lo tiene por el simple hecho de no tenerlo consigo y quererlo para si.-
+
+c- Animal silvestre en cautiverio: Aquellos que se encontraban libres en su ámbito natural, ya sea en ecosistema protegido o no, y por su condición fueron objeto de captura en su medio natural manteniéndose en un grado absoluto, permanente o relativo, de dominio fisico por personas naturales o jurídicas.-
+
+d- Eutanasia: La muerte de un animal realizada por un método que produce una rápida inconciencia y una muerta subsecuente, sin evidencia de dolor o molestia, como la producida por la anestesia u otro agente que, sin dolor, causa la perdida de la conciencia y la muerte subsecuente.-
+
+e- Zoofilia: Es la práctica sexual de humanos con animales.-
+
+f- Zoocidio: Sacrificio o muerte de un animal que no esté legalmente autorizado o no tenga otra justificación legal.-
+
+g- Biocidio: todo acto que implique la muerte de un gran número de animales sin causa legalmente justificada; ya sea por una acción directa o por la contaminación y la destrucción del ambiente natural donde viven.-
+
+h- Sacrificio animal: Es la muerte o sacrificio de un animal que tiene otras justificaciones legales y puede ser practicada.-
+
+## CAPITULO II
+DE LAS RESPONSABILIDADES DE LOS DUEÑOS O TENEDORES:
+
+### Artículo 5º.-
+Los propietarios deberán suministrar los siguientes datos relacionados:
+a- Al propietario: nombre del responsable del animal, dirección completa, Barrio y número de teléfono.
+b- Del animal: nombre del animal, raza, edad, sexo, color.-
+
+### Artículo 6º.-
+Son deberes del propietario del animal:
+a- Mantener al animal en buenas condiciones de locativas en cuanto a movilidad, luminosidad, aseo e higiene.-
+b- Suministrar bebida y alimento en cantidad y calidad suficiente.-
+c- Velar por su salud y bienestar.-
+d- Suministrar abrigo apropiado contra lo intemperie.-
+e- Dar un trato afable y amigable.-
+
+### Artículo 7º.-
+Queda prohibido el abandono de perros y gatos en cualquier área pública o privada.-
+
+### Artículo 8º.-
+Se considerará animal abandonado aquel que no tenga dueño ni domicilio conocido. Los perros y gatos abandonados o callejeros no podrán ser sacrificados bajo ninguna circunstancia, excepto que sea para poner fin a intensos sufrimientos producidos por lesión o herida corporal grave o incurable o cualquier otra causa fisica irreversible capaz de producir sufrimiento innecesario debidamente avalado por profesional médico veterinario con registro.-
+
+### Artículo 9º.-
+El propietario es responsable de sus animales domésticos enfermos o sospechosos de alguna zoonosis, deberán someterlos en observación, aislamiento y cuidados en forma de que determine el profesional veterinario.-
+
+### Artículo 10.-
+El propietario deberá permitir el acceso de los funcionarios municipales dependientes de la división de bienestar animal cuando esté en ejercicio de sus funciones, a las dependencias del alojamiento del animal para inspecciones de rutina o ante denuncias de vecinos. La negativa del propietario obligará a la Municipalidad a solicitar un recurso de amparo ante un juez competente.-
+
+## CAPITULO III
+NORMAS DE CONVIVENCIA HIGIENICO SANITARIA
+
+### Artículo 11.-
+La tenencia de mascotas en vivienda urbana o albergues, deberán contar con alojamiento adecuado, que no atente contra la higiene del mismo, ni cause molestias a los vecinos.-
+a- Los propietarios que tengan algún animal doméstico en su vivienda está obligado a tener su propiedad con cercado perimetral, a fin de evitar que salga el animal a la vía pública.-
+b- Queda prohibida la cría y venta de animales domésticos en viviendas particulares, que no cuenten con la autorización por los entes correspondientes Nacionales y la Institución Municipal.-
+
+### Artículo 12º.-
+Queda prohibida la circulación por la vía pública de aquellas mascotas que no vayan provistos de collar y conducidos mediante cadena resistente y la aplicación de un bozal cuando el animal así lo requiera. Además es de carácter obligatorio la recolección de los desechos orgánico e inorgánico dejados en la vía pública.-
+
+### Artículo 13º.-
+El transporte de animales domésticos se empleará en vehículos que los protejan de las condiciones climáticas adversas y será mediante cajas transportadoras o jaulas con la debida ventilación. Además se debe efectuar en forma de que no perturbe la acción del conductor ni comprometa la seguridad del tráfico.-
+
+### Artículo 14.-
+Sobre los albergues, los mismos no deberán recoger más animales de lo que su capacidad lo permita, los que recogieran deberán ser mantenidas en las condiciones higiénicas sanitarias establecidas.-
+Además, deberá contar con:
+Plano aprobado.-
+Sistema de tratamiento de efluentes líquidos.-
+Sistema de disposición final de sólidos.-
+Registro de la nomenclatura del albergue.-
+
+## CAPITULO IV
+PROTECCION DEL ANIMAL
+
+### Artículo 15º.-
+Queda prohibido según esta ordenanza.-
+15.1 Causar su muerte, excepto en los casos de enfermedades terminales. En todo caso el sacrificio será realizado automáticamente, sin sufrimiento, por facultativo competente.-
+15.2 Abandonarlo en viviendas cerradas o desalquiladas, en la vía pública, solares, jardines.-
+15.3 Golpearlos, infringirles cualquier daño injustificable o cometer actos de crueldad contra los animales.-
+15.4 Llevarlos atados en vehículo en marcha.-
+15.5 Dejarlos atados en el sol, situarlos en la intemperie.-
+15.6 Organizar peleas de caninos.-
+15.7 Incitar a los animales a cometerse unos a otros o a lanzarse contra personas o vehículos de toda clase, excepto los perros que por su adiestramiento específico, ejerzan funciones de instituciones autorizadas al efecto.-
+15.8 Mantenerlos en instalaciones con inadecuadas condiciones higiénico/sanitaria.-
+15.9 Practicarle cualquier procedimiento quirúrgico como castración, extirpación, sin previa aplicación de anestesia, quedan exentos procedimientos que no sean invasivos y no requieran de la anestesia, siempre y cuando este bajo asesoramiento de un profesional capacitado.-
+15.10 Privar al animal domestico de luz, alimento, movimiento y espacio suficiente, higiene, cobijo necesario para su normal desarrollo.-
+15.11 Venderlos o donarlos a menores de 18 años, sin la autorización de quienes tengan su patria potestad o custodia o a personas que no estén en condiciones psíquicas o físicas de cuidarles.-
+15.12 Utilización de animales en espectáculo, fiestas populares y otras actividades que impliquen crueldad o maltrato, que puedan ocasionarlos la muerte, sufrimiento o hacerlos objeto de tratamiento antinaturales o indignos.-
+15.13 Practica de zoofilia en todas sus formas.
+15.14 Cometer zoocidio o biocidio.
+15.15 Hacerle trabajar excesivamente, provocar innecesarios castigos o sanciones dolorosas.
+15.16 Estimular al animal domestico con drogas sin perseguir fines terapéuticos.-
+15.17 Vender animales domésticos en la vía pública o en establecimiento no autorizados para ellos.-
+15.18 Herir o lesionar a un animal domestico, con golpes, quemadura, cortada, punzada o arma de fuego, causándole un daño grave o la muerte innecesaria.-
+15.19 Mutilar o alterar cualquier miembro órgano o apéndice de un animal vivo, sin que medie razón técnica o científica.-
+15.20 Abandonar sustancias venenosas o perjudiciales en lugares accesibles a animales domésticos.-
+15.21 Sepultar vivo a un animal domestico.-
+15.22 Confinar a uno o más animales domésticos en lugares locales o espacios físicos que le puedan producir asfixia.-
+15.23 Ahogar a un animal domestico.-
+15.24 Causarle la muerte a animales domestico grávidos.-
+15.25 Lastimar o arrollar intencionalmente a un animal doméstico, o matarlo por perversidad.-
+
+### Artículo 16º.-
+Quienes infligieran daños graves o cometieron actos de crueldad y malos tratos contra animales domésticos de propiedad ajena, serán sancionados. Sin perjuicio de la responsabilidad que proceda para el dueño.-
+
+### Artículo 17º.-
+Queda prohibido el abandono de animales muertos, el propietario deberá hacerse cargo de la disposición final del cadáver.-
+
+## CAPITULO V
+INFRACCIONES Y SANCIONES
+
+### Artículo 18º.-
+Las infracciones de las disposiciones de esta ordenanza serán sancionadas conforme a la Ley Orgánica Municipal 3966/10, previa instrucción de sumario con debido proceso, la multa será establecida en la siguiente escala.-
+
+1- Serán de infracciones leves.-
+a- No disponer de las fichas clínicas de los animales.-
+b- Exponer al animal en la vía pública sin cadena, collar, bozal.-
+c- Dejar los excrementos en la vía pública.-
+d- La venta o donación a menores de 18 años, sin autorización de sus tutores.-
+e- La venta ambulante de animales.-
+
+2- Serán infracciones graves.-
+a- Abandonar animales domésticos en la vía pública.-
+b- La posesión de especies peligrosa, sin autorización previa.-
+c- La posesión de animales sin la alimentación adecuada o en instalaciones inadecuadas.-
+d- La no vacunación o la no realización de tratamientos obligatorios a los animales domésticos.-
+e- Incumplimiento por parte de los centros de animales de cualquiera de los requisitos y condiciones establecidas por la presente ordenanza.-
+f- La filmación de escenas con animales que simulen crueldad, maltrato o sufrimiento, si las mismas fueren reales, constituirá faltas muy graves.-
+
+3- Serán infracciones muy graves.-
+a- El sacrificio de los animales en contravención de los criterios de eutanasia.-
+b- Los malos tratos o agresiones físicas o psíquicas, crueles a los animales.-
+c- El abandono de los animales.-
+d- Las intervenciones quirúrgicas en contravención de la ordenanza.-
+e- La cría y la comercialización de los animales sin la licencia y permiso correspondiente.-
+f- Suministrarle fármacos o alimentos que contenga o sustancias o elementos que puedan ocasionarle sufrimiento.-
+g- La incitación a los animales para atacar personas u otros animales, exceptuando los perros de la policía u otros organismos de seguridad legalmente autorizados.-
+h- La práctica de la medicina veterinaria por personas no facultadas.-
+i- La zoofilia en todas sus formas.-
+j- El zoocidio y biocidio.-
+k- La reincidencia de una infracción grave.-
+l- Los actos de crueldad de los que resulte la muerte del animal.-
+Las infracciones leves se sancionarán con una multa de 5 (cinco) a 20 (cincuenta) jornales mínimos vigente.-
+Las infracciones graves se sancionarán con una multa de 21 (veinte y uno) a 50 (cincuenta) jornales mínimos vigente.-
+Las infracciones muy graves se sancionarán con una multa de 51 (cincuenta y uno) a 200 (doscientos) jornales mínimos vigente.-
+
+### Artículo 19º.-
+Los resultados de un hecho grave comprobado a través de un sumario administrativo del juzgado de falta municipal, serán elevados al Ministerio Publico para la prosecución penal.-
+
+### Artículo 20º.-
+La municipalidad arbitrara las acciones tendientes a fin de establecer medidas que busquen el bienestar animal, como jornadas de castración gratuitas, promoción de adopción, jornadas de concientización.-
+
+### Artículo 21º.-
+Queda facultada a la intendencia Municipal divulgar a través de la Dirección de prensa, redes sociales, en un plazo de no mayor de 10 (diez) días a partir de la promulgación de la presente Ordenanza.-
+
+### Artículo 22.-
+Derogar la ordenanza 16/2001 J.M. "POR LA QUE SE REGLAMENTA LA TENENCIA DE PERROS EN EL MUNICIPIO DE CIUDAD DEL ESTE".-
+
+### Artículo 23º.-
+COMUNICAR; a quienes corresponda, cumplido archivar.-
+
+## Firmas
+Dada en la Sala de Sesiones de la Junta Municipal de Ciudad del Este, a los veintiún días del mes de diciembre del año dos mil veinte.-
+
+- CLAUDIO RAMÓN DURAÑONA M.
+  Secretario General J.M.
+- NERE REINALDO CHAVEZ
+  Presidente J.M.

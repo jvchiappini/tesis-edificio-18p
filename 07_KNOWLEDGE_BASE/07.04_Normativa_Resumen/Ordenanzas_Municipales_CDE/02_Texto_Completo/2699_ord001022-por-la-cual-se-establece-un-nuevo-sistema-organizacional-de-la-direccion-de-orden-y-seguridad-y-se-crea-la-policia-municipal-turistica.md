@@ -1,23 +1,249 @@
-# Ord.001.022 Por la cual se establece un nuevo sistema organizacional de la Dirección de Orden y Seguridad y Se crea la Policía Municipal Turística
-
-- **Relevancia:** BAJA
-- **Año (categoría):** 2022
-- **Categoría publicada:** Ordenanzas Junta Municipal 2022
-- **Texto (div mt-4):** ORDENANZA 2022
-- **Enlace oficial:** https://mcde.gov.py/post/ord001022-por-la-cual-se-establece-un-nuevo-sistema-organizacional-de-la-direccion-de-orden-y-seguridad-y-se-crea-la-policia-municipal-turistica
-- **PDF original local:** `03_PDF_Originales/2022/2699_ord001022-por-la-cual-se-establece-un-nuevo-sistema-organizacional-de-la-direccion-de-orde.pdf`
-- **Método:** OCR Windows (es) · 12679 car.
-
-> Documento de la Municipalidad de Ciudad del Este. Verificar contra el PDF original.
-
+---
+id_documento: '2699'
+archivo_pdf_original: 2699_ord001022-por-la-cual-se-establece-un-nuevo-sistema-organizacional-de-la-direccion-de-orde.pdf
+carpeta_anio: '2022'
+ruta_relativa_pdf: 2022/2699_ord001022-por-la-cual-se-establece-un-nuevo-sistema-organizacional-de-la-direccion-de-orde.pdf
+tamano_pdf_kb: 551
+fecha_procesamiento: '2026-09-22T14:07:42.744Z'
+modelo_ocr: gemma-4-26b-a4b-it
+prompt_version: prompt_ocr_ordenanzas.md
+numero_ordenanza: 01/2.022
+tipo_norma: Ordenanza
+anio: '2022'
+fecha_sancion: 2 de febrero de 2.022
+fecha_promulgacion: ''
+fecha_publicacion: ''
+titulo: POR LA CUAL SE REGLAMENTA Y ESTABLECE EL NUEVO SISTEMA ORGANIZACIONAL DE LA DIRECCIÓN DE ORDEN Y SEGURIDAD, CREA LA POLICÍA TURÍSTICA MUNICIPAL Y DEROGA TODAS LAS ORDENANZAS, RESOLUCIONES Y REGLAMENTOS QUE CONTRADIGA A LA PRESENTE ORDENANZA.-
+organo_emisor: Junta Municipal de Ciudad del Este
+numero_expediente: ''
+numero_sesion: '12'
+fecha_sesion: 2 de febrero de 2.022
+intendente_firmante: ''
+presidente_junta_firmante: Abg. Pedro Acuña
+secretario_junta_firmante: Claudio Ramón Durañona M.
+concejales_firmantes:
+  - Abg. Pedro Acuña
+  - Ing. Victor Torales
+relaciones_normativas:
+  - tipo: deroga
+    norma: todas las ordenanzas, resoluciones y reglamentos que contradiga a la presente ordenanza
+  - tipo: reglamenta
+    norma: Ley 3966/2010 Orgánica Municipal
+categorias:
+  - seguridad_ciudadana
+  - turismo
+  - personal_y_administracion
+palabras_clave:
+  - Dirección de Orden y Seguridad
+  - Policía Municipal
+  - Policía Turística Municipal
+  - Ciudad del Este
+ambito_territorial: Ciudad del Este
+monto_o_tarifa_involucrado: ''
+tiene_anexos: false
+anexos_detalle: []
+tiene_tablas: false
+estado_legibilidad: buena
+confianza_transcripcion: alta
+observaciones_ocr: ''
+metadata_extraction: automatica_completa
 ---
 
-JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO 202-1 - Av. y .Romem• ref. CIUDAD OEI ESTE POR CUAL se REGLAMENTA Y ESTABLECE EI. NUF.vo SISTEMA ORGANIZACIONAL DE LA DIRECCIÓN ORDEÑ Y SEGURIDAD, CREA LA POLZiA TLfRisnc,1 MUNICIPAL Y DEROGA TODAS LAS ORDENANZAS, RESOLUCIONES Y REGLAMENTOS QUE CONTRADIGAA LA PRESENTE ORDENANZA. del F..çte, de lebrero de 2 022- VISIO: preseniütlv Señores Cancelales Abg. Pedro.4coñi1 y ei Ing. Vtcmr Tonales, donde expreso JU necesidüd de y eslabieeer un nuevo sjsn.ntu organizacional de de Orden y Seguridad, hs efectos de Jo creación de Policío Turístjr.o y, CONSIDERANTO.• Que, 10 Municipalidwd Ciudad del Este es un órgano de gobierno autonomío política, odminjslro¿ii.f) y normolivo, por mondon def arricuiv iGb de Constitución Nor.•jori0/' de 10 Repúblitu del PoragLroy; Que, fay creación de un cuerpo de .Po!jeíc1 -Municipal, crm jurisdicción cuyo organización y serán establecidos por las Ordenanzas vigentes, conforme las necesitlücles y recursos de codo y Rite directornenle del Intendente en virtud de io que mando oriie.ulo 55 de Ley .NKi'21']J0v OrgdJ1ic.a Municipal; Que, osimismo e! AA. 36 de la cftodo Ley "Curresponde o Junto sancionar Ordenanzas, Resoluciones, Reglamentos en mcrrerio de e.0i'twetencia EI diaamen favorübh? de Io r.omish'5n Asesorcr de Legislación, aprobado en Sesión Oxfjnuna de fecha 2 de lebrero de 2.024 Según Aero por tanto: JUNTA MUNICIPAL DE ESTE REUNIDA EN CONCEJO CAPITOLO Artículo Regularizar y estohiecer nuevo Sistemo Orgccnimcinnu•' de faOireccfóR de. Orden y Seguridad ycreuse Policía Turístico Divisiones de Orden y Seguridad, Policía Municipof_v iü' Policía Turisúcu Municfpüi' s 'vn instituciones profesirmgles dejibertmtes, verticalistos, obedientes, y dependencia de.' Órgano dei Municipaf, 0' u L}mcción de Orden y Seguridod de Intendencia MLInicipuL- ORGANIZACIÓN DE LA DE SEGURIDAD Articulo ro Dirección de Orden y Seguridud operativcmerne estará coryo de un DIRECTOR quiendeberó ser nombrado por Intendente y será e! superim de los miembros de los DJVISJOO'ES ORDES Y MUNICIPAL y POLICÍA TURÍSTICA -MGÑIEIPAJ„ siendo VI Intendente el superior DIRECTO del mismo, dehiendn estrictamente denno del marco Ley Orgónic.a -uunieipol y los Ordenonzos Resojqciones Manicipales vigerues•,- brindar servicio a 10 rumanidod* iu TJjJta:eión de OMen y se en tres SEGURIDAD* porar,íA y TURÍS"CA pudiendo udemús ;tbrmar cuerpo* esperjülizodos en ambiental y Articulo 50C La Dirección de Orden y Seguridod esturó integrado por e! siguiente personof,' Un djrer.uor,' b) Jefes: C) F'.seoies; d) Componen!.esde. Policill Página i de 5
+# ORDENANZA N° 01/2.022 J.M. — POR LA CUAL SE REGLAMENTA Y ESTABLECE EL NUEVO SISTEMA ORGANIZACIONAL DE LA DIRECCIÓN DE ORDEN Y SEGURIDAD, CREA LA POLICÍA TURÍSTICA MUNICIPAL Y DEROGA TODAS LAS ORDENANZAS, RESOLUCIONES Y REGLAMENTOS QUE CONTRADIGA A LA PRESENTE ORDENANZA.-
 
-PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE - 2025 Av. ,595 CIUDAD „OVZOZ2J.M. e) Componentes de Pnlirfo Turística Municipal y; t) Funcionarios pcrro lú Diusión de Orden Y Seguridad o Jos e/i&'tLiS de ctihrir 103 y iugütes bajo responsabiiidod de Dirección.- Lo cantidud de {os distintos funcionürir.s serón daermiwdos par ju Municipof confirme disposición presupoes&JFia.- ATRIBUCIONES DE LA DIRECCIÓN DE ORDEN Artículo Gt- LU Dirección de Orrden y Seguridad, es Que liene finolidüd de ejecutar los relacionados- tarens de vigilancia y brindar oce.ión prea•nlivo de segwjdud hor:ia los efL/dúdcmns, '„•ecjnos o y de] dominio público y privodru COMPETENCIA DE 0RDEuv Y SEGURIDAD Artículo ConsÍi1uye competencia diman de esto División: Establecer vigifurrcio y seguridüd de los edificios e insto/w.iones de Dominjn Ptihlic:o y Privudo de itr Munic,'polidüdv en donde se yuarden clocamentos y voloree,i Cotidyuvar en curucier subsidiario ü fus toreos cle Pofieio Wunicipo/ de Ihinsjtn ert dirigir y smioiizcrr cjrr-ülor.•ión depersonasy vehículos dentro de municipotes, - Cooperor 10 Policía Facianoi, en la prevención de hechos iht'itos, en e.} montenfmjento del orden Y dentm de sus de competencia y planes de conjuntu.. seguridad, enfohoroeión y orientor G los dentm de Jos límites de su compaenciü.- Prevenir la ocurrencia o preflor auxilio en cosos de siniestros r.rm10," ineendios, derrumbes. intoxicaciones colectivos, crnnominoción ambientol, y accidentes en genero/ y eoneertoy• priones de conjunta enn cuerpos -similwes; Impedir entrado en /os edificios públicas municipales o órens udyúcenres, de euruños o sin mera dei horono friboroi, invitóndo!os stilir como medida de seguridad- implemenlt/t"jón de equipos tecnológicos O'Lre brinden seguridad en los 'i blirm municipales, toles corno; sistemu de moniloreo de mormos. cómnrac de Video -4-8 r sea eompotih!e objeto y funciones enunciadas; TOS EXIGIDOS I*ARAINTEGRARLADIRECCJÓNDE ORDEN Artículo nombramiento Director recnerú en una persnna de nacimolidodporaguoyo, mayor de edao% n•sidence B.n eI municipio, lwliversitarjo y que hayo tenido experiencia e.n ja de personal, con suficiente en o en su formación i. jtor.- Articulo EÍ condir}vto interusorio ocupar e! cargo de Direc.ior deberá preseniur yoe ú fritendenciü Municipal' y de ernre los candidatos se deheró escoger que posee más ,Yhggitude.s porn desempeñar dicho *Orricrflo 10".- Los funcionarios; o elenos de integror la Dirección mencionodü, deberán tenerfns aptitudes y contar con los Sigtiienres reguÍ5ifns: Ts'ocjnnulidod Pcrroouoyu; Vener ¿o edad {Omprendido enttv 105 18 a 35 años (puru eI i,ngveso); Estudios secundarios completos r.' equimlentes." del Serviein Mifiiur obligo!nrili o en su cnso hober reoiiztldr} cursos Guardia de Seguridad,' - F*0men médlm que demuestre los condiciones de lisieuy mentof del postulante para ei coroo; Aprohor e! exqmen fisico (lest de a ser reacrmentodo por Dirección de Orden y Seguridad; No lener antecedentes judiciales ni polic.jaies; Ráglna 5
+## VISTOS
+La Minuta presentada por los Señores Concejales Abg. Pedro Acuña y el Ing. Victor Torales, donde expresa la necesidad de regularizar y establecer un nuevo sistema organizacional de la Dirección de Orden y Seguridad, a los efectos de la creación de la Policía Turística Municipal; y,
 
-JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO • 2025 Av. p Remera - Tel. 51844,0 Nro. Soi'rencio moraiy optitud de prestocfón de servicios; CAPITULO n OMt-.W,o CIUDAD DEL ESTE Argieu}0 11".- Los elementos de '*Lie 10 Institución Municipal' deberá proveer Dirección de Orden y Seguridad serán los siguientes; Comionetos cabina y dable mbirTü equipadas poro ser utilizados como polru/leras y Ironsporte de personol en ei cumplimiento de dispusieianes municipales; equipados para ser urilizados cornu pcttrutiieras en e.' cumplfmfento de disposiciones municipales; Bfrjc.V.!i3.s sus respectivns equipamientos poro redimr bicipatr[.illjas,- Equipos esewdos•, pmrectnr de torso, etc., ser "lilizodos prn• MLrnicjpüi' en casos de mcmifestor:jones violento=.- Medios de comunicación (I+t)fkíe-TukieJ, r.ortÍ0 finternos, cámaras corporúlle.s, orrnos curiqs y funciones de resguardo de bienes municipofes Articulo I? t- La Imendgnriri Manicipüli podrú dittor Resoluciones ei Regh.mte.nios cumplementorias o e/eeÍos de an meior de Ig Dirección de Orden y Seguridad.- CAPITULO/" DEL Artículo Los funcfonurins de la Dirección de Orden y Segurfdüd lililjzorón e! siguiente unifonne, eon pertiner*ies e identificatorios.' Pantalón color negra; con cinturón def mismo Remero pao mangas cortas y Grgü< con 10 insignia epi< r.rJor con insignitf correspondiente; e militar negnc gomo, color negra.' s 3. negro correspondiente en parte frontal' y reflectivn posterior en so fe feeiiL*0s motorizados; demá• uipamientos que dispong(l Iulntendenci(' Municipol o e! respectivo_ POLICÍA MUNICIPAL Artículo 14t- Constituye competenein de M., adernós de 10 e*tobJecido en Arly 10 siguienve: rur la seguridad Interno y txlerral en evento= ptomovidos por el gobierno municipal, sten públicos o silios• de concurrencia pública, debiendo srNic:jurr intervención de Policio Foeivnul poro la prnención de hechos ilícitosi ej rnarueni/77ienyo del orden y Jo Acompañar o las Direr.vivnes puro el frcm.çpone de hasto desde Municipalidad; h'leeuzur n hacer cumplir fo di;paesto ea Ordenonzos, Reglamentos y Resotucje,rtef municipuies reprenles ú' los bienes delDnminio Público y munic.ipáf; qrmperor demú5 órganos munícipole«, el Ltlerefcjo del poder policial 0' r.'hjetjeo de dor cumplimiento o Ordenonzos, Reglamei'ios Y Resmuciones* dentro de sus límites de campelent:jü, Redaefü7' octos O informes de (05 hechos intervienen„ debiendo ejevuy m*smos Djre.tlor de Orden y Seguridod derrito de 10 ,jornoda de servicio, y en un pinzo de 24 horos hábiles, Artícu!0 15".- [.,ns candidatos poru Municipurv ociemús cumplir requisaos estableeidfih en e! articulo 4 Ú", lumbién deherón: I&ner sobre monejo de armas cortos y lorgcls, ohordutniento de persones; Página 3 de 5
+## CONSIDERANDO
+Que, la Municipalidad de Ciudad del Este es un órgano de gobierno local con autonomía política, administrativa y normativa, por mandato del artículo 166 de la Constitución Nacional de la República del Paraguay;
 
-PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO - Av. Piamems y rr]. ,535 fil ORDENANZA CIUDAD DEL ESTE Haber sido seleccionadn por mejore. trctitudes y notas solisfaetoriü.s en los cursos de Lupacifoeilin dir:tioo'os por los instructores de (o L}irecciól'l de y Segwrjclüd o División cle Capacitación dependiente de Dirección Toienlo Hamam-*,- Articulo 16".-111 P- M ei uniforme previseo en Art. 13", coa dislintjh•u.s yrrrinen!es e identificwtoriosy choleros tóC1icos color negrn. CAPITULO V POLICÍA iTURfSrzc,A MUNICIPAL Articulo i?0r- Creasedu Polje.io '[brísticll Municipal 'l: MJ camo División de de Ortieny ,Seguridud. objetivo de eslu L)j'âsión es brindar segurjdud preventa.'ü, ficjfitoeión orientación o mrisws y visitantes conforme meomettduc.ione5 de Mundial dei especio,li'üdo de las Fae.iones L.i'nidQ5, dei evo! es miembro Porogwwy.- Articulo 18".- competencio de División además de Ío establecido en siguiente: Gorriñ(ízar seguridad o visimnres que ubarcü* prrner.vión de vida, de la salud, de 10 inteqridad fisir:o, PS'iLVJIúJiCO y económico denim de los limites de rompelenciG, debiendo solicilcrr de la Pr"jcfo paro fo prevención de htehos flícitos, ei ienu; del orden y la Iranquiljdgd pútliicu; Orieneor'y infnrmocióri rúpjduy veraz a Jos Iuristas n Reductor uúos o informes de los hechos en que iJTtewjenen, debiendo elevnr fos rijisrÑ0s Director de Orden y Seguridad de de servicio, y en plugo no mayor de 24 hneus hábiles. Articulo los rundidütosporo 10 Turistie.a Municipal, odemós de cumplir los Jrqoi.;itns establecidos en ef ori.icufo deberán,' Vloherporticipado en programws de copocitoeión especializado el de ilurjsmr',- F,xpresarse correctamente en los idiomas español y portugués,- HGber sido sv.Jecx'i0Rüdo prur' mejores actitudes y notas sofislüctorios en los cursos de dictados por instructores cle Dirección cle Orden y Seqti'ridad O lu División de Capacitoció"l dependieme de LTjmr.e.ión de là'lentn Lo P.T-•V. utjlizorá ei uniforme en e,' con los distintiu•ns pertiir;enles e ios y choleros táclicvs ne.ljro,-_ CAPITULO VI DISPOSICIONES ESPECIAI,ES TENENCIA Y PORTACIÓN DE ARMAS Articulo 21".- Los miembros de Direerjón de Orden Seguridad, podrán porm• de pego regomenturjas de prevenir situación que peligre integridad fisjeo de ios ismas m' momento de ejercer sus Lo de Municipalidad, reulizar Yos Irúmite.; Judiciales o correspondientes panl obtener' los autorizaciones revistos en !auey 4035 Armos de ituegov sus piej.os y tnmpanemes•, municiones, exp&Eivos, t.resoriosy SALARIOS Artículo 22".• Los qlÍe deberán percibir e.' Director, .,ie/ê.s, fj3i'4fes y demós serón r:oruemmados e» ei Presupuesto Amull de Gastos de nado Olio de Monjeipajjdcrd,• Arúcu}0 23".- Estohier:er una remuneración {plas) por 'o de semeios• extraor€jnorios fsú/budns, domingos ferjGdrs, horas extres, dable guardio,
+Que, la Ley contempla la creación de un cuerpo de Policía Municipal, con jurisdicción territorial, cuya organización y funcionamiento serán establecidos por las Ordenanzas vigentes, conforme a las necesidades y recursos financieros de cada municipio, y que dependerá directamente del Intendente Municipal, en virtud de lo que manda el artículo 55 de la Ley 3966/2010, Orgánica Municipal;
 
-FARAaUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIooo - 2025 Av. Pionerw y Tel. CIUDAD DEL ESTE C.OR88SPOJVDE' A ORDENANZA 01/2.022 e.obertar1i5 especioies o usjgnodos, ae, Ef Plus seró pogodo eon un recargo det (40%) por sobre el 50ÍqrÍo dispuesto poro (a de la Policia Municipal y Jü Poiie{ü 'Turís¿ica Municiput, y de % por cierno ei s-oicrrfn di«pues10 para Id División de Orden y Segurtdod,- HORARIO TRABAJO Articulo 24%- componentes de la ['irección de Orden y Seguridad prestaron servjao durante 24 horos del difi en ires turnos iar.ruidú días feriadas: horas, h:rstü 14:00 horas. 2do- n.l.rno: .i4.-oo PM 22:00 hotos. Nocturno 22:00 f',M, horas, hosto Jos hayos. Ñf'G/MEN DI.SCW•UA'AIUO Articulo 25%- Los funcionarlos de irr Dirección de Orden y Seguridadv que faltaren of de sus deberes y obliYffvfoneç, serón sancionados de e.onformjcllid ü fo e.sioblecido en 10 Ley 1.626 De FunciÓn Público, Ley 3.966 Orgánico y fos Regirrment0< dictados por Intendencia iWunic.i1Rfl,- Artículo 26".- Todos lus miembros de Dirección de Onlen y Seguridad deberá» tener conocimiento de que estúbkce Constitucidn mociono/ de 10 Repúblico dej frey 1626 Lle Ilo Función Públictl,' r,ey Orgánicn Municipal' y los Ordemnza,s Municipüles y Resoluciones vigentes. Articulo 27".- Ei Intendente Municipal podró reglornentt;r prest"lc' 28%- Quedüñ derogados lodos ordenanzas, resoluciones .F eontrodigo pi?$ente ArtícuW29e„--Cvmunicúf'uq conespondaycumplidu archivar,- CEA 4 10 óvoURAÑó, Se nrioGenerat .J.M+ res e ACUÑA 047éia
+Que, asimismo el Art. 36 de la citada Ley establece: "Corresponde a la Junta Municipal sancionar Ordenanzas, Resoluciones, Reglamentos en materia de competencia municipal", y
+
+El dictamen favorable de la Comisión Asesora de Legislación, aprobado en Sesión Ordinaria de fecha 2 de febrero de 2.022, Según Acta Nro. 12, por tanto:
+
+## LA JUNTA MUNICIPAL DE CIUDAD DEL ESTE REUNIDA EN CONCEJO ORDENA
+
+### CAPITULO I
+
+### Artículo 1º.- 
+Regularizar y establecer un nuevo Sistema Organizacional de la Dirección de Orden y Seguridad, y crease la Policía Turística Municipal.-
+
+### Artículo 2º.- 
+La Divisiones de Orden y Seguridad, Policía Municipal y la Policía Turística Municipal constituyen instituciones profesionales no deliberantes, verticalistas, obedientes, organizadas con carácter permanente y en dependencia jerárquica del Órgano del Ejecutivo Municipal, vinculadas a través de la Dirección de Orden y Seguridad de la Intendencia Municipal.-
+
+### ORGANIZACIÓN DE LA DIRECCIÓN DE ORDEN Y SEGURIDAD
+
+### Artículo 3º.- 
+La Dirección de Orden y Seguridad operativamente estará a cargo de un DIRECTOR quien deberá ser nombrado por el Intendente Municipal y será el superior inmediato de los miembros de las DIVISIONES DE ORDEN Y SEGURIDAD, POLICÍA MUNICIPAL y POLICÍA TURÍSTICA MUNICIPAL, siendo el Intendente el superior DIRECTO del mismo, debiendo actuar estrictamente dentro del marco de la Ley 3966/2010, Orgánica Municipal y todas las Ordenanzas y Resoluciones Municipales vigentes.-
+
+### Artículo 4º.- 
+Para brindar un mejor servicio a la comunidad, la Dirección de Orden y Seguridad se divide en tres Divisiones: ORDEN Y SEGURIDAD, POLICÍA MUNICIPAL y POLICÍA TURÍSTICA MUNICIPAL, pudiendo además formar cuerpos especializados en materia ambiental y sanitaria.-
+
+### Artículo 5º.- 
+La Dirección de Orden y Seguridad estará integrada por el siguiente personal:
+a) Un director;
+b) Jefes;
+c) Fiscales;
+d) Componentes de la Policía Municipal;
+e) Componentes de la Policía Turística Municipal;
+f) Funcionarios para la División de Orden y Seguridad a los efectos de cubrir las distintas zonas y lugares bajo responsabilidad de la Dirección.-
+
+La cantidad de los distintos funcionarios serán determinados por la Intendencia Municipal conforme disposición presupuestaria.-
+
+### ATRIBUCIONES DE LA DIRECCIÓN DE ORDEN Y SEGURIDAD
+
+### Artículo 6º.- 
+La Dirección de Orden y Seguridad, es el órgano que tiene la finalidad de ejecutar los servicios relacionados a las tareas de vigilancia y brindar acción preventiva de seguridad hacia los ciudadanos, vecinos o turistas, y bienes del dominio público y privado municipal.-
+
+### COMPETENCIA DE LA DIVISIÓN DE ORDEN Y SEGURIDAD
+
+### Artículo 7º.- 
+Constituye competencia directa de esta División:
+- Establecer vigilancia y seguridad de los edificios e instalaciones de Dominio Público y Privado de la Municipalidad, especialmente en los recintos donde se guarden documentos y valores;
+- Coadyuvar en carácter subsidiario a las tareas de la Policía Municipal de Tránsito en ordenar, dirigir y señalizar la circulación de personas y vehículos dentro de los predios municipales;
+- Cooperar con la Policía Nacional, en la prevención de hechos ilícitos, en el mantenimiento del orden y la tranquilidad dentro de sus límites de competencia y concertar planes de acción conjunta.-
+- Brindar seguridad, colaboración y orientar a los turistas dentro de los límites de su competencia.-
+- Prevenir la ocurrencia o prestar auxilio en casos de siniestros como: incendios, derrumbes, intoxicaciones colectivas, contaminación ambiental, manifestaciones y accidentes en general y concertar planes de acción conjunta con cuerpos similares;
+- Impedir la entrada en los edificios públicos municipales o áreas adyacentes, de extraños o sin autorización, fuera del horario laboral, invitándolos a salir como medida de seguridad.-
+- Fomentar la implementación de equipos tecnológicos que brinden mayor seguridad en los edificios municipales, tales como: sistema de monitoreo de alarmas, cámaras de video;
+- Realizar todo cuanto sea compatible con el objeto y funciones enunciadas;
+
+### REQUISITOS EXIGIDOS PARA INTEGRAR LA DIRECCIÓN DE ORDEN Y SEGURIDAD
+
+### Artículo 8º.- 
+El nombramiento a Director recaerá en una persona de nacionalidad paraguaya, mayor de edad, residente en el municipio, con formación universitaria y que haya tenido experiencia en manejo de personal, con suficiente conocimiento en la materia o en su caso formación Policial o Militar.-
+
+### Artículo 9º.- 
+El candidato interesado a ocupar el cargo de Director deberá presentar Curriculum Vitae a la Intendencia Municipal y de entre los candidatos se deberá escoger el que posee más aptitudes para desempeñar dicho cargo.-
+
+### Artículo 10º.- 
+Los funcionarios, a los efectos de integrar la Dirección mencionada, deberán tener las siguientes aptitudes y contar con los siguientes requisitos:
+- Nacionalidad Paraguaya;
+- Tener la edad comprendida entre los 18 a 35 años (para el ingreso);
+- Estudios secundarios completos o sus equivalentes;
+- Cumplimiento del Servicio Militar obligatorio o en su caso haber realizado cursos para Guardia de Seguridad;
+- Examen médico que demuestre las condiciones de salud física y mental del postulante para el cargo;
+- Aprobar el examen físico (test de cooper), a ser reglamentado por la Dirección de Orden y Seguridad;
+- No tener antecedentes judiciales ni policiales;
+- Solvencia moral y aptitud de prestación de servicios;
+
+### CAPITULO II
+
+### Artículo 11º.- 
+Los elementos de trabajo que la Institución Municipal deberá proveer a la Dirección de Orden y Seguridad serán los siguientes:
+- Camionetas cabina simple y doble cabina equipadas para ser utilizadas como patrulleras y transporte de personal en el cumplimiento de disposiciones municipales;
+- Motocicletas equipadas para ser utilizadas como patrulleras en el cumplimiento de disposiciones municipales;
+- Bicicletas con sus respectivos equipamientos para realizar bicipatrullas.-
+- Equipos tácticos antimotines como escudos, protector de torso, casco etc., a ser utilizados por la Policía Municipal en casos de manifestaciones violentas.-
+- Medios de comunicación (Walkie-Tokie), así como linternas, cámaras corporales, armas cortas y largas para cumplir funciones de resguardo de valores y bienes patrimoniales municipales;
+
+### Artículo 12º.- 
+La Intendencia Municipal podrá dictar Resoluciones o Reglamentos complementarios a los efectos de un mejor funcionamiento de la Dirección de Orden y Seguridad.-
+
+### CAPITULO III
+
+### DEL UNIFORME
+
+### Artículo 13º.- 
+Los funcionarios de la Dirección de Orden y Seguridad utilizarán el siguiente uniforme, con los distintivos pertinentes e identificatorios:
+- Pantalón tipo táctico color negro; con cinturón del mismo color;
+- Remera tipo polo mangas cortas y largas color negro con la insignia correspondiente;
+- Quepis color negro con la insignia correspondiente;
+- Botas de uso militar color negro;
+- Tonfa de goma, color negro;
+- Casco color negro con la insignia correspondiente en la parte frontal y reflectivo posterior en el caso de efectivos motorizados;
+- demás equipamientos que disponga la Intendencia Municipal o el Reglamento respectivo.
+
+### CAPITULO IV
+
+### POLICÍA MUNICIPAL
+
+### Artículo 14º.- 
+Constituye competencia de la División P. M., además de lo establecido en el Art. 7º, lo siguiente:
+- Ejercer la seguridad interna y externa en los eventos promovidos por el gobierno municipal, se presten servicios públicos o sitios de gran concurrencia pública, debiendo solicitar intervención de la Policía Nacional para la prevención de hechos ilícitos, el mantenimiento del orden y la tranquilidad pública;
+- Acompañar a las diferentes Direcciones para el transporte de Valores hasta o desde la Municipalidad;
+- Ejecutar o hacer cumplir lo dispuesto en Ordenanzas, Reglamentos y Resoluciones municipales referentes a los bienes del Dominio Público y Privado municipal;
+- Cooperar con los demás órganos municipales, en el ejercicio del poder administrativo policial con el objetivo de dar cumplimiento a las Ordenanzas, Reglamentos y Resoluciones, dentro de sus límites de competencia,-
+- Redactar actas o informes de los hechos en los que intervienen, debiendo elevar los mismos al Director de Orden y Seguridad dentro de la jornada de servicio, y en un plazo no mayor de 24 horas hábiles.
+
+### Artículo 15º.- 
+Los candidatos para la Policía Municipal, además de cumplir los requisitos establecidos en el artículo 10º, también deberán:
+- Tener conocimiento sobre manejo de armas cortas y largas, abordamiento de personas;
+- Haber sido seleccionado por mejores actitudes y notas satisfactorias en los cursos de capacitación dictados por los instructores de la Dirección de Orden y Seguridad o la División de Capacitación dependiente de la Dirección de Talento Humano.-
+
+### Artículo 16º.- 
+La P. M. utilizará el uniforme previsto en el Art. 13º, con los distintivos pertinentes e identificatorios y chalecos tácticos color negro.-
+
+### CAPITULO V
+
+### POLICÍA TURÍSTICA MUNICIPAL
+
+### Artículo 17º.- 
+Créase la Policía Turística Municipal (P. T. M.) como División de la Dirección de Orden y Seguridad. El objetivo de esta División es brindar seguridad preventiva, facilitación orientación a turistas y visitantes conforme a las recomendaciones de la Organización Mundial del Turismo, organismo especializado de las Naciones Unidas, del cual es miembro el Paraguay-
+
+### Artículo 18º.- 
+Constituye competencia de la División P.T.M., además de lo establecido en el Art. 7º, lo siguiente:
+- Garantizar seguridad a turistas y visitantes lo que abarca, protección de la vida, de la salud, de la integridad física, psicológica y económica dentro de los límites de su competencia, debiendo solicitar intervención de la Policía Nacional para la prevención de hechos ilícitos, el mantenimiento del orden y la tranquilidad pública;
+- Orientar y facilitar información rápida y veraz a los turistas o visitantes.-
+- Redactar actas o informes de los hechos en los que intervienen, debiendo elevar los mismos al Director de Orden y Seguridad dentro de la jornada de servicio, y en un plazo no mayor de 24 horas hábiles.
+
+### Artículo 19º.- 
+Los candidatos para la Policía Turística Municipal, además de cumplir los requisitos establecidos en el artículo 10º, también deberán:
+- Haber participado en programas de capacitación especializada en el Área de Turismo,-
+- Expresarse correctamente en los idiomas guaraní, español y portugués.-
+- Haber sido seleccionado por mejores actitudes y notas satisfactorias en los cursos de capacitación dictados por los instructores de la Dirección de Orden y Seguridad o la División de Capacitación dependiente de la Dirección de Talento Humano.-
+
+### Artículo 20º.- 
+La P.T.M. utilizará el uniforme previsto en el Art. 13º, con los distintivos pertinentes e identificatorios y chalecos tácticos color negro.-
+
+### CAPITULO VI
+
+### DISPOSICIONES ESPECIALES
+### TENENCIA Y PORTACIÓN DE ARMAS
+
+### Artículo 21º.- 
+Los miembros de la Dirección de Orden y Seguridad, podrán portar armas de fuego reglamentarias a los efectos de prevenir cualquier situación que peligre la integridad física de los mismos al momento de ejercer sus funciones. La Asesoría Jurídica de la Municipalidad, deberá realizar los trámites Judiciales o Administrativos correspondientes para obtener las autorizaciones previstas en la Ley 4036 "De Armas de fuego, sus piezas y componentes, municiones, explosivos, accesorios y afines".-
+
+### SALARIOS
+
+### Artículo 22º.- 
+Los salarios que deberán percibir el Director, jefes, fiscales y demás funcionarios serán contemplados en el Presupuesto Anual de Gastos de cada año de la Municipalidad.-
+
+### Artículo 23º.- 
+Establecer una remuneración especial (plus) por la prestación de servicios extraordinarios (sábados, domingos y feriados, horas extras, trabajo nocturno, doble guardia, coberturas especiales o asignadas, etc. El Plus será pagado con un recargo del (40%) cuarenta por ciento sobre el salario dispuesto para la Divisiones de la Policía Municipal y la Policía Turística Municipal, y un recargo de 20% por ciento sobre el salario dispuesto para la División de Orden y Seguridad.-
+
+### HORARIO DE TRABAJO
+
+### Artículo 24º.- 
+Los componentes de la Dirección de Orden y Seguridad prestaran servicio durante las 24 horas del día en tres turnos rotativos, incluido días feriados:
+1er. Turno:
+06:00 A.M. horas, hasta las 14:00 P.M. horas.
+2do. Turno:
+14:00 P.M. horas, hasta las 22:00 P.M. horas.
+Servicio Nocturno:
+22:00 P.M. horas, hasta las 06:00 A.M. horas.
+
+### DEL RÉGIMEN DISCIPLINARIO
+
+### Artículo 25º.- 
+Los funcionarios de la Dirección de Orden y Seguridad, que faltaren al cumplimiento de sus deberes y obligaciones, serán sancionados de conformidad a lo establecido en la Ley 1.626 De la Función Pública, Ley 3.966 Orgánica Municipal y los Reglamentos dictados por la Intendencia Municipal.-
+
+### Artículo 26º.- 
+Todos los miembros de la Dirección de Orden y Seguridad deberán tener conocimiento de lo que establece la Constitución Nacional de la República del Paraguay; la Ley 1626 De la Función Pública; la Ley Orgánica Municipal 3.966/2010 y las Ordenanzas Municipales y Resoluciones vigentes.-
+
+### Artículo 27º.- 
+El Intendente Municipal podrá reglamentar la presente Ordenanza.-
+
+### Artículo 28º.- 
+Quedan derogadas todas las ordenanzas, resoluciones y reglamentos que contradiga a la presente ordenanza.-
+
+### Artículo 29º.- 
+Comunicar a quienes corresponda y cumplido archivar.-
+
+## Firmas
+- CLAUDIO RAMÓN DURAÑONA M., Secretario General J.M.
+- ABG. PEDRO ACUÑA, Presidente J.M.
+
+*(Nota al pie: Sello de Ciudad del Este Municipal Junta Municipal. Nota manuscrita: Vanessa F 08/02/22 10:38)*

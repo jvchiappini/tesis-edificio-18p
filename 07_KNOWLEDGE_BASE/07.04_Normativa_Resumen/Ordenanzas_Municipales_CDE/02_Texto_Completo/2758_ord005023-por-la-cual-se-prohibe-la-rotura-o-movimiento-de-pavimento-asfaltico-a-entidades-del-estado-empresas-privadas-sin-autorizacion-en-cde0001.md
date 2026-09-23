@@ -1,17 +1,122 @@
-# Ord.005.023 Por la cual se prohíbe la rotura o movimiento de pavimento asfaltico a entidades del Estado, empresas privadas sin autorización en CDE_0001
-
-- **Relevancia:** BAJA
-- **Año (categoría):** 2023
-- **Categoría publicada:** Ordenanzas Junta Municipal 2023
-- **Texto (div mt-4):** Ord.005.023 Por la cual se prohíbe la rotura o movimiento de pavimento asfaltico a entidades del Estado, empresas privadas sin autorización en CDE_0001
-- **Enlace oficial:** https://mcde.gov.py/post/ord005023-por-la-cual-se-prohibe-la-rotura-o-movimiento-de-pavimento-asfaltico-a-entidades-del-estado-empresas-privadas-sin-autorizacion-en-cde0001
-- **PDF original local:** `03_PDF_Originales/2023/2758_ord005023-por-la-cual-se-prohibe-la-rotura-o-movimiento-de-pavimento-asfaltico-a-entidades.pdf`
-- **Método:** OCR Windows (es) · 5347 car.
-
-> Documento de la Municipalidad de Ciudad del Este. Verificar contra el PDF original.
-
+---
+id_documento: '2758'
+archivo_pdf_original: 2758_ord005023-por-la-cual-se-prohibe-la-rotura-o-movimiento-de-pavimento-asfaltico-a-entidades.pdf
+carpeta_anio: '2023'
+ruta_relativa_pdf: 2023/2758_ord005023-por-la-cual-se-prohibe-la-rotura-o-movimiento-de-pavimento-asfaltico-a-entidades.pdf
+tamano_pdf_kb: 261
+fecha_procesamiento: '2026-09-22T15:21:50.513Z'
+modelo_ocr: gemma-4-26b-a4b-it
+prompt_version: prompt_ocr_ordenanzas.md
+numero_ordenanza: 005/2023
+tipo_norma: Ordenanza
+anio: '2023'
+fecha_sancion: 12 de abril de 2023
+fecha_promulgacion: ''
+fecha_publicacion: ''
+titulo: POR LA CUAL SE PROHÍBE LA ROTURA O MOVIMIENTO DE PAVIMENTO ASFÁLTICO O PÉTREO POR PARTE DE ENTIDADES DEL ESTADO Y EMPRESAS PRIVADAS SIN AUTORIZACIÓN PREVIA DE LA MUNICIPALIDAD DE CIUDAD DEL ESTE.-
+organo_emisor: Junta Municipal de Ciudad del Este
+numero_expediente: ''
+numero_sesion: '83'
+fecha_sesion: 12 de abril de 2023
+intendente_firmante: ''
+presidente_junta_firmante: Oscar González
+secretario_junta_firmante: Claudio Ramón Durañona M.
+concejales_firmantes:
+  - María Portillo Verón
+relaciones_normativas:
+  - tipo: reglamenta
+    norma: Ley N° 3966/10 Orgánica Municipal
+  - tipo: reglamenta
+    norma: Código Penal Vigente (art. 158, numeral 4)
+categorias:
+  - urbanismo_y_construccion
+palabras_clave:
+  - pavimento asfáltico
+  - pavimento pétreo
+  - rotura
+  - autorización
+  - reparación
+  - multa
+  - vialidad
+ambito_territorial: Ciudad del Este
+monto_o_tarifa_involucrado: multa equivalente de 50 a 100 jornales mínimos vigentes
+tiene_anexos: false
+anexos_detalle: []
+tiene_tablas: false
+estado_legibilidad: buena
+confianza_transcripcion: alta
+observaciones_ocr: ''
+metadata_extraction: automatica_completa
 ---
 
-PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO - 2025 Av. del Este y 595 31 518440 CIUDAD DEL ESTE POR SE PROHÍBE LA ROTURA O MOVIMIE!V'JO DF PA A O PÉTREO POR PARTE' DE ENTIBADAS ESTADO V EMPRESAS PRIVADAS SIN AUTORIZACIÓN PREVIA DE TA DE CIUDAD DEL ESTE.- Ciudad del Este. 12 de abril de 2023,- VISTO: La minutil escrita presentada pur lu Señora Conegioi Maria Porillo que ron,rrene ei proyecto de Ordencrnza• '"POR LA CUAL SE l'ROHfBE LA ROTURA O MOVIMIEJWO PAVIMENIO ASFÁLTICO O POR PARTE DE ENTIDADES ESTADO EMPRESAS PRIVADAS PREVIA DE DF r,J1.lDAD ESTE, para estudio y consideroción def orgonistno legislütjvo CONSIDERANDO: Que, Ley N" Orgánico Municipal, en su ürt, -36 dispone.' "LG iJwntG Manicfptll tendrá 105 siguientes atribuciones; Elincionor ordenanzas, resoluciones, yeglamentos en materias de competencia municipal; En art. 38 dicto: "Lü iniciativil de proyectos Ordenanzas curresponde los miembms de Janto a/' intendente MLtnicipC1i! y o ciudadanos por inicia!iF0 populorv eri Jo forma establecida en Ley. en su f/rt, gg rem : '*Los proyecrns de Ordentmzo.s y de Resmucirmes serón remitidos por pfenorio de Junta Municipal parn estudio y dictamen de comisiones ú.sesnyus. Concluido el serú 01 plenario para su Que, de un Tiempo o esta parte Las Empresas Concesionarias COPAGO y Fmpresos Privadas, procedido a usfúItit'11 tumo pétreo en los lugares en dr.nde precisamente Wimicipoljdud esfó realizando fos Íraboios de rectvado los máquinas Gdquirida.s úktfmomente dentrn del procesi' que ho implementado ef F,jee.ativo Municipal en el melurrmienlo de " Ifraestrueturu vial en ei Microcentro de estu r.iudody barrios de eslo urbe- Que, haciendo un análi5is• minucioso del proyecto de Ordenonzu,y considernciones de la exposición de rnolivos, los miembros comisiones asevercm viabilidad de soneilin de mencionodo norma.- Ei' dictümen fovnrohje de Comisión Asesora de Legislación, aprobado en Sesión Ordinario {fecha i2 de obril de! año 2023, Según Acto 83; por Ionio,' LA JUNTA MUNICIPAL DE CIUDAD ESTE EN CONCEJO OROEYA -culo Lo presente Ordenanzo tiene por objeto regufgr los obras Gwe impiiquen rotura *'110 del pcrvimento asfáltico y pétren de los colles y veredos realizados por entidades [s o o empresas coacesjoncrrÍ115 enej municipio de Ciudod def E<te.- "culo Qaeda prohibido roturil o movimiento del pavimento asfáltico y pétreo redas en e! municipio de Ciudad del Este, sin cuturizc;cjón previo de Municipillidad* deberá set emanado medioe!e escri'0 porfo de Areú l.(rbünti. qu[0 Lus obras mencionados en ei oyticu*o nnterjor serón por fu Areo Urbuno u-avés de División de En cuso de tratúrse de obras que im 'TihugÊfroÍuruy/o tnovirnieaio del pavimento oSfÚiÍiCo, {isca[ización se reüiizt;rú erz wnjunto fón de Plomo As[úi'tico Municipal.- Articulo 40.- Lino vez culminadas obras ser por la perwno, empresu o fnslituciói" outorjzod0* mismü deberá prnceder o fu reporocifm de 10 colle y / o veredu ofec.iodo, y montenfendo eaidod del pavimento, segun especificaciones técnicas de las dependencias fiscalizodaros Pillina + 2
+# ORDENANZA N° 005/2023 J.M. — POR LA CUAL SE PROHÍBE LA ROTURA O MOVIMIENTO DE PAVIMENTO ASFÁLTICO O PÉTREO POR PARTE DE ENTIDADES DEL ESTADO Y EMPRESAS PRIVADAS SIN AUTORIZACIÓN PREVIA DE LA MUNICIPALIDAD DE CIUDAD DEL ESTE.-
 
-FARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO 2021 Av. y Romero SYS oosev23 CIUDAD DEL ESTE Artículo Los requisüas que deberán presen,rnr ins empresns o concesionarios paro solicitar la autorización municipal de rotura o movimiento det pnjmenm Poro eoso de report:cion, mantenimiento, rehú'biiitoción y/o renovoeión que impliquen rojuras de pmâmen!o pétreos o aceras de Ices culles sun necesarios.' i, Conozalo de de la Concesionario (FSSAP, ANDE, copano, etcJ o, en de ser ejecuiado fos irobojos por mismo empresa, presenfor ej Ticion de trohojo realizar,- Z Orfen de en donde se especificarán h.'gores exoetfl.s de 10 ejecución de, la y superficie en merrm cuodradr•s que será remnvjdo.- 3- Pútente comercial dio- En cuso de exlensiórl tle servicios, t/dvncis d? fos requisi:os del pórru!ó anterior, d?tRÍ'ú adjuntarse wpia del plano del proyec.{0 eja•viorse,- Articulo rnso por frotarse de situoeirme= de emergencia nperotivo en donde esté en riesgo Rf servicio ofrecidil pr.r ja Institución n empresa solicitante, los uci.-inne« de *eparoción que ejecute iG empresa o concesionarios que impliquen roturo.s de pavimentus y uceras serán informados la Institución dentro de las velnlivuu!rti horas.. si fuere en díü5 inhábiles. deberán informar en el primer dio: hábil siguiente, (landa cumplimiento lus artfcalos 44 y Articulo 7%-T.n de de estos disposiciones, de Dirección de i'\reo [Jrhono, remitirá los gnfecedenres o fli Pmrurodurío de los Juzgados de Fültos Municipales. /l.simismo, serán -SLI.qceptihlÉ?5 de medidos de urgencia ef art.. 101 de la Ley N"'SY6hT10 Orgánica Municipal.- Artículo Las emprestas, instituciones y/o tontesfoncxios gae molfzoyen óras sin uuÍorieoc.h.5n correspondiente o inc.amplieren ori, G' de la presente ordenanza. pagarán [inti multa equivo(ente de 50 0 100 jorno(es vigenfes, De igual repondrú daños oerrsionüd05„- Artículo Uno vez agotüdcrs cias instmcios administrotjvus, y en no procederse e/ pcrgo de multa correspondiente, Intendencia Municipal o través de Dirección de Asesorio presenlcwú denuncia lirmal tinte ei À•ii.'listerio Público por daños cosos de interés común, el art. 158, numera! 4, del Código Penal' Vigente.- 10 Zz.&pf0720 S etario General J.M. M. o qoíenes cyt_reyonda y archivar.- OSCAR GONZÁLEZ Presidente .J.M. ES'i"E PágintJ 2 2
+## VISTOS
+La minuta escrita presentada por la Señora Concejal María Portillo Verón, que contiene el proyecto de Ordenanza "POR LA CUAL SE PROHÍBE LA ROTURA O MOVIMIENTO DE PAVIMENTO ASFÁLTICO O PÉTREO POR PARTE DE ENTIDADES DEL ESTADO Y EMPRESAS PRIVADAS SIN AUTORIZACIÓN PREVIA DE LA MUNICIPALIDAD DE CIUDAD DEL ESTE", para estudio y consideración del organismo legislativo municipal, y;
+
+## CONSIDERANDO
+Que, la Ley N° 3966/10 Orgánica Municipal, en su art. 36 dispone: "La Junta Municipal tendrá las siguientes atribuciones: a) sancionar ordenanzas, resoluciones, reglamentos en materias de competencia municipal; (...)". En su art. 38 dicta: "La iniciativa de proyectos de Ordenanzas corresponde a los miembros de la Junta Municipal, al Intendente Municipal y a los ciudadanos por iniciativa popular, en la forma establecida en esta Ley. (...)". Y, en su art. 39 reza:
+
+"Los proyectos de Ordenanzas y de Resoluciones serán remitidos por el plenario de la Junta Municipal para estudio y dictamen de las comisiones asesoras. Concluido el estudio, será devuelto al plenario para su consideración".-
+
+Que, de un tiempo a esta parte Las Empresas Concesionarias de la ESSAP, ANDE, COPACO y Empresas Privadas, han procedido a levantar la capa asfáltica como pétreo en los lugares en donde precisamente la Municipalidad está realizando los trabajos de recapado con las máquinas adquiridas últimamente dentro del proceso que ha implementado el Ejecutivo Municipal en el mejoramiento de la infraestructura vial en el Microcentro de esta Ciudad y varios barrios de esta urbe.-
+
+Que, haciendo un análisis minucioso del proyecto de Ordenanza, y las consideraciones de la exposición de motivos, los miembros de las comisiones aseveran la viabilidad de la sanción de la mencionada norma.-
+
+El dictamen favorable de la Comisión Asesora de Legislación, aprobado en Sesión Ordinaria de fecha 12 de abril del año 2023, Según Acta N° 83; por tanto:
+
+## LA JUNTA MUNICIPAL DE CIUDAD DEL ESTE REUNIDA EN CONCEJO ORDENA
+
+### Artículo 1º.- 
+La presente Ordenanza tiene por objeto regular las obras que impliquen rotura o movimiento del pavimento asfáltico y pétreo de las calles y veredas realizadas por entidades públicas o privadas o empresas concesionarias en el municipio de Ciudad del Este.-
+
+### Artículo 2º.- 
+Queda prohibida la rotura o movimiento del pavimento asfáltico y pétreo de las calles y veredas en el municipio de Ciudad del Este, sin autorización previa de la Municipalidad, la cual deberá ser emanada mediante escrito por la Dirección de Área Urbana.-
+
+### Artículo 3º.- 
+Las obras mencionadas en el artículo anterior serán fiscalizadas por la Dirección de Área Urbana a través de la División de Vialidad. En caso de tratarse de obras que impliquen rotura y/o movimiento del pavimento asfáltico, la fiscalización se realizará en conjunto con la Dirección de Planta Asfáltica Municipal.-
+
+### Artículo 4º.- 
+Una vez culminadas las obras a ser realizadas por la persona, empresa o institución autorizada, la misma deberá proceder a la reparación de la calle y/o la vereda afectada, con los materiales adecuados y manteniendo la calidad del pavimento, según las especificaciones técnicas de las dependencias fiscalizadoras.-
+
+### Artículo 5º.- 
+Los requisitos que deberán presentar las empresas o concesionarias para solicitar la autorización municipal de rotura o movimiento del pavimento son:
+
+Para caso de reparación, mantenimiento, rehabilitación y/o renovación que impliquen roturas de pavimento asfáltico o pétreos o aceras de las calles son necesarios:
+
+1. Contrato de trabajo de la Concesionaria (ESSAP, ANDE, COPACO, etc.) o, en caso de ser ejecutado los trabajos por la misma empresa, deberán presentar el plan de trabajo a realizar.-
+2. Orden de trabajo en donde se especificarán los lugares exactos de la ejecución de la misma y la superficie en metros cuadrados que será removido.-
+3. Patente comercial al día.-
+
+En caso de extensión de servicios, además de los requisitos del párrafo anterior, deberá adjuntarse copia del plano del proyecto a ejecutarse.-
+
+### Artículo 6º.- 
+En caso excepcional, por tratarse de situaciones de emergencia operativa en donde esté en riesgo el servicio ofrecido por la Institución o empresa solicitante, las acciones de reparación que ejecute la empresa o concesionarios que impliquen roturas de pavimentos y aceras serán informadas a la Institución Municipal dentro de las veinticuatro horas y, si fuere en días inhábiles, deberán informar en el primer día hábil siguiente, dando cumplimiento a los artículos 4º y 5º.-
+
+### Artículo 7º.- 
+En caso de incumplimiento de estas disposiciones, la Municipalidad, a través de la Dirección de Área Urbana, remitirá los antecedentes a la Procuraduría de los Juzgados de Faltas Municipales. Asimismo, serán susceptibles de aplicárseles medidas de urgencia conforme el art. 101 de la Ley N° 3966/10 Orgánica Municipal.-
+
+### Artículo 8º.- 
+Las empresas, instituciones y/o concesionarios que realizaren las obras sin la autorización correspondiente o incumplieren el art. 6º de la presente ordenanza, pagarán una multa equivalente de 50 a 100 jornales mínimos vigentes. De igual forma repondrá los daños ocasionados.-
+
+### Artículo 9º.- 
+Una vez agotadas las instancias administrativas, y en caso de no procederse el pago de la multa correspondiente, la Intendencia Municipal a través de la Dirección de Asesoría Jurídica, presentará denuncia formal ante el Ministerio Público por daños a cosas de interés común, de conformidad con el art. 158, numeral 4, del Código Penal Vigente.-
+
+### Artículo 10º.- 
+COMUNICAR, a quienes corresponda y cumplido archivar.-
+
+## Firmas
+- **CLAUDIO RAMÓN DURAÑONA M.** - Secretario General J.M.
+- **OSCAR GONZÁLEZ** - Presidente J.M.
+
+---
+**Sello de recepción:**
+CIUDAD DEL ESTE MUNICIPIO
+SECRETARIA GENERAL
+RECIBIDO POR: [ilegible]
+FECHA: 18.04.2023
+HORA: [ilegible]
+
+---
+**Misión:** Contribuir al desarrollo económico, social, y cultural, mediante el uso óptimo de los recursos, como polo de desarrollo, en concertación con la sociedad y el medio ambiente.
+**Visión:** Ser una ciudad moderna y vanguardista, líder en el desarrollo nacional e internacional, resguardando los valores culturales y su identidad.

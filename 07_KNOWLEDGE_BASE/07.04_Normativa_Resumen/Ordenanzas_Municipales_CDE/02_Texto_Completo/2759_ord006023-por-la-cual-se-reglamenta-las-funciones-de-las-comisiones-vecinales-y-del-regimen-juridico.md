@@ -1,33 +1,390 @@
-# Ord.006.023 Por la cual se reglamenta las funciones de las comisiones vecinales y del regimen  jurídico
-
-- **Relevancia:** BAJA
-- **Año (categoría):** 2023
-- **Categoría publicada:** Ordenanzas Junta Municipal 2023
-- **Texto (div mt-4):** Ord.006.023 Por la cual se reglamenta las funciones de las comisiones vecinales y del regimen  jurídico
-- **Enlace oficial:** https://mcde.gov.py/post/ord006023-por-la-cual-se-reglamenta-las-funciones-de-las-comisiones-vecinales-y-del-regimen-juridico
-- **PDF original local:** `03_PDF_Originales/2023/2759_ord006023-por-la-cual-se-reglamenta-las-funciones-de-las-comisiones-vecinales-y-del-regime.pdf`
-- **Método:** OCR Windows (es) · 28886 car.
-
-> Documento de la Municipalidad de Ciudad del Este. Verificar contra el PDF original.
-
+---
+id_documento: '2759'
+archivo_pdf_original: 2759_ord006023-por-la-cual-se-reglamenta-las-funciones-de-las-comisiones-vecinales-y-del-regime.pdf
+carpeta_anio: '2023'
+ruta_relativa_pdf: 2023/2759_ord006023-por-la-cual-se-reglamenta-las-funciones-de-las-comisiones-vecinales-y-del-regime.pdf
+tamano_pdf_kb: 1335
+fecha_procesamiento: '2026-09-22T15:40:17.258Z'
+modelo_ocr: gemma-4-26b-a4b-it
+prompt_version: prompt_ocr_ordenanzas.md
+numero_ordenanza: 006/2023
+tipo_norma: Ordenanza
+anio: '2023'
+fecha_sancion: 12 de abril de 2023
+fecha_promulgacion: ''
+fecha_publicacion: ''
+titulo: POR LA CUAL SE REGLAMENTA EL ART. 65 DE LA LEY N° 3966/10 ORGÁNICA MUNICIPAL DE LA CREACIÓN ORGANIZACIÓN Y FUNCIONES DE LAS COMISIONES VECINALES Y DEL RÉGIMEN JURÍDICO DE LAS MISMAS.-
+organo_emisor: Junta Municipal de Ciudad del Este
+numero_expediente: ''
+numero_sesion: '83'
+fecha_sesion: 12 de abril de 2023
+intendente_firmante: ''
+presidente_junta_firmante: Oscar González
+secretario_junta_firmante: Claudio Ramón Durañona M.
+concejales_firmantes:
+  - Sebastian Martínez
+relaciones_normativas:
+  - tipo: reglamenta
+    norma: Art. 65 de la Ley N° 3966/10 Orgánica Municipal
+  - tipo: deroga
+    norma: Ord. N° 09/2000
+  - tipo: deroga
+    norma: Resolución N° 648/98
+categorias:
+  - personal_y_administracion
+  - otros
+palabras_clave:
+  - Comisiones Vecinales
+  - Reglamentación
+  - Ley Orgánica Municipal
+  - Ciudad del Este
+ambito_territorial: Ciudad del Este
+monto_o_tarifa_involucrado: hasta el monto de 2.000 jornales mínimos para transferencias
+tiene_anexos: false
+anexos_detalle: []
+tiene_tablas: false
+estado_legibilidad: buena
+confianza_transcripcion: alta
+observaciones_ocr: El documento contiene sellos y firmas de la Junta Municipal de Ciudad del Este y de la Secretaría General. La transcripción incluye los pies de página con Misión y Visión.
+metadata_extraction: automatica_completa
 ---
 
-PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO - 2025 Av. Pioneros Esa • 595 53'844C CIUDAD DEL ESTE POR 65 DE' 396650 ORGÁNICA MUNTCTPAT. r.A CREACIÓN ORGAMZACTÓN Y FUNCIONES r.4-s COMISIVONES VECINALES Y DEL RÉGIMEN JURÍDICO DE LAS MISMAS.- Ciudad 12 de «bril 2023.- VISIO: La minuto escritu prewntudu por ei Señor Concejctl Sebastian !viariínez, qae• de "POR LA CUAL SE REGLAMENTA ART. 65 OE LA ORGÁNICA LA CREACIÓN, Y FOTCIChVFS VECINALES Y DEL JURIDJCO DE MISMAS", Y colisiderocíón del organismo fegis!01iv0 CONSIDERANDO: lu presente iniciativa se encuadra dentro de previsiones establecidas url, 3G inc. de la ley 395Cii10 Orgánica Municipal, v. ios deberes y atribuciones de Junrn h•flJÑicipaI", poro que a !ravés de uno ORDENANZA sic„.. '"Norma {uridico' Monjeipof de opficoción ron Perm obligolorin ert e/ Municipio, , , se procede octiiühzor Ord. 1192000 que confirma Resoiución 640/98 POR LA QIJP, SE REGLAMENTA EL DE LAS COMISIOÑES DE FOMENTO nr.sTRrrn LOE CIL.OAUOEL ESTE Y Oee, iu Ordenonm precitado se encuentra desfasado en eI tiempo, principalmente teniendo e» caenza• que Orgánico Mitnicjpaf del año 2010 es posterior a fo Orio 2000 POR LA L'O'AL SE CILA EL L'OA'5EJO GENERAL COMISIONES VT.r.WALPS Y DE FOME!VTCJ URBANO. en ese orden ideos eSiü Ordenanza actualiza en grun medido figuro y los diferentes modalidades de los Comisiones eanlwnplod•a en e/' trrt. 4 de esta Ordenonzo en cuento o los tipos de Comisiones '&c.inoies, y aspectos de vital Imponencia en Cuanto a Dhletivos contemplados en el ort- 2 de 10 citodo norma general tn análisis.- Que, la Ordenunzo N" descripto oj mnmenlo de engror en vigencia eslo nueva Ordenanzw queda derogada, —ipso fúL'to-— que no es otro coso que jo anofueión v otoción de uno norma jurídico, ley; reglamentcrcjón u ordenanza, vigente p-.r otro definirivo es eil de revncoción de alguno de ios ptec.eplos de ley, código, reaomento en nuestro caso denominamos Ordenonzü de opficoción genero]' coa Tuerza obligatorio en todo e! Municipio,- Que, demro de las atribuciones reglodus que tiene 10 .JLff1tü Municipoj' en G) l.os np,flF.REs DE por la edemmzgs, resoluciones, reglomenms en rnop.f"ia de etimpeleneiü municipal, en concurdaneio con 10 ajspuesto en ei art- i6B ATRIBUCIONES de 10 CONSTITUCIÓN NACIONAL cfwe en su inv. 6) establece, , , E! dictado de ordenanzas, regicrrnentos y resoluciones.- EI dinornen ,1ànrobJe de Ja ComisiónAsesoro de Legislación nprohodo en Sesión OMJnaria 12 de del 2023, SegúnActo por JUVIA MUNICIPAL DE CIUDAD ESTF. RE UNIDA EN CONCEJO ORDENA Artículo DEFINICION. Los C.ntnisiortes %cineJe.s son grupos de personas "*Yincwdas en el por ser vetános o por un objetivo comám Su se do por un uc.io de unu asombieo de ciudadanos y parci existir fnrmofmente serón ,iéôs por Resolución de fa JaenderL'iü Maãicipal. Dependerán directamente del Ejecutivo de ro Secretariode Fomenio. Tertdrón c.arút•ler dt organismos cle cooperüúún en ge "ones y üctfvidodes de su comunidad, LTL'tuundo enmo auxiliares de ia administración municipoiv ton[orme a 10 dispuesto en eI A/'l, 65 de Ley 3,966710 Orgánicu Municipal. rendron Uno voJide.z de ho=to exlinguiêfldose úiÍi0fitúiJeomer8e e.' 31 de diciernbJt4 dei año subsiguiente,- Arcarlo 20.- OBJETIVOS* objetivos de Comisiva"
+# ORDENANZA N° 006/2023 J.M. — POR LA CUAL SE REGLAMENTA EL ART. 65 DE LA LEY N° 3966/10 ORGÁNICA MUNICIPAL DE LA CREACIÓN ORGANIZACIÓN Y FUNCIONES DE LAS COMISIONES VECINALES Y DEL RÉGIMEN JURÍDICO DE LAS MISMAS.-
 
-PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO 2021 - 2025 Av. Esa Ef CIUDAD DEL ESTE oj L'ontribair a elevar la ea!ídud de vid¿J de Jos hohjtontes del barrio o sector; b) Promover porlicír:wr.jón octjvg de todos los vecinos tun mirvs soiwt.ióri de sus propios prohkmos de titulación de tierra, dentro del marco leeof vigenre,' c) Gesnonor onfe los instancias eorresp0/'1zlientes arciones para In obrencfón de oguo patol}le, ccrminos- vecinales (empedrado, asjàI!0, plazos, jnversinnps la salud, deporte o lu o iodo oquel,'o que pudiero ser de heneficiopara comunidad; (0 Adminis!ror servJc.ios que Je sen o«ignodos por Ejecutivo Munivipul; e) r,omribuir comunidod constituyéndose en espurio de diálogo, información y participacion def vecÍndürÍoe y orgcmizándolos puro defender sus derec.hos y cumplir obligaciones; D Fomentar edatución 10 educocidn fnrmoiy educoción no formtTi! en general; Acc.ionor ei' conaeimiento y defenso de los Derechos Humanosv y delenso y protección del medio ambiente; h) C.'ooperar con la seguridad eiaduduna; y i' 105 Objetivvs tun fines lícilosy en beneficio de comunidad,- Articulo ei Jogro de sus obje[ivos serin fimcionec de las Comisiones Itcinoie«.' Gestionar ome Wunicjpahdod, institucimes e instancias que correspondan la solacjón de los problemus que ofeücm 01 barrio o 10 ciudadanill en general, propuestas de s•oha't'ión; b) r,oinboror coa Muniejpuiidad e.n estriña observonciü de jos ordenanzas, esperiotmeme en tas referfdü< o normas de com•ivencfll súh.!hridod y medio c;mhiL'11te, servicios público* diftmdiendrs su eontenjdo en ei vecindario; Ptiriicipar y estimulcrr la reukzación de prqrromcrs desarrollo social' y arbcmístlco, basados principúlmerue en esfuerzo propio de los beneficiarios; d) Proponer efo Inyemlencio Municipal fu elaboración de ordenamos que regulen famas de interés poro la vida CfUdüdGiRü,- E'sle y funciones es enunciativo y no Ijmjtútlvo,- Articulo TIPOS. ne acuerdo o io de sus objetjvosv se distinguen dos lipos de misinnex Vécfrlüles: La Comisión Vecinal det Bania: es osncjüEjdn de vecinas que por tinoiidod mejorameyuo de las cundÍcjones de vido de 10 comunidad de un Úreo dererminodo y eI de msma; b) Sub Comición Vecinal Pro-Aceividad: es asociación tunstituidu con uno u más obletivrxç específicos; y, c) La Sub Comisión Vecinal de Administración: es aqueao asociación de vecino.' que tiene función la adminislración de servicio público dentro de lúcomunidod.- ) 1.0 Comiciótt Pro-Ataividod F.xtraordinwia; es aquella vreuda por un propósito Especifico en el Acto Constitutivo, y esluró ronlorrnodo por ciudadanos del municipio sin ecesorjgmente ser estras vecinas. Sero rer•mncÍdti por 'o Intendenc;jo Manjeipal, Algunos o' estas Comisiones sercin de C.'ami.siones Pm-Feste.lo def de Febrero, rus omisiones Pro-Decoruciones flavideñas y otras comisiones creadas paro un propósito especilfir.o, regoJodos suplaoriorfjence• por disposiciones de presente ordenanzo, y disolución r' extincion esteró dgdr7 por el cumplJrníen&J de fos jines crecid , previa presentación de la rendición de cuentü.ç F.jecugivo Municipal y a la Jugl Municipal. Podrán recibir trcjnsferencios poro el ell'mpiimienrr. de objetivo, o io dispuesto en el t.uerpo de esta ordenunzti municipill- DE LOS REQUISITOS PARA e! caso de: J) Comisión del Barrio: paro Su Creueión, 105 vecinos 30Íit.'itarón vía Mesa de Entrada de Municipalidad la convocotmÍG uno A•mhito de veeim-rç; 10 Uno Sub Comi5ión Vecinal Pro-ActiYidad: paru crewión, los vecinos se convocnrón o unu reoniCn entre Jos mismos, con 'o mayar aoniidad posible Ío. Svi w.i.i r
+## VISTOS
+La minuta escrita presentada por el Señor Concejal Sebastian Martínez, que contiene el proyecto de Ordenanza "POR LA CUAL SE REGLAMENTA EL ART. 65 DE LA LEY N° 3966/10 ORGÁNICA MUNICIPAL DE LA CREACIÓN, ORGANIZACIÓN Y FUNCIONES DE LAS COMISIONES VECINALES Y DEL RÉGIMEN JURÍDICO DE LAS MISMAS", para estudio y consideración del organismo legislativo municipal, y;
 
-PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE 2025 Av. y T". 5'25 fil' STã44G moradore5 sector; y CIUDAD DEL ESTE Una Sub Comisión Vecina\ de Administración: ruara sur f.tpgr.jon, vecinos solieiturún Mesa cie Entrado de MLI/•Ticrpülidfld crmvoefitr.riü o Asamblea de Louari0b dei servicio en cuestión que se encuentren hühüitados paro tener voto,- Uno Sa}} Comisióa Pro-AcGvidad Extraordinaria: poro creat.•ión, Municipoj reclizaró de 10 cnnvnentm'io; b) Labrarán lle Asamb¿eo de acuerdo con los estándares e.stfibliecidos esto normativa y lu presentarán en Secretcjríl/ de Fomento de la Municipojidod, lunm con las demiu docamerzt"'ivnes pertinentes.- DE ASAMBLEA cavs o) inicio, en io hora de con Oiüod wao de los hohifitodos del fifgar; o r.nn r.üülqujer EGMidüd de hühiiitodos, uno horo després de hora de la convocatorio; b) las Comisiones vecinales del BürrÍo y los Sub Comisiones de Adminolracüin, deberá estor prestnde veedor uri funcionario de Municvatidad da Ser:reiario de Fomento o uno osionodo por esto, r,oncejo! Munit'.ipol; r:) Se elegirá presidente de Asamblea y un secretorio. Este se encargr;ró de ['obrar Acro de ja Asomhleü,v do Cado termno o lote ciel lugar eorresponderci u.'l independientemente [i' dimensiones del mismo eunlülod de persunus que en é/ moren; pune del quórum miembros ausentes quien•es hoeon otorgado poder, ni se podrá por' poder; 0 derer.hn "to ira' uxuorins del setvjcio en eue«tión que se encuen.ren en mora por eI pago del mismo por mós de tres cuotas,- Artículo 74.- En Asumbtleús se seguirá ei stguienle Orden del f.)io: a) Elección de y Secretario de Asornbfea; Elección de dos representantes de Asombleu puro firmar r.) r.ecurro del Acto de sesian 'JRferiary consideración de IG 10 Rendición cuentas,y el Bú'l:mce de LomisiÓrz Directiva; Elección de autorid(i'des de Comisiõn e) Elección de Síndico lilulary ano supleme," f) Elección de 'Riembtos ¿italores y suplen¿es (un mó&irno de 5 poro qo'ienes lormarú/l pane dti' quórum de Gomisión mrectivo; g) Propuesta de iaqojefwdes poro ¿f próximo p/on onuof de Ñ'übGjo de Cmnisión hocino); y -culo 8.- Los docvmen10S que deben ser preseniodos iu Asamblea memoria, jnóir.ondn en ena objen:vos propuestos y Lias logrados; Lihro de Cala, en ei que debe cunstur 10 siguiente: Estado Menswl. cumprvb«rztes de gas•zrr;, y Baiance General Antuclv- Estos clovumerucs deben ser preseraodos en ia Municipofidad denytn de dios uíeraes a lecha d? reo!imr.ión de fú ,4.samhjelT r.nnsfitlfñva, y Mvmeipolfdüd debero de oh.•ertos menor 3fJ dios desde iapresenürciól de los mismos,- . gi'ú!o gt- CorfJjsi0Ñes Wr.inuies deberán comunicar integración de Comisión Di Nfnnir.ipaiidod en no o los 30 días posteriores de su elección.- Artículo 10".- Las Actos de htsAsombfe.as Consúlulhos deberán ermçfor de: Lugar, ifechoy horo de r.efehrüciàn; Peigint.l
+## CONSIDERANDO
+Que, la presente iniciativa legislativa se encuadra dentro de las previsiones establecidas en el art. 36 inc. a) de la ley N° 3966/10 Orgánica Municipal... "De los deberes y atribuciones de la Junta Municipal", para que a través de una ORDENANZA sic... "Norma Juridica Municipal de aplicación general con fuerza obligatoria en todo el Municipio..." se procede a actualizar la Ord. N° 09/2000 que confirma la Resolución N° 648/98 POR LA QUE SE REGLAMENTA EL FUNCIONAMIENTO DE LAS COMISIONES DE FOMENTO DEL DISTRITO DE CIUDAD DEL ESTE Y SU REESTRUCTURACIÓN.-
 
-PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO - 2025 Av. del Este y Canc•eiai' Ramerv ref. 5g,.S 5fS440 b) Sórnrna de vecinos pmsentes, c) Firma de los "•ecinos presentes; ro Ei objelh•v que persiga? COñ'ii.SÉó,ã bt•cirlú'l que se e) autoridades de la Asamblea,' CIUDAD DEI- ESTE t) 1.0 oprohoción de presentes parg fü farmoción de Comisión Vrinof; y g) 1,125 gumridodes eleetüsparo r:rmljsi'in Artículo Las Asambleú5 Constitutivos de Comisiones Itzinales• del Barrio o Sub Comisiones de Administrüción lendrcin tumo primer de/ Orden def Oía Memoria Anual, la Rendición d? Cueritos y la Preseniación de/ T.}alonc.e anie e! plenario, En es!? purito se rendiro de fos ingyesos y de gestión onterfnr, del cumplimiento de jas obligoeinnes kgoies, de rendicion de cuentü5 a los orqonismns financiadores ten cuso haber sido beneficiados con transferencia) y de las decisiones tomadas durante el ejercicio del mandGto.- Artículo 120,- Esurrún inhabilitados ctinc/idalarse ocupar curgos de Ptrsidenle, 'eicepresillenl% Pro resore/l.h Sec.retvriv, Pro Secretorio, Síndico o Síndico Suplente Jos Comisiones dei Barrio y ea los Sab Comisiones deAdmjnistrac:íón aquellos que hoyan formado parte de 10 ('.nmi<ión Directiva de 10 Cnmisjón Vecino) en el Oño onterjor y cuya gestión no presente 10 Memorill Anual, Rendición de C»entns y ei Bolonce de su gestión finte el plenario en 111 AfZ1mbiea Constitutiva en que expresan querer candiürtarse.- Artículo 13%- DE SI! RECONOCIMIENIO. Para ser reconocidas por el Ejecutivo /Aunio;paJ, las Comisioaes Téciao!es deberán: n) Presentor en 10 Secretorio de Fomento ei Acta de Asomhleo r.on.S!itutiF0' uno copio de mi.r,mu en un plom no moyorque 30 días F.sterinres 0 retJ5zoción de 10 b) Pura 105 casos de Comisiones ulilicen el mismo nombre de Comisiones leecinufesyt$ caducos, presentar copia de Memoria Anual, Rendición de e/ de Ju oesf}ón anterior, por Ju Asamblea c) Adjuntar o dicho presentación fus copias de cédula, de Antecedentes Pn5eiofesy de \ãday ResidencÍG del Presidente, Secrergrill y Tesorem electos en Agambleor osi como copio simple de cédu!o de Cüdü de electos como miembros; dj Presenilft- copia dei phino munzu,'leyu zonti donde se delimite su óretl cle influencia de Comisión donde &'.ñ'drú Articulo 14".-1.0 Secretaria de Fomento, ano vez recibido saficjtud de reconocimiento de isión i,eeinol, observoró 105 fines y propósitos de mtsma, velando ei carcicter lícito de os, si se encuentran bien especificados y si orientan las netvsid{ldes del bien del plazo de Ireíntc} días. Emiiírá un infórmey fo elemrú Dirección Jurídica. lunio Opios de documentaciones poro Sv correspondiend* y mente todo documentori6n o (o Intendencio Municipal, aconsejando sa miento o rechazo dentro del mismo pinzo. Djehn dictamen será findodo en umbos rosas,- Artículo 15".- En el easo que an grapo de 'Fecinos solicile retunocimienlo de unu Comisión cuya área de influencia está incluido denlro del área de influencia de Comisión Of ye reconocido," a) Sí Ig solic:iÍtid fuero poro itcinof dej ñorrin o poro Sub Comisión %cinoj de qini<tt'üf.ión, no seró oceptodo (j',b 9+0 solicitud fuera paru Comisión Pro-Aetividüd* podrá ser aceptada. c.aso de Ju Intenden•r.io Municipoi resolverf e/ enso r.rmforme a esta Artículo 154<10 Intendencia Municipal, cumplidos los requisitos estohfecidns en la presente ordenanza, reconoceró ü Comisión i,ecinof dentro de los treinto dios siguientes o la recepción del! 4 deu
+Que, la Ordenanza precitada se encuentra desfasada en el tiempo, principalmente teniendo en cuenta que la ley Orgánica Municipal del año 2010 es posterior a la Ordenanza del año 2000 POR LA CUAL SE CREA EL CONSEJO GENERAL DE COMISIONES VECINALES Y DE FOMENTO URBANO, en ese orden de ideas esta Ordenanza actualiza en gran medida la figura y las diferentes modalidades de las Comisiones Vecinales contemplada en el art. 4 de esta Ordenanza en cuanto a los tipos de Comisiones Vecinales, y otros aspectos de vital importancia en cuanto a los objetivos contemplados en el art. 2 de la citada norma general puesta en análisis.-
 
-PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO Air. del Remem- ref. 5gs CIUDAD DEL ESTE dietamerz de Dirección Jurídico.- Articulo IZ- En teso de Op0yivíón de vecinos- ui retunocimiento de Comisión Seemnrjn de Forneri(o se tnnslftuirú ef Jugar de asienio dt cumisiúl pcrra escuchiir ios recinmos de npnsicidn y l.rn "inloeme tmornendoadr_l Ío confirmación o no d? Resolución de Reconocimienw.- Artículo 1&".- En e! caso de que existan cunn,ietos enwe los comisionescreadü.s crearse, Sevreawiu de F vmealo actuará de medilillor y tuntraior en repycsentoción dei Ejecut.ñ,ro Municipal, debiendo pjnponer soluciones los conflic105, o en solicitar una nuevo Ascimbieu, poro cuyo easo .reolüoró ernpod:anornierna previo medittnte arz entre tos vecinos.- Artículo 19".- Si iG Comisión yo se hojfose reconocido, y existiendo npnsir:ión ü 10 mismo, 105 vecinos podrfin soiiejtar m.vetwÍón del reconocimiento de mismG. 1.0 puzserüac.'ióra de unu noto, debidamenle [undadu corz los motivas de solicitud, Deberá contor con instrumentales si 10 hubiere, Se preseniarú por mesu enlrtldco firmada por todo.' weinos que se oponen al reconocimiento de r,amisidn, aeornpañuda de las copias de Cédala de dileniidud de los petir.iononres, Arrediyordn spr moradmes de} Jugor de lu Comisión mediame el Ceriificudo Lida y Residew:ia e.*pedido por Jo comisaría, sub comisaría o deslatarnen¿o policial -de jurisdicción of eLÍül pertenece [O enmisión vecinof,- Artículo ,20t- La Secretccri(i de Fomento estudicn-ú notcr presentada y, si cumple con ios requisitos eseafrfeeidos el orlíeub anieriot, se en el ¿agur ,deJ de lu Comisión, o defecto o insportes unte si en olicíJta de [o Secrecaría de Fornenio, fos ejeelvs de m.-uchor inquietud, fitnryondo ei' derecho delensr} Jos Comisiones reconocidos, poro sa desr.oygo onte oprsicjoneç de los grupos de Se de. Jo reunión ros grupos de vecinas. A fütita cnnciiioción o ü[.-verdll enfre los tni.swnns, Secretartfi de Fomenyo elevará un informe ú' Dirección Jun'ciico con todas las antecedentes de ila Comisión reconocida y de eposiviún, corz las de Ius reuniones cuneillútvrias.- Articulo 21".. DE zOS MIEMBROS. ron o voto, n ser electo miembro de [o C.•omisión Directiva de f'.mni=ián Weinoi se deheró,• ü) Acreditnr fier lzsidente en el lugar, ser poseedor de hieres, inmuebles en el n hüberlos adquirido CUOtos; b) Ser z,'swrio del servivio,y estar el pago de mismos, adeudo?' máximll de parti eI cczso de [us Sab Comisiones 'L,eanaies de Adminj5traeión; y dg edad,- rtícuro 22%- DE Y SOS FUNCIONES. 'onstitutil/ll, wnstituldcr y reconocidrr 10 Comisión serón Ulltoridüdes de los General de Ov,linuria b) a Comisión Directiva; miembros; V' d) Sindico,- A '23".- LA ASA.,MBL.EA GENERAL DE VECINOS. de vmisü5,/ 'incu tuneoaaorio de [Os Ascimbieas Generitleu de vecinos, sea Ordimritl o E se fruni ton .T5 días de arilicipat'ión «raedjunÍe d.;siribue.ión de unu circular y medios telemáticos utilizados por miembros de r..omisión en aes!ión, Esteró por ei Presidente el Secretario, Se renllzorci anualmente cientm de} mes fijada en Constitutiva. En todos 105 rosos, 41 t.onvoclrrse, se daro o L.onc.r.e.r e! Orden clef ser tons$derodo,— Articulo 24t— fesofuc.iones de y reunioaes se por siffjpie mo.yoriü Ptiyirz« 5 de 17 ,'ii.4
+Que, la Ordenanza N° 09/2000 descripta al momento de entrar en vigencia esta nueva Ordenanza queda derogada, —ipso facto— que no es otra cosa que la abolición, anulación u revocación total de una norma jurídica, ley, reglamentación u ordenanza, vigente por otra posterior, en definitiva es el acto de revocación de alguno de los preceptos de la ley, código, reglamento en nuestro caso lo denominamos Ordenanza de aplicación general con fuerza obligatoria en todo el Municipio.-
 
-PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO - 2025 Av. Pioneros y C.õncejal Tel. CIUDAD DEL ESTE de de los persono.s hohÍlitLidü5 presentes, salvo ios casos- de reconsidercjcjones, en cuales se requerirá dos tereff35 de los votas presentes. Lo votación será secretil„ Las mociones votadas se asentarán en el Libro de Articulo 25%- Corresponde Asamblea General Ordinario: Considernr memoria de Ío Comisión Directiva, eI 13Gh2ncey el informe dei' Sindico; h) neterminor plon anual de trnbüio;y c' y resolver cualquier otm liSW1to sometido a consider«üín,- Artículo 26".- Los documentos que deben ser presentados tn Asamblea Genertil de ikcinos son los siguiemes: a) 10 memorio„ indicando en ella objeúvos propuestos y los logrados; b) cuaderno de ANOS,' e) T.jhm de Cüjo, en ej que dehe siguiente: compmbontes de Artículo 27".- COMISIÓN DIRECTIVA* Estord compuesta por,' Praíderite; b) J Vicepresidenfei, e} J Secretorio de getas; d) I Pro Secretariñ:' e) I Tesorero, D úf&sorero; g) Miembros litafayes fan de seis); 10 Miembros suplentes máximo de seis); i' Síndjeo tirvlor;y j) Sindico suplente.- Artícu$0 28",- reeletrión de cualquiera d? los miembros de cuofqÚiero de fos ruegos hobrú impedimenlo poro que totGljdüd de 10 C'.omisjdn Directivü puedo iguahnente ser reelegido en formú consecutiva pm e/ periodo determinadoparo fines propuestos.• Aróculo 29'.- Los miembros de lu ComLión Direc¿iva deberán ser mw,rvres de ser del o ca•redilor [ekariencemente vsseer inmuebles dentro zona del' área de influencia. y no poseer policiales niüudiciafes,- Artículo 30".- dehe hGber parenresco hosto el segundo grado de crnstmgLiinidod y fmero de afinidad entre los miembros: Presidencia (Presidente y VicepmsidenteJ, Secretarf(i (Secretorio y Pro Secre,'orio), Pro Tesorero) m: Sindicalwra y 044 ñícu{0 310.- La Comisión se reunirci en Sesión Ortlinaria como mínimo en [ormü Ir"!. Irai. ESIas serón abiertos a lodos ios vecinos yen local público, Si no hubiere objeción, tú se realizodo en hcoiespgrricuiares, Artículo 32".- Lu Comisión Directifll elevarci informe de sas actividades y estffdo financiero de Fomen10 deniro de tos primeros quince dios posteriores aj' cierre fri de codo ercieif4 fiscal y, forma extraordinario, fas veces que necesario.- Artículq83*Comesponde a la Comisión Directiva: o) y horer cumplir jos disposiciones del Reglamento, Jos Resoluciones de la *cuy de ja Comisión Directiva; oñvxw h/ Asumblea General de Vecinos; p!unijieor y programar Of de iOS objetivas; eii
+Que, dentro de las atribuciones regladas que tiene la Junta Municipal en su art. 36 inc. a) DE LOS DEBERES Y ATRIBUCIONES DE LA JUNTA MUNICIPAL, por la cual dispone... sancionar ordenanzas, resoluciones, reglamentos en materia de competencia municipal, en concordancia con lo dispuesto en el art. 168 ATRIBUCIONES de la CONSTITUCIÓN NACIONAL que en su inc. 6) establece... El dictado de ordenanzas, reglamentos y resoluciones.-
 
-PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO PiorxtüE de,' V Corzejoi CIUDAD DEL ESTE CORRFSPONPF [ J, d) Elaborar un elan anual cle trabúio a ser presentado ü 'o Asotnb!eu General de tecinas dentro de los 45 dfos posteriores u lu Asamblell donde fueran eler-ns; e) Autorizor oj Presídeme, conjl$ftiamerue tun otro miemhm, G suscribir canvenios, controtosy nomhror ü.seqores en nombre de la Comisión D Desigmr Comisiones, regfomemando usigtwr oetivzdodes o personas o grupas de trohojo; Reaiizcrr gestiones onte Jo Institución Municipoj, orgot?ismos pibilcosy altos enúdudes,• h) 10 oblención de rec•.'rsos y recibir y i) F.stobJer.pr primera reunión de la Lomi5ión Directivo ei monro del [ondo de coja r.hieoy de mismo normo, fa entidad banturio u otra instilüción finonciera donde se depositará ei excedente,- Artículo 34".- La Comisión Directivo comunicará sus üüividodes o fos vecinos de monero menswl. Lo realizzrrú trwrrés de medios mós idónens,y más ventajosos, yo sea mediome circulvres, impresos o remitidos Iravés de medios telemáticos, oficialmente hahftlltodms por mismos, Tornóién debe horer conocer o Jos el y la hora de reunión de la C.omisiti'l Directrm- Ârtículo 35".- Los funcionarios municipales no podrán ocupo," cargos Comjsj6n Dzret-tivu de las Comisiones Presidente; b) Vicepresid•nte,- c) Secrelúrio de aetas; d) Pro Secretorio; e) Tesorero; D Pro It'sorero; Paru estos LüsOS, estas Comisiones no podrán percibir fondos- de 10' institución Municipal en dt Ttçn.s!êrenr.ía• de Fondos, por Jos causales esablaüdas en ef Art. 21 de ia Ley ,7021/22 Suministro y C'.onrvÜociones Públicos, quedan exceptuados cnrgos de Miembros Wiemhros suptentes, Sindie.r} tjtulor; y 5indico suplente,- Artículo 36".- En ningún habrá remunerocÍón por ocupación de los egrgnt, directivos por parterle Institución que reconozco dichil Comisión let'L'int11, Si úlguno de los CZ1rgos fuere ocupado un que seo funcionario [unción no oc.arwarú ninguna remuneroción mós que su respeetivn yo ermiempJodo det}fro del Prequpo•esio de Gostos de Municipalidad. No padrón ser incorporadas cnmo funcjomrirus nuevos como nziemhros de ha Comisión Directiva- 'culo 37%- eRBS/D8ÑCIA Corresponde al Presidente." erier.ài Ejercer 10 representación lego} de 10 nur operano y presidir los Ammhfeo« Genero"es de Winos, sega ordinorios ú extraordinarias; c) Convoccrr y presidir las sesiones del L'r-vnl!é Direcavo; d' Suscribir itu• resoluciones, conirutos, turrespondenc•io y demás documencos de la Comisi i,ecinui, resallados de pérdidas ser preseniados Asamblea,' Oir• s deiliberaeionesy desempulor en caso de tos votaciones; y E' agosy documenras eon ¿J Tesorero,- 38".- VICEPRESIDENCIA. Corresponde a1 Vücepresidente: u) Asumir lu Presideneiu en auseneiu del tita!ur; b) Pmmover contacto con asociaciones y orines para logrür los objetivos propuestos; y c) Coordinar las secretarías y Sub Comisiones.- Artículo En eoso de renuncia notificación del! Presidente o can wes ausencias consecllfivcrs sin notificcrción, el Vicepresidente asumirá cmtomciticcrmente Presidenciú
+El dictamen favorable de la Comisión Asesora de Legislación, aprobado en Sesión Ordinaria de fecha 12 de abril del año 2023, Según Acta N° 83; por tanto:
 
-PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO 202S Av. ref. "S 5fSd40 CIUDAD DEI- ESTE plenitud de funciones, y atribuciones.- Articulo SECRETA RÍA Corresponde Secretario: o) Redür.tnr de jas de r;mm.sión Directivo; b) r.levür y cu.smdior el Libro de Actos y el Archivn de notff5 y correspondencia de lu C.'omisián Directivo,' c) RedactGr y firmar con ei Presidente las not0% cumaniearcianes y demús dcn.umernas; d) Realizar geS1iones encomiende Comisión e! Presidente.- Articulo PRO SECRETARIA. Corresponde a} Pro Secretario: o) CoodYLivar en el trabala de Secrewrfu; h) Asumir ei cargo de Secretorio en qusenciC1 temporul del titular. Artículo 42{- l'ESORERíA. Corresponde Lorero; Confeccionar e! Ba(ance General _v e! coadm demostrativo de pérdidas y gonencios porc presemor(os 'o Asombleo Generoi; Mtmtener ej Lihm de de Ingresos y Egresas; c) Administrar los fondos conjuntamente Comisión Directiva; d) Percibir los ingresos, ele.úluar fos pagos autorizados por Comisión Directiva, firrnondu los documenlos (e..&lracción, pagaré, etc.) cori efPresiden1e; e) In/ormm' mensooJmerÑe estado de Ins fondos en de (o rnmisión Directivo y o los demós miembro.s, exhibiendo "os documentos necesoyios de comprobaci(in; D Dar cumplimiento o resoluciones emrmfidas de Intendencio Munjcipol,- AFIícu!0 430.- L" de los Tinqnzas de las C:vmisivnes vecinales se reqrrú por mismtJ disposición e.fTübiVV.id0 ef Tjfu'lo fiépiirno Régimen de Ja I.ey 3866/10 *Orgánica Municipol", específicamente cvondo "os Comisiones recibito» Aportes por la vio de transferencfü5 proveniente.' de los fondos públicos.- Artículo 440.- Lü decisión de deslino cle los recursas propios generados por Comrsión Vecino/ se aaoplwún la decisión cle lu mccyvríu de los miembros, cleberán en Actas y deberán conlabiJiu1dos los respectivos registros contables y estados finantiews.- Artículo 45t-PRO TESORER.n. Corresponde J Coadyuvar trabajo cle la T/&svrer-fu: Asumir careo de resarei'0 en ausencia lemporat def MIEMBROS, Correspondeo [os o) ronpernr según requiero ei Presidente, Secretorio y Tesorero poro e/ mejor cumplimiento de las octifidodes pmgramodos; Reemplüzar L'llülqaiera de los miembros curgos específicos en coso de ousencio impedimen10 de eslos,: r.) r,rNohoror r.on ei' Vn:epresideme en io eaordinnr.i(in de {oreas de. los Sub Comisiones, - 47".- DEL SÍNDICO. Corresponde al Síndico titular.' permanentemente el pli(rimoniú'l y situación jaridicu y legal cie r."çmisión velar c.undaeciún delo Comisión Directiva; dietarte" fo AsombJea General Ordinario _v u Asamblea CJ Convocar o Asamblea Generol ExtranrdÍnnrÍü en casrjs de fenecimiento de desintegración de lu Comisiór' Deberá proporeer realización de tú Asarnb,'eu Genera]' c.onvoc.urse dentro delos dios de producido o desintegrnc:ión,- Artículo Sfrzdiw suplente en ausencia del Páyinu 0 de 10
+## LA JUNTA MUNICIPAL DE CIUDAD DEL ESTE REUNIDA EN CONCEJO ORDENA
 
-PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO 2021 2025 AV. del CIUDAD DEL ESTE Articulo 49',- EI vecindario, ü través del Sindica, o roo de que esle no dé trámite denuncio, en fnrmo personof o mediante un grwpo de vecinos que acredite parte dei área de influencia de. fli Comisión VciÑGl, podrá denunciar ante Secretorio de Fnmenio cualquier supuestú' onormoiidod que ocurriese en el desempeño de la Comisión Directivo.- Artículo 50'".- Ante dificLÍltodes que no pudieron ser resueltas por la Asamblea Generol de 111' Comisión lúcim.T/ podrá rec.urrir o de Fomento. 51 est:ti pudierü resolverlo, "-idrú recurrir en últimü instoneÍG ü 10 Intendencio Munir.ipo(, Ambos decidirán qué uc.ciones lomar respevlo o su propio acto odn?inistrotivo de Reconocimiento, la disposicion o'? intervenir Jo Comisión o cualquier otro acción recomendado que oconsejü Dirección Jurídica de Municfpa!jdod.- Artículo 51".- Son ágonas consuttiu)s: Lu Asamblea Generol de sean Ordjnurjú.; Lu Comisión Llirecliva,' d) Intendencio Munir.ipof. Artículo 52".- La Astamhleo Genem' de l&jnos, L' Comisión Directiva y Jo Sindicatura realiearún la de fistulización, eumpliendo funciones estohjer-idos en esta Ordenonm,- Articulo 530.- Lu disolución de Comisión ser determingdü por ju A.samhteo GeneroJ de o por intervención de [a Iniendeneiu Municipal, pr resokación Pndada,- Articulo 54%, La Intendencio Yvftnje.ipol decfuror caduco, desintegrada o omisión Directiva cuando,' hoya convocado a Asamblecv Genera/ Ordimria en el plazo determimdr» en Asamblea Consiii&livo,• r.uondn presentnse la Memorio Anual, la Rendición de y Biflanee en Asamblea f'renem' de VCinos Orúinoria; c) Cuondn no hoya qLiliruyn de sesiones orVinorias fres veces consecutivas; d) fuere convocodü pm• motivos groves por MunicipoJidad Jo Siádieorvro f/ sesiones extraordinarios en tres oportunidades y no reuniese quórum legof realizarla; e) Gon ja renuncia o inhabililocíón de 10 mitad mús ano desus miembros; t) r,on vocnnr.iu producida en de/inilivu en 10 Presidencia (Presidenle y Vicepresidente). ráculo 55'1- Lü5 Comisiones i,ecinoies podrán ogrwparse n osociorse como Cnnrdinodoros ones 1't'L'intL'le5 .y se regirán por mismcw disposiciones regicidas para los Comisiones ' s, debcendv eslob/eeer ere Atto Consliluliv<l (05 fines y objelivos puril los fwere Artículo 5b".- DE LAS ASOCIACIONES COADYUVANTE* neffnese uodyuvtintes aqueliC15 que cuenton sas propios estütutos y se encuentran inscritos y reconocida*dé conformidad esurblecidu en el Art. 104 del Código Civil o leyes especiales que rigen *nscripvíón y reconocimien10 en materia; (Ejemplo.: esvvifft•iones de d" loaisios, ironsuone escolarr Irurisporie de posqjei'tjsv de ae cumhiru'* de trohojodore« y vendedores vio público, r.õmoi"ü de r,omereio, federociones de y similwes).- Artículo 57%- Fncúltnse a la Intendenciü Municipal convüi'jdar pr„'r acn administrativo ei Retorzoeimienlo de lu Comisión I)iJev1ivu establecidil en el eslafi,'to y en Asamblea, conjbrrne o Jo disvueslo Sus respectivos es101uios, convalidación dei' Reconocimiento por eI F,jecufivo MunicipoÍ sajo tendrá en EO.w de que dichil asociación demuestre tengo interes en zs.,tF'S.v••-.'
+### Artículo 1º.- DEFINICIÓN.
+Las Comisiones Vecinales son grupos de personas afincadas en el municipio unidos por ser vecinos o por un objetivo común. Su creación se da por un acto constitutivo proveniente de una asamblea de ciudadanos y para existir formalmente serán reconocidos por Resolución de la Intendencia Municipal. Dependerán directamente del Ejecutivo Municipal, a través de la Secretaría de Fomento. Tendrán carácter de organismos de cooperación en las gestiones y actividades de su comunidad, actuando como auxiliares de la administración municipal, conforme a lo dispuesto en el Art. 65 de la Ley 3.966/10 Orgánica Municipal. Tendrán una validez de hasta tres años, extinguiéndose automáticamente el 31 de diciembre del año subsiguiente.-
 
-JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO 2021 2025 PARAGUAY CIUDAD DEL ESTE A 1.4 Etndyuvur can ilo municipoL {of interés no existiere en la solicitud de reconocimiento, no se dorá trámite dicho pedidovse remilirâ para su orchivo.- Artículo DB LAS TRANSFERENCIAS A LAS COMISIONES O A LAS ASOCIACIONES. Aulorizase E.jetLitivo -Municipal lu faeultod de disponer Ñünsferencios cnrrientes o de capital hasfa ei monto de 2,000 jornales mínimos puru Comisiones iecinaies o osor.ioeirmes dehidütnerffe jusGficodcs de mnlormidod a los piones y pm_vectos ser encargados, Superadr} dicho monto, se podrá omrgor previa autorización de {o Jva{o dándose mensaje de Intendenciü MLInicfpGl- Articulo 59%- Artículo GO%- DTO Sec MóN rio A los efectos de esta Ordencrnzo, losplazos se computaron en dios cervidm- Deróganse fas disposiciones contrajri1Í5 0 presente ordenünzo.- n qu\enes corresponda y campiido arckivcrr.- ONZALEZ Presidente JA. OEI- e .'iii.'" Puyinu tu.lwiií, :i,:
+### Artículo 2º.- OBJETIVOS.
+Son objetivos de las Comisiones Vecinales:
+a) Contribuir a elevar la calidad de vida de los habitantes del barrio o sector;
+b) Promover la participación activa de todos los vecinos con miras a la solución de sus propios problemas de titulación de la tierra, dentro del marco legal vigente;
+c) Gestionar ante las instancias correspondientes las acciones para la obtención de agua potable, caminos vecinales (empedrado, asfalto, etc.), plazas, inversiones para la salud, deporte o la educación, o todo aquello que pudiera ser de beneficio para la comunidad;
+d) Administrar servicios públicos que le sean asignados por el Ejecutivo Municipal;
+e) Contribuir con la comunidad constituyéndose en un espacio de diálogo, información y participación de la vecindad, y organizándolos para defender sus derechos y hacer cumplir sus obligaciones;
+f) Fomentar la educación cívica, la educación formal y la educación no formal en general;
+g) Accionar para el conocimiento y la defensa de los Derechos Humanos, y la defensa y protección del medio ambiente;
+h) Cooperar con la seguridad ciudadana; y
+i) Todos los objetivos con fines lícitos y en beneficio de la comunidad.-
+
+### Artículo 3º.-
+Para el logro de sus objetivos serán funciones de las Comisiones Vecinales:
+a) Gestionar ante la Municipalidad, instituciones e instancias que correspondan la solución de los problemas que afectan al barrio o a la ciudadanía en general, aportando propuestas de solución;
+b) Colaborar con la Municipalidad en la estricta observancia de las ordenanzas, especialmente en las referidas a normas de convivencia salubridad y medio ambiente, servicios públicos, difundiendo su contenido en el vecindario;
+c) Participar y estimular la realización de programas de desarrollo social y urbanístico, basados principalmente en el esfuerzo propio de los beneficiarios;
+d) Proponer vía Intendencia Municipal la elaboración de ordenanzas que regulen temas de interés para la vida ciudadana.-
+Este listado de objetivos y funciones es enunciativo y no limitativo.-
+
+### Artículo 4º.- TIPOS.
+De acuerdo a la amplitud de sus objetivos, se distinguen dos tipos de Comisiones Vecinales:
+a) La Comisión Vecinal del Barrio: es aquella asociación de vecinos que tiene por finalidad un mejoramiento de las condiciones de vida de la comunidad de un área determinado y busca el desarrollo integral de la misma;
+b) La Sub Comisión Vecinal Pro-Actividad: es aquella asociación constituida con uno o más objetivos específicos; y,
+c) La Sub Comisión Vecinal de Administración: es aquella asociación de vecinos que tiene como función la administración de un servicio público dentro de la comunidad.-
+d) La Comisión Pro-Actividad Extraordinaria: es aquella creada por un propósito específico en el Acta Constitutiva, y estará conformada por ciudadanos del municipio sin necesariamente ser estos vecinos. Será reconocida por la Intendencia Municipal. Algunas de estas Comisiones serán los casos de las Comisiones Pro-Festejo del 3 de Febrero, las Comisiones Pro-Decoraciones Navideñas y otras comisiones creadas para un propósito específico. Serán reguladas supletoriamente por las disposiciones de la presente ordenanza, y su disolución o extinción estará dado por el cumplimiento de los fines creados, previa presentación de la rendición de cuentas al Ejecutivo Municipal y a la Junta Municipal. Podrán recibir transferencias para el cumplimiento de su objetivo conforme a lo dispuesto en el cuerpo de esta ordenanza municipal.-
+
+### Artículo 5º.- DE LOS REQUISITOS PARA SU CONFORMACIÓN.
+Para el caso de:
+a)
+I) Una Comisión Vecinal del Barrio: para su creación, los vecinos solicitarán vía Mesa de Entrada de la Municipalidad la convocatoria a una Asamblea de vecinos;
+II) Una Sub Comisión Vecinal Pro-Actividad: para su creación, los vecinos se convocarán a una reunión entre los mismos, con la mayor cantidad posible de moradores del sector; y,
+III) Una Sub Comisión Vecinal de Administración: para su creación, los vecinos solicitarán vía Mesa de Entrada de la Municipalidad la convocatoria a una Asamblea de los usuarios del servicio en cuestión que se encuentren habilitados para tener voto;
+IV) Una Sub Comisión Pro-Actividad Extraordinaria: para su creación, la Intendencia Municipal realizará de oficio la convocatoria;
+b) Labrarán Acta de Asamblea de acuerdo con los estándares establecidos por esta normativa y la presentarán en la Secretaría de Fomento de la Municipalidad, junto con las demás documentaciones pertinentes.-
+
+### Artículo 6º.- DE LA ASAMBLEA CONSTITUTIVA.
+a) Dará inicio, en la hora de la convocatoria, con la mitad más uno de los votantes habilitados del lugar; o con cualquier cantidad de votantes habilitados, una hora después de la hora de la convocatoria;
+b) Para las Comisiones Vecinales del Barrio y las Sub Comisiones Vecinales de Administración, deberá estar presente como veedor un funcionario de la Municipalidad dependiente de la Secretaría de Fomento o uno asignado por esta, o un Concejal Municipal;
+c) Se elegirá un presidente de Asamblea y un secretario. Este último se encargará de labrar el Acta de la Asamblea;
+d) Cada terreno o lote del lugar corresponderá a un voto, independientemente a las dimensiones del mismo o a cantidad de personas que en él moren;
+e) No formarán parte del quórum miembros ausentes quienes hayan otorgado poder, ni se podrá votar por poder;
+f) No tendrán derecho a voto los usuarios del servicio en cuestión que se encuentren en mora por el pago del mismo por más de tres cuotas.-
+
+### Artículo 7º.-
+En las Asambleas Constitutivas se seguirá el siguiente Orden del Día:
+a) Elección de Presidente y Secretario de Asamblea;
+b) Elección de dos representantes de Asamblea para firmar el acta;
+c) Lectura del Acta de la sesión anterior y consideración de la Memoria Anual, la Rendición de Cuentas y el Balance de la Comisión Directiva;
+d) Elección de las autoridades de la Comisión Directiva;
+e) Elección de un Síndico titular y uno suplente;
+f) Elección de miembros titulares y suplentes (un máximo de 6 para cada caso), quienes formarán parte del quórum de la Comisión Directiva;
+g) Propuesta de inquietudes para el próximo plan anual de trabajo de la Comisión Vecinal; y
+h) Asuntos varios.-
+
+### Artículo 8º.-
+Los documentos que deben ser presentados en la Asamblea Constitutiva son los:
+a) La memoria, indicando en ella objetivos propuestos y los logrados;
+b) El cuaderno de Actas;
+c) El Libro de Caja, en el que debe constar lo siguiente: Estado Mensual, comprobantes de gastos, y Balance General Anual.-
+Estos documentos deben ser presentados en la Municipalidad dentro de los 30 días siguientes a la fecha de realización de la Asamblea Constitutiva, y la Municipalidad deberá devolverlos en un plazo no menor a 30 días desde la presentación de los mismos.-
+
+### Artículo 9º.-
+Las Comisiones Vecinales deberán comunicar la integración de la Comisión Directiva electa a la Municipalidad en un plazo no mayor a los 30 días posteriores de su elección.-
+
+### Artículo 10º.-
+Las Actas de las Asambleas Constitutivas deberán constar de:
+a) Lugar, fecha y hora de celebración;
+b) Nómina de vecinos presentes;
+c) Firma de los vecinos presentes;
+d) El objetivo que persigue la Comisión Vecinal que se conforma;
+e) Las autoridades de la Asamblea;
+f) La aprobación de los presentes para la formación de la Comisión Vecinal; y
+g) Las autoridades electas para la Comisión Vecinal.-
+
+### Artículo 11º.-
+Las Asambleas Constitutivas de las Comisiones Vecinales del Barrio o las Sub Comisiones Vecinales de Administración tendrán como primer punto del Orden del Día la Memoria Anual, la Rendición de Cuentas y la Presentación del Balance ante el plenario. En este punto se rendirá cuentas de los ingresos y egresos de la gestión anterior, del cumplimiento de las obligaciones legales, de la rendición de cuentas a los organismos financiadores (en caso haber sido beneficiados con una transferencia) y de las decisiones tomadas durante el ejercicio del mandato.-
+
+### Artículo 12º.-
+Estarán inhabilitados para candidatarse a ocupar cargos de Presidente, Vicepresidente, Tesorero, Pro Tesorero, Secretario, Pro Secretario, Síndico Titular o Síndico Suplente en las Comisiones Vecinales del Barrio y en las Sub Comisiones Vecinales de Administración aquellos ciudadanos que hayan formado parte de la Comisión Directiva de la Comisión Vecinal en el año anterior y cuya gestión no presente la Memoria Anual, la Rendición de Cuentas y el Balance de su gestión ante el plenario en la Asamblea Constitutiva en la que expresan querer candidatarse.-
+
+### Artículo 13º.- DE SU RECONOCIMIENTO.
+Para ser reconocidas por el Ejecutivo Municipal, las Comisiones Vecinales deberán:
+a) Presentar en la Secretaría de Fomento el Acta de la Asamblea Constitutiva con una copia autenticada de la misma en un plazo no mayor que 30 días posteriores a la realización de la misma;
+b) Para los casos de Comisiones Vecinales que utilicen el mismo nombre de Comisiones Vecinales ya caducas, presentar copia de la Memoria Anual, la Rendición de Cuentas y el Balance de la gestión anterior, aprobadas por la Asamblea Constitutiva;
+c) Adjuntar a dicha presentación las copias autenticadas de cédula, el Certificado de Antecedentes Policiales y la constancia de Vida y Residencia del Presidente, Secretario y Tesorero electos en la Asamblea, así como la copia simple de cédula de cada uno de los electos como miembros;
+d) Presentar copia del plano manzanero de la zona donde se delimite su área de influencia de la Comisión Vecinal constituida, donde esta tendrá competencia y jurisdicción;
+
+### Artículo 14º.-
+La Secretaría de Fomento, una vez recibida la solicitud de reconocimiento de la Comisión Vecinal, observará los fines y propósitos de la misma, velando por el carácter lícito de los mismos, si se encuentran bien especificados y si se orientan a satisfacer las necesidades del bien común dentro del plazo de treinta días. Emitirá un informe y lo elevará a la Dirección Jurídica, junto con las copias de las documentaciones autenticadas para su dictamen correspondiente, y esta posteriormente elevará toda la documentación a la Intendencia Municipal, aconsejando su reconocimiento o rechazo dentro del mismo plazo. Dicho dictamen será fundado en ambos casos.-
+
+### Artículo 15º.-
+En el caso de que un grupo de vecinos solicite reconocimiento de una Comisión cuya área de influencia está incluida dentro del área de influencia de otra Comisión Vecinal ya reconocida:
+a) Si lo solicitud fuera para Comisión Vecinal del Barrio o para Sub Comisión Vecinal de Administración, no será aceptada;
+b) Si la solicitud fuera para Sub Comisión Vecinal Pro-Actividad, podrá ser aceptada.
+En caso de conflicto, la Intendencia Municipal resolverá el caso conforme a esto dictamen de la Dirección Jurídica.-
+
+### Artículo 16º.-
+La Intendencia Municipal, cumplidos los requisitos establecidos en la presente ordenanza, reconocerá a la Comisión Vecinal dentro de los treinta días siguientes a la recepción del dictamen de la Dirección Jurídica.-
+
+### Artículo 17º.-
+En caso de oposición de algunos vecinos al reconocimiento de una Comisión Vecinal, la Secretaría de Fomento se constituirá en el lugar de asiento de la comisión para escuchar los reclamos de la oposición y emitirá un informe recomendando la confirmación o no de la Resolución de Reconocimiento.-
+
+### Artículo 18º.-
+En el caso de que existan conflictos entre las comisiones creadas o a crearse, la Secretaría de Fomento actuará de mediador y contralor en representación del Ejecutivo Municipal, debiendo proponer soluciones a los conflictos, o en su caso solicitar una nueva Asamblea, para cuyo caso realizará un empadronamiento previo mediante un censo entre los vecinos.-
+
+### Artículo 19º.-
+Si la Comisión ya se hallase reconocida, y existiendo oposición a la misma, los vecinos podrán solicitar la revocación del reconocimiento de la misma. Lo harán mediante la presentación de una nota, debidamente fundada con los motivos de la solicitud. Deberá contar con instrumentales si lo hubiere. Se presentará por mesa de entrada, firmada por todos los vecinos que se oponen al reconocimiento de la Comisión, acompañada de las copias de Cédula de Identidad de los peticionantes. Acreditarán ser moradores del lugar de asiento de la Comisión mediante el Certificado de Vida y Residencia expedido por la comisaría, sub comisaría o destacamento policial de la jurisdicción al cual pertenece la comisión vecinal.-
+
+### Artículo 20º.-
+La Secretaría de Fomento estudiará la nota presentada y, si cumple con los requisitos establecidos en el artículo anterior, se constituirá en el lugar del asiento de la Comisión, o en su defecto convocará a las partes ante sí en la oficina de la Secretaría de Fomento, a los efectos de escuchar su inquietud, otorgando el derecho a la defensa a las Comisiones reconocidas, para su descargo ante las oposiciones de los otros grupos de vecinos. Se labrará acta de la reunión entre los grupos de vecinos. A falta de una conciliación o acuerdo entre los mismos, la Secretaría de Fomento elevará un informe a la Dirección Jurídica con todos los antecedentes de la Comisión reconocida y la nota de oposición, con las actas de las reuniones conciliatorias.-
+
+### Artículo 21º.- DE LOS MIEMBROS.
+Para participar de las Asambleas con derecho a voz y voto, o ser electo miembro de la Comisión Directiva de una Comisión Vecinal se deberá:
+a) Acreditar ser residente en el lugar, o ser poseedor de bienes inmuebles en el lugar, o haberlos adquirido a cuotas;
+b) Ser usuario del servicio y estar al día con el pago de los mismos, o adeudar un máximo de tres cuotas, para el caso de las Sub Comisiones Vecinales de Administración; y
+c) Ser mayor de edad.-
+
+### Artículo 22º.- DE LAS AUTORIDADES Y SUS FUNCIONES.
+Una vez realizada la Asamblea Constitutiva, constituida y reconocida la Comisión Vecinal, serán autoridades de las:
+a) La Asamblea General de Vecinos, Ordinaria o Extraordinaria;
+b) La Comisión Directiva;
+c) Los miembros; y
+d) El Síndico.-
+
+### Artículo 23º.- LA ASAMBLEA GENERAL DE VECINOS.
+Es la máxima autoridad de la Comisión Vecinal. La convocatoria de las Asambleas Generales de Vecinos, sea Ordinaria o Extraordinaria, se hará con 15 días de anticipación mediante la distribución de una circular y la difusión en medios telemáticos utilizados por los miembros de la Comisión en cuestión. Estará presidida por el Presidente y el Secretario. Se realizará anualmente dentro del mes fijado en la Asamblea Constitutiva. En todos los casos, al convocarse, se dará a conocer el Orden del Día a ser considerado.-
+
+### Artículo 24º.-
+Las resoluciones de Asambleas y reuniones se adoptarán por simple mayoría de votos de las personas habilitadas presentes, salvo los casos de reconsideraciones, en las cuales se requerirá dos tercios de los votos presentes. La votación será secreta. Las mociones votadas se asentarán en el Libro Actas.-
+
+### Artículo 25º.- Corresponde a la Asamblea General Ordinaria:
+a) Considerar la memoria de la Comisión Directiva, el Balance y el informe del Síndico;
+b) Determinar el plan anual de trabajo; y
+c) Deliberar y resolver cualquier otro asunto sometido a su consideración.-
+
+### Artículo 26º.-
+Los documentos que deben ser presentados en la Asamblea General de Vecinos son los siguientes:
+a) La memoria, indicando en ella objetivos propuestos y los logrados;
+b) El cuaderno de Actas;
+c) El Libro de Caja, en el que debe constar lo siguiente: Estado Mensual, comprobantes de gastos, y Balance General Anual.-
+
+### Artículo 27º.- COMISIÓN DIRECTIVA.
+Estará compuesta por:
+a) 1 Presidente;
+b) 1 Vicepresidente;
+c) 1 Secretario de actas;
+d) 1 Pro Secretario;
+e) 1 Tesorero;
+f) 1 Pro Tesorero;
+g) Miembros titulares (un máximo de seis);
+h) Miembros suplentes (un máximo de seis);
+i) Síndico titular; y
+j) Síndico suplente.-
+
+### Artículo 28º.-
+La reelección consecutiva de cualquiera de los miembros de la Comisión Vecinal en cualquiera de los cargos estará totalmente habilitada. No habrá impedimento legal para que la totalidad de la Comisión Directiva pueda igualmente ser reelegida en forma consecutiva por el periodo determinado para los fines propuestos.-
+
+### Artículo 29º.-
+Los miembros de la Comisión Directiva deberán ser mayores de edad, ser del lugar o acreditar fehacientemente poseer inmuebles dentro de la zona del área de influencia, y no poseer antecedentes policiales ni judiciales.-
+
+### Artículo 30º.-
+No debe haber parentesco hasta el segundo grado de consanguinidad y de afinidad entre los miembros: la Presidencia (Presidente y Vicepresidente), la Secretaría (Secretario y Pro Secretario), la Tesorería (Tesorero y Pro Tesorero) ni la Sindicatura (titular y suplente).-
+
+### Artículo 31º.-
+La Comisión Directiva se reunirá en Sesión Ordinaria como mínimo en forma mensual. Estas serán abiertas a todos los vecinos y en local público. Si no hubiere objeción, tendrá ser realizada en locales particulares.-
+
+### Artículo 32º.-
+La Comisión Directiva elevará informe de sus actividades y estado financiero a la Secretaría de Fomento dentro de los primeros quince días posteriores al cierre de cada cuatrimestre de cada ejercicio fiscal, y en forma extraordinaria, las veces que fuere necesario.-
+
+### Artículo 33º.- Corresponde a la Comisión Directiva:
+a) Cumplir y hacer cumplir las disposiciones del Reglamento, las Resoluciones de la Asamblea y de la Comisión Directiva;
+b) Convocar la Asamblea General de Vecinos;
+c) Orientar, planificar y programar las actividades tendientes al cumplimiento de los objetivos;
+d) Elaborar un Plan anual de trabajo a ser presentado a la Asamblea General de Vecinos dentro de los 45 días posteriores a la Asamblea donde fueran electos;
+e) Autorizar al Presidente, conjuntamente con otro miembro, a suscribir convenios, contratos y nombrar asesores en nombre de la Comisión Vecinal;
+f) Designar Sub Comisiones, reglamentando su funcionamiento, asignar actividades a personas o grupos de trabajo;
+g) Realizar gestiones ante la Institución Municipal, organismos públicos y otras entidades;
+h) Gestionar la obtención de recursos y recibir donaciones; y
+i) Establecer en la primera reunión de la Comisión Directiva el monto del fondo fijo de la caja chica y de la misma forma, la entidad bancaria u otra institución financiera donde se depositará el excedente.-
+
+### Artículo 34º.-
+La Comisión Directiva comunicará sus actividades a los vecinos de manera mensual. Lo realizará a través de los medios más idóneos y más ventajosos, ya sea mediante boletines o circulares, impresos o remitidos a través de medios telemáticos, oficialmente habilitados por los mismos. También debe hacer conocer a los miembros el lugar, el día y la hora de reunión de la Comisión Directiva.-
+
+### Artículo 35º.-
+Los funcionarios municipales no podrán ocupar cargos en la Comisión Directiva de las Comisiones Vecinales.-
+a) Presidente;
+b) Vicepresidente;
+c) Secretario de actas;
+d) Pro Secretario;
+e) Tesorero;
+f) Pro Tesorero;
+Para estos casos, estas Comisiones no podrán percibir fondos de la Institución Municipal en concepto de Transferencia de Fondos, por las causales establecidos en el Art. 21 de la Ley 7021/22 Suministro y Contrataciones Públicas, quedan exceptuados los cargos de Miembros titulares; Miembros suplentes, Síndico titular; y Síndico suplente.-
+
+### Artículo 36º.-
+En ningún caso habrá remuneración alguna por la ocupación de los cargos directivos por parte de la Institución que reconozca dicha Comisión Vecinal. Si alguno de los cargos fuera ocupado por un miembro que sea funcionario municipal, esta función no acarreará ninguna remuneración extraordinaria más que su respectivo salario, ya contemplado dentro del Presupuesto General de Gastos de la Municipalidad. No podrán ser incorporados como funcionarios nuevos los miembros de la Comisión Directiva.-
+
+### Artículo 37º.- PRESIDENCIA.
+Corresponde al Presidente:
+a) Ejercer la representación legal de la Comisión Vecinal;
+b) Dar apertura y presidir las Asambleas Generales de Vecinos, sean ordinarias o extraordinarias;
+c) Convocar y presidir las sesiones del Comité Directivo;
+d) Suscribir las actas, resoluciones, contratos, correspondencia y demás documentos de la Comisión Vecinal, resultados de pérdidas y ganancias a ser presentados a la Asamblea;
+e) Dirigir las deliberaciones y desempatar en caso de empate en las votaciones; y
+f) Realizar pagos y documentos bancarios conjuntamente con el Tesorero.-
+
+### Artículo 38º.- VICEPRESIDENCIA.
+Corresponde al Vicepresidente:
+a) Asumir la Presidencia en ausencia del titular;
+b) Promover contacto con asociaciones y afines para lograr los objetivos propuestos; y
+c) Coordinar las secretarías y Sub Comisiones.-
+
+### Artículo 39º.-
+En caso de renuncia con notificación del Presidente o con tres ausencias consecutivas sin notificación, el Vicepresidente asumirá automáticamente la Presidencia con la plenitud de sus funciones, obligaciones y atribuciones.-
+
+### Artículo 40º.- SECRETARÍA.
+Corresponde al Secretario:
+a) Redactar las actas de las sesiones de la Comisión Directiva;
+b) Llevar y custodiar el Libro de Actas y el Archivo de notas y correspondencia de la Comisión Directiva;
+c) Redactar y firmar con el Presidente las notas, comunicaciones y demás documentos;
+d) Realizar todas las gestiones que le encomiende la Comisión Directiva y el Presidente.-
+
+### Artículo 41º.- PRO SECRETARÍA.
+Corresponde al Pro Secretario:
+a) Coadyuvar en el trabajo de la Secretaría;
+b) Asumir el cargo de Secretario en ausencia temporal del titular.
+
+### Artículo 42º.- TESORERÍA.
+Corresponde al Tesorero:
+a) Confeccionar el Balance General y el cuadro demostrativo de pérdidas y ganancias para presentarlos en la Asamblea General;
+b) Mantener actualizado el Libro de Caja de Ingresos y Egresos;
+c) Administrar los fondos conjuntamente con la Comisión Directiva;
+d) Percibir los ingresos, efectuar los pagos autorizados por la Comisión Directiva, firmando los documentos (extracción, pagaré, etc.) con el Presidente;
+e) Informar mensualmente el estado de los fondos en reunión de la Comisión Directiva y a los demás miembros, exhibiendo los documentos necesarios de comprobación;
+f) Dar cumplimiento a las resoluciones emanadas de la Intendencia Municipal.-
+
+### Artículo 43º.-
+La administración de las finanzas de las Comisiones Vecinales se regirá por la misma disposición establecida en el Título Séptimo del Régimen de Administración Municipal de la Ley 3.966/10 "Orgánica Municipal", específicamente cuando las Comisiones Vecinales reciban Aportes por la vía de transferencias provenientes de los fondos públicos.-
+
+### Artículo 44º.-
+La decisión de destino de los recursos propios generados por la Comisión Vecinal se adoptarán por la decisión de la mayoría de los miembros, deberán constar en Actas y deberán estar contabilizados en los respectivos registros contables y estados financieros.-
+
+### Artículo 45º.- PRO TESORERÍA.
+Corresponde al Pro Tesorero:
+a) Coadyuvar al trabajo de la Tesorería;
+b) Asumir el cargo de Tesorero en ausencia temporal del titular.-
+
+### Artículo 46º.- MIEMBROS.
+Corresponde a los Miembros:
+a) Cooperar según se requiera con el Presidente, Secretario y Tesorero para el mejor cumplimiento de las actividades programadas;
+b) Reemplazar a cualquiera de los miembros con cargos específicos en caso de ausencia o impedimento de estos;
+c) Colaborar con el Vicepresidente en la coordinación de tareas de las Sub Comisiones.-
+
+### Artículo 47º.- DEL SÍNDICO.
+Corresponde al Síndico titular:
+a) Fiscalizar permanentemente el estado patrimonial y la situación jurídica y legal de la Comisión Vecinal, y velar por la conducción ética de la Comisión Directiva;
+b) Presentar su dictamen a la Asamblea General Ordinaria y a la siguiente Asamblea Constitutiva;
+c) Convocar a Asamblea General Extraordinaria en los casos de fenecimiento de mandato o desintegración de la Comisión Directiva. Deberá proponer la realización de la Asamblea General a convocarse dentro de los 30 días de producida la acefalía o la desintegración.-
+
+### Artículo 48º.-
+El Síndico suplente asumirá en ausencia del titular.-
+
+### Artículo 49º.-
+El vecindario, a través del Síndico, o en caso de que este no dé trámite a la denuncia, en forma personal o mediante un grupo de vecinos que acredite debidamente ser parte del área de influencia de la Comisión Vecinal, podrá denunciar ante la Secretaría de Fomento cualquier supuesta anormalidad que ocurriese en el desempeño de la Comisión Directiva.-
+
+### Artículo 50º.-
+Ante dificultades que no pudieran ser resueltas por la Asamblea General de Vecinos, la Comisión Vecinal podrá recurrir a la Secretaría de Fomento. Si esta no pudiera resolverlo, podrá recurrir en última instancia a la Intendencia Municipal. Ambas instancias decidirán qué acciones tomar respecto a su propio acto administrativo de Reconocimiento, la disposición de intervenir la Comisión Vecinal o cualquier otra acción recomendada que aconseja la Dirección Jurídica de la Municipalidad.-
+
+### Artículo 51º.-
+Son órganos consultivos:
+a) La Asamblea General de Vecinos, sean Ordinarias o Extraordinarias;
+b) La Comisión Directiva;
+c) La Sindicatura; y
+d) La Intendencia Municipal.-
+
+### Artículo 52º.-
+La Asamblea General de Vecinos, la Comisión Directiva y la Sindicatura realizarán la tarea de fiscalización, cumpliendo las funciones establecidas en esta Ordenanza.-
+
+### Artículo 53º.-
+La disolución de la Comisión Vecinal puede ser determinada por la Asamblea General de Vecinos, o por intervención de la Intendencia Municipal, por resolución fundada.-
+
+### Artículo 54º.-
+La Intendencia Municipal deberá declarar caduca, desintegrada o acéfala la Comisión Directiva cuando:
+a) No haya convocado a Asamblea General Ordinaria en el plazo determinado en la Asamblea Constitutiva;
+b) Cuando no presentase la Memoria Anual, la Rendición de Cuentas y el Balance en la Asamblea General de Vecinos Ordinaria;
+c) Cuando no haya quórum de las sesiones ordinarias durante tres veces consecutivas;
+d) Cuando fuere convocada por motivos graves por la Municipalidad o la Sindicatura a sesiones extraordinarias en tres oportunidades y no reuniese el quórum legal para realizarla;
+e) Con la renuncia o inhabilitación de la mitad más uno de sus miembros;
+f) Con la vacancia producida en forma definitiva en la Presidencia (Presidente y Vicepresidente).-
+
+### Artículo 55º.-
+Las Comisiones Vecinales podrán agruparse o asociarse como Coordinadoras Comisiones Vecinales y se regirán por las mismas disposiciones regladas para las Comisiones Vecinales, debiendo establecer en su Acta Constitutiva los fines y objetivos para los que fuere creada.-
+
+### Artículo 56º.- DE LAS ASOCIACIONES COADYUVANTES.
+Defínese como asociaciones coadyuvantes a aquellas que cuentan con sus propios estatutos y que se encuentran inscritas y reconocidas de conformidad a lo establecido en el Art. 104 del Código Civil o las leyes especiales que rigen para la inscripción y reconocimiento en la materia; (Ejemplo.: las asociaciones de taxistas, transporte alternativo, moto taxistas, transporte escolar, transporte público de pasajeros, de corredores de cambios, de trabajadores y vendedores de la vía pública, Cámara de Comercio, CODELESTE, federaciones de fútbol y similares).-
+
+### Artículo 57º.-
+Facúltase a la Intendencia Municipal a convalidar por acto administrativo el Reconocimiento de la Comisión Directiva establecida en el estatuto y actualizada en la Asamblea, conforme a lo dispuesto en sus respectivos estatutos. La convalidación del Reconocimiento por el Ejecutivo Municipal solo tendrá lugar en caso de que dicha asociación demuestre o tenga interés en coadyuvar con la administración municipal. Si tal interés no existiere en la solicitud de reconocimiento, no se dará trámite a dicho pedido y se remitirá para su archivo.-
+
+### Artículo 58º.- DE LAS TRANSFERENCIAS A LAS COMISIONES O A LAS ASOCIACIONES.
+Autorízase al Ejecutivo Municipal la facultad de disponer transferencias corrientes o de capital hasta el monto de 2.000 jornales mínimos para las Comisiones Vecinales o asociaciones debidamente justificadas de conformidad a los planes y proyectos a ser encargados. Superado dicho monto, se podrá otorgar previa autorización de la Junta Municipal, dándose entrada vía mensaje de la Intendencia Municipal.-
+
+### Artículo 59º.-
+A los efectos de esta Ordenanza, los plazos se computarán en días corridos.-
+
+### Artículo 60º.-
+Deróganse todas las disposiciones contrarias a la presente ordenanza.-
+
+### Artículo 61º.-
+COMUNICAR, a quienes corresponda y cumplido archivar.-
+
+## Firmas
+- CLAUDIO RAMÓN DURAÑONA M. (Secretario General J.M.)
+- OSCAR GONZÁLEZ (Presidente J.M.)
+
+---
+**MISIÓN:** Contribuir en el desarrollo económico, social, y cultural, mediante el uso óptimo de los recursos, como polo de desarrollo, en concertación con la sociedad y el medio ambiente.
+**VISIÓN:** Ser una ciudad autónoma y vanguardista, líder en el desarrollo nacional e internacional, resguardando las raíces culturales y su identidad.

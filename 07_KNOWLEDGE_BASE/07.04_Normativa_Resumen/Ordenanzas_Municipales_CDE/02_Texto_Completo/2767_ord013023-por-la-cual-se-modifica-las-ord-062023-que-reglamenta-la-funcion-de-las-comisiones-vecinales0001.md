@@ -1,17 +1,99 @@
-# Ord.013.023 Por la cual se modifica las Ord. 06.2023 Que reglamenta la función de las comisiones vecinales_0001
-
-- **Relevancia:** BAJA
-- **Año (categoría):** 2023
-- **Categoría publicada:** Ordenanzas Junta Municipal 2023
-- **Texto (div mt-4):** Ord.013.023 Por la cual se modifica las Ord. 06.2023 Que reglamenta la función de las comisiones vecinales_0001
-- **Enlace oficial:** https://mcde.gov.py/post/ord013023-por-la-cual-se-modifica-las-ord-062023-que-reglamenta-la-funcion-de-las-comisiones-vecinales0001
-- **PDF original local:** `03_PDF_Originales/2023/2767_ord013023-por-la-cual-se-modifica-las-ord-062023-que-reglamenta-la-funcion-de-las-comision.pdf`
-- **Método:** OCR Windows (es) · 5067 car.
-
-> Documento de la Municipalidad de Ciudad del Este. Verificar contra el PDF original.
-
+---
+id_documento: '2767'
+archivo_pdf_original: 2767_ord013023-por-la-cual-se-modifica-las-ord-062023-que-reglamenta-la-funcion-de-las-comision.pdf
+carpeta_anio: '2023'
+ruta_relativa_pdf: 2023/2767_ord013023-por-la-cual-se-modifica-las-ord-062023-que-reglamenta-la-funcion-de-las-comision.pdf
+tamano_pdf_kb: 284
+fecha_procesamiento: '2026-09-22T15:40:08.532Z'
+modelo_ocr: gemma-4-26b-a4b-it
+prompt_version: prompt_ocr_ordenanzas.md
+numero_ordenanza: 013/2023
+tipo_norma: Ordenanza
+anio: '2023'
+fecha_sancion: 5 de setiembre de 2023
+fecha_promulgacion: ''
+fecha_publicacion: ''
+titulo: POR LA CUAL SE MODIFICAN LOS ARTÍCULOS 8º Y 58° DE LA ORDENANZA Nº 006/2023 J.M. "POR LA QUE SE REGLAMENTA EL ARTÍCULO 65° DE LA LEY N° 3966/10 ORGÁNICA MUNICIPAL DE LA CREACIÓN, ORGANIZACIÓN Y FUNCIONES DE LAS COMISIONES VECINALES Y DEL RÉGIMEN JURÍDICO DE LAS MISMAS".-
+organo_emisor: Junta Municipal de Ciudad del Este
+numero_expediente: ''
+numero_sesion: '105'
+fecha_sesion: 5 de setiembre del año 2023
+intendente_firmante: ''
+presidente_junta_firmante: Oscar González
+secretario_junta_firmante: Claudio Ramón Durañona M.
+concejales_firmantes:
+  - Sebastian Martínez
+relaciones_normativas:
+  - tipo: modifica
+    norma: Ordenanza Nº 006/2023 J.M.
+  - tipo: reglamenta
+    norma: Artículo 65° de la Ley N° 3966/10 Orgánica Municipal
+categorias:
+  - presupuesto
+  - personal_y_administracion
+palabras_clave:
+  - comisiones vecinales
+  - modificación
+  - SIAF
+  - presupuesto
+  - transferencias
+ambito_territorial: Ciudad del Este
+monto_o_tarifa_involucrado: ''
+tiene_anexos: false
+anexos_detalle: []
+tiene_tablas: false
+estado_legibilidad: buena
+confianza_transcripcion: alta
+observaciones_ocr: La página 3 presenta un sello tenue y contenido mayormente ilegible/en blanco.
+metadata_extraction: automatica_completa
 ---
 
-PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO 2021 Rameru- ref. CIUDAD DEL ESTE POR LA CUAL LOS ARTÍCULOS DE LA ORDBÑANZA J.M. "POR QUE SE REGIAMBrvrA EL ARTÍCULO 6.5" JA LEY 3966'10 ORCANICA MUNICIPAL DE LA CREACIÓN, ORGANIZACIÓN Y FUNCIONES LAS c.0MISJONES VECINALES Y DEL RÉGIMEN JORfDICO DE MISMAS",- Ciudad dei Este, 5 de setiembre de 202.1- VISTO: La Minalo Escri„'0 presentado por ei Señor Concejal Sebústiün Mortinez, sobre rnodilieoeión de tos y 58' de Ordenanza 005:2023 paru estudio y cnnsidercción del organisrno legislativv comunal, y; CONSIDERANDO: Quev la presente minuto sa pármfo segundo orgurnerllo...t/'[le teniendo en cuento que in.s Organismos y Entidades del Estado (OE.E) establecidos en ei' or!iculo 3" de ESTADO" defoliados ei articulo deberán estur conectados e incorpvrüd05 en línea Sisterno Iruegrudo cle Administrocióft Financiera (STAF) respecto se pretende de oigL,m55 correcciones de estilo, modificación e Írr.orporaeii_ín lle disposición eon relación o has transferencias a los comisiones vecinofes n asociaciones debidamente justificados. Aliuntus el proyec!0 de los das orifculos que serrin modf,ficüdns o considerlit-ión del pleno Legislalivo Manicipol-- Que, el moyuv legal poro ordenanzas, resoluciones y reglcjmentos establece 36 inc. g) de Orgdnico Municipal.- Que, el orbe.ulo 54 Lus municipofidades y su Autnnrntli'ú, J,as Municipalidades los Cípg os de gobierno local personería juridica dentro de 50' competencia, tienen outonomío , administrativa y normativa, como üÜ{orquía en la recatrdur.ión e inversión de sus recur., s 165 cle Nacional,- Que, urútulo 178" Régimen jurídico de ley precitada. Municipülidades en materiü dminisrrocifin ünanciera, principios generales, sistema de presupueeto, principios puesterjos, normos presupuestarios, lineurníeruus•. criterios, terminologíü presupuestaria. sificgdor presupuestarin, estruc.turu del presupuesto y prugrcmoción de' presupuesto se regirá por en ley "DE' FINANCIERA y sus decretos y resoluciones que Ie ston cr,sf los leyes anuales de presupwestra.- Que, ley EI. PRF„SUeuESIZ' LA rvsr,1L 2023" 7, 12 Apruebuse presupueslario"i de ingresos, gastvsy financiamienlo del Presupuesto Genera! de noción poro el ve,iercicio fiscal 2023.... ortícuio 30 T, Qwe, e." GLASdFICADOR PRESI,'PUESTARTO es an instrumento metodológico de clasificueión que permiie la wafonnidod, elordenamjentoyfg inlerrelütfón de regislroeión en procesos presupuestarios y provisión de sobre los Orgamismas y Fnlidades del l*tgdo que r-cn[orman Presupuesto General deio de conformidad ctrt, 3"de ley 153.589, ley de Presupuesto Anualb sus reglomentae.ionesy a 105 nwmos vigentes del (SIAF) sistemo iñiegrudo de administroeión r¿rzuncÍer17 def F.s„'ado, Sin embargo, 10 municipalfdüd no [Orma parte de Presupuesto General de 10 Noción coma orgunisrr,o v entidad volutrcidli en el proceso presupuestario, por que el MVNTSTERIO DE no toma ,reeeeneión en los de programación y ejecución del presupuesto de gasto de municipalidades, solo relacionado arfíctn'n de ley en su último párrnfo establece que sus digosieiones serón oplicodas en fonna supletoria municipalidades, en igual sentido fo establfcá' de Corto ya mencionodo, esmblece que Jos municipalidcmes... se los disposiciones estohlecidas en la ley N" T y sus deeretrus y resoluciones enia,rias que fe seün nplje.ables Jos reyes unanles de presupueto,- Que, por ello las normas y sistemas integrados of preserile el(isifÍEGdnr serán aplicados en los pmce505 presupueslorjos, ejecucion o utilización de fondos, por municipofidodes, sociedades onónimcrs--- y o Iürrdcrción, osnciaeidn„, reciba o adminislre fundos, servicios biems del PGginv
+# ORDENANZA N° 013/2023 J.M. — POR LA CUAL SE MODIFICAN LOS ARTÍCULOS 8º Y 58° DE LA ORDENANZA Nº 006/2023 J.M. "POR LA QUE SE REGLAMENTA EL ARTÍCULO 65° DE LA LEY N° 3966/10 ORGÁNICA MUNICIPAL DE LA CREACIÓN, ORGANIZACIÓN Y FUNCIONES DE LAS COMISIONES VECINALES Y DEL RÉGIMEN JURÍDICO DE LAS MISMAS".-
 
-PARAGUAY JUNTA MUNICIPAL CIUDAD DEL ESTE PERIODO 2021 - 2025 Av. y Tel. 595 Sf844Zi 013/'2023 J„M. CIUDAD DEL ESTE Aprobffdo el dictamen morable. de lu Comisión de Legislación en Sesión Ordinurjú de fecho 5 de setiembre del 2023, Según Acto Nro. 105; por tanto: LA JUNTA CLÍOAD DEL ESTE REUNIDA CONCEJO ORDENA Artículo r.- MODIFIQUPSE* y de Ordenanza 006:2023 .J.M. POR QUE sp REGLAMENTA LALEY DE LA ORGANIZACIÓT\' Y FUNCIONES DE LAS Y DEL. RÉGIMEN IAS que qLiedon de siguiente "Articulo Ot- Los doeumenw.s que deben ser preseruados• en la AsambL*0 son los siguientes.' o) me.rnoricr, indiccrndo en eflo objetivos propuestos y los lagrodos,- b) F] cuaderno de c) Ei' fibro cle cala, en el que debe 10 siguiente: estado menswl, comprnhordes gastos y hofnnce generill anual* Estos documentos deben ser presentados en Municjp:li'idad dentro de los 30 dioc <igujenles fechü de realización de Iti Asamblea y Muniripoiidad deberci devr]verfos en un plgzo no 30 días desde presentación de ios- mismnq--" "Artículo DE TRANSFERENCIAS A LAS COMISIONES A LAS ASOCIACIOJVES. Autorizose Ejecutivo fa facultad de dispme.r ,tronsferencias corrie.mes o ae tupital hasta momos y oprobados según el Presupuesto General Noción parv lus comisfmes vecinales 0 05'J-'iacfone.s de plones y proyectos a ser encargados,- •.-COMUi CLAL, RAI Sec o Genero! uienes eorrespondo cumplido archivw.- R GONZÁLEZ Presidente J.M. 'i.i.:.e,
+## VISTOS
+La Minuta Escrita presentada por el Señor Concejal Sebastian Martínez, sobre modificación de los artículos 8º y 58° de la Ordenanza N° 006/2023 J.M., para estudio y consideración del organismo legislativo comunal, y;
+
+## CONSIDERANDO
+Que, la presente minuta en su párrafo segundo argumenta...que teniendo en cuenta que los Organismos y Entidades del Estado (OEE) establecidos en el artículo 3º de la ley N° 1535/1999 "DE ADMINISTRACIÓN FINANCIERA DEL ESTADO", detallados en el artículo 2º, deberán estar conectados e incorporados en línea al Sistema Integrado de Administración Financiera (SIAF) y al respecto se pretende además de algunas correcciones de estilo, la modificación e incorporación de la disposición máxima, con relación a las transferencias a las comisiones vecinales o asociaciones debidamente justificadas. Adjuntas el proyecto de los dos artículos que serán modificados a consideración del pleno Tegislativo Municipal.-
+
+Que, el marco legal para sancionar ordenanzas, resoluciones y reglamentos lo establece el art. 36 inc. a) de la ley N° 3966/10 Orgánica Municipal.-
+
+Que, el artículo 5º Las municipalidades y su Autonomía. Las Municipalidades son los Organos de gobierno local con personería jurídica que dentro de su competencia, tienen autonomía política, administrativa y normativa, así como autarquía en la recaudación e inversión de sus recursos de conformidad al artículo 166 de la Constitución Nacional.-
+
+Que, el artículo 178" Régimen jurídico de la ley precitada, las Municipalidades en materia de administración financiera, principios generales, sistema de presupuesto, principios presupuestarios, normas presupuestarias, lineamientos, criterios, terminología presupuestaria, clasificador presupuestario, estructura del presupuesto y programación del presupuesto se regirá por las disposiciones establecidas en la ley N° 1535/99 "DE ADMINISTRACIÓN FINANCIERA DEL ESTADO", y sus decretos y resoluciones que le sean aplicables, así como las leyes anuales de presupuesto.-
+
+Que, la ley N° 7050/2023 "QUE APRUEBA EL PRESUPUESTO GENERAL DE LA NACIÓN PARA EL EJERCICIO FISCAI. 2023" art. 7, 12 Apruebase el "clasificador presupuestario" de ingresos, gastos y financiamiento del Presupuesto General de la Nación para el ejercicio fiscal 2023..., artículo 301.-
+
+Que, el CLASIFICADOR PRESUPUESTARIO es un instrumento metodológico de clasificación que permite la uniformidad, el ordenamiento y la interrelación de la registración en los procesos presupuestarios y la provisión de informaciones sobre los Organismos y Entidades del Estado que conforman el Presupuesto General de la Nación... de conformidad ul art. 3º de la ley N° 1535/99, la ley de Presupuesto Anual, sus reglamentaciones y a las normas técnicas vigentes del (SLAF) sistema integrado de administración financiera del Estado. Sin embargo, la municipalidad no forma parte de la estructura del Presupuesto General de la Nación como organismo o entidad involucrada en el proceso presupuestario, por lo que el MINISTERIO DE HACIENDA no toma intervención en los procedimientos de programación y ejecución del presupuesto de gasto de las municipalidades, solo relacionado al artículo 3º de la ley N° 1535/99 en su último párrafo establece que sus disposiciones serán aplicadas en forma supletoria a las municipalidades, en igual sentido lo establece el art. 178 de la Carta Orgánica ya mencionada, establece que las municipalidades... se regirá por las disposiciones establecidas en la ley N° 1535/99 y sus decretos y resoluciones que le sean aplicables así como las leyes anuales de presupuesto.-
+
+Que, por ello las normas y sistemas integrados al presente clasificador serán aplicados en los procesos presupuestarios, ejecución o utilización de fondos, por las municipalidades, las sociedades anónimas... y a toda fundación, asociación... que reciba o administre fondos, servicios o bienes del Estado.-
+
+## LA JUNTA MUNICIPAL DE CIUDAD DEL ESTE REUNIDA EN CONCEJO ORDENA:
+
+Aprobado el dictamen favorable de la Comisión de Legislación en Sesión Ordinaria de fecha 5 de setiembre del año 2023, Según Acta Nro. 105; por tanto:
+
+### Artículo 1º.- MODIFIQUESE, los artículos 8º y 58° de la Ordenanza N° 006/2023 J.M. POR LA QUE SE REGLAMENTA EL ART. 65 DE LA LEY N° 3966/10 ORGÁNICA MUNICIPAL DE LA CREACIÓN, ORGANIZACIÓN Y FUNCIONES DE LAS COMISIONES VECINALES Y DEL RÉGIMEN JURÍDICO DE LAS MISMAS, que quedan de la siguiente forma:
+
+"Artículo 8º.- Los documentos que deben ser presentados en la Asamblea Constitutiva son los siguientes:
+a) La memoria, indicando en ella objetivos propuestos y los logrados.-
+b) El cuaderno de actas.-
+c) El libro de caja, en el que debe constar lo siguiente: estado mensual, comprobantes de gastos y balance general anual.-
+Estos documentos deben ser presentados en la Municipalidad dentro de los 30 días siguientes a la fecha de realización de la Asamblea Constitutiva y la Municipalidad deberá devolverlos en un plazo no mayor a 30 días desde la presentación de los mismos.-"
+
+"Artículo 58º.- DE LAS TRANSFERENCIAS A LAS COMISIONES Y A LAS ASOCIACIONES. Autorizase al Ejecutivo Municipal la facultad de disponer transferencias corrientes o de capital hasta los montos establecidos y aprobados según el Presupuesto General de la Nación para las comisiones vecinales o asociaciones debidamente justificadas de conformidad a los planes y proyectos a ser encargados.-"
+
+### Artículo 2º.- COMUNICAR, a quienes corresponda y cumplido archivar.-
+
+## Firmas
+- Claudio Ramón Durañona M., Secretario General J.M.
+- Oscar González, Presidente J.M.
+
+***
+
+**[Página 3: Contenido mayormente ilegible o en blanco con sello tenue de la Municipalidad de Ciudad del Este]**
+
+***
+**PIE DE PÁGINA (PÁGINA 1 Y 2):**
+MISIÓN: Contribuir al desarrollo económico, social, y cultural, mediante el uso óptimo de los recursos, como polo de desarrollo, en concertación con la sociedad y el medio ambiente.
+VISIÓN: Ser una ciudad autónoma y vanguardista, líder en el desarrollo nacional e internacional, resguardando sus raíces culturales y su identidad.
+Página 1 de 2 / Página 2 de 2
